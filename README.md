@@ -1,6 +1,10 @@
 # NerKor
 The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
 
+## Data
+
+Corpus files are under the data folder. They are grouped by genre: fiction, legal, news, web, wikipedia. 
+
 ## Token numbers
 
 | genre | morph/no-morph | token number |
