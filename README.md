@@ -1,7 +1,7 @@
 # NerKor
 The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
 
-## Token numbers
+## Token numbers
 
 | genre | morph/no-morph | token number |
 |---------|--------|------------|
