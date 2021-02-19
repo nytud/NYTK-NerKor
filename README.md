@@ -23,3 +23,7 @@ The home repository of the NerKor corpus, a Hungarian gold standard named entity
 | altogether | morph | 223174 |
 |  | no-morph | 803922 |
 |  | sum | 1027096 |
+
+## Guidelines
+
+Annotation guidelines and Annotation scheme are available in the Guidelines folder. (Only in Hungarian.)
