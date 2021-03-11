@@ -1,9 +1,15 @@
 # NerKor
 The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
 
+## License and usage
+
+The corpus creation was funded by the Research Institute for Linguistics. The project leaders were Eszter Simon and Noémi Vadász. 
+
+The corpus is available under the license CC-BY-SA 4.0. If you use this corpus, please mention this GitHub repo with URL (we do not have a published paper yet). 
+
 ## Data
 
-Corpus files are under the data folder. They are grouped by genre: fiction, legal, news, web, wikipedia. 
+Corpus files are under the 'data' folder. They are grouped by genre: fiction, legal, news, web, wikipedia. 
 
 ## Token numbers
 
