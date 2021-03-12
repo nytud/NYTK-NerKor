@@ -56,7 +56,7 @@ The format of data files are [CoNLL-U Plus](https://universaldependencies.org/ex
 
 `XPOS`: full morphological annotation (POS + meorphosyntactic features) provided by [emMorph](https://github.com/dlt-rilmta/emMorph); 
 
-`FEATS`: UD meorphosyntactic features;
+`FEATS`: UD morphosyntactic features;
 
 `CONLL:NER`: NE annotation.
 
@@ -64,4 +64,4 @@ The NE annotation follows the CoNLL2002 labelling standard. The four NE categori
 
 ## Guidelines
 
-Annotation guidelines and Annotation scheme are available in the Guidelines folder. (Only in Hungarian.)
+Annotation guidelines, WebAnno guidelines and Annotation scheme are available in the Guidelines folder. (Only in Hungarian.)
