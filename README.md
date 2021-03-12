@@ -46,7 +46,7 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 
 ## Data format
 
-The format of data files are CoNLL-U Plus with the standard .conllup file extension. 
+The format of data files are [CoNLL-U Plus](https://universaldependencies.org/ext-format.html) with the standard `.conllup` file extension. 
 
 ## Guidelines
 
