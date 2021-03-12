@@ -49,10 +49,15 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 The format of data files are [CoNLL-U Plus](https://universaldependencies.org/ext-format.html) with the standard `.conllup` file extension. The first line in each file is: `# global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER`, where:
 
 `FORM`: the token itself;
+
 `LEMMA`: the lemma of the token;
+
 `UPOS`: UD POS tags; 
+
 `XPOS`: full morphological annotation (POS + meorphosyntactic features) provided by [emMorph](https://github.com/dlt-rilmta/emMorph); 
+
 `FEATS`: UD meorphosyntactic features;
+
 `CONLL:NER`: NE annotation.
 
 The NE annotation follows the CoNLL2002 labelling standard. The four NE categories are: `PER`, `LOC`, `MISC`, `ORG`. The tags are in the `IOB2` format: a `B-` prefix denotes the first item of a NE phrase and an `I-` prefix any non-initial word. Non-names are marked by an `O` label. 
