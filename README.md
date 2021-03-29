@@ -47,6 +47,7 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 ## NE labels and density
 
 |genre | morph/no-morph |       PER | LOC | ORG | MISC | NE | NE density |
+|------|----------------|-----------|-----|-----|------|----|------------|
 |fiction | morph  |     0 | 0 | 0 | 0 | 0 |  |
 | | no-morph |  5224 | 1042 | 217 | 287 | 6770 | 0,03331430596 |
 | | sum |      5224 | 1042 | 217 | 287 | 6770 | 0,03331430596 |
