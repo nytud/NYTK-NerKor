@@ -23,26 +23,27 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 
 ## Token numbers
 
-| genre | morph/no-morph | token number |
-|---------|--------|------------|
-| fiction | morph | 0 |
-|  | no-morph | 203216 |
-|  | sum | 203216 |
-| legal | morph | 0 |
-|  | no-morph | 202195 |
-|  | sum | 202195 |
-| news | morph | 9178 |
-|  | no-morph | 204478 |
-|  | sum | 213656 |
-| web | morph | 187232 |
-|  | no-morph | 0 |
-|  | sum | 187232 |
-| wikipedia | morph | 26764 |
-|  | no-morph | 194033 |
-|  | sum | 220797 |
-| altogether | morph | 223174 |
-|  | no-morph | 803922 |
-|  | sum | 1027096 |
+|genre | morph/no-morph | file | sentence | token|
+|------|----------------|------|----------|------|
+|fiction | morph  | 0 | 0 | 0|
+| | no-morph | 123 | 24535 | 203216|
+| | sum | 123 | 24535 | 203216|
+|legal | morph  | 0 | 0 | 0|
+| | no-morph | 40 | 7632 | 202195|
+| | sum | 40 | 7632 | 202195|
+|news | morph  | 36 | 477 | 9178|
+| | no-morph | 48 | 9280 | 204478|
+| | sum | 84 | 9757 | 213656|
+|web | morph  | 399 | 10886 | 188250|
+| | no-morph | 0 | 0 | 0|
+| | sum | 399 | 10886 | 188250|
+|wikipedia | morph  | 86 | 1618 | 26764|
+| | no-morph | 73 | 13096 | 194033|
+| | sum | 159 | 14714 | 220797|
+|altogether | morph  | 521 | 12981 | 224192|
+| | no-morph | 284 | 54543 | 803922|
+| | sum | 805 | 67524 | 1028114|
+
 
 ## Data format
 
