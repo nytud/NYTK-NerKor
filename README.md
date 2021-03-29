@@ -69,6 +69,8 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 
 ## Train-devel-test sets
 
+Soon....
+
 |genre | morph/no-morph |       train  | devel | test |
 |------|----------------|--------------|-------|------|
 |fiction | morph  |     0 | 0 | 0 |
