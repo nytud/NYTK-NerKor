@@ -1,9 +1,9 @@
-# NerKor
-The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
+# NYTK-NerKor
+The home repository of the NYTK-NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
 
 ## License and usage
 
-The corpus creation was funded by the Research Institute for Linguistics. The project leaders were Eszter Simon and Noémi Vadász. 
+The corpus creation was funded by the Research Centre for Linguistics (Nyelvtudományi Kutatóközpont, NYTK). The project leaders were Eszter Simon and Noémi Vadász. 
 
 The corpus is available under the license CC-BY-SA 4.0. If you use this corpus, please mention this GitHub repo with URL (we do not have a published paper yet). 
 
