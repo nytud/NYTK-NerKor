@@ -9,12 +9,16 @@ The corpus is available under the license CC-BY-SA 4.0. If you use this corpus, 
 
 ## Data
 
-Corpus files are under the 'data' folder. They are grouped by genre: fiction, legal, news, web, wikipedia. A ~200,000 tokens subcorpus contains gold standard morphological annotation besides NE labels. 
+Corpus files are under the 'data' folder. There are two subfolders: the 'genres' subfolder contains the data files grouped by genre: fiction, legal, news, web, wikipedia; while the 'train-devel-test' subfolder contains symlinks to the original data files. 
 
+A ~200,000 tokens subcorpus contains gold standard morphological annotation besides NE labels. 
+
+The proportion of train, devel and test sets is around 80%-10%-10%. All sets provide a balanced selection from all genres and sources. The morphologically annotated subcorpus is also represented in all sets in a balanced way. For exact numbers, see the train-devel-test table below. 
+ 
 The fiction subcorpus contains i) novels from MEK (Hungarian Electronic Library) and Project Gutenberg; and ii) subtitles from OpenSubtitles. 
-
+ 
 The legal texts come from EU sources: it is a selection from the EU Constitution, documents from the European Economic and Social Committee, DGT-Acquis and JRC-Acquis.
-
+ 
 The sources of the news subcorpus are: Press Release Database of European Commission, Global Voices and NewsCrawl Corpus. 
 
 Web texts contain a selection from the [Hungarian Webcorpus 2.0](https://hlt.bme.hu/en/resources/webcorpus2). 
@@ -26,23 +30,23 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 |genre | morph/no-morph | file | sentence | token|
 |------|----------------|------|----------|------|
 |fiction | morph  | 0 | 0 | 0|
-| | no-morph | 123 | 24535 | 203216|
-| | sum | 123 | 24535 | 203216|
+| | no-morph | 122 | 24535 | 203216|
+| | sum | 122 | 24535 | 203216|
 |legal | morph  | 0 | 0 | 0|
-| | no-morph | 40 | 7632 | 202195|
-| | sum | 40 | 7632 | 202195|
-|news | morph  | 36 | 477 | 9178|
-| | no-morph | 48 | 9280 | 204478|
-| | sum | 84 | 9757 | 213656|
-|web | morph  | 399 | 10886 | 188250|
+| | no-morph | 39 | 7632 | 202195|
+| | sum | 39 | 7632 | 202195|
+|news | morph  | 35 | 477 | 9178|
+| | no-morph | 47 | 9280 | 204478|
+| | sum | 82 | 9757 | 213656|
+|web | morph  | 398 | 10886 | 188250|
 | | no-morph | 0 | 0 | 0|
-| | sum | 399 | 10886 | 188250|
-|wikipedia | morph  | 86 | 1618 | 26764|
-| | no-morph | 73 | 13096 | 194033|
-| | sum | 159 | 14714 | 220797|
-|altogether | morph  | 521 | 12981 | 224192|
-| | no-morph | 284 | 54543 | 803922|
-| | sum | 805 | 67524 | 1028114|
+| | sum | 398 | 10886 | 188250|
+|wikipedia | morph  | 85 | 1618 | 26764|
+| | no-morph | 72 | 13096 | 194033|
+| | sum | 157 | 14714 | 220797|
+|altogether | morph  | 518 | 12981 | 224192|
+| | no-morph | 280 | 54543 | 803922|
+| | sum | 798 | 67524 | 1028114|
 
 ## NE labels and density
 
@@ -68,8 +72,6 @@ Wikipedia texts are from the Hungarian Wikipedia. :)
 | | sum |      21785 | 15130 | 19501 | 12544 | 68960 | 0,06707427386 |
 
 ## Train-devel-test sets
-
-Soon....
 
 |genre | morph/no-morph |       train  | devel | test |
 |------|----------------|--------------|-------|------|
