@@ -3,7 +3,7 @@
 VERSION="4.0.6"
 
 input_file=$1
-output_file=$2``
+output_file=$2
 tmp_file=./tmp/emtsv/$(basename "$input_file")
 
 echo "Processing \"$input_file\""
