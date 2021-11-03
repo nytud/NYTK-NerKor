@@ -3,7 +3,7 @@ The home repository of the NYTK-NerKor corpus, a Hungarian gold standard named e
 
 ## License and usage
 
-The corpus creation was funded by the Research Centre for Linguistics (Nyelvtudományi Kutatóközpont, NYTK). The project leaders were Eszter Simon and Noémi Vadász. 
+The corpus creation was funded by the Hungarian Research Centre for Linguistics (Nyelvtudományi Kutatóközpont, NYTK). The project leaders were Eszter Simon and Noémi Vadász. 
 
 The corpus is available under the license CC-BY-SA 4.0. If you use this corpus, please cite our paper (see below). 
 
