@@ -1,6 +1,8 @@
 # NYTK-NerKor
 The home repository of the NYTK-NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
 
+:construction:  We are currently checking the morphological annotation layers, an update is expected soon. :construction:
+
 ## License and usage
 
 The corpus creation was funded by the Hungarian Research Centre for Linguistics (Nyelvtudományi Kutatóközpont, NYTK). The project leaders were Eszter Simon and Noémi Vadász. 
