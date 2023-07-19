@@ -1,148 +1,148 @@
-# global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER
-A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-demokráciáért	demokrácia	NOUN	[/N][Cau]	Case=Cau|Number=Sing	O
-küzdők	küzdő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-már	már	ADV	[/Adv]	_	O
-legyőztek	legyőz	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-két	két	NUM	[/Num|Attr][Nom]	Case=Nom|Number=Sing|NumType=Card	O
-diktátort	diktátor	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O
-,	,	PUNCT	[Punct]	_	O
-egyet	egy	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O
-Tunéziában	Tunézia	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC
-és	és	CCONJ	[/Cnj]	_	O
-egyet	egy	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O
-Egyiptomban	Egyiptom	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC
-,	,	PUNCT	[Punct]	_	O
-de	de	CCONJ	[/Cnj]	_	O
-Algériában	Algéria	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-hatóságok	hatóság	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O
-féken	fék	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O
-tudták	tud	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-tartani	tart	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-tüntetéseket	tüntetés	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O
-,	,	PUNCT	[Punct]	_	O
-amelyek	amely	PRON	[/N|Pro|Rel][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Rel	O
-nem	nem	ADV	[/Adv]	PronType=Neg	O
-sokkal	sokkal	ADV	[/Adv]	_	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-tunéziai	tunéziai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-lázadások	lázadás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-után	után	ADP	[/Post]	_	O
-törtek	tör	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-ki	ki	ADV	[/Prev]	_	O
-2011.	2011.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O
-január	január	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-elején	eleje	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O
-.	.	PUNCT	[Punct]	_	O
+# global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
+A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+demokráciáért	demokrácia	NOUN	[/N][Cau]	Case=Cau|Number=Sing	O	demokrácia
+küzdők	küzdő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	küzdő
+már	már	ADV	[/Adv]	_	O	már
+legyőztek	legyőz	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	legyőz
+két	két	NUM	[/Num|Attr][Nom]	Case=Nom|Number=Sing|NumType=Card	O	két
+diktátort	diktátor	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	diktátor
+,	,	PUNCT	[Punct]	_	O	,
+egyet	egy	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	egy
+Tunéziában	Tunézia	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Tunézia
+és	és	CCONJ	[/Cnj]	_	O	és
+egyet	egy	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	egy
+Egyiptomban	Egyiptom	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Egyiptom
+,	,	PUNCT	[Punct]	_	O	,
+de	de	CCONJ	[/Cnj]	_	O	de
+Algériában	Algéria	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Algéria
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+hatóságok	hatóság	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	hatóság
+eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	eddig
+féken	fék	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	fék
+tudták	tud	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tud
+tartani	tart	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	tart
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+tüntetéseket	tüntetés	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	tüntetés
+,	,	PUNCT	[Punct]	_	O	,
+amelyek	amely	PRON	[/N|Pro|Rel][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Rel	O	amely
+nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
+sokkal	sokkal	ADV	[/Adv]	_	O	sokkal
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+tunéziai	tunéziai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tunéziai
+lázadások	lázadás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	lázadás
+után	után	ADP	[/Post]	_	O	után
+törtek	tör	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tör
+ki	ki	ADV	[/Prev]	_	O	ki
+2011.	2011.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	2011.
+január	január	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	január
+elején	eleje	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eleje
+.	.	PUNCT	[Punct]	_	O	.
 
-Tüntetők	tüntető	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-ezrei	ezer	NUM	[/Num][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|NumType=Card|Person[psor]=3	O
-töltöttek	tölt	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-fel	fel	ADV	[/Prev]	_	O
-videókat	videó	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-YouTube-ra	YouTube	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC
-és	és	CCONJ	[/Cnj]	_	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-Facebookra	Facebook	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC
-.	.	PUNCT	[Punct]	_	O
+Tüntetők	tüntető	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tüntető
+ezrei	ezer	NUM	[/Num][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|NumType=Card|Person[psor]=3	O	ezer
+töltöttek	tölt	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tölt
+fel	fel	ADV	[/Prev]	_	O	fel
+videókat	videó	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	videó
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+YouTube-ra	YouTube	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC	YouTube
+és	és	CCONJ	[/Cnj]	_	O	és
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+Facebookra	Facebook	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC	Facebook
+.	.	PUNCT	[Punct]	_	O	.
 
-Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-alábbi	alábbi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-videót	videó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O
-február	február	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-12-én	12	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O
-tették	tesz	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-közzé	közzé	ADV	[/Prev]	_	O
-,	,	PUNCT	[Punct]	_	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-felvételen	felvétel	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O
-látszik	látszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O
-,	,	PUNCT	[Punct]	_	O
-ahogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-rendőrség	rendőrség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-aktivistákat	aktivista	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O
-tartóztat	tartóztat	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O
-le	le	ADV	[/Prev]	_	O
-,	,	PUNCT	[Punct]	_	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-skandáló	skandáló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-tüntetőkkel	tüntető	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O
-történt	történt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-összecsapás	összecsapás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-után	után	ADP	[/Post]	_	O
-.	.	PUNCT	[Punct]	_	O
+Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
+alábbi	alábbi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	alábbi
+videót	videó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	videó
+február	február	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	február
+12-én	12	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	12
+tették	tesz	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tesz
+közzé	közzé	ADV	[/Prev]	_	O	közzé
+,	,	PUNCT	[Punct]	_	O	,
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+felvételen	felvétel	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	felvétel
+látszik	látszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	látszik
+,	,	PUNCT	[Punct]	_	O	,
+ahogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahogy
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+rendőrség	rendőrség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rendőrség
+aktivistákat	aktivista	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	aktivista
+tartóztat	tartóztat	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tartóztat
+le	le	ADV	[/Prev]	_	O	le
+,	,	PUNCT	[Punct]	_	O	,
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+skandáló	skandáló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	skandáló
+tüntetőkkel	tüntető	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	tüntető
+történt	történt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	történt
+összecsapás	összecsapás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	összecsapás
+után	után	ADP	[/Post]	_	O	után
+.	.	PUNCT	[Punct]	_	O	.
 
-A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-sebesültekről	sebesült	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O
-készült	készült	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-képek	kép	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-is	is	ADV	[/Adv]	_	O
-napvilágot	napvilág	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O
-láttak	lát	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-.	.	PUNCT	[Punct]	_	O
+A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+sebesültekről	sebesült	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O	sebesült
+készült	készült	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	készült
+képek	kép	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kép
+is	is	ADV	[/Adv]	_	O	is
+napvilágot	napvilág	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	napvilág
+láttak	lát	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lát
+.	.	PUNCT	[Punct]	_	O	.
 
-Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-alábbi	alábbi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-képen	kép	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O
-az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-algír	algír	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-parlamenti	parlamenti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-képviselő	képviselő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-,	,	PUNCT	[Punct]	_	O
-Derguini	Derguini	PROPN	[/N]	Case=Nom|Number=Sing	B-PER
-Boubekeur	Boubekeur	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER
-zúzódásai	zúzódás	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O
-látszanak	látszik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O
-.	.	PUNCT	[Punct]	_	O
+Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
+alábbi	alábbi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	alábbi
+képen	kép	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	kép
+az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
+algír	algír	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	algír
+parlamenti	parlamenti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	parlamenti
+képviselő	képviselő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	képviselő
+,	,	PUNCT	[Punct]	_	O	,
+Derguini	Derguini	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Derguini
+Boubekeur	Boubekeur	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Boubekeur
+zúzódásai	zúzódás	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	zúzódás
+látszanak	látszik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	látszik
+.	.	PUNCT	[Punct]	_	O	.
 
-Derguini	Derguini	PROPN	[/N]	Case=Nom|Number=Sing	B-PER
-Boubekeur	Boubekeur	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER
-,	,	PUNCT	[Punct]	_	O
-algír	algír	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-parlamenti	parlamenti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-képviselő	képviselő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-is	is	ADV	[/Adv]	_	O
-megsérült	megsérül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-tüntetések	tüntetés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-során	során	ADP	[/Post|(Poss)]	_	O
-.	.	PUNCT	[Punct]	_	O
+Derguini	Derguini	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Derguini
+Boubekeur	Boubekeur	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Boubekeur
+,	,	PUNCT	[Punct]	_	O	,
+algír	algír	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	algír
+parlamenti	parlamenti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	parlamenti
+képviselő	képviselő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	képviselő
+is	is	ADV	[/Adv]	_	O	is
+megsérült	megsérül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	megsérül
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+tüntetések	tüntetés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tüntetés
+során	során	ADP	[/Post|(Poss)]	_	O	során
+.	.	PUNCT	[Punct]	_	O	.
 
-A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-kép	kép	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O
-az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-RCD	RCD	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG
-Algéria	Algéria	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG
-Facebook	Facebook	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC
-oldaláról	oldal	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	O
-származik	származik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O
-.	.	PUNCT	[Punct]	_	O
+A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+kép	kép	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kép
+az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
+RCD	RCD	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	RCD
+Algéria	Algéria	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Algéria
+Facebook	Facebook	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Facebook
+oldaláról	oldal	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	oldal
+származik	származik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	származik
+.	.	PUNCT	[Punct]	_	O	.
 
-Bloggerek	blogger	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-és	és	CCONJ	[/Cnj]	_	O
-Twitter-felhasználók	Twitter-felhasználó	PROPN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-rengeteg	rengeteg	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O
-hírt	hír	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O
-osztottak	oszt	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-meg	meg	PART	[/Prev]	_	O
-a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-tüntetésekről	tüntetés	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O
-.	.	PUNCT	[Punct]	_	O
+Bloggerek	blogger	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	blogger
+és	és	CCONJ	[/Cnj]	_	O	és
+Twitter-felhasználók	Twitter-felhasználó	PROPN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	Twitter-felhasználó
+rengeteg	rengeteg	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	rengeteg
+hírt	hír	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	hír
+osztottak	oszt	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	oszt
+meg	meg	PART	[/Prev]	_	O	meg
+a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
+tüntetésekről	tüntetés	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O	tüntetés
+.	.	PUNCT	[Punct]	_	O	.
 
-Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O
-algír	algír	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O
-blogok	blog	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-tudósításai	tudósítás	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O
-szerint	szerint	ADP	[/Post]	_	O
-tüntetések	tüntetés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O
-voltak	van	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O
-Oránban	Orán	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC
-is	is	ADV	[/Adv]	_	O
-.	.	PUNCT	[Punct]	_	O
+Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
+algír	algír	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	algír
+blogok	blog	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	blog
+tudósításai	tudósítás	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	tudósítás
+szerint	szerint	ADP	[/Post]	_	O	szerint
+tüntetések	tüntetés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tüntetés
+voltak	van	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
+Oránban	Orán	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Orán
+is	is	ADV	[/Adv]	_	O	is
+.	.	PUNCT	[Punct]	_	O	.
 
 

@@ -66,7 +66,7 @@ The format of data files are [CoNLL-U Plus](https://universaldependencies.org/ex
 
 `FORM`: the token itself;
 
-`LEMMA`: the lemma of the token;
+`LEMMA`: the lemma of the token (according to the UD guidelines);
 
 `UPOS`: UD POS tags; 
 
@@ -74,7 +74,12 @@ The format of data files are [CoNLL-U Plus](https://universaldependencies.org/ex
 
 `FEATS`: UD morphosyntactic features;
 
-`CONLL:NER`: NE annotation.
+`CONLL:NER`: NE annotation;
+
+`EMMORPH:LEMMA`: the lemma of the token (dictionary form without derivation);
+.
+
+
 
 The NE annotation follows the CoNLL2002 labelling standard. The four NE categories are: `PER`, `LOC`, `MISC`, `ORG`. The tags are in the `IOB2` format: a `B-` prefix denotes the first item of a NE phrase and an `I-` prefix any non-initial word. Non-names are marked by an `O` label. 
 
