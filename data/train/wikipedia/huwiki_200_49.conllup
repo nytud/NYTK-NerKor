@@ -1,6 +1,6 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-Az	Az	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Az
-ártatlan	ártatlan	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	ártatlan
+Az	Az	DET	[/N]	Definite=Def|PronType=Art	B-MISC	Az
+ártatlan	ártatlan	ADJ	[/N][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	ártatlan
 c.	c.	ADJ	[/Adj|Abbr][Nom][Punct]	Case=Nom|Degree=Pos|Number=Sing	O	c.
 drámáját	dráma	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	dráma
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -47,7 +47,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ügyet	ügy	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ügy
 ,	,	PUNCT	[Punct]	_	O	,
 szinte	szinte	ADV	[/Adv]	_	O	szinte
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 lépésnél	lépés	NOUN	[/N][Ade]	Case=Ade|Number=Sing	O	lépés
 hűtlenségbe	hűtlenség	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	hűtlenség
 ,	,	PUNCT	[Punct]	_	O	,
@@ -148,7 +148,7 @@ tanfolyamra	tanfolyam	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tanfolyam
 .	.	PUNCT	[Punct]	_	O	.
 
 Győr-Moson-Sopron	Győr-Moson-Sopron	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Győr-Moson-Sopron
-megyében	megye	NOUN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	megye
+megyében	megye	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	megye
 ,	,	PUNCT	[Punct]	_	O	,
 gyakorló	gyakorló	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	gyakorol
 játékvezetőként	játékvezető	NOUN	[/N][EssFor:ként]	Case=Ess|Number=Sing	O	játékvezető
@@ -166,7 +166,7 @@ lista	lista	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lista
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Beast	Beast	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Beast
 Machines	Machines	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Machines
-:	:	PUNCT	[Punct]	_	I-MISC	:
+:	:	PROPN	[Punct]	Case=Nom|Number=Sing	I-MISC	:
 Transformers	Transformers	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Transformers
 rajzfilmsorozat	rajzfilmsorozat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rajzfilmsorozat
 szereplőinek	szereplő	NOUN	[/N][Pl.Poss.3Sg][Dat]	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	szereplő
@@ -229,7 +229,7 @@ függetlenül	független	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing
 erre	ez	PRON	[/Det|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 időpontra	időpont	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	időpont
-Oliviának	Olivia	PROPN	[/N][Dat]	Case=Dat|Number=Sing	B-PER	Olivia
+Oliviának	Olivia	PROPN	[/N][Dat]	Case=Gen|Number=Sing	B-PER	Olivia
 már	már	ADV	[/Adv]	_	O	már
 jó	jó	ADV	[/Adv]	_	O	jó
 néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
@@ -299,10 +299,10 @@ királya	király	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
 .	.	PUNCT	[Punct]	_	O	.
 
-III.	III	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	B-PER	III
+III.	III	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	B-PER	III
 Sancho	Sancho	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Sancho
 –	–	X	[Hyph:Dash]	_	O	–
-II.	II	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	B-PER	II
+II.	II	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	B-PER	II
 Sancho	Sancho	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Sancho
 néven	név	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	név
 –	–	X	[Hyph:Dash]	_	O	–
@@ -714,7 +714,7 @@ továbbítottak	továbbít	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 So	So	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	So
 Random	Random	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Random
-!	!	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	!
+!	!	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	!
 részei	rész	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	rész
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -768,10 +768,10 @@ eredetijének	eredeti	ADJ	[/Adj][Poss.3Sg][Dat]	Case=Dat|Degree=Pos|Number=Sing|
 címe	cím	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	cím
 (	(	PUNCT	[Punct]	_	O	(
 Irrational	Irrational	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Irrational
-exuberance	exuberance	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	exuberance
+exuberance	exuberance	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	exuberance
 ,	,	PUNCT	[Punct]	_	O	,
 Irracionális	Irracionális	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Irracionális
-lelkesedés	lelkesedés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	lelkesedés
+lelkesedés	lelkesedés	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	lelkesedés
 )	)	PUNCT	[Punct]	_	O	)
 is	is	ADV	[/Adv]	_	O	is
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -801,7 +801,7 @@ megjelent	megjelenik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|P
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Camp	Camp	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Camp
 Rock	Rock	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Rock
-2-ben	2	NOUN	[/N][Ine]	Case=Ine|Number=Sing	I-MISC	2
+2-ben	2	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-MISC	2
 hallható	hallható	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	hall
 dalokkal	dal	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	dal
 .	.	PUNCT	[Punct]	_	O	.
@@ -971,7 +971,7 @@ többek	sok	NOUN	[/N|Pro][_Comp/N|Pro][Pl][Nom]	Case=Nom|Number=Plur	O	sok
 között	között	ADP	[/Post]	_	O	között
 Johann	Johann	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Johann
 Wolfgang	Wolfgang	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Wolfgang
-von	von	NOUN	[/N]	Case=Nom|Number=Sing	I-PER	von
+von	von	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	von
 Goethe	Goethe	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Goethe
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -1097,7 +1097,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 porosz	porosz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	porosz
 király	király	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	király
 elfogadta	elfogad	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elfogad
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ajánlatot	ajánlat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ajánlat
 ,	,	PUNCT	[Punct]	_	O	,
@@ -1278,7 +1278,7 @@ szigetére	sziget	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Si
 is	is	ADV	[/Adv]	_	O	is
 .	.	PUNCT	[Punct]	_	O	.
 
-Korunk	Korunk	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Korunk
+Korunk	Korunk	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	B-MISC	Korunk
 1976/5	1976/5.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1976/5.
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1311,10 +1311,10 @@ szerepei	szerep	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Si
 Angel	Angel	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Angel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Buffy	Buffy	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Buffy
-,	,	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	,
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-vámpírok	vámpírok	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	vámpírok
-réme	réme	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	réme
+,	,	PUNCT	[/N]	_	I-MISC	,
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+vámpírok	vámpírok	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	vámpírok
+réme	réme	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	réme
 és	és	CCONJ	[/Cnj]	_	O	és
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Angel	Angel	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Angel
@@ -1349,10 +1349,10 @@ Csontban	Csont	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-MISC	Csont
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Buffy	Buffy	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Buffy
-,	,	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	,
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-vámpírok	vámpírok	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	vámpírok
-réme	réme	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	réme
+,	,	PUNCT	[/N]	_	I-MISC	,
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+vámpírok	vámpírok	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	vámpírok
+réme	réme	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	réme
 meghallgatására	meghallgatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	meghallgatás
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 kutyasétáltatás	kutyasétáltatás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kutyasétáltatás
@@ -1544,7 +1544,7 @@ mozdonyok	mozdony	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	mozdony
 új	új	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	új
 jelölése	jelölés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	jelölés
 BDŽ	BDŽ	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	BDŽ
-16	16	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	16
+16	16	NUM	[/N][Nom]	Case=Nom|NumType=Card|Number=Sing	I-MISC	16
 sorozat	sorozat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sorozat
 lett	lesz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 ,	,	PUNCT	[Punct]	_	O	,
@@ -1556,10 +1556,10 @@ két	két	NUM	[/Num|Attr][Nom]	Case=Nom|Number=Sing|NumType=Card	O	két
 mozdony	mozdony	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	mozdony
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 CFR	CFR	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	CFR
-150.1201	150.1201	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	150.1201
+150.1201	150.1201	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	150.1201
 és	és	CCONJ	[/Cnj]	_	O	és
 CFR	CFR	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	CFR
-150.1202	150.1202	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	150.1202
+150.1202	150.1202	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	150.1202
 pályaszámokon	pályaszám	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	pályaszám
 üzemelt	üzemel	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	üzemel
 tovább	tovább	ADV	[/Prev]	_	O	tovább
@@ -1688,7 +1688,7 @@ belőlük	ők	PRON	[/N|Pro][Ela][3Pl]	Case=Ela|Number=Plur|Person=3|PronType=Prs
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 CFL	CFL	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	CFL
-5519	5519	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	5519
+5519	5519	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	5519
 pályaszámú	pályaszámú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	pályaszámú
 gépet	gép	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	gép
 megőrizték	megőriz	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	megőriz
@@ -1832,7 +1832,7 @@ területén	terület	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]
 honos	honos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	honos
 .	.	PUNCT	[Punct]	_	O	.
 
-Baħrija	Baħrija	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Baħrija
+Baħrija	Baħrija	PUNCT	[/N][Nom]	_	B-LOC	Baħrija
 3000	3000	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	3000
 lakosú	lakosú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lakosú
 máltai	Málta	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Málta
@@ -1860,7 +1860,7 @@ területén	terület	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]
 Legnagyobb	nagy	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	nagy
 kolóniái	kolónia	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	kolónia
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Azori-szigeteken	Azori-szigetek	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Azori-szigetek
+Azori-szigeteken	Azori-szigetek	NOUN	[/N][Supe]	Case=Sup|Number=Plur	B-LOC	Azori-szigetek
 találhatóak	található	ADJ	[/V][_ModPtcp/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur|VerbForm=PartPres	O	talál
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
@@ -1986,7 +1986,7 @@ szerzemények	szerzemény	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szerzemény
 Do	Do	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Do
 You	You	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	You
 Remember	Remember	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Remember
-?	?	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	?
+?	?	PUNCT	[/N][Nom]	_	I-MISC	?
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 következő	következő	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	következik
@@ -2083,7 +2083,7 @@ dokumentumfilmben	dokumentumfilm	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	dokumentu
 
 Nagykárolyban	Nagykároly	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Nagykároly
 és	és	CCONJ	[/Cnj]	_	O	és
-Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Loc|Number=Sing	B-LOC	Kolozsvár
+Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Ine|Number=Sing	B-LOC	Kolozsvár
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
 középiskolai	középiskolai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	középiskolai
 tanár	tanár	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tanár
@@ -2112,16 +2112,16 @@ használatára	használat	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 H2O	H2O	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	H2O
-:	:	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	:
+:	:	PUNCT	[/N]	_	I-MISC	:
 Just	Just	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Just
 Add	Add	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Add
 Water	Water	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Water
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 H2O	H2O	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	H2O
-:	:	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	:
+:	:	PUNCT	[/N]	_	I-MISC	:
 Egy	Egy	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Egy
-vízcsepp	vízcsepp	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	vízcsepp
-elég	elég	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	elég
+vízcsepp	vízcsepp	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	vízcsepp
+elég	elég	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	elég
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
 sorozat	sorozat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sorozat
 második	második	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	kettő
@@ -2162,7 +2162,7 @@ Lee	Lee	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Lee
 magas	magas	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	magas
 ,	,	PUNCT	[Punct]	_	O	,
 Robert	Robert	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Robert
-Plantre	Plant	PROPN	[/N][Subl]	Case=Sub|Number=Sing	I-PER	Plant
+Plantre	Plant	PROPN	[/N][Subl]	Case=Nom|Number=Sing	I-PER	Plant
 emlékeztető	emlékeztető	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	emlékeztet
 hangja	hang	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hang
 miatt	miatt	ADP	[/Post]	_	O	miatt
@@ -2246,17 +2246,17 @@ Paolo	Paolo	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Paolo
 Pasolini	Pasolini	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Pasolini
 híres	híres	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	híres
 Salò	Salò	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Salò
-,	,	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	,
-avagy	avagy	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	avagy
+,	,	PUNCT	[/N]	_	I-MISC	,
+avagy	avagy	CCONJ	[/N]	_	I-MISC	avagy
 Szodoma	Szodoma	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Szodoma
-120	120	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	120
-napja	napja	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	napja
+120	120	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	120
+napja	napja	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	napja
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
 filmje	film	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	film
 .	.	PUNCT	[Punct]	_	O	.
 
 Cradle	Cradle	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Cradle
-of	of	NOUN	[/N]	Case=Nom|Number=Sing	I-ORG	of
+of	of	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	of
 Filth	Filth	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Filth
 koncert	koncert	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	koncert
 2005-ben	2005	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	2005
@@ -2264,7 +2264,7 @@ koncert	koncert	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	koncert
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Cradle	Cradle	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Cradle
-of	of	NOUN	[/N]	Case=Nom|Number=Sing	I-ORG	of
+of	of	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	of
 Filth	Filth	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Filth
 sajátos	sajátos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	sajátos
 stílusa	stílus	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	stílus
@@ -2365,7 +2365,7 @@ keresztül	keresztül	ADP	[/Post|(Supe)]	_	O	keresztül
 nevezték	nevez	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nevez
 ki	ki	ADV	[/Prev]	_	O	ki
 Tolna	Tolna	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Tolna
-vármegye	vármegye	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	vármegye
+vármegye	vármegye	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	vármegye
 főorvosának	főorvos	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	főorvos
 ;	;	PUNCT	[Punct]	_	O	;
 ezt	ez	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
@@ -2627,5 +2627,4 @@ falu	falu	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	falu
 gyermekei	gyermek	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	gyermek
 jártak	jár	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jár
 .	.	PUNCT	[Punct]	_	O	.
-
 

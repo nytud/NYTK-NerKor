@@ -78,7 +78,7 @@ Próbálja	próbál	VERB	[/V][Sbjv.Def.3Sg]	Definite=Def|Mood=Imp|Number=Sing|Pe
 ki	ki	ADV	[/Prev]	_	O	ki
 kínálatunkat	kínálat	NOUN	[/N][Poss.1Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	kínálat
 és	és	CCONJ	[/Cnj]	_	O	és
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 állandó	állandó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	állandó
 vevőnk	vevő	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	vevő
 !	!	PUNCT	[Punct]	_	O	!
@@ -255,7 +255,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Zala	Zala	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Zala
 Megyei	Megyei	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Megyei
 Baleset	Baleset	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Baleset
-megelőzési	megelőzési	NOUN	[/N]	Case=Nom|Number=Sing	I-ORG	megelőzési
+megelőzési	megelőzési	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	megelőzési
 Bizottsággal	Bizottság	PROPN	[/N][Ins]	Case=Ins|Number=Sing	I-ORG	Bizottság
 közösen	közös	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	közös
 mára	ma	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ma
@@ -330,7 +330,7 @@ Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 elnyerőkkel	elnyerő	ADJ	[/Adj][Pl][Ins]	Case=Ins|Degree=Pos|Number=Plur	O	elnyerő
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 önkormányzat	önkormányzat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	önkormányzat
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 év	év	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	év
 november	november	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	november
 15.	15.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	15.
@@ -410,7 +410,7 @@ dolgozzunk	dolgozik	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|P
 .	.	PUNCT	[Punct]	_	O	.
 
 Jelenleg	jelenleg	ADV	[/Adv]	_	O	jelenleg
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 feltételnek	feltétel	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	feltétel
 megfelelő	megfelelő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megfelelő
 sportpályával	sportpálya	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	sportpálya
@@ -520,9 +520,9 @@ december	december	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	december
 
 Zalaegerszeg	Zalaegerszeg	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Zalaegerszeg
 ,	,	PUNCT	[Punct]	_	O	,
-Bíró	bíró	NOUN	[/N]	Case=Nom|Number=Sing	B-LOC	bíró
+Bíró	bíró	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	bíró
 M.	M.	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	M.
-u.	u	NOUN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-LOC	u
+u.	u	PROPN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-LOC	u
 37	37	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	37
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -547,16 +547,16 @@ tartalmazhattak	tartalmaz	VERB	[/V][_Mod/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Pot|
 
 Zalacsány	Zalacsány	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Zalacsány
 község	község	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	község
-Önkormányzati	önkormányzati	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	B-ORG	önkormányzati
-Képviselőtestülete	képviselőtestület	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-ORG	képviselőtestület
+Önkormányzati	önkormányzati	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	B-ORG	önkormányzati
+Képviselőtestülete	képviselőtestület	PROPN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing	I-ORG	képviselőtestület
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Magyarország	Magyarország	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Magyarország
 helyi	helyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	helyi
 Önkormányzatairól	önkormányzat	NOUN	[/N][Pl.Poss.3Sg][Del]	Case=Del|Number=Plur|Number[psor]=Sing|Person[psor]=3	I-MISC	önkormányzat
-szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	szóló
-2011.	2011.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	I-MISC	2011.
+szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Number=Sing|VerbForm=PartPres	I-MISC	szóló
+2011.	2011.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	I-MISC	2011.
 évi	évi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	évi
-CLXXXIX	CLXXXIX	NUM	[/Num|Roman][Nom]	Case=Nom|Number=Sing|NumType=Card	I-MISC	CLXXXIX
+CLXXXIX	CLXXXIX	PROPN	[/Num|Roman][Nom]	Case=Nom|Number=Sing	I-MISC	CLXXXIX
 törvény	törvény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	törvény
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -565,19 +565,19 @@ helyi	helyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	helyi
 közszolgáltatások	közszolgáltatás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	I-MISC	közszolgáltatás
 kötelező	kötelező	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	kötelező
 igénybevételérő	igénybevétel	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	igénybevétel
-szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	szóló
-1995.	1995.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	I-MISC	1995.
+szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Number=Sing|VerbForm=PartPres	I-MISC	szóló
+1995.	1995.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	I-MISC	1995.
 évi	évi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	évi
-XLII.	XLII.	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	I-MISC	XLII.
+XLII.	XLII.	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	I-MISC	XLII.
 tv.	tv	NOUN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-MISC	tv
 ,	,	PUNCT	[Punct]	_	O	,
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hulladékról	hulladék	NOUN	[/N][Del]	Case=Del|Number=Sing	B-MISC	hulladék
-szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	szóló
-2012.	2012.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	I-MISC	2012.
+szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Number=Sing|VerbForm=PartPres	I-MISC	szóló
+2012.	2012.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	I-MISC	2012.
 évi	évi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	évi
-CLXXXV.	CLXXXV.	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	I-MISC	CLXXXV.
+CLXXXV.	CLXXXV.	PROPN	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing	I-MISC	CLXXXV.
 törvény	törvény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	törvény
 35	35	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	35
 §	§	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	§
@@ -592,7 +592,7 @@ bekezdése	bekezdés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=
 alapján	alapján	ADP	[/Post|(Poss)]	_	O	alapján
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Alaptörvény	alaptörvény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	alaptörvény
+Alaptörvény	alaptörvény	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	alaptörvény
 32.	32.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	32.
 cikkében	cikk	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	cikk
 foglalt	foglalt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	foglalt
@@ -623,5 +623,4 @@ alábbi	alábbi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	alábbi
 rendeletet	rendelet	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	rendelet
 alkotja	alkot	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	alkot
 :	:	PUNCT	[Punct]	_	O	:
-
 

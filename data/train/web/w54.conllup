@@ -80,11 +80,11 @@ azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 
 De	de	INTJ	[/Inj-Utt]	_	O	de
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
-lenne	van	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-lenne	van	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 dugó	dugó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	dugó
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 utakon	út	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	út
@@ -100,7 +100,7 @@ Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 pedig	pedig	CCONJ	[/Cnj]	_	O	pedig
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Landsat	Landsat	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Landsat
-7	7	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	7
+7	7	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	7
 képe	kép	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kép
 másnap	másnap	ADV	[/Adv]	_	O	másnap
 -	-	X	[Hyph:Hyph]	_	O	-
@@ -113,9 +113,9 @@ kisebb	kicsi	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
 
 Itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
 vannak	van	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
-Az	Az	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Az
-éhezők	éhezők	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	éhezők
-viadala	viadala	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	viadala
+Az	Az	DET	[/N]	Definite=Def|PronType=Art	B-MISC	Az
+éhezők	éhezők	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	éhezők
+viadala	viadala	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	viadala
 lázadói	lázadó	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	lázadó
 !	!	PUNCT	[Punct]	_	O	!
 
@@ -132,9 +132,9 @@ Dormerrel	Dormer	PROPN	[/N][Ins]	Case=Ins|Number=Sing	I-PER	Dormer
 aki	aki	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aki
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Trónok	Trónok	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Trónok
-harca	harca	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	harca
+harca	harca	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	harca
 Margaery	Margaery	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Margaery
-Tyrellének	Tyrell	PROPN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-PER	Tyrell
+Tyrellének	Tyrell	PROPN	[/N][Poss.3Sg][Dat]	Case=Gen|Number=Sing	I-PER	Tyrell
 megformázásával	megformázás	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megformázás
 lett	lesz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 világhíres	világhíres	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	világhíres
@@ -156,7 +156,7 @@ gyűjteményt	gyűjtemény	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	gyűjtemény
 találhatunk	talál	VERB	[/V][_Mod/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	talál
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 világ	világ	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	világ
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 tájáról	táj	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	táj
 összegyűjtött	összegyűjtött	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	összegyűjtött
 magazin-	magazin	NOUN	[/N][Nom][Hyph:Hyph]	Case=Nom|Number=Sing	O	magazin
@@ -292,5 +292,4 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 leendő	leendő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	leendő
 főszereplő	főszereplő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	főszereplő
 .	.	PUNCT	[Punct]	_	O	.
-
 

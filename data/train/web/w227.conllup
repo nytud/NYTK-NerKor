@@ -54,7 +54,7 @@ gondolom	gondol	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 nekem	én	PRON	[/N|Pro][Dat][1Sg]	Case=Dat|Number=Sing|Person=1|PronType=Prs	O	én
 jogom	jog	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	jog
-lenne	van	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 kéretlenül	kéretlen	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	kéretlen
 bármivel	bármi	PRON	[/N|Pro][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Ind	O	bármi
 is	is	ADV	[/Adv]	_	O	is
@@ -129,13 +129,13 @@ elismeréssel	elismerés	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	elismerés
 ,	,	PUNCT	[Punct]	_	O	,
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 szerelemvallás	szerelemvallás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szerelemvallás
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 örömével	öröm	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	öröm
 ,	,	PUNCT	[Punct]	_	O	,
 s	s	CCONJ	[/Cnj]	_	O	s
 annak	az	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	az
 is	is	ADV	[/Adv]	_	O	is
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 ragyogó	ragyogó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ragyogó
 csillaghitével	csillaghit	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	csillaghit
 .	.	PUNCT	[Punct]	_	O	.
@@ -204,7 +204,7 @@ Nap	Nap	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Nap
 fénye	fény	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fény
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Aranykor	aranykor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	aranykor
+Aranykor	aranykor	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	aranykor
 üzenete	üzenet	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	üzenet
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -252,10 +252,10 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 teljességgel	teljesség	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	teljesség
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Ég	ég	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	ég
+Ég	ég	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	ég
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Föld	föld	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	föld
+Föld	föld	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	föld
 Menyegzőjében	menyegző	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	menyegző
 benne	ő	PRON	[/N|Pro][Ine][3Sg]	Case=Ine|Number=Sing|Person=3|PronType=Prs	O	ő
 foglalt	foglalt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	foglalt
@@ -352,7 +352,7 @@ Budapest	Budapest	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Budapest
 ,	,	PUNCT	[Punct]	_	O	,
 Hőgyes	Hőgyes	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Hőgyes
 Endre	Endre	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	Endre
-u.	u.	NOUN	[/N][Nom][]	Case=Nom|Number=Sing	I-LOC	u.
+u.	u.	PROPN	[/N][Nom][]	Case=Nom|Number=Sing	I-LOC	u.
 3.	3.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	3.
 )	)	PUNCT	[Punct]	_	O	)
 templomában	templom	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	templom
@@ -407,7 +407,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 lendülettel	lendület	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	lendület
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 selyemkert	selyemkert	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	selyemkert
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 szál	szál	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szál
 selyemfüve	selyemfű	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	selyemfű
 is	is	ADV	[/Adv]	_	O	is
@@ -463,7 +463,7 @@ azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
 már	már	ADV	[/Adv]	_	O	már
 szinte	szinte	ADV	[/Adv]	_	O	szinte
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 jel	jel	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jel
 szerint	szerint	ADP	[/Post]	_	O	szerint
 készen	kész	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	kész
@@ -533,5 +533,4 @@ sehogy	sehogy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	sehog
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 ment	megy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	megy
 .	.	PUNCT	[Punct]	_	O	.
-
 

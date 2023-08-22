@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Adatkezelési	adatkezelési	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	B-MISC	adatkezelési
-Tájékoztató	tájékoztató	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	tájékoztató
+Adatkezelési	adatkezelési	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	B-MISC	adatkezelési
+Tájékoztató	tájékoztató	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	tájékoztató
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ECCE-ICCE	ECCE-ICCE	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	ECCE-ICCE
 Kft.	Kft.	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Kft.
@@ -223,7 +223,7 @@ szülőknek	szülő	NOUN	[/N][Pl][Dat]	Case=Dat|Number=Plur	O	szülő
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 biztosan	biztos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	biztos
 ne	ne	ADV	[/Adv]	PronType=Neg	O	ne
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 gond	gond	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gond
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -328,7 +328,7 @@ család	család	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	család
 beszélgessen	beszélget	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	beszélget
 ,	,	PUNCT	[Punct]	_	O	,
 együtt	együtt	ADV	[/Adv]	_	O	együtt
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 .	.	PUNCT	[Punct]	_	O	.
 
 Ismét	ismét	ADV	[/Adv]	_	O	ismét
@@ -385,7 +385,7 @@ kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 munkatárs	munkatárs	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	munkatárs
 jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
 érezze	érez	VERB	[/V][Sbjv.Def.3Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	érez
@@ -410,7 +410,7 @@ jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
 érezd	érez	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	érez
 magad	maga	PRON	[/N|Pro][2Sg][Nom]	Case=Nom|Number=Sing|Person=2|Reflex=Yes	O	maga
 –	–	X	[Hyph:Dash]	_	O	–
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 szó	szó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szó
 akár	akár	CCONJ	[/Cnj]	_	O	akár
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -508,7 +508,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kapcsolatot	kapcsolat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kapcsolat
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 részletet	részlet	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	részlet
 megbeszéljünk	megbeszél	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megbeszél
 .	.	PUNCT	[Punct]	_	O	.
@@ -536,5 +536,4 @@ nagyban	nagyban	ADV	[/Adv]	_	O	nagyban
 függ	függ	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	függ
 ettől	ez	PRON	[/N|Pro][Abl]	Case=Abl|Number=Sing|Person=3|PronType=Dem	O	ez
 .	.	PUNCT	[Punct]	_	O	.
-
 

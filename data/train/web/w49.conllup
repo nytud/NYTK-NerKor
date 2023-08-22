@@ -11,7 +11,7 @@ változatos	változatos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	válto
 awesome	awesome	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	awesome
 ”	”	PUNCT	[Punct]	_	O	”
 Smash	Smash	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Smash
-up	up	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	up
+up	up	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	up
 kártyajátékot	kártyajáték	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kártyajáték
 mutatjuk	mutat	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	mutat
 be	be	ADV	[/Prev]	_	O	be
@@ -83,10 +83,10 @@ ezekből	ez	PRON	[/N|Pro][Pl][Ela]	Case=Ela|Number=Plur|Person=3|PronType=Dem	O	
 .	.	PUNCT	[Punct]	_	O	.
 
 Existence	Existence	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Existence
--	-	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	-
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	A
-létezés	létezés	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	létezés
-csapdája	csapdája	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	csapdája
+-	-	PUNCT	[/N]	_	I-MISC	-
+A	A	DET	[/N]	Definite=Def|PronType=Art	I-MISC	A
+létezés	létezés	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	létezés
+csapdája	csapdája	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	csapdája
 mától	ma	NOUN	[/N][Abl]	Case=Abl|Number=Sing	O	ma
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Galaktikaboltban	Galaktikabolt	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Galaktikabolt
@@ -223,13 +223,13 @@ szerint	szerint	ADP	[/Post]	_	O	szerint
 igen	igen	ADV	[/Adv]	_	O	igen
 ,	,	PUNCT	[Punct]	_	O	,
 ezért	ezért	CCONJ	[/Cnj]	_	O	ezért
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 ősszel	ősz	ADV	[/N][_Tmp_Loc/Adv]	_	O	ősz
 elzarándokolnak	elzarándokol	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	elzarándokol
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 dél-kaliforniai	dél-kaliforniai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	dél-kaliforniai
 Mojave	Mojave	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Mojave
-sivatagba	sivatag	NOUN	[/N][Ill]	Case=Ill|Number=Sing	I-LOC	sivatag
+sivatagba	sivatag	PROPN	[/N][Ill]	Case=Ill|Number=Sing	I-LOC	sivatag
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 négy	négy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	négy
@@ -270,7 +270,7 @@ sci-fi	sci-fi	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sci-fi
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Hyperioni	Hyperioni	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Hyperioni
-énekek	ének	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	ének
+énekek	ének	NOUN	[/N][Nom]	Case=Nom|Number=Plur	I-MISC	ének
 ciklus	ciklus	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ciklus
 szerzője	szerző	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szerző
 .	.	PUNCT	[Punct]	_	O	.
@@ -397,5 +397,4 @@ egyedi	egyedi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyedi
 öltözetre	öltözet	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	öltözet
 vágyik	vágyik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vágyik
 ?	?	PUNCT	[Punct]	_	O	?
-
 

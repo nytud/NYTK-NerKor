@@ -33,9 +33,9 @@ de	de	CCONJ	[/Cnj]	_	O	de
 Hajdú-Bihar	Hajdú-Bihar	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Hajdú-Bihar
 és	és	CCONJ	[/Cnj]	_	O	és
 Szabolcs	Szabolcs	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Szabolcs
--	-	X	[Hyph:Hyph]	_	I-LOC	-
+-	-	PROPN	[Hyph:Hyph]	Case=Nom|Number=Sing	I-LOC	-
 Szatmár	Szatmár	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	Szatmár
--	-	X	[Hyph:Hyph]	_	I-LOC	-
+-	-	PROPN	[Hyph:Hyph]	Case=Nom|Number=Sing	I-LOC	-
 Bereg	Bereg	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	Bereg
 egy-egy	egy-egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Dist	O	egy-egy
 főzdéje	főzde	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	főzde
@@ -157,7 +157,7 @@ Varga	Varga	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Varga
 Gábor	Gábor	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Gábor
 után	után	ADP	[/Post]	_	O	után
 Varga	Varga	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Varga
-Sörfőzdeként	Sörfőzde	PROPN	[/N][EssFor:ként]	Case=Ess|Number=Sing	I-ORG	Sörfőzde
+Sörfőzdeként	Sörfőzde	PROPN	[/N][EssFor:ként]	Case=Dat|Number=Sing	I-ORG	Sörfőzde
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 főzőberendezés	főzőberendezés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	főzőberendezés
@@ -169,7 +169,7 @@ szokás	szokás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szokás
 szerint	szerint	ADP	[/Post]	_	O	szerint
 –	–	X	[Hyph:Dash]	_	O	–
 medgyesbodzási	medgyesbodzási	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	medgyesbodzási
-Kalteneckerként	Kaltenecker	PROPN	[/N][EssFor:ként]	Case=Ess|Number=Sing	B-ORG	Kaltenecker
+Kalteneckerként	Kaltenecker	PROPN	[/N][EssFor:ként]	Case=Nom|Number=Sing	B-ORG	Kaltenecker
 ismert	ismert	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ismert
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -183,7 +183,7 @@ közé	közé	ADP	[/Post]	_	O	közé
 számítanak	számít	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	számít
 :	:	PUNCT	[Punct]	_	O	:
 szinte	szinte	ADV	[/Adv]	_	O	szinte
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 kézműves	kézműves	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kézműves
 sörre	sör	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	sör
 specializált	specializált	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	specializált
@@ -192,7 +192,7 @@ tartja	tart	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Te
 azokat	az	PRON	[/N|Pro][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 lényegében	lényegében	ADV	[/Adv]	_	O	lényegében
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 fesztiválon	fesztivál	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	fesztivál
 jelen	jelen	ADV	[/Adv]	_	O	jelen
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
@@ -202,7 +202,7 @@ Budapesten	Budapest	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Budapest
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Hunyadi	Hunyadi	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Hunyadi
-téren	tér	NOUN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
+téren	tér	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
 ,	,	PUNCT	[Punct]	_	O	,
 saját	saját	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	saját
 márkasörözőjük	márkasöröző	NOUN	[/N][Poss.3Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	O	márkasöröző
@@ -243,7 +243,7 @@ Ahogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aho
 ígértük	ígér	VERB	[/V][Pst.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	ígér
 ,	,	PUNCT	[Punct]	_	O	,
 Bács-Kiskun	Bács-Kiskun	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Bács-Kiskun
-megye	megye	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	megye
+megye	megye	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	megye
 öt	öt	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	öt
 sörfőzdéjével	sörfőzde	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	sörfőzde
 folytatjuk	folytat	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	folytat
@@ -259,7 +259,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 sorskönyv	sorskönyv	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sorskönyv
 –	–	X	[Hyph:Dash]	_	O	–
 bármilyen	bármilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	bármilyen
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 is	is	ADV	[/Adv]	_	O	is
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 maga	maga	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|Reflex=Yes	O	maga
@@ -371,7 +371,7 @@ jogosak	jogos	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	jogos
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kérdéseid	kérdés	NOUN	[/N][Pl.Poss.2Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	O	kérdés
 ,	,	PUNCT	[Punct]	_	O	,
-lenne	van	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 is	is	ADV	[/Adv]	_	O	is
 rájuk	ők	PRON	[/N|Pro][Subl][3Pl]	Case=Sub|Number=Plur|Person=3|PronType=Prs	O	ők
 válaszom	válasz	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	válasz
@@ -568,5 +568,4 @@ erejéből	erő	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=Sing|
 lejtéséből	lejtés	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	lejtés
 stb	stb.	NOUN	[/N][Nom][Punct]	Case=Nom|Number=Sing	O	stb.
 .	.	PUNCT	[Punct]	_	O	.
-
 

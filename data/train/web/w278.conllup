@@ -13,7 +13,7 @@ fotót	fotó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	fotó
 közlök	közöl	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	közöl
 .	.	PUNCT	[Punct]	_	O	.
 
-Dr.	dr.	NOUN	[/N]	Case=Nom|Number=Sing	B-PER	dr.
+Dr.	dr.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	dr.
 Gaudi-Nagy	Gaudi-Nagy	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Gaudi-Nagy
 Tamás	Tamás	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Tamás
 ügyvéd	ügyvéd	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ügyvéd
@@ -93,7 +93,7 @@ meg	meg	PART	[/Prev]	_	O	meg
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahogy
 döntöttetek	dönt	VERB	[/V][Pst.NDef.2Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	O	dönt
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 ?	?	PUNCT	[Punct]	_	O	?
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -316,9 +316,9 @@ június	június	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	június
 Budapesten	Budapest	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Budapest
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Kossuth	Kossuth	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Kossuth
-téren	tér	NOUN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
+téren	tér	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-II.	II.	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	II.
+II.	II.	ADJ	[/N]	Case=Nom|NumType=Ord|Number=Sing	B-MISC	II.
 Trianon	Trianon	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Trianon
 menet	menet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	menet
 résztvevői	résztvevő	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	résztvevő
@@ -402,7 +402,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 november	november	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	november
 30-án	30	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	30
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-I.	I.	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	I.
+I.	I.	ADJ	[/N]	Case=Nom|NumType=Ord|Number=Sing	B-MISC	I.
 Trianon	Trianon	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Trianon
 menet	menet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	menet
 résztvevői	résztvevő	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	résztvevő
@@ -428,7 +428,7 @@ petíció	petíció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	petíció
 .	.	PUNCT	[Punct]	_	O	.
 
 Kérünk	kér	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kér
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 jóérzésű	jóérzésű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jóérzésű
 embert	ember	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ember
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -441,7 +441,7 @@ terjesztésére	terjesztés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Numbe
 
 Honfitársi	honfitársi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	honfitársi
 üdvözlettel.	üdvözlet	NOUN	[/N][Ins][Punct]	Case=Ins|Number=Sing	O	üdvözlet
-dr.	dr.	NOUN	[/N]	Case=Nom|Number=Sing	B-PER	dr.
+dr.	dr.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	dr.
 Gaudi-Nagy	Gaudi-Nagy	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Gaudi-Nagy
 Tamás	Tamás	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Tamás
 ügyvéd	ügyvéd	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ügyvéd
@@ -538,5 +538,4 @@ hosszú	hosszú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hosszú
 fegyházba	fegyház	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	fegyház
 kerülhetnek	kerül	VERB	[/V][_Mod/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kerül
 .	.	PUNCT	[Punct]	_	O	.
-
 

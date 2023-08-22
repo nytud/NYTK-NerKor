@@ -144,10 +144,10 @@ tojnak	tojik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|
 mintha	mintha	CCONJ	[/Cnj]	_	O	mintha
 eszüket	ész	NOUN	[/N][Poss.3Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	O	ész
 vesztették	veszt	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	veszt
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 !	!	PUNCT	[Punct]	_	O	!
 
-Krisztusom	Krisztus	PROPN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Krisztus
+Krisztusom	Krisztus	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Krisztus
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 égben	ég	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	ég
 !	!	PUNCT	[Punct]	_	O	!
@@ -649,7 +649,7 @@ fel	fel	ADV	[/Prev]	_	O	fel
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fejembe	fej	NOUN	[/N][Poss.1Sg][Ill]	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	fej
 ment	megy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	megy
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 vér	vér	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vér
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -676,7 +676,7 @@ tudja	tud	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tens
 
 Ennek	ez	PRON	[/Det|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Baudricourt-nak	Baudricourt	PROPN	[/N][Dat]	Case=Dat|Number=Sing	B-PER	Baudricourt
+Baudricourt-nak	Baudricourt	PROPN	[/N][Dat]	Case=Gen|Number=Sing	B-PER	Baudricourt
 is	is	ADV	[/Adv]	_	O	is
 elment	elmegy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elmegy
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -1155,7 +1155,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kékszakállú	kékszakállú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kékszakállú
 fiatalember	fiatalember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fiatalember
 Gilles	Gilles	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Gilles
-de	de	NOUN	[/N]	Case=Nom|Number=Sing	I-PER	de
+de	de	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	de
 Rais	Rais	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Rais
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1207,7 +1207,7 @@ fakasztanak	fakaszt	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Pe
 .	.	PUNCT	[Punct]	_	O	.
 
 Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 csoda	csoda	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	csoda
 célja	cél	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	cél
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -1384,7 +1384,7 @@ székesegyházban	székesegyház	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	székeseg
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 Franciaország	Franciaország	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Franciaország
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 igaz	igaz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	igaz
 királyát	király	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	király
 megkoronázzák	megkoronáz	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megkoronáz
@@ -1455,7 +1455,7 @@ eláraszt	eláraszt	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pe
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 mindenható	mindenható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mindenható
 Isten	Isten	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Isten
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 áldása	áldás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	áldás
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1599,8 +1599,8 @@ ez	ez	PRON	[/Det|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 morgó-medve	morgó-medve	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	morgó-medve
 ?	?	PUNCT	[Punct]	_	O	?
 
-De	De	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	De
-la	la	NOUN	[/N]	Case=Nom|Number=Sing	I-PER	la
+De	De	CCONJ	[/N]	_	B-PER	De
+la	la	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	la
 Tramouille	Tramouille	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Tramouille
 hercege	herceg	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	herceg
 .	.	PUNCT	[Punct]	_	O	.
@@ -1642,5 +1642,4 @@ rajtam	én	PRON	[/N|Pro][Supe][1Sg]	Case=Sup|Number=Sing|Person=1|PronType=Prs	O
 Mindnyájan	mindnyájan	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mindnyájan
 basáskodnak	basáskodik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	basáskodik
 .	.	PUNCT	[Punct]	_	O	.
-
 

@@ -1,6 +1,6 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-A	a	NOUN	[/N]	Case=Nom|Number=Sing	B-MISC	a
-válóperes	válóperes	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	válóperes
+A	a	DET	[/N]	Definite=Def|PronType=Art	B-MISC	a
+válóperes	válóperes	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	válóperes
 leány	leány	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	leány
 1938-ban	1938	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1938
 bemutatott	bemutatott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	bemutatott
@@ -106,7 +106,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ügyvédi	ügyvédi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ügyvédi
 irodájában	iroda	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	iroda
 megjelenik	megjelenik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megjelenik
-Lord	lord	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lord
+Lord	lord	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lord
 Mere	Mere	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Mere
 és	és	CCONJ	[/Cnj]	_	O	és
 panaszt	panasz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	panasz
@@ -177,7 +177,7 @@ mindenképpen	mindenképpen	ADV	[/Adv]	_	O	mindenképpen
 válni	válik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	válik
 .	.	PUNCT	[Punct]	_	O	.
 
-Lord	lord	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lord
+Lord	lord	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lord
 Mere	Mere	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Mere
 tehát	tehát	CCONJ	[/Cnj]	_	O	tehát
 visszamegy	visszamegy	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	visszamegy
@@ -214,7 +214,7 @@ közben	közben	ADV	[/Adv]	_	O	közben
 megismerkedik	megismerkedik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megismerkedik
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 igazi	igazi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	igazi
-Lady	lady	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lady
+Lady	lady	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lady
 Mere-el	Mere	PROPN	[/N][Ins]	Case=Ins|Number=Sing	I-PER	Mere
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -231,7 +231,7 @@ nőgyűlölő	nőgyűlölő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	n�
 
 Logan	Logan	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Logan
 ugyanis	ugyanis	CCONJ	[/Cnj]	_	O	ugyanis
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 válóperében	válóper	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	válóper
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nő	nő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nő
@@ -242,7 +242,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 házasságot	házasság	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	házasság
 .	.	PUNCT	[Punct]	_	O	.
 
-Lady	lady	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lady
+Lady	lady	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lady
 Mere	Mere	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Mere
 meghívja	meghív	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	meghív
 Logant	Logan	PROPN	[/N][Acc]	Case=Acc|Number=Sing	B-PER	Logan
@@ -256,7 +256,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 ki	ki	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	ki
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 igazi	igazi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	igazi
-Lady	lady	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lady
+Lady	lady	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	lady
 Mere	Mere	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Mere
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -282,5 +282,4 @@ házasság	házasság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	házasság
 intézményét	intézmény	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	intézmény
 dicséri	dicsér	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	dicsér
 .	.	PUNCT	[Punct]	_	O	.
-
 

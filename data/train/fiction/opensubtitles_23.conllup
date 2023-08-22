@@ -164,7 +164,7 @@ Carter	Carter	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Carter
 
 Nos	nos	INTJ	[/Inj-Utt]	_	O	nos
 ,	,	PUNCT	[Punct]	_	O	,
-Sir	Sir	X	[/X]	_	B-PER	Sir
+Sir	Sir	PROPN	[/X]	Case=Nom|Number=Sing	B-PER	Sir
 Wilfrid	Wilfrid	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Wilfrid
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -499,7 +499,7 @@ találtam	talál	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person
 meg	meg	PART	[/Prev]	_	O	meg
 ,	,	PUNCT	[Punct]	_	O	,
 Janet	Janet	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Janet
-McKenzie-ét	McKenzie	PROPN	[/N][AnP][Acc]	Case=Acc|Number=Sing|Number[psed]=Sing	I-PER	McKenzie
+McKenzie-ét	McKenzie	PROPN	[/N][AnP][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-PER	McKenzie
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
 még	még	ADV	[/Adv]	_	O	még
@@ -530,7 +530,7 @@ Azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szobában	szoba	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	szoba
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 jel	jel	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jel
 arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
 utalt	utal	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	utal
@@ -987,7 +987,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 bármit	bármi	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Ind	O	bármi
 is	is	ADV	[/Adv]	_	O	is
 elvitt	elvisz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elvisz
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 ?	?	PUNCT	[Punct]	_	O	?
 
 Úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
@@ -1363,7 +1363,7 @@ McKenzie	McKenzie	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	McKenzie
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Mindenható	Mindenható	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Mindenható
-Istenre	Isten	PROPN	[/N][Subl]	Case=Sub|Number=Sing	I-PER	Isten
+Istenre	Isten	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	I-PER	Isten
 esküszöm	esküszik	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	esküszik
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -1887,7 +1887,7 @@ Az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 Mrs.	Mrs.	X	[/X|Abbr][Punct]	_	O	Mrs.
-Frenchnek	French	PROPN	[/N][Dat]	Case=Dat|Number=Sing	B-PER	French
+Frenchnek	French	PROPN	[/N][Dat]	Case=Gen|Number=Sing	B-PER	French
 miről	mi	PRON	[/N|Pro|Int][Del]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	mi
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
 ,	,	PUNCT	[Punct]	_	O	,
@@ -2170,7 +2170,7 @@ megsemmisítettek	megsemmisít	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Num
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 maga	maga	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|Reflex=Yes	O	maga
 örökölte	örököl	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	örököl
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 Mrs.	Mrs.	X	[/X|Abbr][Punct]	_	O	Mrs.
 French	French	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	French
 birtokának	birtok	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	birtok
@@ -2333,5 +2333,4 @@ csak	csak	ADV	[/Adv]	_	O	csak
 hangokat	hang	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	hang
 hallott	hall	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hall
 ?	?	PUNCT	[Punct]	_	O	?
-
 

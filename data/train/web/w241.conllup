@@ -170,7 +170,7 @@ mondta	mond	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Te
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 falvakban	falu	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	falu
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 egyes	egyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyes
 disznóölés	disznóölés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	disznóölés
 társadalmi	társadalmi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	társadalmi
@@ -206,7 +206,7 @@ Gárdony	Gárdony	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Gárdony
 ,	,	PUNCT	[Punct]	_	O	,
 Bóné	Bóné	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Bóné
 Kálmán	Kálmán	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	Kálmán
-u.	u.	NOUN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-LOC	u.
+u.	u.	PROPN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-LOC	u.
 14/b	14/b	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	14/b
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -328,7 +328,7 @@ Gárdonyi	Gárdonyi	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Gárdonyi
 Géza	Géza	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Géza
 Színház	Színház	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Színház
 Elvarázsolt	Elvarázsolt	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Elvarázsolt
-testvérek	testvérek	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	testvérek
+testvérek	testvérek	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	testvérek
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
 előadását	előadás	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	előadás
 ,	,	PUNCT	[Punct]	_	O	,
@@ -380,8 +380,8 @@ Ház	Ház	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	Ház
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egri	egri	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egri
 Bál	Bál	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Bál
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-Savoyban	Savoyban	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Savoyban
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+Savoyban	Savoyban	PROPN	[/N][Nom]	Case=Ine|Number=Sing	I-MISC	Savoyban
 kétségkívül	kétségkívül	ADV	[/Adv]	_	O	kétségkívül
 közönségsiker	közönségsiker	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	közönségsiker
 .	.	PUNCT	[Punct]	_	O	.
@@ -540,15 +540,14 @@ játsszák	játszik	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Per
 )	)	PUNCT	[Punct]	_	O	)
 ,	,	PUNCT	[Punct]	_	O	,
 Long	Long	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Long
-day	day	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	day
-journey	journey	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	journey
-into	into	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	into
-the	the	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	the
-night	night	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	night
+day	day	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	day
+journey	journey	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	journey
+into	into	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	into
+the	the	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	the
+night	night	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	night
 címmel	cím	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	cím
 írta	ír	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ír
 meg	meg	PART	[/Prev]	_	O	meg
 1941-ben	1941	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1941
 .	.	PUNCT	[Punct]	_	O	.
-
 

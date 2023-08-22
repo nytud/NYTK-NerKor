@@ -43,7 +43,7 @@ fia	fia	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[p
 ,	,	PUNCT	[Punct]	_	O	,
 Orczy	Orczy	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Orczy
 (	(	PUNCT	[Punct]	_	I-PER	(
-IV.	IV.	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	I-PER	IV.
+IV.	IV.	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|NumType=Ord|Number=Sing	I-PER	IV.
 )	)	PUNCT	[Punct]	_	I-PER	)
 Lőrinc	Lőrinc	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Lőrinc
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -71,7 +71,7 @@ budapesti	budapesti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	budapesti
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 veszprémi	veszprémi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	veszprémi
-Ranolder-intézetből	Ranolder-intézet	PROPN	[/N][Ela]	Case=Ela|Number=Sing	B-ORG	Ranolder-intézet
+Ranolder-intézetből	Ranolder-intézet	NOUN	[/N][Ela]	Case=Ela|Number=Sing	B-ORG	Ranolder-intézet
 száz	száz	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	száz
 vincés	vincés	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vincés
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -83,7 +83,7 @@ száz	száz	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	száz
 másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
 apácát	apáca	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	apáca
 internáltak	internál	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	internál
-Újszászra	Újszász	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Újszász
+Újszászra	Újszász	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Újszász
 .	.	PUNCT	[Punct]	_	O	.
 
 1994-ben	1994	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1994
@@ -94,10 +94,10 @@ Jász-Nagykun-Szolnok	Jász-Nagykun-Szolnok	PROPN	[/N]	Case=Nom|Number=Sing	B-MI
 Megyei	Megyei	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Megyei
 Önkormányzat	Önkormányzat	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Önkormányzat
 Pszichiátriai	Pszichiátriai	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Pszichiátriai
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
+és	és	CCONJ	[/N]	_	I-MISC	és
 Szenvedélybetegek	Szenvedélybetegek	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Szenvedélybetegek
 Otthona	Otthona	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Otthona
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
+és	és	CCONJ	[/N]	_	I-MISC	és
 Rehabilitációs	Rehabilitációs	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Rehabilitációs
 Intézménye	Intézménye	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Intézménye
 nevet	név	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	név
@@ -419,7 +419,7 @@ meg	meg	PART	[/Prev]	_	O	meg
 
 József	József	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	József
 Attila	Attila	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	Attila
-tér	tér	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	tér
+tér	tér	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	tér
 4./	4	NUM	[/Num|Digit][Nom][Punct][Hyph:Slash]	Case=Nom|Number=Sing|NumType=Card	O	4
 
 Nekem	én	PRON	[/N|Pro][Dat][1Sg]	Case=Dat|Number=Sing|Person=1|PronType=Prs	O	én
@@ -477,7 +477,7 @@ tévedtél	téved	VERB	[/V][Pst.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pers
 !!!	!!!	PUNCT	[Punct]	_	O	!!!
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 téma	téma	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	téma
 !	!	PUNCT	[Punct]	_	O	!
 
@@ -559,5 +559,4 @@ sok	sok	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 gyökere	gyökér	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	gyökér
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 .	.	PUNCT	[Punct]	_	O	.
-
 

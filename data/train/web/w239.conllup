@@ -44,7 +44,7 @@ kapott	kapott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kapott
 gépkocsival	gépkocsi	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	gépkocsi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gárdonyi	gárdonyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gárdonyi
-Rendőrkapitánysággal	rendőrkapitányság	NOUN	[/N][Ins]	Case=Ins|Number=Sing	B-ORG	rendőrkapitányság
+Rendőrkapitánysággal	rendőrkapitányság	PROPN	[/N][Ins]	Case=Ins|Number=Sing	B-ORG	rendőrkapitányság
 kötött	kötött	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kötött
 együttműködési	együttműködési	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	együttműködési
 szerződés	szerződés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szerződés
@@ -140,7 +140,7 @@ közlekednek	közlekedik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Pl
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 rendelkezés	rendelkezés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rendelkezés
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 kórházi	kórházi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kórházi
 osztályra	osztály	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	osztály
 érvényes	érvényes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érvényes
@@ -296,7 +296,7 @@ rendezője	rendező	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=S
 :	:	PUNCT	[Punct]	_	O	:
 Gárdony	Gárdony	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Gárdony
 város	város	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	város
-Önkormányzata	önkormányzat	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-ORG	önkormányzat
+Önkormányzata	önkormányzat	PROPN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing	I-ORG	önkormányzat
 
 Cím	cím	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	cím
 :	:	PUNCT	[Punct]	_	O	:
@@ -304,7 +304,7 @@ Cím	cím	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	cím
 Gárdony	Gárdony	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Gárdony
 ,	,	PUNCT	[Punct]	_	O	,
 Szabadság	Szabadság	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Szabadság
-u.	u.	NOUN	[/N][Nom][]	Case=Nom|Number=Sing	I-LOC	u.
+u.	u.	PROPN	[/N][Nom][]	Case=Nom|Number=Sing	I-LOC	u.
 20-22	20-22.	ADJ	[/Num|Digit][Nom][Punct]	Case=Nom|Number=Sing|NumType=Ord	O	20-22.
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -480,7 +480,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Expedíció	Expedíció	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Expedíció
 Velencei-tó	Velencei-tó	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Velencei-tó
 Tömegsport	Tömegsport	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Tömegsport
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-ORG	és
+és	és	CCONJ	[/N]	_	I-ORG	és
 Környezetvédő	Környezetvédő	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Környezetvédő
 Egyesület	Egyesület	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Egyesület
 ,	,	PUNCT	[Punct]	_	O	,
@@ -499,7 +499,7 @@ Chernel	Chernel	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Chernel
 István	István	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	István
 Általános	Általános	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Általános
 Iskola	Iskola	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Iskola
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-ORG	és
+és	és	CCONJ	[/N]	_	I-ORG	és
 Gimnázium	Gimnázium	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Gimnázium
 ,	,	PUNCT	[Punct]	_	O	,
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
@@ -563,5 +563,4 @@ nevelését	nevelés	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=
 valósítanák	valósít	VERB	[/V][Cond.Def.3Pl]	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	valósít
 meg	meg	PART	[/Prev]	_	O	meg
 .	.	PUNCT	[Punct]	_	O	.
-
 

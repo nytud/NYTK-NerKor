@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Különösen	különösen	ADV	[/Adv]	_	O	különösen
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Neptuné	Neptun	PROPN	[/N][AnP][Nom]	Case=Nom|Number=Sing|Number[psed]=Sing	B-LOC	Neptun
+Neptuné	Neptun	PROPN	[/N][AnP][Nom]	Case=Nom|Number=Sing	B-LOC	Neptun
 :	:	PUNCT	[Punct]	_	O	:
 tudtam	tud	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tud
 róla	ő	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
@@ -530,7 +530,7 @@ lefelé	lefelé	ADV	[/Adv]	_	O	lefelé
 Egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
 óra	óra	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	óra
 mulva	múlva	ADV	[/Adv]	_	O	múlva
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 átmenet	átmenet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	átmenet
 nélkül	nélkül	ADP	[/Post]	_	O	nélkül
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -773,7 +773,7 @@ homályból	homály	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	homály
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 pillanatra	pillanat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	pillanat
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 tagomba	tag	NOUN	[/N][Poss.1Sg][Ill]	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	tag
 zsibbadás	zsibbadás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	zsibbadás
 feküdt	fekszik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fekszik
@@ -2538,7 +2538,7 @@ kalapja	kalap	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Pe
 ugy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
 szét	szét	ADV	[/Prev]	_	O	szét
 pukkant	pukkan	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	pukkan
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -2962,7 +2962,7 @@ Még	még	ADV	[/Adv]	_	O	még
 irok	ír	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	ír
 valamit	valami	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Ind	O	valami
 ,	,	PUNCT	[Punct]	_	O	,
-Stancikám	Stancika	PROPN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Stancika
+Stancikám	Stancika	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Stancika
 “	“	PUNCT	[Punct]	_	O	“
 és	és	CCONJ	[/Cnj]	_	O	és
 még	még	ADV	[/Adv]	_	O	még
@@ -3264,5 +3264,4 @@ he	he	INTJ	[/Inj-Utt]	_	O	he
 …	…	PUNCT	[Punct]	_	O	…
 he	he	INTJ	[/Inj-Utt]	_	O	he
 …	…	PUNCT	[Punct]	_	O	…
-
 

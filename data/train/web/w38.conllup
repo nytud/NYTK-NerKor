@@ -17,8 +17,8 @@ epikus	epikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	epikus
 és	és	CCONJ	[/Cnj]	_	O	és
 gyönyörű	gyönyörű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyönyörű
 Magic	Magic	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Magic
-of	of	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	of
-the	the	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	the
+of	of	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	of
+the	the	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	the
 Wizard's	Wizard's	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Wizard's
 Dream	Dream	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Dream
 ,	,	PUNCT	[Punct]	_	O	,
@@ -127,7 +127,7 @@ Galaktika	Galaktika	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Galaktika
 szerkesztőségébe	szerkesztőség	NOUN	[/N][Poss.3Sg][Ill]	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szerkesztőség
 Barker	Barker	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Barker
 mester	mester	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	mester
-Abarat-jának	Abarat	PROPN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	B-MISC	Abarat
+Abarat-jának	Abarat	NOUN	[/N][Poss.3Sg][Dat]	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	B-MISC	Abarat
 következő	következő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	következő
 része	rész	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	rész
 angolul	angol	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	angol
@@ -218,7 +218,7 @@ rá	rá	ADV	[/Prev]	_	O	rá
 …	…	PUNCT	[Punct]	_	O	…
 
 Egyszer	egyszer	ADV	[/Adv]	_	O	egyszer
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 életében	élet	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	élet
 eljön	eljön	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	eljön
@@ -260,7 +260,7 @@ Jar	Jar	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Jar
 Binks	Binks	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Binks
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Baljós	Baljós	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Baljós
-Árnyakból	árnyak	NOUN	[/N][Ela]	Case=Ela|Number=Sing	I-MISC	árnyak
+Árnyakból	árnyak	PROPN	[/N][Ela]	Case=Ela|Number=Sing	I-MISC	árnyak
 .	.	PUNCT	[Punct]	_	O	.
 
 Ugyanis	ugyanis	CCONJ	[/Cnj]	_	O	ugyanis
@@ -308,7 +308,7 @@ jelek	jel	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	jel
 szerint	szerint	ADP	[/Post]	_	O	szerint
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 kellett	kell	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kell
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 :	:	PUNCT	[Punct]	_	O	:
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 biológiatanár	biológiatanár	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	biológiatanár
@@ -332,9 +332,9 @@ egyet	egy	NOUN	[/N|Pro][Acc]	Case=Acc|Number=Sing	O	egy
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Warhammer	Warhammer	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Warhammer
-40k	40k	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	40k
+40k	40k	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	40k
 univerzum	univerzum	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	univerzum
-Terrájának	Terra	PROPN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	B-LOC	Terra
+Terrájának	Terra	PROPN	[/N][Poss.3Sg][Dat]	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	B-LOC	Terra
 első	első	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	egy
 számú	számú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	számú
 óvszere	óvszer	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	óvszer
@@ -423,7 +423,7 @@ Magyarországon	Magyarország	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Magyar
 kiszabadítjuk	kiszabadít	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kiszabadít
 Táncsicsot	Táncsics	PROPN	[/N][Acc]	Case=Acc|Number=Sing	B-PER	Táncsics
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Hold	hold	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	hold
+Hold	hold	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	hold
 börtönéből	börtön	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	börtön
 ,	,	PUNCT	[Punct]	_	O	,
 megfosztjuk	megfoszt	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megfoszt
@@ -516,5 +516,4 @@ találkozik	találkozik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sin
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 földönkívüliekkel	földönkívüli	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	földönkívüli
 .	.	PUNCT	[Punct]	_	O	.
-
 

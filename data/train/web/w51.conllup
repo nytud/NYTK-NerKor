@@ -46,9 +46,9 @@ léteznének	létezik	VERB	[/V][Cond.NDef.3Pl]	Definite=Ind|Mood=Cnd|Number=Plur
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Mátrix	Mátrix	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Mátrix
--	-	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	-
-Forradalmak	Forradalmak	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Forradalmak
+Mátrix	Mátrix	NOUN	[/N]	Case=Nom|Number=Plur	B-MISC	Mátrix
+-	-	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	-
+Forradalmak	Forradalmak	NOUN	[/N][Nom]	Case=Nom|Number=Plur	I-MISC	Forradalmak
 végén	vég	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vég
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 építésztől	építész	NOUN	[/N][Abl]	Case=Abl|Number=Sing	O	építész
@@ -88,10 +88,10 @@ ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	il
 listát	lista	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	lista
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Arszen	Arszen	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Arszen
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
+és	és	CCONJ	[/N]	_	I-MISC	és
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
 játék	játék	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	játék
-hatalma	hatalma	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	hatalma
+hatalma	hatalma	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	hatalma
 megjelenését	megjelenés	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megjelenés
 várva	várva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	vár
 ,	,	PUNCT	[Punct]	_	O	,
@@ -135,10 +135,10 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 .	.	PUNCT	[Punct]	_	O	.
 
-Magyarországra	Magyarország	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Magyarország
+Magyarországra	Magyarország	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Magyarország
 érkezett	érkezik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	érkezik
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Vastrón	Vastrón	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Vastrón
+Vastrón	Vastrón	PROPN	[/N][Nom]	Case=Sup|Number=Sing	B-MISC	Vastrón
 .	.	PUNCT	[Punct]	_	O	.
 
 Mondanom	mond	VERB	[/V][Inf.1Sg]	Number=Sing|Person=1|Tense=Pres|VerbForm=Inf|Voice=Act	O	mond
@@ -161,7 +161,7 @@ vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Trónok	Trónok	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Trónok
-harca	harca	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	harca
+harca	harca	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	harca
 sikerének	siker	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	siker
 egyik	egyik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyik
 igazán	igazán	ADV	[/Adv]	_	O	igazán
@@ -179,7 +179,7 @@ Martin	Martin	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Martin
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Trónok	Trónok	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Trónok
-harca	harca	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	harca
+harca	harca	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	harca
 legújabb	új	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	új
 évadának	évad	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	évad
 népszerűsítésére	népszerűsítés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	népszerűsítés
@@ -373,5 +373,4 @@ ha	ha	SCONJ	[/Cnj]	_	O	ha
 magyar	magyar	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	magyar
 filmcímadók	filmcímadó	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	filmcímadó
 …	…	PUNCT	[Punct]	_	O	…
-
 

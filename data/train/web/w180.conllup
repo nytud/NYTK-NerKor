@@ -376,7 +376,7 @@ egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
 
 Én	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
 például	például	ADV	[/Adv]	_	O	például
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 reggel	reggel	ADV	[/Adv]	_	O	reggel
 kávéval	kávé	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	kávé
 kezdem	kezd	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kezd
@@ -403,9 +403,9 @@ meg	meg	PART	[/Prev]	_	O	meg
 Rejtő	Rejtő	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Rejtő
 Jenő	Jenő	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Jenő
 :	:	PUNCT	[Punct]	_	O	:
-Az	Az	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Az
-elveszett	elveszett	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	elveszett
-cirkáló	cirkáló	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	cirkáló
+Az	Az	DET	[/N]	Definite=Def|PronType=Art	B-MISC	Az
+elveszett	elveszett	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	elveszett
+cirkáló	cirkáló	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	cirkáló
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 teszt	teszt	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	teszt
@@ -416,9 +416,9 @@ Hamlet-parafrázisának	Hamlet-parafrázis	PROPN	[/N][Poss.3Sg][Dat]	Case=Dat|Nu
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Rosencrantz	Rosencrantz	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Rosencrantz
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
+és	és	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	és
 Guildenstern	Guildenstern	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Guildenstern
-halott	halott	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	halott
+halott	halott	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	halott
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
 színdarabjának	színdarab	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	színdarab
 nyitójelenete	nyitójelenet	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	nyitójelenet
@@ -463,7 +463,7 @@ annak	az	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	az
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
 ma	ma	ADV	[/Adv]	_	O	ma
 már	már	ADV	[/Adv]	_	O	már
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 épkézláb	épkézláb	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	épkézláb
 pszichoterápiás	pszichoterápiás	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	pszichoterápiás
 megközelítés	megközelítés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	megközelítés
@@ -547,5 +547,4 @@ ugyanazt	ugyanaz	ADV	[/Det|Pro][Acc]	PronType=Art	O	ugyanaz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szenvedést	szenvedés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szenvedés
 .	.	PUNCT	[Punct]	_	O	.
-
 

@@ -27,7 +27,7 @@ tért	tér	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	tér
 ,	,	PUNCT	[Punct]	_	O	,
 neve	név	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	név
 Hősök	Hősök	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Hősök
-tere	tere	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	tere
+tere	tere	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	tere
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -96,7 +96,7 @@ visszamentünk	visszamegy	VERB	[/V][Pst.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=P
 .	.	PUNCT	[Punct]	_	O	.
 
 Aki	aki	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aki
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 nap	nap	ADV	[/Adv]	_	O	nap
 nevet	nevet	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	nevet
 ,	,	PUNCT	[Punct]	_	O	,
@@ -301,7 +301,7 @@ tyúk	tyúk	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tyúk
 .	.	PUNCT	[Punct]	_	O	.
 
 Kedves	kedves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kedves
-Kertelek	Kertelek	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Kertelek
+Kertelek	Kertelek	VERB	[/N][Nom]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	B-PER	Kertelek
 !	!	PUNCT	[Punct]	_	O	!
 
 Gondoltam	gondol	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	gondol
@@ -355,7 +355,7 @@ lehetnének	lesz	VERB	[/V][_Mod/V][Cond.NDef.3Pl]	Definite=Ind|Mood=Cnd,Pot|Numb
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 szép	szép	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szép
 virágos	virágos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	virágos
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 egész	egész	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egész
 szezonban	szezon	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	szezon
 .	.	PUNCT	[Punct]	_	O	.
@@ -472,5 +472,4 @@ nekem	én	PRON	[/N|Pro][Dat][1Sg]	Case=Dat|Number=Sing|Person=1|PronType=Prs	O	�
 itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
 dolgozni	dolgozik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	dolgozik
 .	.	PUNCT	[Punct]	_	O	.
-
 

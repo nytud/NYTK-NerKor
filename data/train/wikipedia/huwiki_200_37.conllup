@@ -2,7 +2,7 @@
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 13.	13	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	13
 században	század	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	század
-X.	X	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	B-PER	X
+X.	X	PROPN	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing	B-PER	X
 Alfon	Alfon	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Alfon
 uralkodása	uralkodás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	uralkodás
 alatt	alatt	ADP	[/Post]	_	O	alatt
@@ -32,9 +32,9 @@ hórreo	hórreo	X	[/X]	_	O	hórreo
 (	(	PUNCT	[Punct]	_	O	(
 gabonatároló	gabonatároló	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gabonatároló
 )	)	PUNCT	[Punct]	_	O	)
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	A
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-LOC	A
 Coruña	Coruña	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	Coruña
-tartományban	tartomány	NOUN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	tartomány
+tartományban	tartomány	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	tartomány
 .	.	PUNCT	[Punct]	_	O	.
 
 Francisco	Francisco	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Francisco
@@ -54,7 +54,7 @@ galíciai	Galícia	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	
 nyelv	nyelv	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyelv
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 kultúra	kultúra	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kultúra
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 mozgalmát	mozgalom	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	mozgalom
 elfojtották	elfojt	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elfojt
 .	.	PUNCT	[Punct]	_	O	.
@@ -213,7 +213,7 @@ trónt	trón	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	trón
 .	.	PUNCT	[Punct]	_	O	.
 
 Hazatérve	Hazatérve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	hazatér
-Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Loc|Number=Sing	B-LOC	Kolozsvár
+Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 tisztviselő	tisztviselő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tisztviselő
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -234,15 +234,15 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 század	század	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	század
 elején	eleje	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eleje
 került	kerül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
-Aradra	Arad	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Arad
+Aradra	Arad	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Arad
 .	.	PUNCT	[Punct]	_	O	.
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
 ma	ma	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	ma
-nője	nője	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	nője
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
-más	más	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	más
-figurák	figurák	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	figurák
+nője	nője	NOUN	[/N]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	nője
+és	és	CCONJ	[/N]	_	I-MISC	és
+más	más	DET	[/N]	Definite=Ind|PronType=Ind	I-MISC	más
+figurák	figurák	NOUN	[/N][Nom]	Case=Nom|Number=Plur	I-MISC	figurák
 (	(	PUNCT	[Punct]	_	O	(
 verses	verses	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	verses
 elbeszélés	elbeszélés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	elbeszélés
@@ -281,7 +281,7 @@ iskolai	iskolai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	iskolai
 tanulmányokat	tanulmány	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	tanulmány
 szülőfalujában	szülőfalu	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szülőfalu
 és	és	CCONJ	[/Cnj]	_	O	és
-Királydarócon	Királydaróc	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Királydaróc
+Királydarócon	Királydaróc	PROPN	[/N][Supe]	Case=Ine|Number=Sing	B-LOC	Királydaróc
 ,	,	PUNCT	[Punct]	_	O	,
 gimnáziumot	gimnázium	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	gimnázium
 Nagykárolyban	Nagykároly	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Nagykároly
@@ -347,7 +347,7 @@ késztették	késztet	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|P
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 áthelyezze	áthelyez	VERB	[/V][Sbjv.Def.3Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	áthelyez
 műtermét	műterem	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	műterem
-Felsőbányára	Felsőbánya	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Felsőbánya
+Felsőbányára	Felsőbánya	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Felsőbánya
 .	.	PUNCT	[Punct]	_	O	.
 
 Collin	Collin	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Collin
@@ -476,7 +476,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 felelős	felelős	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	felelős
 szerkesztőjeként	szerkesztő	NOUN	[/N][Poss.3Sg][EssFor:ként]	Case=Ess|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szerkesztő
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-volt	volt	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	volt
+volt	van	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	volt
 pártlap	pártlap	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	pártlap
 átalakításának	átalakítás	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	átalakítás
 egyik	egyik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyik
@@ -496,7 +496,7 @@ Népszabadság	Népszabadság	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Népsz
 Orvosi	orvosi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	orvosi
 diplomát	diploma	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	diploma
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Szegedre	Szeged	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Szeged
+Szegedre	Szeged	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Szeged
 költözött	költözött	ADJ	[/V][_PerfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	O	költözik
 kolozsvári	Kolozsvár	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kolozsvár
 magyar	magyar	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	magyar
@@ -564,8 +564,8 @@ szerzett	szerez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Színház	Színház	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Színház
-az	az	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	az
-egész	egész	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	egész
+az	az	DET	[/N]	Definite=Def|PronType=Art	I-MISC	az
+egész	egész	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	egész
 világ	világ	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	világ
 (	(	PUNCT	[Punct]	_	O	(
 The	The	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	The
@@ -574,7 +574,7 @@ Life	Life	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Life
 )	)	PUNCT	[Punct]	_	O	)
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Született	Született	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Született
-feleségek	feleségek	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	feleségek
+feleségek	feleségek	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	feleségek
 (	(	PUNCT	[Punct]	_	O	(
 Desperate	Desperate	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Desperate
 Housewives	Housewives	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Housewives
@@ -659,13 +659,13 @@ Modor	Modor	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Modor
 )	)	PUNCT	[Punct]	_	O	)
 .	.	PUNCT	[Punct]	_	O	.
 
-Modra	Modra	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Modra
+Modra	Modra	PROPN	[/N][Nom]	Case=Sbl|Number=Sing	B-LOC	Modra
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kolozsvári	Kolozsvár	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kolozsvár
 Babeș-Bolyai	Babeș-Bolyai	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Babeș-Bolyai
-Egyetemen	Egyetem	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-ORG	Egyetem
+Egyetemen	Egyetem	PROPN	[/N][Supe]	Case=Ine|Number=Sing	I-ORG	Egyetem
 filozófia	filozófia	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	filozófia
 szakot	szak	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szak
 végzett	végez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	végez
@@ -707,7 +707,7 @@ vissza	vissza	ADV	[/Prev]	_	O	vissza
 
 Ezen	ezen	ADV	[/Det|Pro|def]	PronType=Art	O	ezen
 családok	család	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	család
-Makóra	Makó	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Makó
+Makóra	Makó	PROPN	[/N][Subl]	Case=Nom|Number=Sing	B-LOC	Makó
 érkezése	érkezés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	érkezés
 után	után	ADP	[/Post]	_	O	után
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -753,7 +753,7 @@ kényszerült	kényszerül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=
 .	.	PUNCT	[Punct]	_	O	.
 
 1881–1890-ben	1881–1890	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1881–1890
-Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Loc|Number=Sing	B-LOC	Kolozsvár
+Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1891-től	1891	NUM	[/Num|Digit][Abl]	Case=Abl|Number=Sing|NumType=Card	O	1891
 haláláig	halál	NOUN	[/N][Poss.3Sg][Ter]	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	halál
@@ -917,14 +917,14 @@ gyűjtött	gyűjt	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pers
 össze	össze	ADV	[/Prev]	_	O	össze
 .	.	PUNCT	[Punct]	_	O	.
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-majmok	majmok	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	majmok
-bolygója	bolygója	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	bolygója
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+majmok	majmok	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	majmok
+bolygója	bolygója	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	bolygója
 (	(	PUNCT	[Punct]	_	O	(
 Planet	Planet	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Planet
-of	of	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	of
-the	the	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	the
-apes	apes	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	apes
+of	of	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	of
+the	the	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	the
+apes	apes	X	[/N][Nom]	_	I-MISC	apes
 )	)	PUNCT	[Punct]	_	O	)
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 amerikai	Amerika	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Amerika
@@ -1258,11 +1258,11 @@ település	település	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	település
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Karabiner	Karabiner	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Karabiner
-98k-hoz	98k	NOUN	[/N][All]	Case=All|Number=Sing	I-MISC	98k
+98k-hoz	98k	PROPN	[/N][All]	Case=All|Number=Sing	I-MISC	98k
 hasonlóan	hasonló	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	hasonló
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Gewehr	Gewehr	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Gewehr
-98	98	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	98
+98	98	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	98
 könnyített	könnyített	ADJ	[/V][_PerfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	O	könnyít
 és	és	CCONJ	[/Cnj]	_	O	és
 rövidített	rövidített	ADJ	[/V][_PerfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	O	rövidít
@@ -1372,7 +1372,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kolozsvári	Kolozsvár	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	B-ORG	Kolozsvár
 I.	I.	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	I.
 Ferdinánd	Ferdinánd	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Ferdinánd
-Egyetemen	Egyetem	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-ORG	Egyetem
+Egyetemen	Egyetem	PROPN	[/N][Supe]	Case=Ine|Number=Sing	I-ORG	Egyetem
 jogot	jog	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	jog
 végzett	végez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	végez
 (	(	PUNCT	[Punct]	_	O	(
@@ -1416,7 +1416,7 @@ váradi	Várad	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Vár
 .	.	PUNCT	[Punct]	_	O	.
 
 1898-tól	1898	NUM	[/Num|Digit][Abl]	Case=Abl|Number=Sing|NumType=Card	O	1898
-Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Loc|Number=Sing	B-LOC	Kolozsvár
+Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 tiszti	tiszti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tiszti
 orvos	orvos	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	orvos
 1918-ig	1918	NUM	[/Num|Digit][Ter]	Case=Ter|Number=Sing|NumType=Card	O	1918
@@ -1478,7 +1478,7 @@ Egyetemi	egyetemi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyetemi
 és	és	CCONJ	[/Cnj]	_	O	és
 teológiai	teológiai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	teológiai
 tanulmányait	tanulmány	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	tanulmány
-Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Loc|Number=Sing	B-LOC	Kolozsvár
+Kolozsvárott	Kolozsvár	PROPN	[/N][Loc]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 végezte	végez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	végez
 ,	,	PUNCT	[Punct]	_	O	,
 doktori	doktori	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	doktori
@@ -1510,7 +1510,7 @@ folyóiban	folyó	NOUN	[/N][Pl.Poss.3Sg][Ine]	Case=Ine|Number=Plur|Number[psor]=
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Sáros	Sáros	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	Sáros
 vármegyei	vármegyei	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vármegyei
-Eperjesen	Eperjes	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Eperjes
+Eperjesen	Eperjes	PROPN	[/N][Supe]	Case=Ine|Number=Sing	B-LOC	Eperjes
 született	születik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	születik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1546,7 +1546,7 @@ amelyet	amely	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 későbbiekben	későbbi	ADJ	[/Adj][Pl][Ine]	Case=Ine|Degree=Pos|Number=Plur	O	későbbi
 Gazdasági	Gazdasági	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Gazdasági
-Akadémiává	Akadémia	PROPN	[/N][Transl]	Case=Tra|Number=Sing	I-ORG	Akadémia
+Akadémiává	Akadémia	PROPN	[/N][Transl]	Case=Dat|Number=Sing	I-ORG	Akadémia
 szerveztek	szervez	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szervez
 át	át	ADV	[/Prev]	_	O	át
 )	)	PUNCT	[Punct]	_	O	)
@@ -1609,7 +1609,7 @@ kiadványa	kiadvány	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=
 és	és	CCONJ	[/Cnj]	_	O	és
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Agrártudományi	Agrártudományi	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Agrártudományi
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-ORG	és
+és	és	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	és
 Állatorvosi	Állatorvosi	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Állatorvosi
 Egyetem	Egyetem	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Egyetem
 2004-es	2004-es	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	2004-es
@@ -1657,29 +1657,29 @@ fejtett	fejt	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|
 ki	ki	ADV	[/Prev]	_	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
-Népszerű	Népszerű	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Népszerű
-gazdasági	gazdasági	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gazdasági
+Népszerű	Népszerű	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	B-MISC	Népszerű
+gazdasági	gazdasági	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	gazdasági
 növénytan	növénytan	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	növénytan
-alsófokú	alsófokú	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	alsófokú
-gazdasági	gazdasági	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gazdasági
-iskolák	iskolák	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	iskolák
-számára	számára	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	számára
+alsófokú	alsófokú	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	alsófokú
+gazdasági	gazdasági	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	gazdasági
+iskolák	iskolák	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	iskolák
+számára	számára	ADP	[/N][Nom]	_	I-MISC	számára
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1895.	1895	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1895
 )	)	PUNCT	[Punct]	_	O	)
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-gabonafélék	gabonafélék	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gabonafélék
-,	,	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	,
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+gabonafélék	gabonafélék	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	gabonafélék
+,	,	PUNCT	[/N]	_	I-MISC	,
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
 burgonya	burgonya	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	burgonya
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
+és	és	CCONJ	[/N]	_	I-MISC	és
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
 szőlő	szőlő	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	szőlő
-legfontosabb	legfontosabb	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	legfontosabb
-gombabetegségei	gombabetegségei	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	gombabetegségei
+legfontosabb	legfontosabb	ADJ	[/N]	Case=Nom|Degree=Sup|Number=Sing	I-MISC	legfontosabb
+gombabetegségei	gombabetegségei	NOUN	[/N][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	I-MISC	gombabetegségei
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
@@ -1690,29 +1690,29 @@ kiadás	kiadás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kiadás
 1911.	1911	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1911
 )	)	PUNCT	[Punct]	_	O	)
 
-Gazdasági	Gazdasági	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Gazdasági
+Gazdasági	Gazdasági	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	B-MISC	Gazdasági
 állattan	állattan	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	állattan
-földmívesiskolák	földmívesiskolák	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	földmívesiskolák
-számára	számára	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	számára
+földmívesiskolák	földmívesiskolák	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	földmívesiskolák
+számára	számára	ADP	[/N][Nom]	_	I-MISC	számára
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1896.	1896	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1896
 )	)	PUNCT	[Punct]	_	O	)
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-haltenyésztésről	haltenyésztésről	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	haltenyésztésről
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+haltenyésztésről	haltenyésztésről	NOUN	[/N][Nom]	Case=Del|Number=Sing	I-MISC	haltenyésztésről
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1897.	1897	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1897
 )	)	PUNCT	[Punct]	_	O	)
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-házi	házi	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	házi
-állatok	állatok	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	állatok
-fontosabb	fontosabb	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	fontosabb
-élősködői	élősködői	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	élősködői
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+házi	házi	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	házi
+állatok	állatok	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	állatok
+fontosabb	fontosabb	ADJ	[/N]	Case=Nom|Degree=Cmp|Number=Sing	I-MISC	fontosabb
+élősködői	élősködői	NOUN	[/N][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	I-MISC	élősködői
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
@@ -1723,23 +1723,23 @@ kiadás	kiadás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kiadás
 1904.	1904	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1904
 )	)	PUNCT	[Punct]	_	O	)
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-gyógynövények	gyógynövények	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gyógynövények
-termesztése	termesztése	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	termesztése
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+gyógynövények	gyógynövények	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	gyógynövények
+termesztése	termesztése	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	termesztése
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1906.	1906	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1906
 )	)	PUNCT	[Punct]	_	O	)
 
-Rövid	Rövid	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Rövid
+Rövid	Rövid	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	B-MISC	Rövid
 útmutatás	útmutatás	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	útmutatás
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-vadon	vadon	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	vadon
-termő	termő	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	termő
-gyógyító	gyógyító	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gyógyító
-növények	növények	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	növények
-gyűjtésére	gyűjtésére	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	gyűjtésére
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+vadon	vadon	ADJ	[/N]	Case=Ess|Degree=Pos|Number=Sing	I-MISC	vadon
+termő	termő	ADJ	[/N]	Case=Nom|Number=Sing|VerbForm=PartPres	I-MISC	termő
+gyógyító	gyógyító	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	gyógyító
+növények	növények	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	növények
+gyűjtésére	gyűjtésére	NOUN	[/N][Nom]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	gyűjtésére
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
@@ -1750,35 +1750,35 @@ kiadás	kiadás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kiadás
 1911.	1911	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1911
 )	)	PUNCT	[Punct]	_	O	)
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
 gyógynövénytermesztés	gyógynövénytermesztés	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gyógynövénytermesztés
-rövid	rövid	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	rövid
-foglalatja	foglalatja	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	foglalatja
+rövid	rövid	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	rövid
+foglalatja	foglalatja	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	foglalatja
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1924.	1924	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1924
 )	)	PUNCT	[Punct]	_	O	)
 
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-gyümölcsfák	gyümölcsfák	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gyümölcsfák
-betegségei	betegségei	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	betegségei
-és	és	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	és
-ellenségei	ellenségei	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	ellenségei
-,	,	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	,
-valamint	valamint	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	valamint
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-gyümölcsfák	gyümölcsfák	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	gyümölcsfák
-terméketlenségének	terméketlenségének	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	terméketlenségének
-okai	okai	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	okai
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+gyümölcsfák	gyümölcsfák	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	gyümölcsfák
+betegségei	betegségei	NOUN	[/N]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	I-MISC	betegségei
+és	és	CCONJ	[/N]	_	I-MISC	és
+ellenségei	ellenségei	NOUN	[/N]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	I-MISC	ellenségei
+,	,	PUNCT	[/N]	_	I-MISC	,
+valamint	valamint	CCONJ	[/N]	_	I-MISC	valamint
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+gyümölcsfák	gyümölcsfák	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	gyümölcsfák
+terméketlenségének	terméketlenségének	NOUN	[/N]	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	terméketlenségének
+okai	okai	NOUN	[/N][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	I-MISC	okai
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
 1929.	1929	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1929
 )	)	PUNCT	[Punct]	_	O	)
 
-Csodahatású	Csodahatású	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Csodahatású
-gyógynövények	gyógynövények	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	gyógynövények
+Csodahatású	Csodahatású	ADJ	[/N]	Case=Nom|Degree=Pos|Number=Sing	B-MISC	Csodahatású
+gyógynövények	gyógynövények	NOUN	[/N][Nom]	Case=Nom|Number=Plur	I-MISC	gyógynövények
 (	(	PUNCT	[Punct]	_	O	(
 Kolozsvár	Kolozsvár	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kolozsvár
 ,	,	PUNCT	[Punct]	_	O	,
@@ -2210,7 +2210,7 @@ könyvjelzője	könyvjelző	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Safari	Safari	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Safari
-3	3	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	3
+3	3	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	3
 megjelenéséig	megjelenés	NOUN	[/N][Poss.3Sg][Ter]	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megjelenés
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2224,7 +2224,7 @@ Eurogamer	Eurogamer	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Eurogamer
 weblappal	weblap	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	weblap
 .	.	PUNCT	[Punct]	_	O	.
 
-Beatrixnak	Beatrix	PROPN	[/N][Dat]	Case=Dat|Number=Sing	B-PER	Beatrix
+Beatrixnak	Beatrix	PROPN	[/N][Dat]	Case=Gen|Number=Sing	B-PER	Beatrix
 több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 gyermeke	gyermek	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	gyermek
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -2453,5 +2453,4 @@ középkorból	középkor	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	középkor
 maradtak	marad	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	marad
 fenn	fenn	ADV	[/Prev]	_	O	fenn
 .	.	PUNCT	[Punct]	_	O	.
-
 

@@ -54,7 +54,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 várható	várható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	várható
 .	.	PUNCT	[Punct]	_	O	.
 
-Dr.	dr.	NOUN	[/N]	Case=Nom|Number=Sing	B-PER	dr.
+Dr.	dr.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	dr.
 Gaudi-Nagy	Gaudi-Nagy	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Gaudi-Nagy
 Tamás	Tamás	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Tamás
 ,	,	PUNCT	[Punct]	_	O	,
@@ -137,7 +137,7 @@ szeptember	szeptember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szeptember
 25-én	25	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	25
 ,	,	PUNCT	[Punct]	_	O	,
 Magyarország	Magyarország	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Magyarország
-Alaptörvényének	alaptörvény	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	alaptörvény
+Alaptörvényének	alaptörvény	PROPN	[/N][Poss.3Sg][Dat]	Case=Nom|Number=Sing	I-MISC	alaptörvény
 második	második	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	kettő
 módosítása	módosítás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	módosítás
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
@@ -258,12 +258,12 @@ december	december	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	december
 17-én	17	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	17
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Egyes	egyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	B-MISC	egyes
+Egyes	egyes	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	B-MISC	egyes
 igazságügyi	igazságügyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	igazságügyi
 tárgyú	tárgyú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	tárgyú
 törvények	törvény	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	I-MISC	törvény
 módosításáról	módosítás	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	módosítás
-szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	szóló
+szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Number=Sing|VerbForm=PartPres	I-MISC	szóló
 törvényjavaslat	törvényjavaslat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	törvényjavaslat
 (	(	PUNCT	[Punct]	_	O	(
 T/9233	t/9233	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	t/9233
@@ -285,7 +285,7 @@ jelölte	jelöl	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=
 meg	meg	PART	[/Prev]	_	O	meg
 ,	,	PUNCT	[Punct]	_	O	,
 melyhez	mely	PRON	[/N|Pro|Rel][All]	Case=All|Number=Sing|Person=3|PronType=Rel	O	amely
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 támogatást	támogatás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	támogatás
 és	és	CCONJ	[/Cnj]	_	O	és
 mindenkor	mindenkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mindenkor
@@ -485,7 +485,7 @@ alakult	alakul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=
 
 Szeretettel	szeretet	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	szeretet
 várok	vár	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vár
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 szolidáris	szolidáris	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szolidáris
 hazafit	hazafi	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	hazafi
 ,	,	PUNCT	[Punct]	_	O	,
@@ -500,5 +500,4 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 teljes	teljes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	teljes
 elszámoltatás	elszámoltatás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	elszámoltatás
 !	!	PUNCT	[Punct]	_	O	!
-
 

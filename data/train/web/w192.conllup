@@ -27,7 +27,7 @@ legalább	legalább	ADV	[/Adv]	_	O	legalább
 két	két	NUM	[/Num|Attr][Nom]	Case=Nom|Number=Sing|NumType=Card	O	két
 dologra	dolog	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	dolog
 felfigyelt	felfigyel	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	felfigyel
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 .	.	PUNCT	[Punct]	_	O	.
 
 Ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
@@ -126,7 +126,7 @@ vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 jellemünket	jellem	NOUN	[/N][Poss.1Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	jellem
 :	:	PUNCT	[Punct]	_	O	:
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 Péter	Péter	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Péter
 szükségszerűen	szükségszerű	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	szükségszerű
 szilárd	szilárd	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szilárd
@@ -220,7 +220,7 @@ tulajdonosa	tulajdonos	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szülők	szülő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szülő
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 gesztusát	gesztus	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	gesztus
 meghatározza	meghatároz	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	meghatároz
 ,	,	PUNCT	[Punct]	_	O	,
@@ -371,7 +371,7 @@ mai	mai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mai
 napig	nap	NOUN	[/N][Ter]	Case=Ter|Number=Sing	O	nap
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Boglárka	Boglárka	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Boglárka
-utcában	utca	NOUN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	utca
+utcában	utca	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	utca
 lakik	lakik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lakik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -445,7 +445,7 @@ ja	ja	INTJ	[/Inj-Utt]	_	O	ja
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
 először	először	ADV	[/Adv]	_	O	először
-Hitlerre	Hitler	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-PER	Hitler
+Hitlerre	Hitler	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-PER	Hitler
 tippeltem	tippel	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tippel
 :D	:D	PUNCT	[Punct]	_	O	:D
 ,	,	PUNCT	[Punct]	_	O	,
@@ -547,5 +547,4 @@ lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Per
 hamis	hamis	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hamis
 is	is	ADV	[/Adv]	_	O	is
 .	.	PUNCT	[Punct]	_	O	.
-
 

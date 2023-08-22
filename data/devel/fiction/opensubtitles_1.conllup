@@ -1,12 +1,12 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 ROSCOE	ROSCOE	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	ROSCOE
-"	"	NOUN	[/N]	Case=Nom|Number=Sing	I-PER	"
+"	"	PUNCT	[/N]	_	I-PER	"
 FATTY	FATTY	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	FATTY
-"	"	NOUN	[/N]	Case=Nom|Number=Sing	I-PER	"
+"	"	PUNCT	[/N]	_	I-PER	"
 ARBUCKLE	ARBUCKLE	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	ARBUCKLE
 BUSTER	BUSTER	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	BUSTER
 KEATON	KEATON	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	KEATON
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
 szakács	szakács	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	szakács
 Fordította	fordít	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fordít
 :	:	PUNCT	[Punct]	_	O	:
@@ -117,12 +117,12 @@ ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
 fürödni	fürdik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	fürdik
 ...	...	PUNCT	[Punct]	_	O	...
 
-Szállnak	Szállnak	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Szállnak
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-darvak	darvak	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	darvak
+Szállnak	Szállnak	VERB	[/N]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	B-MISC	Szállnak
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+darvak	darvak	NOUN	[/N][Nom]	Case=Nom|Number=Plur	I-MISC	darvak
 Forgatókönyv	forgatókönyv	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	forgatókönyv
 :	:	PUNCT	[Punct]	_	O	:
-V.	V	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	B-PER	V
+V.	V	PROPN	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing	B-PER	V
 Rozov	Rozov	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Rozov
 Rendezte	rendez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	rendez
 :	:	PUNCT	[Punct]	_	O	:
@@ -147,11 +147,11 @@ Veronika	Veronika	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Veronika
 T.	T.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	T.
 Szamojlova	Szamojlova	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Szamojlova
 Borisz	Borisz	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Borisz
-A.	A.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	A.
+A.	A.	PUNCT	[/N]	_	B-PER	A.
 Batalov	Batalov	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Batalov
 Fjodor	Fjodor	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Fjodor
-lvanovics	lvanovics	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	lvanovics
-V.	V.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	V.
+lvanovics	lvanovics	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	lvanovics
+V.	V.	ADJ	[/N]	Case=Nom|NumType=Ord|Number=Sing	B-PER	V.
 Merkurjev	Merkurjev	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Merkurjev
 Mark	Mark	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Mark
 A.	A.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	A.
@@ -162,10 +162,10 @@ Vologya	Vologya	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Vologya
 K.	K.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	K.
 Nyikityin	Nyikityin	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Nyikityin
 Sztyepan	Sztyepan	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Sztyepan
-V.	V.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	V.
+V.	V.	ADJ	[/N]	Case=Nom|NumType=Ord|Number=Sing	B-PER	V.
 Zubkov	Zubkov	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Zubkov
 Nagymama	Nagymama	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Nagymama
-A.	A.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	A.
+A.	A.	PUNCT	[/N]	_	B-PER	A.
 Bogdanova	Bogdanova	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Bogdanova
 Csernov	Csernov	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Csernov
 B.	B.	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	B.
@@ -275,7 +275,7 @@ jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
 emlékszem	emlékszik	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	emlékszik
 .	.	PUNCT	[Punct]	_	O	.
 
-Nagymama	Nagymama	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Nagymama
+Nagymama	Nagymama	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Nagymama
 ,	,	PUNCT	[Punct]	_	O	,
 te	te	PRON	[/N|Pro][2Sg][Nom]	Case=Nom|Number=Sing|Person=2|PronType=Prs	O	te
 még	még	ADV	[/Adv]	_	O	még
@@ -1239,5 +1239,4 @@ kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 
 Mókuska	Mókuska	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Mókuska
 ...	...	PUNCT	[Punct]	_	O	...
-
 

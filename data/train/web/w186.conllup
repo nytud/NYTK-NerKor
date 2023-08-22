@@ -295,13 +295,13 @@ partner	partner	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	partner
 Raymond	Raymond	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Raymond
 Smullyan	Smullyan	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Smullyan
 :	:	PUNCT	[Punct]	_	O	:
-Mi	Mi	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Mi
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-címe	címe	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	címe
-ennek	ennek	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	ennek
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-könyvnek	könyvnek	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	könyvnek
-?	?	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	?
+Mi	Mi	PRON	[/N]	Case=Nom|Number=Sing|Person=3|PronType=Int	B-MISC	Mi
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+címe	címe	NOUN	[/N]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	címe
+ennek	ennek	DET	[/N]	Case=Gen|Number=Sing|Person=3|PronType=Dem	I-MISC	ennek
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
+könyvnek	könyvnek	NOUN	[/N]	Case=Gen|Number=Sing	I-MISC	könyvnek
+?	?	PUNCT	[/N][Nom]	_	I-MISC	?
 )	)	PUNCT	[Punct]	_	O	)
 
 Van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
@@ -513,7 +513,7 @@ az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 ne	ne	ADV	[/Adv]	PronType=Neg	O	ne
 öncélú	öncélú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	öncélú
 locsogás	locsogás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	locsogás
-legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 ,	,	PUNCT	[Punct]	_	O	,
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 valóban	valóban	ADV	[/Adv]	_	O	valóban
@@ -521,5 +521,4 @@ haladás	haladás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	haladás
 valamilyen	valamilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valamilyen
 irányba	irány	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	irány
 .	.	PUNCT	[Punct]	_	O	.
-
 

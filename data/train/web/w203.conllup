@@ -37,7 +37,7 @@ felmutatni	felmutat	VERB	[/V][Inf][Punct]	VerbForm=Inf|Voice=Act	O	felmutat
 .	.	PUNCT	[Punct]	_	O	.
 
 @	@	PUNCT	[Punct]	_	O	@
-jabbok	jabbok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	jabbok
+jabbok	jabbok	NOUN	[/N][Nom]	Case=Nom|Number=Plur	B-PER	jabbok
 :	:	PUNCT	[Punct]	_	O	:
 Sajnos	sajnos	ADV	[/Adv]	_	O	sajnos
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -266,7 +266,7 @@ kéziféket	kézifék	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kézifék
 is	is	ADV	[/Adv]	_	O	is
 ki	ki	ADV	[/Prev]	_	O	ki
 tetszett	tetszik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tetszik
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 engedni	enged	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	enged
 ”	”	PUNCT	[Punct]	_	O	”
 –	–	X	[Hyph:Dash]	_	O	–
@@ -280,7 +280,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tévében	tévé	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	tévé
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
-lehetett	lesz	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
+lehetett	lehet	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 kapni	kap	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	kap
 társasjátékformában	társasjátékforma	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	társasjátékforma
 is	is	ADV	[/Adv]	_	O	is
@@ -289,10 +289,10 @@ ezzel	ez	PRON	[/Det|Pro][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Dem	O	ez
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 alcímmel	alcím	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	alcím
 :	:	PUNCT	[Punct]	_	O	:
-A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-tiltott	tiltott	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	tiltott
-szavak	szavak	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	szavak
-játéka	játéka	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	játéka
+A	A	DET	[/N]	Definite=Def|PronType=Art	B-MISC	A
+tiltott	tiltott	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	tiltott
+szavak	szavak	NOUN	[/N]	Case=Nom|Number=Plur	I-MISC	szavak
+játéka	játéka	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	játéka
 .	.	PUNCT	[Punct]	_	O	.
 
 E	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
@@ -458,10 +458,10 @@ Marshall	Marshall	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Marshall
 B.	B.	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	B.
 Rosenberg	Rosenberg	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Rosenberg
 A	A	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	A
-szavak	szavak	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	szavak
-ablakok	ablakok	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	ablakok
-vagy	vagy	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	vagy
-falak	falak	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	falak
+szavak	szavak	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	szavak
+ablakok	ablakok	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	ablakok
+vagy	vagy	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	vagy
+falak	falak	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	falak
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
 könyvét	könyv	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	könyv
 ,	,	PUNCT	[Punct]	_	O	,
@@ -512,5 +512,4 @@ tipikusan	tipikus	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	tipi
 könnyű	könnyű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	könnyű
 vacsora	vacsora	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vacsora
 .	.	PUNCT	[Punct]	_	O	.
-
 

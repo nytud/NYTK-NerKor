@@ -1,9 +1,9 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Híd	Híd	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Híd
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
+a	a	DET	[/N]	Definite=Def|PronType=Art	I-MISC	a
 Kwai	Kwai	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Kwai
-folyón	folyón	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	folyón
+folyón	folyón	PROPN	[/N][Nom]	Case=Sup|Number=Sing	I-MISC	folyón
 1957-ben	1957	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1957
 bemutatott	bemutatott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	bemutatott
 ,	,	PUNCT	[Punct]	_	O	,
@@ -56,7 +56,7 @@ változatot	változat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	változat
 november	november	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	november
 11-én	11	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	11
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-MTV1-en	MTV1	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-MISC	MTV1
+MTV1-en	MTV1	PROPN	[/N][Ine]	Case=Sup|Number=Sing	B-MISC	MTV1
 vetítették	vetít	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	vetít
 le	le	ADV	[/Prev]	_	O	le
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -254,7 +254,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 dalt	dal	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	dal
 Bradányi	Bradányi	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Bradányi
 Iván	Iván	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Iván
-Vigyázz	vigyáz	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	B-MISC	vigyáz
+Vigyázz	vigyáz	PROPN	[/V][Sbjv.NDef.2Sg]	Case=Nom|Number=Sing	B-MISC	vigyáz
 ,	,	PUNCT	[Punct]	_	I-MISC	,
 ha	ha	SCONJ	[/Cnj]	_	I-MISC	ha
 jön	jön	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	I-MISC	jön
@@ -263,5 +263,4 @@ boldogság	boldogság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	boldogság
 kezdetű	kezdetű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kezdetű
 szövegére	szöveg	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szöveg
 .	.	PUNCT	[Punct]	_	O	.
-
 

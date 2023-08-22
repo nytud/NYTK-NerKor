@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Ifjú	ifjú	NOUN	[/N]	Case=Nom|Number=Sing	B-MISC	ifjú
-rendőrnyomozók	rendőrnyomozók	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	rendőrnyomozók
+Ifjú	ifjú	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	ifjú
+rendőrnyomozók	rendőrnyomozók	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	rendőrnyomozók
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 South	South	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	South
 Park	Park	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Park
@@ -17,8 +17,8 @@ Elsőként	első	ADJ	[/Num][_Ord/Adj][EssFor:ként]	Case=Ess|Number=Sing|NumType
 23-án	23	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	23
 sugározták	sugároz	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	sugároz
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Amerikai	Amerikai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	B-LOC	Amerikai
-Egyesült	Egyesült	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-LOC	Egyesült
+Amerikai	Amerikai	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	B-LOC	Amerikai
+Egyesült	Egyesült	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	I-LOC	Egyesült
 Államokban	Államok	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-LOC	Államok
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -106,7 +106,7 @@ azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 ezt	ez	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
 véghez	véghez	ADV	[/Prev]	_	O	véghez
 vitte	visz	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	visz
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kutya	kutya	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kutya
@@ -157,7 +157,7 @@ gyanúsított	gyanúsított	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gyanúsított
 Butters	Butters	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Butters
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 (	(	PUNCT	[Punct]	_	O	(
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 különösebb	különös	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	különös
 ok	ok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ok
 nélkül	nélkül	ADP	[/Post]	_	O	nélkül
@@ -173,7 +173,7 @@ nyomozás	nyomozás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyomozás
 érdekében	érdek	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	érdek
 produlkáljon	produlkál	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	produlkál
 spermamintát	spermaminta	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	spermaminta
-Cartmanék	Cartman	PROPN	[/N][Fam.Pl][Nom]	Case=Nom|Number=Plur	B-PER	Cartman
+Cartmanék	Cartman	PROPN	[/N][Fam.Pl][Nom]	Case=Nom|Number=Sing	B-PER	Cartman
 fürdőszobájában	fürdőszoba	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fürdőszoba
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -209,7 +209,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 de	de	CCONJ	[/Cnj]	_	O	de
 ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
 ellenére	ellenére	ADP	[/Post|(Poss)][Prs.NDef.3Sg]	_	O	ellenére
-Stanék	Stan	PROPN	[/N][Fam.Pl][Nom]	Case=Nom|Number=Plur	B-PER	Stan
+Stanék	Stan	PROPN	[/N][Fam.Pl][Nom]	Case=Nom|Number=Sing	B-PER	Stan
 behatolnak	behatol	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	behatol
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 házba	ház	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	ház
@@ -360,7 +360,7 @@ ugyanolyan	ugyanolyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ugya
 helyzetben	helyzet	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	helyzet
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
-Stanéktől	Stan	PROPN	[/N][Fam.Pl][Abl]	Case=Abl|Number=Plur	B-PER	Stan
+Stanéktől	Stan	PROPN	[/N][Fam.Pl][Abl]	Case=Abl|Number=Sing	B-PER	Stan
 ,	,	PUNCT	[Punct]	_	O	,
 elveszi	elvesz	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	elvesz
 tőlük	ők	PRON	[/N|Pro][Abl][3Pl]	Case=Abl|Number=Plur|Person=3|PronType=Prs	O	ők
@@ -462,5 +462,4 @@ melleire	mell	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sub|Number=Plur|Number[psor]=Sin
 gondolt	gondol	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	gondol
 )	)	PUNCT	[Punct]	_	O	)
 .	.	PUNCT	[Punct]	_	O	.
-
 

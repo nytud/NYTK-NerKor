@@ -44,7 +44,7 @@ is	is	ADV	[/Adv]	_	O	is
 hasonlóak	hasonló	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	hasonló
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-legyenek	van	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+legyenek	lesz	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 ,	,	PUNCT	[Punct]	_	O	,
 meg	meg	CCONJ	[/Cnj]	_	O	meg
 hát	hát	ADV	[/Adv]	_	O	hát
@@ -130,7 +130,7 @@ Ahonnan	ahonnan	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O
 vettem	vesz	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	vesz
 ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
 is	is	ADV	[/Adv]	_	O	is
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 5.	5.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	5.
 fehér	fehér	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fehér
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
@@ -183,7 +183,7 @@ Lukácsnak	Lukács	PROPN	[/N][Dat]	Case=Dat|Number=Sing	I-PER	Lukács
 ,	,	PUNCT	[Punct]	_	O	,
 feleségének	feleség	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	feleség
 Halassy	Halassy	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Halassy
-Erzsébetnek	Erzsébet	PROPN	[/N][Dat]	Case=Dat|Number=Sing	I-PER	Erzsébet
+Erzsébetnek	Erzsébet	PROPN	[/N][Dat]	Case=Gen|Number=Sing	I-PER	Erzsébet
 ,	,	PUNCT	[Punct]	_	O	,
 leányának	leány	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	leány
 ,	,	PUNCT	[Punct]	_	O	,
@@ -216,7 +216,7 @@ később	később	ADV	[/Adv]	_	O	később
 Tarna-járási	Tarna-járási	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Tarna-járási
 (	(	PUNCT	[Punct]	_	O	(
 Heves	Heves	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Heves
-vm.	vm.	NOUN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-LOC	vm.
+vm.	vm.	PROPN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	I-LOC	vm.
 )	)	PUNCT	[Punct]	_	O	)
 szolgabírója	szolgabíró	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szolgabíró
 .	.	PUNCT	[Punct]	_	O	.
@@ -322,9 +322,9 @@ Esti	Esti	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Esti
 Kurir	Kurir	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Kurir
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Nyolc	nyolc	NOUN	[/N]	Case=Nom|Number=Sing	B-MISC	nyolc
-Órai	órai	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	órai
-Újság	újság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	újság
+Nyolc	nyolc	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	nyolc
+Órai	órai	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	órai
+Újság	újság	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	újság
 ”	”	PUNCT	[Punct]	_	O	”
 és	és	CCONJ	[/Cnj]	_	O	és
 több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
@@ -354,7 +354,7 @@ választ	válasz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	válasz
 :	:	PUNCT	[Punct]	_	O	:
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 országgyűlés	országgyűlés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	országgyűlés
-képviselőházának	képviselőház	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	B-ORG	képviselőház
+képviselőházának	képviselőház	NOUN	[/N][Poss.3Sg][Dat]	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=3	B-ORG	képviselőház
 120.	120.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	120.
 ülése	ülés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	ülés
 1936	1936	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	1936
@@ -375,7 +375,7 @@ Kerülete	kerület	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Si
 valamennyi	valamennyi	PRON	[/Num|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valamennyi
 községében	község	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	község
 ,	,	PUNCT	[Punct]	_	O	,
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 esztendőben	esztendő	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	esztendő
 beszámolót	beszámoló	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	beszámoló
 tartott	tart	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tart
@@ -589,5 +589,4 @@ elérhető	elérhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elérhet
 böngésző	böngésző	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	böngésző
 plugint	plugin	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	plugin
 .	.	PUNCT	[Punct]	_	O	.
-
 

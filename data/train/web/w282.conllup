@@ -29,7 +29,7 @@ szemben	szemben	ADP	[/Post|(Ins)]	_	O	szemben
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nemzeti	nemzeti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nemzeti
 önvédelem	önvédelem	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	önvédelem
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 lehetséges	lehetséges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lehetséges
 eszközét	eszköz	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eszköz
 be	be	ADV	[/Prev]	_	O	be
@@ -45,7 +45,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tárgyalásról	tárgyalás	NOUN	[/N][Del]	Case=Del|Number=Sing	O	tárgyalás
 Kormány	Kormány	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Kormány
 Sándor	Sándor	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Sándor
-volt	volt	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	volt
+volt	van	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	volt
 budapesti	budapesti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	budapesti
 gárdakapitány	gárdakapitány	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gárdakapitány
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -75,7 +75,7 @@ iránt	iránt	ADP	[/Post]	_	O	iránt
 és	és	CCONJ	[/Cnj]	_	O	és
 egyúttal	egyúttal	ADV	[/Adv]	_	O	egyúttal
 szolidaritásunkat	szolidaritás	NOUN	[/N][Poss.1Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	szolidaritás
-ifj.	ifj.	NOUN	[/N]	Case=Nom|Number=Sing	B-PER	ifj.
+ifj.	ifj.	ADJ	[/N]	Case=Nom|Degree=Cmp|Number=Sing	B-PER	ifj.
 Hegedűs	Hegedűs	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	Hegedűs
 Loránt	Loránt	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Loránt
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -115,11 +115,11 @@ szeptember	szeptember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szeptember
 18-án	18	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	18
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Kossuth	Kossuth	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Kossuth
-téren	tér	NOUN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
+téren	tér	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
 indult	indult	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	indult
 és	és	CCONJ	[/Cnj]	_	O	és
 Szabadság	Szabadság	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Szabadság
-téren	tér	NOUN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
+téren	tér	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-LOC	tér
 folytatódott	folytatódott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	folytatódott
 ,	,	PUNCT	[Punct]	_	O	,
 majd	majd	ADV	[/Adv]	_	O	majd
@@ -259,7 +259,7 @@ SZNT	SZNT	PROPN	[/N|Acron][Nom]	Case=Nom|Number=Sing	B-ORG	SZNT
 2011-es	2011-es	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	2011-es
 évi	évi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	évi
 Gábor	Gábor	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Gábor
-Áron-díját	Áron-díj	PROPN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	Áron-díj
+Áron-díját	Áron-díj	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	Áron-díj
 .	.	PUNCT	[Punct]	_	O	.
 
 Laudációjában	laudáció	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	laudáció
@@ -497,5 +497,4 @@ főleg	főleg	ADV	[/Adv]	_	O	főleg
 publicisztika	publicisztika	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	publicisztika
 természetesen	természetesen	ADV	[/Adv]	_	O	természetesen
 .	.	PUNCT	[Punct]	_	O	.
-
 

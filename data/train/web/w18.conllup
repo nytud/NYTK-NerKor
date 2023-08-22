@@ -1,8 +1,8 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Folytatódik	folytatódik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	folytatódik
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-iOS	iOS	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iOS
-10	10	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	I-MISC	10
+iOS	iOS	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iOS
+10	10	PROPN	[/Num|Digit][Nom]	Case=Nom|Number=Sing	I-MISC	10
 rejtett	rejtett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rejtett
 funkcióiról	funkció	NOUN	[/N][Pl.Poss.3Sg][Del]	Case=Del|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	funkció
 szóló	szóló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szóló
@@ -101,7 +101,7 @@ Android-eszköz	Android-eszköz	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	Android-e
 millió	millió	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	millió
 aktív	aktív	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	aktív
 Google	Google	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Google
-Fotók/Photos	Fotók/Photos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	I-MISC	Fotók/Photos
+Fotók/Photos	Fotók/Photos	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	I-MISC	Fotók/Photos
 felhasználó	felhasználó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	felhasználó
 ,	,	PUNCT	[Punct]	_	O	,
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
@@ -160,7 +160,7 @@ mely	mely	PRON	[/Det|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 képes	képes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	képes
 kommunikálni	kommunikál	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	kommunikál
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-iPhone-nal	iPhone	NOUN	[/N][Ins]	Case=Ins|Number=Sing	B-MISC	iPhone
+iPhone-nal	iPhone	PROPN	[/N][Ins]	Case=Ins|Number=Sing	B-MISC	iPhone
 ,	,	PUNCT	[Punct]	_	O	,
 így	így	CCONJ	[/Cnj]	_	O	így
 folyamatosan	folyamatos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	folyamatos
@@ -212,11 +212,11 @@ tudnivalók	tudnivaló	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tudnivaló
 :	:	PUNCT	[Punct]	_	O	:
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Üzleti	üzleti	NOUN	[/N]	Case=Nom|Number=Sing	B-MISC	üzleti
+Üzleti	üzleti	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	üzleti
 Mobilnet	Mobilnet	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Mobilnet
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
-Business	business	NOUN	[/N]	Case=Nom|Number=Sing	B-MISC	business
-Net	net	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	net
+Business	business	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	business
+Net	net	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	net
 csomagok	csomag	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	csomag
 esetében	eset	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eset
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -232,7 +232,7 @@ is	is	ADV	[/Adv]	_	O	is
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Egészség	egészség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	egészség
+Egészség	egészség	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	egészség
 appot	app	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	app
 mindig	mindig	ADV	[/Adv]	_	O	mindig
 is	is	ADV	[/Adv]	_	O	is
@@ -425,7 +425,7 @@ majd	majd	ADV	[/Adv]	_	O	majd
 minket	mi	PRON	[/N|Pro][1][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	mi
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 új	új	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	új
-iPhone	iPhone	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPhone
+iPhone	iPhone	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPhone
 bemutatóján	bemutató	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	bemutató
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -447,8 +447,8 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-iPhone	iPhone	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPhone
-8	8	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	I-MISC	8
+iPhone	iPhone	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPhone
+8	8	PROPN	[/Num|Digit][Nom]	Case=Nom|Number=Sing	I-MISC	8
 !	!	PUNCT	[Punct]	_	O	!
 
 😀	😀	PUNCT	[Punct]	_	O	😀
@@ -536,7 +536,7 @@ majd	majd	ADV	[/Adv]	_	O	majd
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-iPad	iPad	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPad
+iPad	iPad	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPad
 esetében	eset	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eset
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -562,5 +562,4 @@ jobb	jó	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	jó
 választás	választás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	választás
 számára	számára	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	számára
 .	.	PUNCT	[Punct]	_	O	.
-
 

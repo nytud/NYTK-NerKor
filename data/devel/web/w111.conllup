@@ -84,7 +84,7 @@ Mintha	mintha	CCONJ	[/Cnj]	_	O	mintha
 többen	sok	NUM	[/Num][_Comp/Num][_Aggreg/Adv]	Case=Nom|Number=Sing|NumType=Card	O	sok
 is	is	ADV	[/Adv]	_	O	is
 lettek	lesz	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 általában	általában	ADV	[/Adv]	_	O	általában
@@ -218,7 +218,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tesztet	teszt	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	teszt
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Super	Super	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Super
-Nintendóra	Nintendo	PROPN	[/N][Subl]	Case=Sub|Number=Sing	I-MISC	Nintendo
+Nintendóra	Nintendo	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	I-MISC	Nintendo
 megjelent	megjelent	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megjelent
 Super	Super	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Super
 Tennis	Tennis	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Tennis
@@ -247,7 +247,7 @@ csinált	csinál	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Perso
 ,	,	PUNCT	[Punct]	_	O	,
 arról	az	PRON	[/N|Pro][Del]	Case=Del|Number=Sing|Person=3|PronType=Dem	O	az
 nemigen	nemigen	ADV	[/Adv]	_	O	nemigen
-lehetett	lesz	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
+lehetett	lehet	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 elmondani	elmond	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	elmond
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -260,8 +260,8 @@ magából	maga	PRON	[/N|Pro][3Sg][Ela]	Case=Ela|Number=Sing|Person=3|Reflex=Yes	
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Ez	Ez	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Ez
-a	a	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	a
-divat	divat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	divat
+a	a	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	a
+divat	divat	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	divat
 című	című	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	című
 prózában	próza	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	próza
 ,	,	PUNCT	[Punct]	_	O	,
@@ -296,9 +296,9 @@ JAM	JAM	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	JAM
 Project	Project	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Project
 :	:	NOUN	[/N]	Case=Nom|Number=Sing	O	:
 Wings	Wings	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Wings
-of	of	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	of
-the	the	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	the
-legend	legend	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	legend
+of	of	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	of
+the	the	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	the
+legend	legend	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	legend
 kislemez	kislemez	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kislemez
 nagyon	nagyon	ADV	[/Adv]	_	O	nagyon
 meglep	meglep	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	meglep
@@ -329,11 +329,11 @@ Nintendo	Nintendo	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Nintendo
 GameCube-on	GameCube	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-MISC	GameCube
 Mario	Mario	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Mario
 Kart	Kart	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Kart
-:	:	NOUN	[/N]	Case=Nom|Number=Sing	I-MISC	:
+:	:	PUNCT	[/N]	_	I-MISC	:
 Double	Double	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Double
 Dash	Dash	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Dash
-!!-	!!-	PUNCT	[Punct]	_	I-MISC	!!-
-sal	sal	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	sal
+!!-	!!-	PROPN	[Punct]	Case=Ins|Number=Sing	I-MISC	!!-
+sal	sal	PROPN	[/N][Nom]	Case=Ins|Number=Sing	I-MISC	sal
 és	és	CCONJ	[/Cnj]	_	O	és
 négy	négy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	négy
 szinte	szinte	ADV	[/Adv]	_	O	szinte
@@ -378,7 +378,7 @@ kocsiban	kocsi	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	kocsi
 aludnék	alszik	VERB	[/V][Cond.NDef.1Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	alszik
 (	(	PUNCT	[Punct]	_	O	(
 erre	ez	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 esély	esély	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	esély
 megvan	megvan	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megvan
 ,	,	PUNCT	[Punct]	_	O	,
@@ -450,7 +450,7 @@ Dafné	Dafné	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Dafné
 Bokota	Bokota	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Bokota
 (	(	PUNCT	[Punct]	_	O	(
 Δάφνη	Δάφνη	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Δάφνη
-Μπόκοτα	Μπόκοτα	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Μπόκοτα
+Μπόκοτα	Μπόκοτα	PUNCT	[/N][Nom]	_	I-PER	Μπόκοτα
 ,	,	PUNCT	[Punct]	_	O	,
 1-5.	1-5.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1-5.
 elődöntők	elődöntő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	elődöntő
@@ -459,7 +459,7 @@ Kostas	Kostas	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Kostas
 Sgontzos	Sgontzos	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Sgontzos
 (	(	PUNCT	[Punct]	_	O	(
 Κώστας	Κώστας	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Κώστας
-Σγόντζος	Σγόντζος	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Σγόντζος
+Σγόντζος	Σγόντζος	PUNCT	[/N][Nom]	_	I-PER	Σγόντζος
 ,	,	PUNCT	[Punct]	_	O	,
 6-9.	6-9.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	6-9.
 elődöntők	elődöntő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	elődöntő
@@ -546,5 +546,4 @@ BATarácsony	BATarácsony	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	BATarácso
 nevű	nevű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nevű
 rendezvényre	rendezvény	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	rendezvény
 .	.	PUNCT	[Punct]	_	O	.
-
 

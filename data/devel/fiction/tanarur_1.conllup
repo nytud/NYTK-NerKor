@@ -258,7 +258,7 @@ az	az	PRON	[/Det|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 .	.	PUNCT	[Punct]	_	O	.
 
 Egyszerre	egyszerre	ADV	[/Adv]	_	O	egyszerre
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 szag	szag	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szag
 ismerős	ismerős	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ismerős
 :	:	PUNCT	[Punct]	_	O	:
@@ -298,7 +298,7 @@ dolgozatok	dolgozat	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	dolgozat
 Büchner	Büchner	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Büchner
 ,	,	PUNCT	[Punct]	_	O	,
 édes	édes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	édes
-Büchnerkém	Büchnerke	PROPN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Büchnerke
+Büchnerkém	Büchnerke	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Büchnerke
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogy
 vagy	van	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
@@ -372,7 +372,7 @@ belőle	ő	PRON	[/N|Pro][Ela][3Sg]	Case=Ela|Number=Sing|Person=3|PronType=Prs	O	
 
 De	de	CCONJ	[/Cnj]	_	O	de
 édes	édes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	édes
-Büchnerkém	Büchnerke	PROPN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Büchnerke
+Büchnerkém	Büchnerke	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Büchnerke
 ,	,	PUNCT	[Punct]	_	O	,
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 érted	ért	VERB	[/V][Prs.Def.2Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	ért
@@ -437,7 +437,7 @@ Hát	hát	ADV	[/Adv]	_	O	hát
 idehallgass	idehallgat	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	idehallgat
 ,	,	PUNCT	[Punct]	_	O	,
 édes	édes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	édes
-Büchnerkém	Büchnerke	PROPN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Büchnerke
+Büchnerkém	Büchnerke	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-PER	Büchnerke
 ,	,	PUNCT	[Punct]	_	O	,
 milyen	milyen	PRON	[/Adj|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	milyen
 marhaságot	marhaság	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	marhaság
@@ -594,7 +594,7 @@ pedig	pedig	CCONJ	[/Cnj]	_	O	pedig
 mostanában	mostanában	ADV	[/Adv]	_	O	mostanában
 hogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahogy
 szerettem	szeret	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	szeret
-volna	volna	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
+volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 huszonhét	huszonhét	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	huszonhét
 éves	éves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	éves
 lenni	lesz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	lesz
@@ -1669,7 +1669,7 @@ most	most	ADV	[/Adv]	_	O	most
 te	te	PRON	[/N|Pro][2Sg][Nom]	Case=Nom|Number=Sing|Person=2|PronType=Prs	O	te
 vagy	van	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Ágyútűzér	ágyútűzér	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	ágyútűzér
+Ágyútűzér	ágyútűzér	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	ágyútűzér
 és	és	CCONJ	[/Cnj]	_	O	és
 teneked	te	PRON	[/N|Pro][Dat][2Sg]	Case=Dat|Number=Sing|Person=2|PronType=Prs	O	te
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
@@ -1891,7 +1891,7 @@ tanár	tanár	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tanár
 mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fővárosa	főváros	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	főváros
-Szerbiának	Szerbia	PROPN	[/N][Dat]	Case=Dat|Number=Sing	B-LOC	Szerbia
+Szerbiának	Szerbia	PROPN	[/N][Dat]	Case=Gen|Number=Sing	B-LOC	Szerbia
 ?	?	PUNCT	[Punct]	_	O	?
 
 Na	na	INTJ	[/Inj-Utt]	_	O	na
@@ -2154,7 +2154,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 másnap	másnap	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	másnap
 esélyei	esély	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	esély
 és	és	CCONJ	[/Cnj]	_	O	és
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 lehetősége	lehetőség	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	lehetőség
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2173,7 +2173,7 @@ harcbaszállás	harcbaszállás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	harcbaszá
 halálos	halálos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	halálos
 veszedelem	veszedelem	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	veszedelem
 :	:	PUNCT	[Punct]	_	O	:
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 reggel	reggel	ADV	[/Adv]	_	O	reggel
 pontban	pont	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	pont
 nyolckor	nyolc	NUM	[/Num][Temp]	Case=Tem|Number=Sing|NumType=Card	O	nyolc
@@ -2861,7 +2861,7 @@ folyosókon	folyosó	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	folyosó
 lábujjhegyen	lábujjhegy	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	lábujjhegy
 lopózom	lopózik	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	lopózik
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Osztály	osztály	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	osztály
+Osztály	osztály	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	osztály
 ajtaja	ajtó	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	ajtó
 elé	elé	ADP	[/Post]	_	O	elé
 .	.	PUNCT	[Punct]	_	O	.
@@ -3127,10 +3127,10 @@ legyek	lesz	VERB	[/V][Sbjv.NDef.1Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=1|
 
 Letérek	letér	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	letér
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Múzeum-körútra	Múzeum-körút	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Múzeum-körút
+Múzeum-körútra	Múzeum-körút	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Múzeum-körút
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Károly-körútra	Károly-körút	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-LOC	Károly-körút
+Károly-körútra	Károly-körút	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Károly-körút
 .	.	PUNCT	[Punct]	_	O	.
 
 Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
@@ -3188,5 +3188,4 @@ irok	iro	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	iro
 is	is	ADV	[/Adv]	_	O	is
 néha	néha	ADV	[/Adv]	_	O	néha
 .	.	PUNCT	[Punct]	_	O	.
-
 

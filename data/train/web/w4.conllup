@@ -55,7 +55,7 @@ felé	felé	ADP	[/Post]	_	O	felé
 ....	....	PUNCT	[Punct]	_	O	....
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-Navigator+-szal	Navigator+	PROPN	[/N][Ins]	Case=Ins|Number=Sing	B-MISC	Navigator+
+Navigator+-szal	Navigator+	PROPN	[/N][Ins]	Case=Nom|Number=Sing	B-MISC	Navigator+
 időt	idő	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	idő
 és	és	CCONJ	[/Cnj]	_	O	és
 pénzt	pénz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	pénz
@@ -97,7 +97,7 @@ alkalmazás	alkalmazás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	alkalmazás
 csatlakoztatva	csatlakoztatva	ADV	[/V][_Caus/V][_AdvPtcp/Adv]	VerbForm=Conv	O	csatlakozik
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 Bluetooth	Bluetooth	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Bluetooth
-4.0	4.0	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	I-MISC	4.0
+4.0	4.0	PROPN	[/Num|Digit][Nom]	Case=Nom|Number=Sing	I-MISC	4.0
 eszkozre	eszköz	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	eszköz
 ,	,	PUNCT	[Punct]	_	O	,
 segít	segít	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	segít
@@ -115,7 +115,7 @@ megtalalnak	megtalál	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-TANTEREM	tanterem	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	tanterem
+TANTEREM	tanterem	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	B-MISC	tanterem
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 GOOGLE	Google	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Google
 APPS	APPS	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	APPS
@@ -320,7 +320,7 @@ rádiót	rádió	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	rádió
 
 Red	Red	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Red
 Bull	Bull	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Bull
-TV	TV	PROPN	[/N|Acron][Nom]	Case=Nom|Number=Sing	I-MISC	TV
+TV	TV	NOUN	[/N|Acron][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	I-MISC	TV
 -	-	X	[Hyph:Hyph]	_	O	-
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Red	Red	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Red
@@ -356,13 +356,13 @@ Nincs	nincs	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|T
 szukseg	szükség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szükség
 PC-re	PC	PROPN	[/N|Acron][Subl]	Case=Sub|Number=Sing	O	PC
 ,	,	PUNCT	[Punct]	_	O	,
-Mac-re	Mac	PROPN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC	Mac
+Mac-re	Mac	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-MISC	Mac
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-iTunes-ra	iTunes	NOUN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC	iTunes
+iTunes-ra	iTunes	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	B-MISC	iTunes
 !	!	PUNCT	[Punct]	_	O	!
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-iaBilet	iaBilet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iaBilet
+iaBilet	iaBilet	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iaBilet
 segitsegevel	segítség	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	segítség
 jegyeket	jegy	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	jegy
 tudsz	tud	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
@@ -389,10 +389,10 @@ olcsóbb	olcsó	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	olc
 
 Szinkronizálás	szinkronizálás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szinkronizálás
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-iPhone	iPhone	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPhone
+iPhone	iPhone	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPhone
 és	és	CCONJ	[/Cnj]	_	O	és
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-iPad	iPad	NOUN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPad
+iPad	iPad	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iPad
 kozott	között	ADP	[/Post]	_	O	között
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -436,7 +436,7 @@ gyors	gyors	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyors
 és	és	CCONJ	[/Cnj]	_	O	és
 intuitív	intuitív	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	intuitív
 fájlkezelő	fájlkezelő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fájlkezelő
-iPad-re	iPad	NOUN	[/N][Subl]	Case=Sub|Number=Sing	B-MISC	iPad
+iPad-re	iPad	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-MISC	iPad
 .	.	PUNCT	[Punct]	_	O	.
 
 Toltsd	tölt	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	tölt
@@ -469,5 +469,4 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 rendelkezésedre	rendelkezés	NOUN	[/N][Poss.2Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	rendelkezés
 all	áll	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	áll
 .	.	PUNCT	[Punct]	_	O	.
-
 
