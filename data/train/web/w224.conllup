@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Egyházi	egyházi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyházi
 forrásból	forrás	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	forrás
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tudom	tud	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -93,7 +93,7 @@ drámája	dráma	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing
 izgalmasabb	izgalmas	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	izgalmas
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
-eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	eddig
+eddig	eddig	ADV	[/Adv|Pro]	PronType=Dem	O	eddig
 valaha	valaha	ADV	[/Adv]	_	O	valaha
 ;	;	PUNCT	[Punct]	_	O	;
 Leon	Leon	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Leon
@@ -116,7 +116,7 @@ fenntartjuk	fenntart	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Pe
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-korszakra	korszak	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	korszak
+korszakra	korszak	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	korszak
 jellemzően	jellemző	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jellemző
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 emberi	emberi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	emberi
@@ -152,7 +152,7 @@ ezúttal	ezúttal	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	e
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 ikerpár	ikerpár	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ikerpár
 tölti	tölt	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tölt
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 ,	,	PUNCT	[Punct]	_	O	,
 név	név	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	név
 szerint	szerint	ADP	[/Post]	_	O	szerint
@@ -177,7 +177,7 @@ lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 általunk	által	ADP	[/Post][1Pl]	_	O	által
-személyre	személy	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	személy
+személyre	személy	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	személy
 szabható	szabható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szabható
 hős	hős	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	hős
 ,	,	PUNCT	[Punct]	_	O	,
@@ -248,7 +248,7 @@ ujjaidnak	ujj	NOUN	[/N][Pl.Poss.2Sg][Dat]	Case=Dat|Number=Plur|Number[psor]=Sing
 így	így	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	így
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 játékhelyzetben	játékhelyzet	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	játékhelyzet
-rendelkezésedre	rendelkezés	NOUN	[/N][Poss.2Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	rendelkezés
+rendelkezésedre	rendelkezés	NOUN	[/N][Poss.2Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	rendelkezés
 áll	áll	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	áll
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 sebesség	sebesség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sebesség
@@ -277,7 +277,7 @@ figyelmet	figyelem	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	figyelem
 fordít	fordít	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fordít
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 többjátékos	többjátékos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	többjátékos
-élményekre	élmény	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	élmény
+élményekre	élmény	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	élmény
 ,	,	PUNCT	[Punct]	_	O	,
 amikben	ami	PRON	[/N|Pro|Rel][Pl][Ine]	Case=Ine|Number=Plur|Person=3|PronType=Rel	O	ami
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -285,7 +285,7 @@ kampány	kampány	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kampány
 rendőr-centrikussága	rendőr-centrikusság	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	rendőr-centrikusság
 után	után	ADP	[/Post]	_	O	után
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 oldalt	oldal	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	oldal
 is	is	ADV	[/Adv]	_	O	is
 megismerhetjük	megismer	VERB	[/V][_Mod/V][Prs.Def.1Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megismer
@@ -356,7 +356,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Gamma	Gamma	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Gamma
 Zrt.	Zrt.	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Zrt.
 részéről	részéről	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	részéről
-erre	ez	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
+erre	ez	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	ez
 kijelölt	kijelölt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kijelölt
 munkatárs	munkatárs	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	munkatárs
 általi	általi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	általi
@@ -493,16 +493,16 @@ időről-időre	időről-időre	ADV	[/Adv]	_	O	időről-időre
 aktualizálhatjuk	aktualizál	VERB	[/V][_Mod/V][Prs.Def.1Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	aktualizál
 .	.	PUNCT	[Punct]	_	O	.
 
-Azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+Azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 szánjuk	szán	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	szán
 rá	rá	ADV	[/Prev]	_	O	rá
-magunka	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunka	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 évben	év	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	év
-festésre	festés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	festés
+festésre	festés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	festés
 ,	,	PUNCT	[Punct]	_	O	,
 így	így	CCONJ	[/Cnj]	_	O	így
 hosszú	hosszú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hosszú

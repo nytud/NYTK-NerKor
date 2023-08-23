@@ -26,7 +26,7 @@ maradt	marad	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|
 
 Mert	mert	SCONJ	[/Cnj]	_	O	mert
 hát	hát	ADV	[/Adv]	_	O	hát
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyúl	nyúl	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyúl
 ,	,	PUNCT	[Punct]	_	O	,
@@ -36,7 +36,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 simogatsz	simogat	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	simogat
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyúl	nyúl	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyúl
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -49,7 +49,7 @@ Egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
 kg	kg	NOUN	[/N|Unit|Abbr][Nom]	Case=Nom|Number=Sing	O	kg
 cukrot	cukor	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	cukor
 főzzünk	főz	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	főz
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 0,5	0,5	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	0,5
 l	l	NOUN	[/N|Unit|Abbr][Nom]	Case=Nom|Number=Sing	O	l
 vízzel	víz	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	víz
@@ -83,7 +83,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 magházát	magház	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	magház
 kivágjuk	kivág	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kivág
 ,	,	PUNCT	[Punct]	_	O	,
-cikkekre	cikk	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	cikk
+cikkekre	cikk	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	cikk
 vágjuk	vág	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vág
 ,	,	PUNCT	[Punct]	_	O	,
 felöntjük	felönt	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	felönt
@@ -108,7 +108,7 @@ Elkészítése	elkészítés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Numbe
 :	:	PUNCT	[Punct]	_	O	:
 Egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
 kiló	kiló	NOUN	[/N|Unit][Nom]	Case=Nom|Number=Sing	O	kiló
-cukorra	cukor	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	cukor
+cukorra	cukor	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	cukor
 öntsünk	önt	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	önt
 negyed	negyed	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	negyed
 liter	liter	NOUN	[/N|Unit][Nom]	Case=Nom|Number=Sing	O	liter
@@ -117,11 +117,11 @@ vizet	víz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	víz
 és	és	CCONJ	[/Cnj]	_	O	és
 ennél	ez	PRON	[/N|Pro][Ade]	Case=Ade|Number=Sing|Person=3|PronType=Dem	O	ez
 valamivel	valamivel	ADV	[/Adv]	_	O	valamivel
-kevesebb	kevés	NUM	[/Num][_Comp/Adj][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kevés
+kevesebb	kevesebb	NUM	[/Num][_Comp/Adj][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kevés
 ecetet	ecet	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ecet
 is	is	ADV	[/Adv]	_	O	is
 főzzük	főz	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	főz
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 ;	;	PUNCT	[Punct]	_	O	;
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 forr	forr	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	forr
@@ -131,13 +131,13 @@ bele	bele	ADV	[/Prev]	_	O	bele
 annyi	annyi	PRON	[/Num|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	annyi
 hámozott	hámozott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hámozott
 és	és	CCONJ	[/Cnj]	_	O	és
-karikára	karika	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	karika
+karikára	karika	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	karika
 rágott	rágott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rágott
 birsalmát	birsalma	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	birsalma
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 mennyit	mennyi	PRON	[/Num|Pro|Int][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Int	O	mennyi
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 ellep	ellep	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ellep
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 cukros	cukros	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	cukros
@@ -183,7 +183,7 @@ Elkészítése	elkészítés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Numbe
 :	:	PUNCT	[Punct]	_	O	:
 Egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
 kiló	kiló	NOUN	[/N|Unit][Nom]	Case=Nom|Number=Sing	O	kiló
-cukorra	cukor	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	cukor
+cukorra	cukor	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	cukor
 fél	fél	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	fél
 liter	liter	NOUN	[/N|Unit][Nom]	Case=Nom|Number=Sing	O	liter
 vizet	víz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	víz
@@ -201,7 +201,7 @@ felfő	felfő	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3
 annyi	annyi	PRON	[/Num|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	annyi
 meghámozott	meghámozott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	meghámozott
 s	s	CCONJ	[/Cnj]	_	O	s
-karikára	karika	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	karika
+karikára	karika	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	karika
 vágott	vágott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vágott
 birsalmát	birsalma	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	birsalma
 tegyünk	tesz	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tesz
@@ -260,12 +260,12 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 paradicsom	paradicsom	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	paradicsom
 érik	érik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	érik
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tésztát	tészta	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	tészta
-200°C-ra	200°C	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	200°C
+200°C-ra	200°C	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	200°C
 előmelegített	előmelegített	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	előmelegített
 sütőben	sütő	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	sütő
 ,	,	PUNCT	[Punct]	_	O	,
@@ -284,7 +284,7 @@ szedjük	szed	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-tepsire	tepsi	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tepsi
+tepsire	tepsi	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	tepsi
 karikákat	karika	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	karika
 nyomunk	nyom	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	nyom
 .	.	PUNCT	[Punct]	_	O	.
@@ -297,7 +297,7 @@ múlva	múlva	ADP	[/Post]	_	O	múlva
 kivesszük	kivesz	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kivesz
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
-karikára	karika	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	karika
+karikára	karika	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	karika
 vágjuk	vág	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vág
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -331,7 +331,7 @@ alatt	alatt	ADP	[/Post]	_	O	alatt
 szép	szép	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szép
 piros	piros	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	piros
 ,	,	PUNCT	[Punct]	_	O	,
-ropogósra	ropogós	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	ropogós
+ropogósra	ropogós	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	ropogós
 megsütjük	megsüt	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megsüt
 ,	,	PUNCT	[Punct]	_	O	,
 miközben	miközben	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	miközben
@@ -370,7 +370,7 @@ együtt	együtt	ADP	[/Post|(Ins)]	_	O	együtt
 kézzel	kéz	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	kéz
 alaposan	alapos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	alapos
 dolgozza	dolgoz	VERB	[/V][Sbjv.Def.3Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	dolgoz
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 simává	sima	ADJ	[/Adj][Transl]	Case=Tra|Degree=Pos|Number=Sing	O	sima
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -427,7 +427,7 @@ az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 sütés	sütés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sütés
 közben	közben	ADP	[/Post]	_	O	közben
-háromszorosára	háromszoros	ADJ	[/Adj][Poss.3Sg][Subl]	Case=Sub|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	háromszoros
+háromszorosára	háromszoros	ADJ	[/Adj][Poss.3Sg][Subl]	Case=Sbl|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	háromszoros
 dagad	dagad	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	dagad
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -436,7 +436,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 letörölt	letörölt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	letörölt
 és	és	CCONJ	[/Cnj]	_	O	és
 szétterített	szétterített	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szétterített
-pulykamellre	pulykamell	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	pulykamell
+pulykamellre	pulykamell	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	pulykamell
 terítjük	terít	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	terít
 ,	,	PUNCT	[Punct]	_	O	,
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
@@ -470,7 +470,7 @@ Elkészítése	elkészítés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Numbe
 :	:	PUNCT	[Punct]	_	O	:
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nagyobb	nagy	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	nagy
-cikkekre	cikk	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	cikk
+cikkekre	cikk	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	cikk
 vágott	vágott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vágott
 hagymát	hagyma	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	hagyma
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -520,7 +520,7 @@ sóval	só	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	só
 és	és	CCONJ	[/Cnj]	_	O	és
 őrölt	őrölt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	őrölt
 borssal	bors	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	bors
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 bedörzsöljük	bedörzsöl	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	bedörzsöl
 .	.	PUNCT	[Punct]	_	O	.
 

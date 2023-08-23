@@ -50,7 +50,7 @@ következtetni	következtet	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	következtet
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tél	tél	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tél
-hosszára	hossz	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hossz
+hosszára	hossz	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hossz
 annak	az	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	az
 alapján	alapján	ADP	[/Post|(Poss)]	_	O	alapján
 ,	,	PUNCT	[Punct]	_	O	,
@@ -138,7 +138,7 @@ bele	bele	ADV	[/Prev]	_	O	bele
 kotnyeleskedtem	kotnyeleskedik	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	kotnyeleskedik
 .	.	PUNCT	[Punct]	_	O	.
 
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 születtem	születik	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	születik
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -196,7 +196,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 bennük	ők	PRON	[/N|Pro][Ine][3Pl]	Case=Ine|Number=Plur|Person=3|PronType=Prs	O	ők
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 )	)	PUNCT	[Punct]	_	O	)
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 kényszerülnek	kényszerül	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kényszerül
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -241,7 +241,7 @@ miatt	miatt	ADP	[/Post]	_	O	miatt
 !	!	PUNCT	[Punct]	_	O	!
 
 Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 túl	túl	ADV	[/Adv|AdjMod]	_	O	túl
 szerencsés	szerencsés	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szerencsés
@@ -260,7 +260,7 @@ visszakeresni	visszakeres	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	visszakeres
 
 Ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
 alapon	alap	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	alap
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 lehetne	lesz	VERB	[/V][_Mod/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd,Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 vonni	von	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	von
 még	még	ADV	[/Adv]	_	O	még
@@ -293,7 +293,7 @@ topicot	topic	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	topic
 -	-	X	[Hyph:Hyph]	_	O	-
 meg	meg	CCONJ	[/Cnj]	_	O	meg
 még	még	ADV	[/Adv]	_	O	még
-egyebeket	egyéb	NOUN	[/N|Pro][Pl][Acc]	Case=Acc|Number=Plur	O	egyéb
+egyebeket	egyéb	PRON	[/N|Pro][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Ind	O	egyéb
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 azok	az	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Dem	O	az
@@ -314,7 +314,7 @@ nyitni	nyit	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	nyit
 ?	?	PUNCT	[Punct]	_	O	?
 
 Én	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 szeretek	szeret	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	szeret
 ,	,	PUNCT	[Punct]	_	O	,
@@ -347,7 +347,7 @@ meg	meg	PART	[/Prev]	_	O	meg
 .	.	PUNCT	[Punct]	_	O	.
 
 Na	na	INTJ	[/Inj-Utt]	_	O	na
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 ,	,	PUNCT	[Punct]	_	O	,
 itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
 lennék	lesz	VERB	[/V][Cond.NDef.1Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
@@ -367,13 +367,13 @@ azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 jelenti	jelent	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelent
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 mindegyik	mindegyik	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	O	mindegyik
 növény	növény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	növény
 mehet	megy	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 közvetlen	közvetlen	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	közvetlen
-napfényre	napfény	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	napfény
+napfényre	napfény	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	napfény
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
 többségük	többség	NOUN	[/N][Poss.3Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	O	többség
@@ -420,7 +420,7 @@ termőhelyén	termőhely	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[p
 akár	akár	ADV	[/Adv]	_	O	akár
 15-20	15-20	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	15-20
 m	m	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	m
-magasra	magas	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	magas
+magasra	magas	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	magas
 is	is	ADV	[/Adv]	_	O	is
 megnőhet	megnő	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megnő
 ,	,	PUNCT	[Punct]	_	O	,
@@ -467,7 +467,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egzotikus	egzotikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egzotikus
 növényekkel	növény	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	növény
 és	és	CCONJ	[/Cnj]	_	O	és
-baromira	baromi	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	baromi
+baromira	baromi	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	baromi
 megtetszettek	megtetszik	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	megtetszik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -485,7 +485,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fényszegényebb	fényszegény	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	fényszegény
 időszak	időszak	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	időszak
 váltotta	vált	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	vált
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ezt	ez	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fajta	fajta	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fajta

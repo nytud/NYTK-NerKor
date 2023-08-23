@@ -38,7 +38,7 @@ Playstationre	Playstation	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-MISC	Playstati
 ,	,	PUNCT	[Punct]	_	O	,
 Xbox-ra	Xbox	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-MISC	Xbox
 ,	,	PUNCT	[Punct]	_	O	,
-PC-re	PC	PROPN	[/N][Subl]	Case=Sub|Number=Sing	O	PC
+PC-re	PC	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	O	PC
 ,	,	PUNCT	[Punct]	_	O	,
 sőt	sőt	CCONJ	[/Cnj]	_	O	sőt
 ,	,	PUNCT	[Punct]	_	O	,
@@ -143,7 +143,7 @@ problémákkal	probléma	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	probléma
 napi	napi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	napi
 cselekedetekkel	cselekedet	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	cselekedet
 ,	,	PUNCT	[Punct]	_	O	,
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 reggelizés	reggelizés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	reggelizés
 ,	,	PUNCT	[Punct]	_	O	,
@@ -190,7 +190,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kormányok	kormány	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kormány
 fogjanak	fog	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 és	és	CCONJ	[/Cnj]	_	O	és
 küldjenek	küld	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	küld
 Gatling-gépágyú	Gatling-gépágyú	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	Gatling-gépágyú
@@ -217,7 +217,7 @@ viszont	viszont	CCONJ	[/Cnj]	_	O	viszont
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 akciódús	akciódús	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	akciódús
 vizuális	vizuális	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vizuális
-parádéra	parádé	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	parádé
+parádéra	parádé	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	parádé
 vágyunk	vágyik	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vágyik
 ,	,	PUNCT	[Punct]	_	O	,
 akkor	akkor	CCONJ	[/Cnj]	_	O	akkor
@@ -273,7 +273,7 @@ cucc	cucc	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	cucc
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 címe	cím	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	cím
-magáért	maga	PRON	[/N|Pro][3Sg][Cau]	Case=Cau|Number=Sing|Person=3|Reflex=Yes	O	maga
+magáért	maga	PRON	[/N|Pro][3Sg][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 beszél	beszél	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	beszél
 :	:	PUNCT	[Punct]	_	O	:
 "	"	PUNCT	[Punct]	_	O	"
@@ -285,7 +285,7 @@ Hunters	Hunters	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Hunters
 .	.	PUNCT	[Punct]	_	O	.
 
 Egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 tabu	tabu	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tabu
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 emberek	ember	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	ember
@@ -390,7 +390,7 @@ ebből	ez	PRON	[/Det|Pro][Ela]	Case=Ela|Number=Sing|Person=3|PronType=Dem	O	ez
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 időből	idő	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	idő
 még	még	ADV	[/Adv]	_	O	még
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 vonni	von	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	von
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -435,13 +435,13 @@ között	között	ADP	[/Post]	_	O	között
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hajtóműnek	hajtómű	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	hajtómű
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 pörögnie	pörög	VERB	[/V][Inf.3Sg]	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	pörög
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ugrásnak	ugrás	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	ugrás
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 játszódnia	játszódik	VERB	[/V][Inf.3Sg]	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	játszódik
 ,	,	PUNCT	[Punct]	_	O	,
@@ -472,14 +472,14 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 először	először	ADV	[/Adv]	_	O	először
 300.000	300.000	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	300.000
-km-re	km	NOUN	[/N|Unit][Subl]	Case=Sub|Number=Sing	O	km
+km-re	km	NOUN	[/N|Unit][Subl]	Case=Sbl|Number=Sing	O	km
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hajó	hajó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	hajó
 ,	,	PUNCT	[Punct]	_	O	,
 majd	majd	CCONJ	[/Cnj]	_	O	majd
 10	10	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	10
-km-re	km	NOUN	[/N|Unit][Subl]	Case=Sub|Number=Sing	O	km
+km-re	km	NOUN	[/N|Unit][Subl]	Case=Sbl|Number=Sing	O	km
 ,	,	PUNCT	[Punct]	_	O	,
 akkor	akkor	CCONJ	[/Cnj]	_	O	akkor
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -491,7 +491,7 @@ hülye	hülye	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hülye
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-távolabbira	távolabbi	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	távolabbi
+távolabbira	távolabbi	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	távolabbi
 lőjön	lő	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lő
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami

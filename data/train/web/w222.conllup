@@ -96,7 +96,7 @@ eltalálni	eltalál	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	eltalál
 bőven	bőven	ADV	[/Adv]	_	O	bőven
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 találni	talál	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	talál
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 példákat	példa	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	példa
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
@@ -166,7 +166,7 @@ világ	világ	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	világ
 Szingapúr	Szingapúr	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Szingapúr
 mellett	mellett	ADP	[/Post]	_	O	mellett
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 kivételes	kivételes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kivételes
 országgá	ország	NOUN	[/N][Transl]	Case=Tra|Number=Sing	O	ország
 váljon	válik	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	válik
@@ -178,7 +178,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 demokrácia	demokrácia	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	demokrácia
 nélkül	nélkül	ADP	[/Post]	_	O	nélkül
 is	is	ADV	[/Adv]	_	O	is
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 kerülni	kerül	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	kerül
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -256,7 +256,7 @@ Pénteken	péntek	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	péntek
 már	már	ADV	[/Adv]	_	O	már
 harmadszor	harmadik	ADJ	[/Num][_Ord/Adj][_Mlt-Iter/Adv]	Case=Nom|Number=Sing|NumType=Ord	O	három
 szavazta	szavaz	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szavaz
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 brit	brit	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	brit
 parlament	parlament	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	parlament
@@ -302,13 +302,13 @@ mértékben	mérték	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	mérték
 élvezheti	élvez	VERB	[/V][_Mod/V][Prs.Def.3Sg]	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	élvez
 mindenki	mindenki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	O	mindenki
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 világot	világ	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	világ
 automatikusan	automatikus	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	automatikus
-nyertesekre	nyertes	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	nyertes
+nyertesekre	nyertes	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	nyertes
 és	és	CCONJ	[/Cnj]	_	O	és
-vesztesekre	vesztes	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	vesztes
+vesztesekre	vesztes	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	vesztes
 osztjuk	oszt	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	oszt
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
@@ -341,7 +341,7 @@ ugyanis	ugyanis	CCONJ	[/Cnj]	_	O	ugyanis
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 vetik	vet	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vet
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -376,7 +376,7 @@ viszonyoknál	viszony	NOUN	[/N][Pl][Ade]	Case=Ade|Number=Plur	O	viszony
 
 Hszi	Hszi	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Hszi
 Csin-ping	Csin-ping	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Csin-ping
-színre	szín	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	szín
+színre	szín	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	szín
 lépése	lépés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	lépés
 óta	óta	ADP	[/Post]	_	O	óta
 Kína	Kína	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Kína
@@ -432,7 +432,7 @@ is	is	ADV	[/Adv]	_	O	is
 visszahívták	visszahív	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	visszahív
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 kis	kis	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kis
-pluszmunkára	pluszmunka	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	pluszmunka
+pluszmunkára	pluszmunka	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	pluszmunka
 .	.	PUNCT	[Punct]	_	O	.
 
 Központilag	központilag	ADV	[/Adv]	_	O	központilag
@@ -441,7 +441,7 @@ ma	ma	ADV	[/Adv]	_	O	ma
 is	is	ADV	[/Adv]	_	O	is
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tejfogyasztást	tejfogyasztás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	tejfogyasztás
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -510,7 +510,7 @@ bizonyítékokat	bizonyíték	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	bizonyí
 és	és	CCONJ	[/Cnj]	_	O	és
 vezetőket	vezető	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	vezető
 hallgattak	hallgat	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hallgat
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
 Európa	Európa	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Európa
@@ -533,8 +533,8 @@ Egyesült	Egyesült	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Egyesült
 és	és	CCONJ	[/Cnj]	_	O	és
 Dél-Koreában	Dél-Korea	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Dél-Korea
 rendeltek	rendel	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	rendel
-vissza	vissza	ADV	[/Prev]	_	O	vissza
+vissza	vissza	ADV	[/Prev]	Degree=Pos	O	vissza
 autókat	autó	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	autó
-javításra	javítás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	javítás
+javításra	javítás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	javítás
 .	.	PUNCT	[Punct]	_	O	.
 

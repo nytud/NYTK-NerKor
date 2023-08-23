@@ -1,5 +1,5 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-Azóta	azóta	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azóta
+Azóta	azóta	ADV	[/Adv|Pro]	PronType=Dem	O	azóta
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 jóga	jóga	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jóga
 ,	,	PUNCT	[Punct]	_	O	,
@@ -10,7 +10,7 @@ szerelmese	szerelmes	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=
 lettem	lesz	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 is	is	ADV	[/Adv]	_	O	is
 rájöttem	rájön	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	rájön
 ,	,	PUNCT	[Punct]	_	O	,
@@ -52,7 +52,7 @@ után	után	ADP	[/Post]	_	O	után
 )	)	PUNCT	[Punct]	_	O	)
 
 Ezert	ezért	CCONJ	[/Cnj]	_	O	ezért
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 döntöttem	dönt	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	dönt
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -155,9 +155,9 @@ légzés	légzés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	légzés
 kapnak	kap	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kap
 hangsúlyt	hangsúly	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	hangsúly
 ,	,	PUNCT	[Punct]	_	O	,
-erre	ez	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
+erre	ez	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	ez
 építem	épít	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	épít
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 lelki-szellemi	lelki-szellemi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lelki-szellemi
 hatásokat	hatás	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	hatás
@@ -170,9 +170,9 @@ magán	magán	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	magán
 mind	mind	CCONJ	[/Cnj]	_	O	mind
 csoportos	csoportos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	csoportos
 óráimat	óra	NOUN	[/N][Pl.Poss.1Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=1	O	óra
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 építem	épít	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	épít
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 kezdők	kezdő	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	kezdő
@@ -206,7 +206,7 @@ de	de	CCONJ	[/Cnj]	_	O	de
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fogszabályozó	fogszabályozó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fogszabályozó
 segítségével	segítség	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	segítség
-mára	ma	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ma
+mára	ma	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	ma
 erről	ez	PRON	[/N|Pro][Del]	Case=Del|Number=Sing|Person=3|PronType=Dem	O	ez
 teljesen	teljes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	teljes
 leszoktam	leszokik	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	leszokik
@@ -250,13 +250,13 @@ arról	az	PRON	[/N|Pro][Del]	Case=Del|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 mitől	mi	PRON	[/N|Pro|Int][Abl]	Case=Abl|Number=Sing|Person=3|PronType=Prs	O	mi
 érzi	érez	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	érez
-magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|Reflex=Yes	O	maga
+magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 biztonságban	biztonság	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	biztonság
 valaki	valaki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valaki
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 jógaórán	jógaóra	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	jógaóra
 ,	,	PUNCT	[Punct]	_	O	,
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 alapján	alapján	ADP	[/Post|(Poss)]	_	O	alapján
 dönti	dönt	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	dönt
 el	el	ADV	[/Prev]	_	O	el
@@ -267,7 +267,7 @@ oda	oda	ADV	[/Prev]	_	O	oda
 .	.	PUNCT	[Punct]	_	O	.
 
 Aztán	aztán	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	aztán
-sorra	sor	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	sor
+sorra	sor	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	sor
 vettem	vesz	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	vesz
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 én	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
@@ -291,11 +291,11 @@ Funkciója	funkció	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=S
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kommunikáció	kommunikáció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kommunikáció
 ,	,	PUNCT	[Punct]	_	O	,
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 értetjük	értet	VERB	[/V][_Caus/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Cau	O	ért
 meg	meg	PART	[/Prev]	_	O	meg
-magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|Reflex=Yes	O	maga
-másokkal	más	NOUN	[/N|Pro][Pl][Ins]	Case=Ins|Number=Plur	O	más
+magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
+másokkal	más	PRON	[/N|Pro][Pl][Ins]	Case=Ins|Number=Plur|Person=3|PronType=Ind	O	más
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 általa	által	ADP	[/Post][3Sg]	_	O	által
@@ -338,7 +338,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kis	kis	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kis
 időpontomon	időpont	NOUN	[/N][Poss.1Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	időpont
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-kezelésre	kezelés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	kezelés
+kezelésre	kezelés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	kezelés
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -407,7 +407,7 @@ szebbnek	szép	ADJ	[/Adj][_Comp/Adj][Dat]	Case=Dat|Degree=Cmp|Number=Sing	O	szé
 ,	,	PUNCT	[Punct]	_	O	,
 értékesebbnek	értékes	ADJ	[/Adj][_Comp/Adj][Dat]	Case=Dat|Degree=Cmp|Number=Sing	O	értékes
 látjuk	lát	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	lát
-magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 környezetünk	környezet	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	környezet
@@ -419,14 +419,14 @@ hozzánk	mi	PRON	[/N|Pro][All][1Pl]	Case=All|Number=Plur|Person=1|PronType=Prs	O
 .	.	PUNCT	[Punct]	_	O	.
 
 Ülj	ül	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	ül
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 szép	szép	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szép
 fa	fa	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fa
 tövébe	tő	NOUN	[/N][Poss.3Sg][Ill]	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tő
 ,	,	PUNCT	[Punct]	_	O	,
 hunyd	huny	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	huny
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szemed	szem	NOUN	[/N][Poss.2Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	szem
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -495,7 +495,7 @@ gyakorlatokkal	gyakorlat	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	gyakorlat
 
 Valaki	valaki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valaki
 csak	csak	ADV	[/Adv]	_	O	csak
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 jön	jön	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jön
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
@@ -506,7 +506,7 @@ szeretne	szeret	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Perso
 bemenni	bemegy	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	bemegy
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 csoportos	csoportos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	csoportos
-órára	óra	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	óra
+órára	óra	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	óra
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az

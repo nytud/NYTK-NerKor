@@ -40,7 +40,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 verseny	verseny	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	verseny
 ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-bevezetésére	bevezetés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	bevezetés
+bevezetésére	bevezetés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	bevezetés
 fogja	fog	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
 kényszeríteni	kényszerít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	kényszerít
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -59,7 +59,7 @@ megvan	megvan	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 iTunes	iTunes	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	iTunes
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 jöhet	jön	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jön
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 jailbreakhez	jailbreak	NOUN	[/N][All]	Case=All|Number=Sing	O	jailbreak
@@ -124,10 +124,10 @@ próbálták	próbál	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|P
 bezsúfolni	bezsúfol	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	bezsúfol
 ,	,	PUNCT	[Punct]	_	O	,
 inkább	inkább	ADV	[/Adv]	_	O	inkább
-kevesebb	kevés	NUM	[/Num][_Comp/Adj][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kevés
+kevesebb	kevesebb	NUM	[/Num][_Comp/Adj][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kevés
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 sikerrel	siker	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	siker
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -135,7 +135,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 középső	középső	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	középső
 fülel	fül	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	fül
 választhatjuk	választ	VERB	[/V][_Mod/V][Prs.Def.1Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	választ
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 milyen	milyen	PRON	[/Adj|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	milyen
 nézetben	nézet	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	nézet
@@ -158,7 +158,7 @@ Saját	Saját	PROPN	[/N]	Case=Nom|Number=Sing	O	Saját
 zenékhez	zenék	NOUN	[/N][All]	Case=All|Number=Sing	O	zenék
 majd	majd	ADV	[/Adv]	_	O	majd
 ha	ha	SCONJ	[/Cnj]	_	O	ha
-ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 megtaláltuk	megtalál	VERB	[/V][Pst.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	megtalál
 ,	,	PUNCT	[Punct]	_	O	,
 ugyancsak	ugyancsak	ADV	[/Adv]	_	O	ugyancsak
@@ -176,7 +176,7 @@ tétel	tétel	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tétel
 lehetőség	lehetőség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lehetőség
 .	.	PUNCT	[Punct]	_	O	.
 
-Másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+Másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 előnye	előny	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	előny
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -185,7 +185,7 @@ integráltság	integráltság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	integrálts�
 hiszen	hiszen	CCONJ	[/Cnj]	_	O	hiszen
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 alkalmazást	alkalmazás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	alkalmazás
 használni	használ	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	használ
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -254,7 +254,7 @@ illeszkedik	illeszkedik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sin
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tok	tok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tok
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-készülékre	készülék	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	készülék
+készülékre	készülék	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	készülék
 ,	,	PUNCT	[Punct]	_	O	,
 szabadon	szabad	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	szabad
 hagyva	hagyva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	hagy
@@ -274,11 +274,11 @@ este	este	ADV	[/Adv]	_	O	este
 töltés	töltés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	töltés
 elött	előtt	ADP	[/Post]	_	O	előtt
 dugom	dug	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	dug
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kis	kis	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kis
 fémdarabot	fémdarab	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	fémdarab
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 ennyi	ennyi	PRON	[/Num|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ennyi
 erővel	erő	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	erő
 egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
@@ -289,7 +289,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 töltőt	töltő	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	töltő
 🙂	🙂	PUNCT	[Punct]	_	O	🙂
 
-Addig	addig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	addig
+Addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig
 is	is	ADV	[/Adv]	_	O	is
 :	:	PUNCT	[Punct]	_	O	:
 már	már	ADV	[/Adv]	_	O	már
@@ -363,8 +363,8 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hatalmas	hatalmas	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hatalmas
 igények	igény	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	igény
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-termékre	termék	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	termék
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+termékre	termék	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	termék
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 bátorították	bátorít	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	bátorít
 őket	ők	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	ők
 ,	,	PUNCT	[Punct]	_	O	,
@@ -379,7 +379,7 @@ gyorsabb	gyors	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	gyor
 stílusosabb	stílusos	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	stílusos
 készülékekkel	készülék	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	készülék
 álljanak	áll	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	áll
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 egyes	egyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyes
 évben	év	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	év
@@ -488,7 +488,7 @@ Pontosan	pontos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	pontos
 Szerintetek	szerint	ADP	[/Post][2Pl]	_	O	szerint
 hol	hol	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hol
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 használni	használ	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	használ
 ezt	ez	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a

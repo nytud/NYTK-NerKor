@@ -60,7 +60,7 @@ kromofág	kromofág	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kromofág
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 GPS	GPS	PROPN	[/N|Abbr][Nom]	Case=Nom|Number=Sing	O	GPS
 feladat	feladat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	feladat
@@ -73,7 +73,7 @@ beleőrülnék	beleőrül	VERB	[/V][Cond.NDef.1Sg]	Definite=Ind|Mood=Cnd|Number=
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 majd	majd	ADV	[/Adv]	_	O	majd
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 töltve	töltve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	tölt
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -150,7 +150,7 @@ részletesebb	részletes	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=S
 leírást	leírás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	leírás
 is	is	ADV	[/Adv]	_	O	is
 raktam	rak	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	rak
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 .	.	PUNCT	[Punct]	_	O	.
 
 Elöl	elöl	ADV	[/Adv]	_	O	elöl
@@ -243,8 +243,8 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Kelenföld	Kelenföld	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Kelenföld
 pályaudvar	pályaudvar	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	pályaudvar
 körül	körül	ADP	[/Post]	_	O	körül
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
-8:15-re	8:15	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	8:15
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
+8:15-re	8:15	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	8:15
 már	már	ADV	[/Adv]	_	O	már
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Balcsinál	Balcsi	PROPN	[/N][Nom]	Case=Ade|Number=Sing	B-LOC	Balcsi
@@ -254,7 +254,7 @@ lehetünk	lesz	VERB	[/V][_Mod/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Pot|Number=Plur
 Én	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 ágyat	ágy	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ágy
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 tudok	tud	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 dobni	dob	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	dob
 ,	,	PUNCT	[Punct]	_	O	,
@@ -267,7 +267,7 @@ esetleg	esetleg	ADV	[/Adv]	_	O	esetleg
 .	.	PUNCT	[Punct]	_	O	.
 
 Szerintem	szerint	ADP	[/Post][1Sg]	_	O	szerint
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 buli	buli	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	buli
@@ -334,7 +334,7 @@ Detox	Detox	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Detox
 nyert	nyer	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 második	második	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	kettő
-rántásra	rántás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	rántás
+rántásra	rántás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	rántás
 ,	,	PUNCT	[Punct]	_	O	,
 miután	miután	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	miután
 röpke	röpke	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	röpke
@@ -452,7 +452,7 @@ Davinci	Davinci	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Davinci
 )	)	PUNCT	[Punct]	_	O	)
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 négytányéros	négytányéros	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	négytányéros
-egységre	egység	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	egység
+egységre	egység	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	egység
 küldi	küld	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	küld
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
@@ -538,14 +538,14 @@ egyre	egyre	ADV	[/Adv]	_	O	egyre
 gyorsabb	gyors	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	gyors
 manőverek	manőver	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	manőver
 kerültek	kerül	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 ,	,	PUNCT	[Punct]	_	O	,
 néha	néha	ADV	[/Adv]	_	O	néha
 olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
 lehetetlen	lehetetlen	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lehetetlen
 megmozdulások	megmozdulás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	megmozdulás
 ,	,	PUNCT	[Punct]	_	O	,
-amikre	ami	PRON	[/N|Pro|Rel][Pl][Subl]	Case=Sub|Number=Plur|Person=3|PronType=Rel	O	ami
+amikre	ami	PRON	[/N|Pro|Rel][Pl][Subl]	Case=Sbl|Number=Plur|Person=3|PronType=Rel	O	ami
 büszkék	büszke	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	büszke
 lehettünk	lesz	VERB	[/V][_Mod/V][Pst.NDef.1Pl]	Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 .	.	PUNCT	[Punct]	_	O	.

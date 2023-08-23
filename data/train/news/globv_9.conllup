@@ -2,13 +2,13 @@
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Public	Public	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Public
 Profit	profit	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	profit
-névre	név	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	név
+névre	név	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	név
 keresztelt	keresztelt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	keresztelt
 projekt	projekt	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	projekt
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 átláthatóság	átláthatóság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	átláthatóság
 jegyében	jegy	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	jegy
-nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyilvánosság
+nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyilvánosság
 hozza	hoz	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	hoz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 köztisztviselők	köztisztviselő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	köztisztviselő
@@ -26,7 +26,7 @@ törvényeket	törvény	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	törvény
 tiszteletben	tisztelet	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	tisztelet
 tartva	tartva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	tart
 gyűjtötték	gyűjt	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	gyűjt
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 weboldalon	weboldal	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	weboldal
 .	.	PUNCT	[Punct]	_	O	.
@@ -35,7 +35,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 köztisztviselők	köztisztviselő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	köztisztviselő
 fizetése	fizetés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fizetés
 mellett	mellett	ADP	[/Post]	_	O	mellett
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 érdekes	érdekes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érdekes
 statisztikákat	statisztika	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	statisztika
 is	is	ADV	[/Adv]	_	O	is
@@ -88,7 +88,7 @@ négyzetméteres	négyzetméteres	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sin
 telek	telek	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	telek
 és	és	CCONJ	[/Cnj]	_	O	és
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 épült	épült	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	épült
 ház	ház	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ház
 tulajdonosa	tulajdonos	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tulajdonos
@@ -109,7 +109,7 @@ akinek	aki	PRON	[/N|Pro|Rel][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Rel	O	a
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 éves	éves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	éves
 jövedelme	jövedelem	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	jövedelem
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 14652000	14652000	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	14652000
 rubel	rubel	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rubel
@@ -120,7 +120,7 @@ csupán	csupán	ADV	[/Adv]	_	O	csupán
 négy	négy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	négy
 százalékát	százalék	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	százalék
 teszi	tesz	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tesz
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 családja	család	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	család
 éves	éves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	éves
 jövedelmének	jövedelem	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	jövedelem
@@ -131,8 +131,8 @@ házastársak	házastárs	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	házastárs
 közötti	közötti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	közötti
 jövedelemkülönbség	jövedelemkülönbség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jövedelemkülönbség
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
-figyelemre	figyelem	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	figyelem
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
+figyelemre	figyelem	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	figyelem
 méltó	méltó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	méltó
 jelenség	jelenség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jelenség
 .	.	PUNCT	[Punct]	_	O	.
@@ -198,7 +198,7 @@ Reméljük	remél	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Perso
 ,	,	PUNCT	[Punct]	_	O	,
 hamarosan	hamarosan	ADV	[/Adv]	_	O	hamarosan
 újra	újra	ADV	[/Adv]	_	O	újra
-jóra	jó	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	jó
+jóra	jó	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	jó
 fordulnak	fordul	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fordul
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 dolgai	dolog	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	dolog
@@ -219,14 +219,14 @@ nehézségek	nehézség	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	nehézség
 miatt	miatt	ADP	[/Post]	_	O	miatt
 aggódnia	aggódik	VERB	[/V][Inf.3Sg]	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	aggódik
 még	még	ADV	[/Adv]	_	O	még
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 mostanában	mostanában	ADV	[/Adv]	_	O	mostanában
 találnak	talál	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	talál
-maguknak	maga	PRON	[/N|Pro][3Pl][Dat]	Case=Dat|Number=Plur|Person=3|Reflex=Yes	O	maga
+maguknak	maga	PRON	[/N|Pro][3Pl][Dat]	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 munkát	munka	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	munka
 .	.	PUNCT	[Punct]	_	O	.
 

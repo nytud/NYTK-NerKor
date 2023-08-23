@@ -65,7 +65,7 @@ először	először	ADV	[/Adv]	_	O	először
 De	de	CCONJ	[/Cnj]	_	O	de
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 egy-két	egy-két	NUM	[/Num|Attr][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy-két
-eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	eddig
+eddig	eddig	ADV	[/Adv|Pro]	PronType=Dem	O	eddig
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 említettet	említett	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	említett
 is	is	ADV	[/Adv]	_	O	is
@@ -124,7 +124,7 @@ címűt	című	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	című
 .	.	PUNCT	[Punct]	_	O	.
 
 Nagyon	nagyon	ADV	[/Adv]	_	O	nagyon
-magával	maga	PRON	[/N|Pro][3Sg][Ins]	Case=Ins|Number=Sing|Person=3|Reflex=Yes	O	maga
+magával	maga	PRON	[/N|Pro][3Sg][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ragadó	ragadó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ragadó
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 történet	történet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	történet
@@ -230,7 +230,7 @@ Rouge	Rouge	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Rouge
 Toulouse-Lautrec	Toulouse-Lautrec	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Toulouse-Lautrec
 életét	élet	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	élet
 írja	ír	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ír
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 ....	....	PUNCT	[Punct]	_	O	....
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -242,7 +242,7 @@ utáltam	utál	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 néhányat	néhány	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	néhány
-azóta	azóta	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azóta
+azóta	azóta	ADV	[/Adv|Pro]	PronType=Dem	O	azóta
 már	már	ADV	[/Adv]	_	O	már
 újraolvastam	újraolvas	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	újraolvas
 ,	,	PUNCT	[Punct]	_	O	,
@@ -324,7 +324,7 @@ olvastam	olvas	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1
 ezért	ezért	CCONJ	[/Cnj]	_	O	ezért
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 emelek	emel	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	emel
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 kedvencet	kedvenc	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kedvenc
 tőlük	ők	PRON	[/N|Pro][Abl][3Pl]	Case=Abl|Number=Plur|Person=3|PronType=Prs	O	ők
 ,	,	PUNCT	[Punct]	_	O	,
@@ -356,7 +356,7 @@ csináltam	csinál	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Pers
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 visszamentem	visszamegy	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	visszamegy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-szállításra	szállítás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	szállítás
+szállításra	szállítás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	szállítás
 és	és	CCONJ	[/Cnj]	_	O	és
 megint	megint	ADV	[/Adv]	_	O	megint
 megnyomtam	megnyom	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	megnyom
@@ -383,9 +383,9 @@ fórum	fórum	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fórum
 http://forum.african-violet.eu	http://forum.african-violet.eu	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	http://forum.african-violet.eu
 
 Remélem	remél	VERB	[Hyph:Slash][/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	remél
-addig	addig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	addig
+addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig
 megtanulom	megtanul	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megtanul
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 !	!	PUNCT	[Punct]	_	O	!
 
@@ -405,7 +405,7 @@ fizetés	fizetés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fizetés
 ,	,	PUNCT	[Punct]	_	O	,
 szállítás	szállítás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szállítás
 ilyesmi	ilyesmi	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyesmi
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 jött	jön	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jön
 .	.	PUNCT	[Punct]	_	O	.
@@ -490,7 +490,7 @@ László	László	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	László
 2010.	2010.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	2010.
 februárjában	február	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	február
 18	18	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	18
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 szervezettel	szervezet	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	szervezet
 együtt	együtt	ADP	[/Post|(Ins)]	_	O	együtt
 levelet	levél	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	levél

@@ -28,7 +28,7 @@ bizottság	bizottság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	bizottság
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 előnevezés	előnevezés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	előnevezés
 csak	csak	ADV	[/Adv]	_	O	csak
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 érvényes	érvényes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érvényes
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -49,7 +49,7 @@ Klub	Klub	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Klub
 OTP	OTP	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	OTP
 banknál	bank	NOUN	[/N][Ade]	Case=Ade|Number=Sing	O	bank
 vezetett	vezetett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vezetett
-számlájára	számla	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	számla
+számlájára	számla	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	számla
 :	:	PUNCT	[Punct]	_	O	:
 
 Csapi	Csapi	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Csapi
@@ -70,7 +70,7 @@ m	m	NOUN	[/N|Unit][Nom]	Case=Nom|Number=Sing	O	m
 hosszú	hosszú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hosszú
 )	)	PUNCT	[Punct]	_	O	)
 ,	,	PUNCT	[Punct]	_	O	,
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 szakasz	szakasz	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szakasz
 pedig	pedig	CCONJ	[/Cnj]	_	O	pedig
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -108,7 +108,7 @@ kényelmesen	kényelmes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	
 és	és	CCONJ	[/Cnj]	_	O	és
 magabiztosan	magabiztos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	magabiztos
 érezhetik	érez	VERB	[/V][_Mod/V][Prs.Def.3Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	érez
-magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|Reflex=Yes	O	maga
+magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 utakon	út	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	út
 ,	,	PUNCT	[Punct]	_	O	,
@@ -150,7 +150,7 @@ végén	vég	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Pe
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 NAV-nak	NAV	PROPN	[/N|Abbr][Dat]	Case=Gen|Number=Sing	B-ORG	NAV
 
-Mára	ma	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ma
+Mára	ma	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	ma
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 már	már	ADV	[/Adv]	_	O	már
 lehetőség	lehetőség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lehetőség
@@ -230,7 +230,7 @@ oldal	oldal	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	oldal
 Kiss	Kiss	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Kiss
 E.	E	PROPN	[/N]	Case=Nom|Number=Sing	I-LOC	E
 utcától	utca	NOUN	[/N][Abl]	Case=Abl|Number=Sing	I-LOC	utca
-É-ra	É	PROPN	[/N|Abbr][Subl]	Case=Sub|Number=Sing	O	É
+É-ra	É	PROPN	[/N|Abbr][Subl]	Case=Sbl|Number=Sing	O	É
 lévő	lévő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lévő
 szakasz	szakasz	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szakasz
 
@@ -280,7 +280,7 @@ cipőjavítástól	cipőjavítás	NOUN	[/N][Abl]	Case=Abl|Number=Sing	O	cipőjav
 lassanként	lassanként	ADV	[/Adv]	_	O	lassanként
 áttért	áttér	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	áttér
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-cipőkészítésre	cipőkészítés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	cipőkészítés
+cipőkészítésre	cipőkészítés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	cipőkészítés
 ,	,	PUNCT	[Punct]	_	O	,
 részben	részben	ADV	[/Adv]	_	O	részben
 szükségszerűségből	szükségszerűség	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	szükségszerűség
@@ -302,9 +302,9 @@ Ezen	ezen	ADV	[/Det|Pro|def]	PronType=Art	O	ezen
 idő	idő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	idő
 alatt	alatt	ADP	[/Post]	_	O	alatt
 alapos	alapos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	alapos
-ismeretre	ismeret	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ismeret
+ismeretre	ismeret	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	ismeret
 és	és	CCONJ	[/Cnj]	_	O	és
-gyakorlatra	gyakorlat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	gyakorlat
+gyakorlatra	gyakorlat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	gyakorlat
 tettünk	tesz	VERB	[/V][Pst.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tesz
 szert	szer	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szer
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -329,7 +329,7 @@ tudást	tudás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	tudás
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 művészi	művészi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	művészi
-tökélyre	tökély	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tökély
+tökélyre	tökély	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	tökély
 fejlesztett	fejlesztett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fejlesztett
 kézművességet	kézművesség	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kézművesség
 tartjuk	tart	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tart
@@ -359,7 +359,7 @@ még	még	ADV	[/Adv]	_	O	még
 mindig	mindig	ADV	[/Adv]	_	O	mindig
 Olaszországban	Olaszország	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Olaszország
 állítják	állít	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	állít
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -373,7 +373,7 @@ bakancsokat	bakancs	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	bakancs
 keményebb	kemény	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kemény
 és	és	CCONJ	[/Cnj]	_	O	és
 könnyebb	könnyű	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	könnyű
-terepre	terep	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	terep
+terepre	terep	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	terep
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
 túrabakancsokat	túrabakancs	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	túrabakancs
 ,	,	PUNCT	[Punct]	_	O	,
@@ -381,7 +381,7 @@ vadászbakancsokat	vadászbakancs	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	vad�
 ,	,	PUNCT	[Punct]	_	O	,
 túracipőket	túracipő	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	túracipő
 ,	,	PUNCT	[Punct]	_	O	,
-teljesítménytúrára	teljesítménytúra	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	teljesítménytúra
+teljesítménytúrára	teljesítménytúra	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	teljesítménytúra
 tervezett	tervezett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tervezett
 cipőket	cipő	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	cipő
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -438,7 +438,7 @@ vételár	vételár	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vételár
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kapcsolódó	kapcsolódó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kapcsolódó
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 járulékos	járulékos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	járulékos
 követeléseinek	követelés	NOUN	[/N][Pl.Poss.3Sg][Dat]	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	követelés
 teljes	teljes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	teljes
@@ -487,7 +487,7 @@ szemben	szemben	ADP	[/Post|(Ins)]	_	O	szemben
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Szerződésből	szerződés	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	szerződés
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 jogviszonyból	jogviszony	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	jogviszony
 eredő	eredő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	eredő
 fizetési	fizetési	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fizetési
@@ -548,7 +548,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 mind	mind	CCONJ	[/Cnj]	_	O	mind
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 repülőtéri	repülőtéri	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	repülőtéri
-alkalmazásra	alkalmazás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	alkalmazás
+alkalmazásra	alkalmazás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	alkalmazás
 gyártott	gyártott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyártott
 fémdetektoros	fémdetektoros	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fémdetektoros
 kapuiba	kapu	NOUN	[/N][Pl.Poss.3Sg][Ill]	Case=Ill|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	kapu

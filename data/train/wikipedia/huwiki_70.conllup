@@ -24,7 +24,7 @@ Egyesült	Egyesült	PROPN	[/Adj][Nom]	Case=Nom|Number=Sing	I-LOC	Egyesült
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fiúk	fiú	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	fiú
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 döntenek	dönt	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	dönt
 ,	,	PUNCT	[Punct]	_	O	,
 detektíveset	detektíves	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	detektíves
@@ -36,9 +36,9 @@ járják	jár	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 várost	város	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	város
 és	és	CCONJ	[/Cnj]	_	O	és
-kisebb	kicsi	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
+kisebb	kis	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
 bűncselekmények	bűncselekmény	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	bűncselekmény
-megoldására	megoldás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megoldás
+megoldására	megoldás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megoldás
 vállalkoznak	vállalkozik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vállalkozik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -164,7 +164,7 @@ nélkül	nélkül	ADP	[/Post]	_	O	nélkül
 )	)	PUNCT	[Punct]	_	O	)
 ,	,	PUNCT	[Punct]	_	O	,
 akit	aki	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	aki
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 kényszerítenek	kényszerít	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kényszerít
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -246,7 +246,7 @@ nemsokára	nemsokára	ADV	[/Adv]	_	O	nemsokára
 olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
 ügyeket	ügy	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	ügy
 bíznak	bíz	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	bíz
-rájuk	ők	PRON	[/N|Pro][Subl][3Pl]	Case=Sub|Number=Plur|Person=3|PronType=Prs	O	ők
+rájuk	ők	PRON	[/N|Pro][Subl][3Pl]	Case=Sbl|Number=Plur|Person=3|PronType=Prs	O	ők
 ,	,	PUNCT	[Punct]	_	O	,
 melyeket	mely	PRON	[/N|Pro|Rel][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Rel	O	amely
 valódi	valódi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	valódi
@@ -279,7 +279,7 @@ megdöbbenésük	megdöbbenés	NOUN	[/N][Poss.3Pl][Nom]	Case=Nom|Number=Sing|Num
 miatt	miatt	ADP	[/Post]	_	O	miatt
 egymást	egymás	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rcp	O	egymás
 lövik	lő	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lő
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -330,7 +330,7 @@ is	is	ADV	[/Adv]	_	O	is
 Hamarosan	hamarosan	ADV	[/Adv]	_	O	hamarosan
 tűzharc	tűzharc	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tűzharc
 tör	tör	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tör
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 melybe	mely	PRON	[/N|Pro|Rel][Ill]	Case=Ill|Number=Sing|Person=3|PronType=Rel	O	amely
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -410,7 +410,7 @@ bízhat	bízik	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing
 meg	meg	PART	[/Prev]	_	O	meg
 ,	,	PUNCT	[Punct]	_	O	,
 saját	saját	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	saját
-maga	maga	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|Reflex=Yes	O	maga
+maga	maga	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
 ezért	ezért	CCONJ	[/Cnj]	_	O	ezért
 öngyilkos	öngyilkos	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	öngyilkos
@@ -458,7 +458,7 @@ azután	azután	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azu
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 Stan	Stan	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Stan
 anyjának	anya	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	anya
-melleire	mell	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	mell
+melleire	mell	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sbl|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	mell
 gondolt	gondol	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	gondol
 )	)	PUNCT	[Punct]	_	O	)
 .	.	PUNCT	[Punct]	_	O	.

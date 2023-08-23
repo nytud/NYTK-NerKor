@@ -21,7 +21,7 @@ vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 igaz	igaz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	igaz
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-e	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+e	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 historikusok	historikus	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	historikus
 szívesen	szívesen	ADV	[/Adv]	_	O	szívesen
 éltek	él	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	él
@@ -40,14 +40,14 @@ esetekben	eset	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	eset
 hagyatkozhattak	hagyatkozik	VERB	[/V][_Mod/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Pot|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hagyatkozik
 megbízható	megbízható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megbízható
 szemtanúk	szemtanú	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szemtanú
-beszámolóira	beszámoló	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	beszámoló
+beszámolóira	beszámoló	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sbl|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	beszámoló
 ,	,	PUNCT	[Punct]	_	O	,
 s	s	CCONJ	[/Cnj]	_	O	s
 még	még	ADV	[/Adv]	_	O	még
 ritkábban	ritka	ADJ	[/Adj][_Comp/Adj][_Manner/Adv]	Case=Ess|Degree=Cmp|Number=Sing	O	ritka
 voltak	van	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
 jelen	jelen	ADV	[/Adv]	_	O	jelen
-maguk	maga	PRON	[/Adv|Pro][3Pl]	Case=Nom|Number=Plur|Person=3|Reflex=Yes	O	maga
+maguk	maga	PRON	[/Adv|Pro][3Pl]	Case=Nom|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ütközetekben	ütközet	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	ütközet
 .	.	PUNCT	[Punct]	_	O	.
@@ -104,7 +104,7 @@ valószínűleg	valószínűleg	ADV	[/Adv]	_	O	valószínűleg
 1100	1100	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	1100
 körül	körül	ADP	[/Post]	_	O	körül
 jegyeztek	jegyez	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jegyez
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 (	(	PUNCT	[Punct]	_	O	(
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kéziratok	kézirat	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kézirat
@@ -214,8 +214,8 @@ is	is	ADV	[/Adv]	_	O	is
 elterjedt	elterjed	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elterjed
 .	.	PUNCT	[Punct]	_	O	.
 
-Erre	ez	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+Erre	ez	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	ez
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 kerülhetett	kerül	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
 sor	sor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sor
 ,	,	PUNCT	[Punct]	_	O	,
@@ -277,7 +277,7 @@ Ezért	ezért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ezér
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 lennie	van	VERB	[/V][Inf.3Sg]	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	van
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 maximumnak	maximum	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	maximum
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
@@ -392,7 +392,7 @@ kedves	kedves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kedves
 szerzője	szerző	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szerző
 kezét	kéz	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kéz
 –	–	X	[Hyph:Dash]	_	O	–
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 marad	marad	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	marad
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hálátlan	hálátlan	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hálátlan
@@ -409,12 +409,12 @@ stílusú	stílusú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	stílusú
 ,	,	PUNCT	[Punct]	_	O	,
 hasonló	hasonló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hasonló
 balladai	balladai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	balladai
-kihagyásokra	kihagyás	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	kihagyás
+kihagyásokra	kihagyás	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	kihagyás
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 hajlamos	hajlamos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hajlamos
 Zósimost	Zósimos	PROPN	[/N][Acc]	Case=Acc|Number=Sing	B-PER	Zósimos
 ezúttal	ezúttal	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ezúttal
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 lelte	lel	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lel
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -427,7 +427,7 @@ Bolognában	Bologna	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Bologna
 lezajlott	lezajlott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lezajlott
 eseményeket	esemény	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	esemény
 pusztán	pusztán	ADV	[/Adv]	_	O	pusztán
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
 latin	latin	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	latin
@@ -465,11 +465,11 @@ városoknak	város	NOUN	[/N][Pl][Dat]	Case=Dat|Number=Plur	O	város
 meg	meg	PART	[/Prev]	_	O	meg
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 védeniük	véd	VERB	[/V][Inf.3Pl]	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	véd
-magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|Reflex=Yes	O	maga
+magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 lehetséges	lehetséges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lehetséges
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
@@ -483,7 +483,7 @@ tudják	tud	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Te
 megoltalmazni	megoltalmaz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megoltalmaz
 ,	,	PUNCT	[Punct]	_	O	,
 éppen	éppen	ADV	[/Adv]	_	O	éppen
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 ,	,	PUNCT	[Punct]	_	O	,
 mivel	mivel	SCONJ	[/Cnj]	_	O	mivel
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az

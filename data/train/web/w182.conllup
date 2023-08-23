@@ -15,7 +15,7 @@ veszélyesek	veszélyes	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	ve
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
-ütemre	ütem	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ütem
+ütemre	ütem	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	ütem
 masírozás	masírozás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	masírozás
 éppen	éppen	ADV	[/Adv]	_	O	éppen
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -41,7 +41,7 @@ vajon	vajon	ADV	[/Adv]	_	O	vajon
 kettő	kettő	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kettő
 miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
 zárja	zár	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	zár
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 egymást	egymás	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rcp	O	egymás
 ?	?	PUNCT	[Punct]	_	O	?
 
@@ -103,7 +103,7 @@ női	női	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	női
 páciensei	páciens	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	páciens
 igen	igen	ADV	[/Adv]	_	O	igen
 gyakran	gyakran	ADV	[/Adv]	_	O	gyakran
-szerelemre	szerelem	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	szerelem
+szerelemre	szerelem	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	szerelem
 gyulladnak	gyullad	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	gyullad
 iránta	iránt	ADP	[/Post][3Sg]	_	O	iránt
 ,	,	PUNCT	[Punct]	_	O	,
@@ -127,7 +127,7 @@ ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 .	.	PUNCT	[Punct]	_	O	.
 
 Másodszor	másodszor	ADJ	[/Num][_Ord/Adj][_Mlt-Iter/Adv]	Case=Nom|Number=Sing|NumType=Ord	O	kettő
@@ -153,7 +153,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 traumatikus	traumatikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	traumatikus
 szituáció	szituáció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szituáció
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-azért	az	PRON	[/N|Pro][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Dem	O	az
+azért	az	PRON	[/N|Pro][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Dem|Person=3|PronType=Dem	O	az
 okozott	okoz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	okoz
 fájdalmat	fájdalom	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	fájdalom
 ,	,	PUNCT	[Punct]	_	O	,
@@ -165,7 +165,7 @@ fojtva	fojtva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	fojt
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 fordítva	fordítva	ADV	[/Adv]	_	O	fordítva
 :	:	PUNCT	[Punct]	_	O	:
-azért	az	PRON	[/N|Pro][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Dem	O	az
+azért	az	PRON	[/N|Pro][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Dem|Person=3|PronType=Dem	O	az
 lett	lesz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 elfojtva	elfojtva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	elfojt
 ,	,	PUNCT	[Punct]	_	O	,
@@ -189,7 +189,7 @@ saját	saját	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	saját
 erőforrásait	erőforrás	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	erőforrás
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
-ezekre	ez	PRON	[/N|Pro][Pl][Subl]	Case=Sub|Number=Plur|Person=3|PronType=Dem	O	ez
+ezekre	ez	PRON	[/N|Pro][Pl][Subl]	Case=Sbl|Number=Plur|Person=3|PronType=Dem	O	ez
 támaszkodva	támaszkodva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	támaszkodik
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 traumatikus	traumatikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	traumatikus
@@ -228,13 +228,13 @@ ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	il
 kapcsolata	kapcsolat	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kapcsolat
 ;	;	PUNCT	[Punct]	_	O	;
 mindenki	mindenki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	O	mindenki
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 hidegen	hideg	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	hideg
 hagyja	hagy	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	hagy
 .	.	PUNCT	[Punct]	_	O	.
 
 Mi	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 intimitásnak	intimitás	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	intimitás
@@ -244,7 +244,7 @@ olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ol
 ,	,	PUNCT	[Punct]	_	O	,
 amelynek	amely	PRON	[/N|Pro|Rel][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Rel	O	amely
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-leírására	leírás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	leírás
+leírására	leírás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	leírás
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 legalkalmasabb	alkalmas	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	alkalmas
@@ -314,7 +314,7 @@ Gonosz	gonosz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gonosz
 Hatalommal	hatalom	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	hatalom
 ”	”	PUNCT	[Punct]	_	O	”
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
-szembenézésre	szembenézés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	szembenézés
+szembenézésre	szembenézés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	szembenézés
 .	.	PUNCT	[Punct]	_	O	.
 
 És	és	CCONJ	[/Cnj]	_	O	és
@@ -356,12 +356,12 @@ de	de	CCONJ	[/Cnj]	_	O	de
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 értettem	ért	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	ért
 ,	,	PUNCT	[Punct]	_	O	,
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 „	„	PUNCT	[Punct]	_	O	„
 működik	működik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	működik
 ”	”	PUNCT	[Punct]	_	O	”
 (	(	PUNCT	[Punct]	_	O	(
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tudtam	tud	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tud
 ,	,	PUNCT	[Punct]	_	O	,
 kémiai	kémiai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kémiai
@@ -401,9 +401,9 @@ is	is	ADV	[/Adv]	_	O	is
 fogok	fog	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
 utána	utána	ADV	[/Adv]	_	O	utána
 emlékezni	emlékezik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	emlékezik
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 történt	történik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	történik
 ,	,	PUNCT	[Punct]	_	O	,
 meg	meg	CCONJ	[/Cnj]	_	O	meg
@@ -444,7 +444,7 @@ egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 ismerősömnek	ismerős	NOUN	[/N][Poss.1Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	ismerős
 ,	,	PUNCT	[Punct]	_	O	,
 akit	aki	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	aki
-hipnoterápiára	hipnoterápia	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	hipnoterápia
+hipnoterápiára	hipnoterápia	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	hipnoterápia
 akartam	akar	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	akar
 rávenni	rávesz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	rávesz
 (	(	PUNCT	[Punct]	_	O	(

@@ -1,6 +1,6 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Ez	ez	PRON	[/Det|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
-utóbbira	utóbbi	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	utóbbi
+utóbbira	utóbbi	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	utóbbi
 csak	csak	ADV	[/Adv]	_	O	csak
 én	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
 gondolok	gondol	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	gondol
@@ -159,12 +159,12 @@ lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Per
 átpalántázni	átpalántáz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	átpalántáz
 ,	,	PUNCT	[Punct]	_	O	,
 csak	csak	ADV	[/Adv]	_	O	csak
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 locsolni	locsol	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	locsol
 .	.	PUNCT	[Punct]	_	O	.
 
-Akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+Akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 fog	fog	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
 annyit	annyi	PRON	[/Num|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	annyi
@@ -237,7 +237,7 @@ tetszik	tetszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person
 !	!	PUNCT	[Punct]	_	O	!
 
 Viszont	viszont	CCONJ	[/Cnj]	_	O	viszont
-azóta	azóta	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azóta
+azóta	azóta	ADV	[/Adv|Pro]	PronType=Dem	O	azóta
 nekem	én	PRON	[/N|Pro][Dat][1Sg]	Case=Dat|Number=Sing|Person=1|PronType=Prs	O	én
 is	is	ADV	[/Adv]	_	O	is
 szeget	szeg	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szeg
@@ -245,13 +245,13 @@ szeget	szeg	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szeg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fejembe	fej	NOUN	[/N][Poss.1Sg][Ill]	Case=Ill|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	fej
 és	és	CCONJ	[/Cnj]	_	O	és
-azóta	azóta	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azóta
+azóta	azóta	ADV	[/Adv|Pro]	PronType=Dem	O	azóta
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 tudtam	tud	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tud
 megfejteni	megfejt	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megfejt
 .	.	PUNCT	[Punct]	_	O	.
 
-Ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+Ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 megfigyeltem	megfigyel	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	megfigyel
 olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
 fát	fa	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	fa
@@ -264,7 +264,7 @@ láttam	lát	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|
 .	.	PUNCT	[Punct]	_	O	.
 
 Ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
-elkerülésére	elkerülés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	elkerülés
+elkerülésére	elkerülés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	elkerülés
 –	–	X	[Hyph:Dash]	_	O	–
 faiskolás	faiskolás	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	faiskolás
 ismerősöm	ismerős	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	ismerős
@@ -328,7 +328,7 @@ kifagyott	kifagy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Perso
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyár	nyár	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyár
-végére	vég	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vég
+végére	vég	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vég
 alul	alul	ADV	[/Adv]	_	O	alul
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 vad	vad	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vad
@@ -398,12 +398,12 @@ megizzadtam	megizzad	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|P
 ,	,	PUNCT	[Punct]	_	O	,
 ezek	ez	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Dem	O	ez
 szerint	szerint	ADP	[/Post]	_	O	szerint
-rám	én	PRON	[/N|Pro][Subl][1Sg]	Case=Sub|Number=Sing|Person=1|PronType=Prs	O	én
+rám	én	PRON	[/N|Pro][Subl][1Sg]	Case=Sbl|Number=Sing|Person=1|PronType=Prs	O	én
 is	is	ADV	[/Adv]	_	O	is
 hűlt	hűl	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hűl
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 vettem	vesz	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	vesz
 észre	észre	ADV	[/Prev]	_	O	észre
@@ -473,7 +473,7 @@ Valami	valami	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	valami
 TIT	TIT	PROPN	[/N|Acron][Nom]	Case=Nom|Number=Sing	B-ORG	TIT
 előadássorozat	előadássorozat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	előadássorozat
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 ???	???	PUNCT	[Punct]	_	O	???
 
 Sziasztok	sziasztok	INTJ	[/Inj-Utt]	_	O	sziasztok
@@ -499,7 +499,7 @@ muskátli	muskátli	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	muskátli
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 tavalyról	tavaly	ADV	[/Adv][Del]	_	O	tavaly
 ,	,	PUNCT	[Punct]	_	O	,
-ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 hűvösebb	hűvös	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	hűvös
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 és	és	CCONJ	[/Cnj]	_	O	és

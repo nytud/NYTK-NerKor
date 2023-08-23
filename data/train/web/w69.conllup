@@ -1,5 +1,5 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-Azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+Azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 ártana	árt	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	árt
 többet	sok	NUM	[/Num][_Comp/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	sok
@@ -80,7 +80,7 @@ terv	terv	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	terv
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 Sarmatia	Sarmatia	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Sarmatia
 provincia	provincia	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	provincia
-létrehozásra	létrehozás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	létrehozás
+létrehozásra	létrehozás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	létrehozás
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -181,7 +181,7 @@ könyv	könyv	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	könyv
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nemzetközi	nemzetközi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nemzetközi
 rendszert	rendszer	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	rendszer
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 említettem	említ	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	említ
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
@@ -201,7 +201,7 @@ felépítése	felépítés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[
 Hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 mindenki	mindenki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	O	mindenki
 utál	utál	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	utál
-terepre	terep	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	terep
+terepre	terep	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	terep
 járni	jár	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	jár
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -214,7 +214,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 földrajz	földrajz	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	földrajz
 teljesen	teljes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	teljes
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 megközelítésben	megközelítés	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	megközelítés
 vizsgál	vizsgál	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vizsgál
 dolgokat	dolog	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	dolog
@@ -243,7 +243,7 @@ valami	valami	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	va
 ennyire	ennyire	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ennyire
 természettudományosba	természettudományos	ADJ	[/Adj][Ill]	Case=Ill|Degree=Pos|Number=Sing	O	természettudományos
 ,	,	PUNCT	[Punct]	_	O	,
-mikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+mikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 külön	külön	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	külön
 emberünk	ember	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	ember
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
@@ -289,7 +289,7 @@ polihisztor	polihisztor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	polihisztor
 .	.	PUNCT	[Punct]	_	O	.
 
 De	de	CCONJ	[/Cnj]	_	O	de
-e	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+e	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 fenti	fenti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fenti
 alapkészségek	alapkészség	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	alapkészség
 legalább	legalább	ADV	[/Adv]	_	O	legalább
@@ -367,7 +367,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fenti	fenti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fenti
 helyzet	helyzet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	helyzet
 természetesen	természetesen	ADV	[/Adv]	_	O	természetesen
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 átlátható	átlátható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	átlátható
 és	és	CCONJ	[/Cnj]	_	O	és
 tiszta	tiszta	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tiszta
@@ -381,7 +381,7 @@ jelentősége	jelentőség	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[
 igazából	igazából	ADV	[/Adv]	_	O	igazából
 bonyolult	bonyolult	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	bonyolult
 ,	,	PUNCT	[Punct]	_	O	,
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 tucat	tucat	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	tucat
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 száz	száz	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	száz
@@ -462,7 +462,7 @@ Azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 hiszem	hisz	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	hisz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szombathelyi	szombathelyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szombathelyi
-tanárképzőre	tanárképző	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tanárképző
+tanárképzőre	tanárképző	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	tanárképző
 jártatok	jár	VERB	[/V][Pst.NDef.2Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	O	jár
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -515,7 +515,7 @@ is	is	ADV	[/Adv]	_	O	is
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 5.	5.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	5.
 század	század	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	század
-elejére-közepére	eleje-közép	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eleje-közép
+elejére-közepére	eleje-közép	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eleje-közép
 datálható	datálható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	datálható
 leletanyagok	leletanyag	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	leletanyag
 etnikai	etnikai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	etnikai
@@ -537,6 +537,6 @@ elég	elég	ADV	[/Adv]	_	O	elég
 egységes	egységes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egységes
 kép	kép	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kép
 alakult	alakul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	alakul
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 

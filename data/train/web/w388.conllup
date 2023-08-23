@@ -2,7 +2,7 @@
 Rekord	rekord	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rekord
 gyorsasággal	gyorsaság	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	gyorsaság
 épült	épül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	épül
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 idei	idei	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	idei
 békaterelő	békaterelő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	békaterelő
@@ -106,7 +106,7 @@ kis	kis	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kis
 illetve	illetve	CCONJ	[/Cnj]	_	O	illetve
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 betűk	betű	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	betű
-használatára	használat	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	használat
+használatára	használat	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	használat
 .	.	PUNCT	[Punct]	_	O	.
 
 Amennyiben	amennyiben	CCONJ	[/Cnj]	_	O	amennyiben
@@ -115,7 +115,7 @@ gépet	gép	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	gép
 újraindítja	újraindít	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	újraindít
 ,	,	PUNCT	[Punct]	_	O	,
 illetve	illetve	CCONJ	[/Cnj]	_	O	illetve
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 módon	mód	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	mód
 bontja	bont	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	bont
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -178,7 +178,7 @@ keretében	keretében	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	keretében
 megjelent	megjelent	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megjelent
 partnereink	partner	NOUN	[/N][Pl.Poss.1Pl][Nom]	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	O	partner
 részére	részére	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	részére
-ismertetésre	ismertetés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ismertetés
+ismertetésre	ismertetés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	ismertetés
 kerültek	kerül	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 2017.	2017.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	2017.
@@ -196,7 +196,7 @@ módok	mód	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	mód
 kiemelten	kiemelten	ADV	[/Adv]	_	O	kiemelten
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 interfészes	interfészes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	interfészes
-csatlakozásra	csatlakozás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	csatlakozás
+csatlakozásra	csatlakozás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	csatlakozás
 ,	,	PUNCT	[Punct]	_	O	,
 melyet	mely	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	amely
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -224,14 +224,14 @@ városok	város	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	város
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
 intézményeik	intézmény	NOUN	[/N][Pl.Poss.3Pl][Nom]	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	O	intézmény
 képviseltették	képviseltet	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	képviseltet
-magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|Reflex=Yes	O	maga
+magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 energia	energia	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	energia
 megtakarításon	megtakarítás	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	megtakarítás
 túl	túl	ADP	[/Post|(Supe)]	_	O	túl
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
 szempont	szempont	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szempont
 is	is	ADV	[/Adv]	_	O	is
@@ -418,7 +418,7 @@ mostani	mostani	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mostani
 helyén	hely	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hely
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
-szeptemberre	szeptember	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	szeptember
+szeptemberre	szeptember	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	szeptember
 készül	készül	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	készül
 el	el	ADV	[/Prev]	_	O	el
 .	.	PUNCT	[Punct]	_	O	.

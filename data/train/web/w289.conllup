@@ -53,7 +53,7 @@ kétszáz	kétszáz	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kétszá
 embert	ember	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ember
 jogtalanul	jogtalan	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jogtalan
 állítottak	állít	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	állít
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 .	.	PUNCT	[Punct]	_	O	.
 
 „	„	PUNCT	[Punct]	_	O	„
@@ -72,15 +72,15 @@ Ferenc	Ferenc	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Ferenc
 balatonőszödi	balatonőszödi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	balatonőszödi
 hazugságbeszéde	hazugságbeszéd	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hazugságbeszéd
 miatt	miatt	ADP	[/Post]	_	O	miatt
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 érezte	érez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	érez
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 menni	megy	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megy
 Budapest	Budapest	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Budapest
-utcáira	utca	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	utca
+utcáira	utca	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sbl|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	utca
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 mind	mind	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	O	mind
 szabadságjogait	szabadságjog	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	szabadságjog
@@ -180,7 +180,7 @@ véleményét	vélemény	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[ps
 .	.	PUNCT	[Punct]	_	O	.
 
 Nirenstein	Nirenstein	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Nirenstein
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 egyetemen	egyetem	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	egyetem
 is	is	ADV	[/Adv]	_	O	is
 tanított	tanít	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tanít
@@ -247,7 +247,7 @@ jómagam	jómaga	NOUN	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing	O	jómaga
 is	is	ADV	[/Adv]	_	O	is
 tettem	tesz	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tesz
 korábban	korábban	ADV	[/Adv]	_	O	korábban
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 esetekben	eset	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	eset
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -261,10 +261,10 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Európai	Európai	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Európai
 Parlamentben	Parlament	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-ORG	Parlament
 elhangzott	elhangzott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elhangzott
-felszólalására	felszólalás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	felszólalás
+felszólalására	felszólalás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	felszólalás
 reagálva	reagálva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	reagál
 jelentette	jelent	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jelent
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 mindaz	mindaz	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	mindaz
@@ -290,7 +290,7 @@ valójában	valójában	ADV	[/Adv]	_	O	valójában
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 törvényes	törvényes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	törvényes
 kormány	kormány	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kormány
-megdöntésére	megdöntés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megdöntés
+megdöntésére	megdöntés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megdöntés
 irányuló	irányuló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	irányuló
 kísérletről	kísérlet	NOUN	[/N][Del]	Case=Del|Number=Sing	O	kísérlet
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
@@ -301,7 +301,7 @@ Gaudi	Gaudi	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Gaudi
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
 ellenére	ellenére	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	ellenére
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 szerette	szeret	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szeret
 volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 fejezni	fejez	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	fejez

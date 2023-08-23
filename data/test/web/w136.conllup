@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Aztán	aztán	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	aztán
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 kellemes	kellemes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kellemes
 emlék	emlék	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	emlék
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -30,7 +30,7 @@ legesélyesebbnek	esélyes	ADJ	[/Supl][/Adj][_Comp/Adj][Dat]	Case=Dat|Degree=Sup
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ausztrál	ausztrál	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ausztrál
 válogatott	válogatott	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	válogatott
-kispadjára	kispad	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kispad
+kispadjára	kispad	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kispad
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Sportsbet.com.au	Sportsbet.com.au	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Sportsbet.com.au
 –	–	X	[Hyph:Dash]	_	O	–
@@ -43,7 +43,7 @@ honlapja	honlap	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 világ	világ	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	világ
 ,	,	PUNCT	[Punct]	_	O	,
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tűnik	tűnik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tűnik
 ,	,	PUNCT	[Punct]	_	O	,
 tele	tele	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tele
@@ -95,7 +95,7 @@ mehetett	megy	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|
 volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kapusról	kapus	NOUN	[/N][Del]	Case=Del|Number=Sing	O	kapus
-kipattanóra	kipattanó	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	kipattanó
+kipattanóra	kipattanó	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	kipattanó
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 hiába	hiába	ADV	[/Adv]	_	O	hiába
@@ -141,7 +141,7 @@ csak	csak	ADV	[/Adv]	_	O	csak
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szerbeket	szerb	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	szerb
 rántjuk	ránt	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	ránt
-magunkkal	maga	PRON	[/N|Pro][1Pl][Ins]	Case=Ins|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunkkal	maga	PRON	[/N|Pro][1Pl][Ins]	Case=Ins|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -239,7 +239,7 @@ de	de	CCONJ	[/Cnj]	_	O	de
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 hagyta	hagy	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hagy
-magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|Reflex=Yes	O	maga
+magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
 így	így	CCONJ	[/Cnj]	_	O	így
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
@@ -276,7 +276,7 @@ Most	most	ADV	[/Adv]	_	O	most
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 rövidpályás	rövidpályás	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rövidpályás
-gyorskorcsolyára	gyorskorcsolya	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	gyorskorcsolya
+gyorskorcsolyára	gyorskorcsolya	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	gyorskorcsolya
 szeretnék	szeret	VERB	[/V][Cond.NDef.1Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	szeret
 menni	megy	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megy
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -342,7 +342,7 @@ figyelni	figyel	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	figyel
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 export	export	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	export
-fenntarthatóságára	fenntarthatóság	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fenntarthatóság
+fenntarthatóságára	fenntarthatóság	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fenntarthatóság
 is	is	ADV	[/Adv]	_	O	is
 (	(	PUNCT	[Punct]	_	O	(
 ezért	ezért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ezért
@@ -368,7 +368,7 @@ előjellel	előjel	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	előjel
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 sávot	sáv	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	sáv
 viszonylag	viszonylag	ADV	[/Adv]	_	O	viszonylag
-szűkre	szűk	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	szűk
+szűkre	szűk	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	szűk
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 szabni	szab	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	szab
 ,	,	PUNCT	[Punct]	_	O	,
@@ -410,7 +410,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 örülnének	örül	VERB	[/V][Cond.NDef.3Pl]	Definite=Ind|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	örül
 és	és	CCONJ	[/Cnj]	_	O	és
 öntenék	önt	VERB	[/V][Cond.Def.3Pl]	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	önt
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 pénzt	pénz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	pénz
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -421,11 +421,11 @@ ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	il
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 piacbarát	piacbarát	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	piacbarát
 ”	”	PUNCT	[Punct]	_	O	”
-intézkedésre	intézkedés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	intézkedés
+intézkedésre	intézkedés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	intézkedés
 .	.	PUNCT	[Punct]	_	O	.
 
 Hisz	hisz	CCONJ	[/Cnj]	_	O	hisz
-ekkor	ekkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ekkor
+ekkor	ekkor	ADV	[/Adv|Pro]	PronType=Dem	O	ekkor
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
 eséllyel	esély	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	esély
 mi	mi	PRON	[/N|Pro][1Pl][Nom]	Case=Nom|Number=Plur|Person=1|PronType=Prs	O	mi
@@ -450,7 +450,7 @@ fogadni	fogad	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	fogad
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 legnagyobb	nagy	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	nagy
-segítségünkre	segítség	NOUN	[/N][Poss.1Pl][Subl]	Case=Sub|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	segítség
+segítségünkre	segítség	NOUN	[/N][Poss.1Pl][Subl]	Case=Sbl|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	segítség
 ilyenkor	ilyenkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ilyenkor
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 előző	előző	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	előző
@@ -468,7 +468,7 @@ megbecsülni	megbecsül	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megbecsül
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 még	még	ADV	[/Adv]	_	O	még
 odalenn	odalenn	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	odalenn

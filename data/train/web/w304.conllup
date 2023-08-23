@@ -12,7 +12,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 egyszerű	egyszerű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyszerű
 eldönteni	eldönt	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	eldönt
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 is	is	ADV	[/Adv]	_	O	is
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 valóság	valóság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	valóság
@@ -62,7 +62,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 pénzért	pénz	NOUN	[/N][Cau]	Case=Cau|Number=Sing	O	pénz
 !	!	PUNCT	[Punct]	_	O	!
 
-Mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+Mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 kerül	kerül	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kerül
 mennyibe	mennyi	PRON	[/Num|Pro|Int][Ill]	Case=Ill|Number=Sing|Person=3|PronType=Int	O	mennyi
 ?	?	PUNCT	[Punct]	_	O	?
@@ -81,7 +81,7 @@ nagyszülők	nagyszülő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	nagyszülő
 vidéken	vidék	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	vidék
 laknak	lakik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lakik
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 részről	rész	NOUN	[/N][Del]	Case=Del|Number=Sing	O	rész
 4	4	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	4
 éve	év	ADV	[/N][_Tmp_Ante/Adv]	_	O	év
@@ -127,10 +127,10 @@ kapcsán	kapcsán	ADP	[/Post|(Poss)]	_	O	kapcsán
 
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
 még	még	ADV	[/Adv]	_	O	még
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 is	is	ADV	[/Adv]	_	O	is
 néz	néz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	néz
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 nagyon	nagyon	ADV	[/Adv]	_	O	nagyon
@@ -140,7 +140,7 @@ rendszerelemekből	rendszerelem	NOUN	[/N][Pl][Ela]	Case=Ela|Number=Plur	O	rendsz
 felépíteni	felépít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	felépít
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szellőzőrendszert	szellőzőrendszer	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szellőzőrendszer
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 is	is	ADV	[/Adv]	_	O	is
 érdemes	érdemes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érdemes
 legalább	legalább	ADV	[/Adv]	_	O	legalább
@@ -197,7 +197,7 @@ vályog	vályog	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vályog
 vakolat	vakolat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vakolat
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 szigeteli	szigetel	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	szigetel
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 meleget	meleg	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	meleg
 ?	?	PUNCT	[Punct]	_	O	?
@@ -245,7 +245,7 @@ meg	meg	CCONJ	[/Cnj]	_	O	meg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 napkollektor	napkollektor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	napkollektor
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 tervezhető	tervezhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tervezhető
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 falfűtő	falfűtő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	falfűtő
@@ -292,7 +292,7 @@ rengeteg	rengeteg	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	rengeteg
 rendszer	rendszer	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rendszer
 ...	...	PUNCT	[Punct]	_	O	...
 kinek	ki	PRON	[/N|Pro|Int][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Int	O	ki
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 tetszik	tetszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tetszik
 ,	,	PUNCT	[Punct]	_	O	,
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
@@ -314,7 +314,7 @@ már	már	ADV	[/Adv]	_	O	már
 mindent	minden	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Tot	O	minden
 ráfognak	ráfog	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ráfog
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-vízerekre	vízér	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	vízér
+vízerekre	vízér	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	vízér
 ,	,	PUNCT	[Punct]	_	O	,
 stb	stb.	NOUN	[/N][Nom][Punct]	Case=Nom|Number=Sing	O	stb.
 .	.	PUNCT	[Punct]	_	O	.
@@ -410,7 +410,7 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 bármilyen	bármilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	bármilyen
 befektetési	befektetési	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	befektetési
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 döntésben	döntés	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	döntés
 alapként	alap	NOUN	[/N][EssFor:ként]	Case=Ess|Number=Sing	O	alap
 szolgáljanak	szolgál	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	szolgál
@@ -431,7 +431,7 @@ SZJA	SZJA	PROPN	[/N|Abbr][Nom]	Case=Nom|Number=Sing	O	SZJA
 kulcs	kulcs	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kulcs
 esetén	esetén	ADP	[/Post|(Poss)]	_	O	esetén
 lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 lehetőség	lehetőség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lehetőség
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy

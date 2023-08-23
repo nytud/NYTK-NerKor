@@ -58,7 +58,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 visszaigazolt	visszaigazolt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	visszaigazolt
 regisztráció	regisztráció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	regisztráció
 csak	csak	ADV	[/Adv]	_	O	csak
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 érvényes	érvényes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érvényes
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -73,8 +73,8 @@ Takaréknál	Takarék	PROPN	[/N][Ade]	Case=Ade|Number=Sing	I-ORG	Takarék
 vezetett	vezetett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vezetett
 75500258-11037864	75500258-11037864	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	75500258-11037864
 számú	számú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	számú
-számlára	számla	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	számla
-befizetésre	befizetés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	befizetés
+számlára	számla	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	számla
+befizetésre	befizetés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	befizetés
 kerül	kerül	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kerül
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 előleg	előleg	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	előleg
@@ -126,7 +126,7 @@ frissen	friss	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	friss
 felújított	felújított	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	felújított
 Fertő-tó	Fertő-tó	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Fertő-tó
 körüli	körüli	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	körüli
-kerékpárútra	kerékpárút	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	kerékpárút
+kerékpárútra	kerékpárút	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	kerékpárút
 kihelyezik	kihelyez	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kihelyez
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Eurovelo-útvonalat	Eurovelo-útvonal	PROPN	[/N][Acc]	Case=Acc|Number=Sing	O	Eurovelo-útvonal
@@ -145,7 +145,7 @@ EV13-táblák	EV13-táblák	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	EV13-táblák
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kerékpárt	kerékpár	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kerékpár
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 szerelni	szerel	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	szerel
 
@@ -179,11 +179,11 @@ háttámlával	háttámla	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	háttámla
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gyermek	gyermek	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gyermek
-méretére	méret	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	méret
+méretére	méret	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	méret
 beállítható	beállítható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	beállítható
 ,	,	PUNCT	[Punct]	_	O	,
 általa	által	ADP	[/Post][3Sg]	_	O	által
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 kapcsolható	kapcsolható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kapcsolható
 ,	,	PUNCT	[Punct]	_	O	,
@@ -219,7 +219,7 @@ jelzi	jelez	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Te
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kanyarodási	kanyarodási	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kanyarodási
 (	(	PUNCT	[Punct]	_	O	(
-balra	bal	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	bal
+balra	bal	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	bal
 )	)	PUNCT	[Punct]	_	O	)
 szándékot	szándék	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szándék
 .	.	PUNCT	[Punct]	_	O	.
@@ -259,7 +259,7 @@ egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 eldobható	eldobható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	eldobható
 ronggyal	rongy	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	rongy
 töröljük	töröl	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	töröl
-tisztára	tiszta	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	tiszta
+tisztára	tiszta	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	tiszta
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 láncot	lánc	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	lánc
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -396,7 +396,7 @@ autót	autó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	autó
 ,	,	PUNCT	[Punct]	_	O	,
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 kerékpárost	kerékpáros	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kerékpáros
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -425,7 +425,7 @@ ugyanakkor	ugyanakkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fáradtság	fáradtság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fáradtság
 is	is	ADV	[/Adv]	_	O	is
-ekkor	ekkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ekkor
+ekkor	ekkor	ADV	[/Adv|Pro]	PronType=Dem	O	ekkor
 jelentkezik	jelentkezik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelentkezik
 leggyorsabban	gyors	ADJ	[/Supl][/Adj][_Comp/Adj][_Manner/Adv]	Case=Ess|Degree=Sup|Number=Sing	O	gyors
 ,	,	PUNCT	[Punct]	_	O	,
@@ -470,7 +470,7 @@ ezért	ezért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ezér
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 is	is	ADV	[/Adv]	_	O	is
 tüntettünk	tüntet	VERB	[/V][Pst.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tüntet
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 különböző	különböző	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	különböző
 típusú	típusú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	típusú
@@ -484,7 +484,7 @@ munka	munka	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	munka
 mellett	mellett	ADP	[/Post]	_	O	mellett
 edző	edző	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	edző
 sportoló	sportoló	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sportoló
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 törekedjen	törekszik	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	törekszik
 inkább	inkább	ADV	[/Adv]	_	O	inkább
 ,	,	PUNCT	[Punct]	_	O	,
@@ -504,7 +504,7 @@ munkahelyi	munkahelyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	munkahel
 ,	,	PUNCT	[Punct]	_	O	,
 családi	családi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	családi
 és	és	CCONJ	[/Cnj]	_	O	és
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 kötelezettségeit	kötelezettség	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	kötelezettség
 is	is	ADV	[/Adv]	_	O	is
 )	)	PUNCT	[Punct]	_	O	)
@@ -552,7 +552,7 @@ adatkezelő	adatkezelő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	adatkezelő
 mint	mint	ADP	[/Prep]	_	O	mint
 adatkezelő	adatkezelő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	adatkezelő
 ,	,	PUNCT	[Punct]	_	O	,
-magára	maga	PRON	[/N|Pro][3Sg][Subl]	Case=Sub|Number=Sing|Person=3|Reflex=Yes	O	maga
+magára	maga	PRON	[/N|Pro][3Sg][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 nézve	nézve	ADP	[/Post|(Subl)]	_	O	nézve
 kötelezőnek	kötelező	ADJ	[/Adj][Dat]	Case=Dat|Degree=Pos|Number=Sing	O	kötelező
 ismeri	ismer	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ismer

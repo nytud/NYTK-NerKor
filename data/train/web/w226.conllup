@@ -1,5 +1,5 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-E	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+E	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 emberben	ember	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	ember
 meglévő	meglévő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	meglévő
@@ -47,7 +47,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Népegészségügyi	Népegészségügyi	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Népegészségügyi
 Karon	Kar	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-ORG	Kar
 is	is	ADV	[/Adv]	_	O	is
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 száz	száz	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	száz
 egyetemi	egyetemi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyetemi
 hallgatót	hallgató	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	hallgató
@@ -107,7 +107,7 @@ szorgos	szorgos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szorgos
 tisztogatót	tisztogató	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	tisztogató
 vendégül	vendég	NOUN	[/N][Ess]	Case=Ess|Number=Sing	O	vendég
 lát	lát	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lát
-ebédre	ebéd	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	ebéd
+ebédre	ebéd	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	ebéd
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Pro	Pro	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Pro
 Vértes	Vértes	PROPN	[/N]	Case=Nom|Number=Sing	I-ORG	Vértes
@@ -148,7 +148,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 GANZAIR	GANZAIR	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	GANZAIR
 Kft.	Kft.	PROPN	[/N][Nom][]	Case=Nom|Number=Sing	I-ORG	Kft.
 2015-ben	2015	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	2015
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 28	28	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	28
 millió	millió	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	millió
@@ -170,7 +170,7 @@ belül	belül	ADP	[/Post|(Supe)]	_	O	belül
 14,3	14,3	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	14,3
 millió	millió	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	millió
 forintos	forintos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	forintos
-vissza	vissza	ADV	[/Prev]	_	O	vissza
+vissza	vissza	ADV	[/Prev]	Degree=Pos	O	vissza
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 térítendő	térítendő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	térítendő
 támogatásban	támogatás	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	támogatás
@@ -180,7 +180,7 @@ részesült	részesül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Ganz-MÁVAG-Ikarus	Ganz-MÁVAG-Ikarus	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Ganz-MÁVAG-Ikarus
 motorkocsi	motorkocsi	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	motorkocsi
-személyszállításra	személyszállítás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	személyszállítás
+személyszállításra	személyszállítás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	személyszállítás
 szolgáló	szolgáló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szolgáló
 ,	,	PUNCT	[Punct]	_	O	,
 két-	két	NUM	[/Num|Attr][Nom][Hyph:Hyph]	Case=Nom|Number=Sing|NumType=Card	O	két
@@ -269,11 +269,11 @@ session	session	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	session
 süti	süti	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	süti
 értéke	érték	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	érték
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 generálva	generálva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	generál
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 session-hijacking	session-hijacking	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	session-hijacking
 támadás	támadás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	támadás
 veszélye	veszély	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	veszély
@@ -305,11 +305,11 @@ kötelező	kötelező	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kötelez
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szolgáltatónak	szolgáltató	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	szolgáltató
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 feltételek	feltétel	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	feltétel
 azonossága	azonosság	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	azonosság
 esetén	esetén	ADP	[/Post|(Poss)]	_	O	esetén
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 megválasztania	megválaszt	VERB	[/V][Inf.3Sg]	Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	megválaszt
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -332,9 +332,9 @@ eszközöket	eszköz	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	eszköz
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 személyes	személyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	személyes
 adatok	adat	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	adat
-kezelésére	kezelés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kezelés
+kezelésére	kezelés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kezelés
 csak	csak	ADV	[/Adv]	_	O	csak
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 kerüljön	kerül	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kerül
 sor	sor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sor
 ,	,	PUNCT	[Punct]	_	O	,
@@ -345,10 +345,10 @@ szolgáltatás	szolgáltatás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szolgáltat�
 nyújtásához	nyújtás	NOUN	[/N][Poss.3Sg][All]	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	nyújtás
 és	és	CCONJ	[/Cnj]	_	O	és
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-e	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+e	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 törvényben	törvény	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	törvény
 meghatározott	meghatározott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	meghatározott
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 célok	cél	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	cél
 teljesüléséhez	teljesülés	NOUN	[/N][Poss.3Sg][All]	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	teljesülés
 feltétlenül	feltétlenül	ADV	[/Adv]	_	O	feltétlenül
@@ -389,7 +389,7 @@ Rendeletben	rendelet	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-MISC	rendelet
 esetekben	eset	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	eset
 díj	díj	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	díj
 számítható	számítható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	számítható
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -444,8 +444,8 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 személyes	személyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	személyes
 adatokhoz	adat	NOUN	[/N][Pl][All]	Case=All|Number=Plur	O	adat
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
-hozzáférésre	hozzáférés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	hozzáférés
-fel	fel	ADV	[/Prev]	_	O	fel
+hozzáférésre	hozzáférés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	hozzáférés
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 jogosított	jogosított	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jogosított
 személyek	személy	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	személy

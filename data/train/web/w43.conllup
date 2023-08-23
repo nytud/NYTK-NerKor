@@ -67,11 +67,11 @@ említett	említett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	említett
 Zack	Zack	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Zack
 Snyder	Snyder	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Snyder
 vitte	visz	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	visz
-filmvászonra	filmvászon	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	filmvászon
+filmvászonra	filmvászon	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	filmvászon
 .	.	PUNCT	[Punct]	_	O	.
 
 De	de	CCONJ	[/Cnj]	_	O	de
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -87,7 +87,7 @@ inkább	inkább	ADV	[/Adv]	_	O	inkább
 elfeledett	elfeledett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elfeledett
 versek	vers	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	vers
 kerültek	kerül	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 brit	brit	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	brit
 gimnázium	gimnázium	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gimnázium
@@ -154,7 +154,7 @@ szülők	szülő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szülő
 gyermekeként	gyermek	NOUN	[/N][Poss.3Sg][EssFor:ként]	Case=Ess|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	gyermek
 jött	jön	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jön
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-világra	világ	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	világ
+világra	világ	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	világ
 :	:	PUNCT	[Punct]	_	O	:
 anyja	anya	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	anya
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -224,7 +224,7 @@ TimePass	TimePass	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	TimePass
 Meetup	Meetup	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Meetup
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 havonta	havonta	ADV	[/Adv]	_	O	havonta
-megrendezésre	megrendezés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	megrendezés
+megrendezésre	megrendezés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	megrendezés
 kerülő	kerülő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kerülő
 díjmentes	díjmentes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	díjmentes
 rendezvény	rendezvény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rendezvény
@@ -247,7 +247,7 @@ neki	ő	PRON	[/N|Pro][Dat][3Sg]	Case=Dat|Number=Sing|Person=3|PronType=Prs	O	ő
 
 Mint	mint	SCONJ	[/Cnj]	_	O	mint
 sokan	sok	NUM	[/Num][_Aggreg/Adv]	Case=Nom|Number=Sing|NumType=Card	O	sok
-mások	más	NOUN	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur	O	más
+mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind	O	más
 ,	,	PUNCT	[Punct]	_	O	,
 akik	aki	PRON	[/N|Pro|Rel][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Rel	O	aki
 gyermeki	gyermeki	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyermeki
@@ -299,7 +299,7 @@ díszletei	díszlet	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 gonddal	gond	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	gond
 találja	talál	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	talál
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 őket	ők	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	ők
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
@@ -425,7 +425,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 város	város	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	város
 közelében	közel	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	közel
 zuhant	zuhan	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	zuhan
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 híres	híres	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	híres
 humorista	humorista	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	humorista

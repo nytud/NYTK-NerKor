@@ -82,7 +82,7 @@ számítanak	számít	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 országokban	ország	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	ország
 (	(	PUNCT	[Punct]	_	O	(
 posztszovjet	posztszovjet	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	posztszovjet
@@ -119,9 +119,9 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 idegen	idegen	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	idegen
 állampolgárságáról	állampolgárság	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	állampolgárság
 mondjon	mond	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	mond
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 ,	,	PUNCT	[Punct]	_	O	,
-míg	amíg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amíg
+míg	amíg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amíg
 el	el	ADV	[/Prev]	_	O	el
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 éri	ér	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ér
@@ -223,9 +223,9 @@ neki	ő	PRON	[/N|Pro][Dat][3Sg]	Case=Dat|Number=Sing|Person=3|PronType=Prs	O	ő
 
 Břeclavtól	Břeclav	PROPN	[/N][Abl]	Case=Abl|Number=Sing	B-LOC	Břeclav
 fekszik	fekszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fekszik
-délkeletre	délkelet	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	délkelet
+délkeletre	délkelet	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	délkelet
 öt	öt	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	öt
-kilométerre	kilométer	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	kilométer
+kilométerre	kilométer	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	kilométer
 .	.	PUNCT	[Punct]	_	O	.
 
 Visszament	visszamegy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	visszamegy
@@ -235,7 +235,7 @@ de	de	CCONJ	[/Cnj]	_	O	de
 zaklatásával	zaklatás	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	zaklatás
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 hagyott	hagy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hagy
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hatalom	hatalom	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	hatalom
 ,	,	PUNCT	[Punct]	_	O	,
@@ -397,7 +397,7 @@ leghülyébb	leghülyébb	ADJ	[/N]	Case=Nom|Degree=Sup|Number=Sing	I-MISC	leghü
 angyal	angyal	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	angyal
 Christopher	Christopher	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Christopher
 Moore	Moore	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Moore
-amerikai	Amerika	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Amerika
+amerikai	amerikai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Amerika
 író	író	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	író
 regénye	regény	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	regény
 .	.	PUNCT	[Punct]	_	O	.
@@ -424,7 +424,7 @@ sikert	siker	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	siker
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 Moore	Moore	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Moore
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 könyve	könyv	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	könyv
 ,	,	PUNCT	[Punct]	_	O	,
 noha	noha	CCONJ	[/Cnj]	_	O	noha
@@ -469,7 +469,7 @@ Mocskos	Mocskos	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Mocskos
 meló	meló	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	meló
 Christopher	Christopher	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Christopher
 Moore	Moore	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Moore
-amerikai	Amerika	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Amerika
+amerikai	amerikai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Amerika
 író	író	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	író
 regénye	regény	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	regény
 .	.	PUNCT	[Punct]	_	O	.
@@ -481,8 +481,8 @@ evangéliuma	evangéliuma	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|
 spinoffja	spinoff	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	spinoff
 után	után	ADP	[/Post]	_	O	után
 Moore	Moore	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Moore
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
-vizekre	víz	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	víz
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
+vizekre	víz	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	víz
 evezett	evez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	evez
 ezzel	ez	PRON	[/Det|Pro][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -492,7 +492,7 @@ de	de	CCONJ	[/Cnj]	_	O	de
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hazai	hazai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hazai
 közönség	közönség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	közönség
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tűnik	tűnik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tűnik
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -527,10 +527,10 @@ kontinentális	kontinentális	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	
 Kínából	Kína	PROPN	[/N][Ela]	Case=Ela|Number=Sing	B-LOC	Kína
 származó	származó	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	származik
 hagyományos	hagyományos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hagyományos
-kínai	Kína	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kína
+kínai	kínai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kína
 zene	zene	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	zene
 ,	,	PUNCT	[Punct]	_	O	,
-kínai	Kína	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kína
+kínai	kínai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kína
 opera	opera	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	opera
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -546,7 +546,7 @@ Tajvanon	Tajvan	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Tajvan
 élő	élő	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	él
 ausztronéz	ausztronéz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ausztronéz
 népek	nép	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	nép
-zenéjére	zene	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	zene
+zenéjére	zene	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	zene
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hétköznapi	hétköznapi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hétköznapi
 élet	élet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	élet
@@ -578,7 +578,7 @@ szólhatnak	szól	VERB	[/V][_Mod/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Pot|Number=P
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 han	han	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	han
-kínai	Kína	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kína
+kínai	kínai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kína
 zenei	zenei	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	zenei
 hatások	hatás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	hatás
 Tajvanra	Tajvan	PROPN	[/N][Subl]	Case=Sbl|Number=Sing	B-LOC	Tajvan
@@ -603,7 +603,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 japán	japán	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	japán
 uralom	uralom	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	uralom
 )	)	PUNCT	[Punct]	_	O	)
-hatására	hatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hatás
+hatására	hatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hatás
 helyi	helyi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	helyi
 jelleget	jelleg	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	jelleg
 kezdtek	kezd	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kezd
@@ -620,7 +620,7 @@ szél	szél	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szél
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Jangce	Jangce	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Jangce
 folyótól	folyó	NOUN	[/N][Abl]	Case=Abl|Number=Sing	O	folyó
-délre	dél	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	dél
+délre	dél	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	dél
 fekvő	fekvő	ADJ	[/V][_ImpfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPres	O	fekszik
 területekről	terület	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O	terület
 származik	származik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	származik
@@ -677,7 +677,7 @@ zenetanári	zenetanári	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	zeneta
 diplomát	diploma	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	diploma
 szerzett	szerez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szerez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-kolozsvári	Kolozsvár	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kolozsvár
+kolozsvári	kolozsvári	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Kolozsvár
 zeneművészeti	zeneművészeti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	zeneművészeti
 főiskolán	főiskola	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	főiskola
 ,	,	PUNCT	[Punct]	_	O	,
@@ -693,7 +693,7 @@ munkássága	munkásság	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[ps
 főleg	főleg	ADV	[/Adv]	_	O	főleg
 Erdély	Erdély	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Erdély
 zenei	zenei	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	zenei
-múltjára	múlt	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	múlt
+múltjára	múlt	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	múlt
 összpontosul	összpontosul	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	összpontosul
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -710,17 +710,17 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 teljesség	teljesség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	teljesség
 igényével	igény	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	igény
 méri	mér	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	mér
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 zongoraművész	zongoraművész	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	zongoraművész
 Bartók	Bartók	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Bartók
-romániai	Románia	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Románia
+romániai	romániai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Románia
 hangversenyeinek	hangverseny	NOUN	[/N][Pl.Poss.3Sg][Dat]	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	hangverseny
 sajtóvisszhangját	sajtóvisszhang	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	sajtóvisszhang
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-sepsiszentgyörgyi	Sepsiszentgyörgy	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Sepsiszentgyörgy
+sepsiszentgyörgyi	sepsiszentgyörgyi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Sepsiszentgyörgy
 óvónőképzőben	óvónőképző	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	óvónőképző
 szerzett	szerez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szerez
 oklevelet	oklevél	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	oklevél
@@ -835,13 +835,13 @@ szócikkekhez	szócikk	NOUN	[/N][Pl][All]	Case=All|Number=Plur	O	szócikk
 jussanak	jut	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jut
 .	.	PUNCT	[Punct]	_	O	.
 
-Bécsi	Bécs	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Bécs
+Bécsi	Bécsi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Bécs
 és	és	CCONJ	[/Cnj]	_	O	és
-pozsonyi	Pozsony	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Pozsony
+pozsonyi	pozsonyi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Pozsony
 tanulmányok	tanulmány	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tanulmány
 után	után	ADP	[/Post]	_	O	után
 kereskedői	kereskedői	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kereskedői
-pályára	pálya	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	pálya
+pályára	pálya	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	pálya
 lépett	lép	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lép
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -899,7 +899,7 @@ megjelentek	megjelenik	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur
 ,	,	PUNCT	[Punct]	_	O	,
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-magyarországi	Magyarország	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Magyarország
+magyarországi	magyarországi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Magyarország
 megjelenés	megjelenés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	megjelenés
 meghiúsult	meghiúsul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	meghiúsul
 .	.	PUNCT	[Punct]	_	O	.
@@ -913,7 +913,7 @@ elnök	elnök	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	elnök
 ezüst	ezüst	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ezüst
 érdemrenddel	érdemrend	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	érdemrend
 tüntette	tüntet	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tüntet
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 jótékonysági	jótékonysági	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jótékonysági
 tevékenységéért	tevékenység	NOUN	[/N][Poss.3Sg][Cau]	Case=Cau|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tevékenység
 .	.	PUNCT	[Punct]	_	O	.
@@ -942,7 +942,7 @@ követően	követően	ADV	[/Adv]	_	O	követően
 Richard	Richard	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Richard
 Lester	Lester	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Lester
 fejezte	fejez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fejez
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -958,11 +958,11 @@ számára	számára	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	számára
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kapcsolatot	kapcsolat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kapcsolat
 jelentették	jelent	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jelent
-kryptoni	Krypton	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Krypton
+kryptoni	kryptoni	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Krypton
 szüleivel	szülő	NOUN	[/N][Pl.Poss.3Sg][Ins]	Case=Ins|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	szülő
 .	.	PUNCT	[Punct]	_	O	.
 
-Ekkor	ekkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ekkor
+Ekkor	ekkor	ADV	[/Adv|Pro]	PronType=Dem	O	ekkor
 megjelenik	megjelenik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megjelenik
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 immár	immár	ADV	[/Adv]	_	O	immár
@@ -1028,7 +1028,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 producerek	producer	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	producer
 viszont	viszont	CCONJ	[/Cnj]	_	O	viszont
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-kisebb	kicsi	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
+kisebb	kis	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
 költségvetésű	költségvetésű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	költségvetésű
 ,	,	PUNCT	[Punct]	_	O	,
 komikusabb	komikus	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	komikus
@@ -1103,7 +1103,7 @@ sokszor	sok	NUM	[/Num][_Mlt-Iter/Adv]	Case=Nom|Number=Sing|NumType=Card	O	sok
 távoli	távoli	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	távoli
 nézőpontból	nézőpont	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	nézőpont
 vett	vesz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	vesz
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 jeleneteket	jelenet	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	jelenet
 ,	,	PUNCT	[Punct]	_	O	,
 köztük	közt	ADP	[/Post][3Pl]	_	O	közt
@@ -1148,7 +1148,7 @@ látható	látható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	látható
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 három	három	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	három
-kryptoni	Krypton	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Krypton
+kryptoni	kryptoni	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Krypton
 lázadót	lázadó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	lázadó
 is	is	ADV	[/Adv]	_	O	is
 letartóztatták	letartóztat	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	letartóztat
@@ -1185,7 +1185,7 @@ felhasznált	felhasznál	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Si
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 filmnek	film	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	film
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 rajongói	rajongói	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rajongói
 vágású	vágású	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vágású
 verziója	verzió	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	verzió
@@ -1249,7 +1249,7 @@ csapatából	csapat	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=S
 ,	,	PUNCT	[Punct]	_	O	,
 még	még	ADV	[/Adv]	_	O	még
 őt	ő	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Prs	O	ő
-magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|Reflex=Yes	O	maga
+magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 is	is	ADV	[/Adv]	_	O	is
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1299,12 +1299,12 @@ Masséna	Masséna	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Masséna
 alakulatai	alakulat	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	alakulat
 ellen	ellen	ADP	[/Post]	_	O	ellen
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-ebelsbergi	Ebelsberg	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Ebelsberg
+ebelsbergi	ebelsbergi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Ebelsberg
 csatában	csata	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	csata
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-Aspern-Essling-i	Aspern-Essling	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Aspern-Essling
+Aspern-Essling-i	Aspern-Essling-i	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Aspern-Essling
 csata	csata	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	csata
 idején	idő	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	idő
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -1339,7 +1339,7 @@ von	von	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	von
 Bellegarde	Bellegarde	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Bellegarde
 grófot	gróf	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	gróf
 nevezték	nevez	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nevez
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
 Itthon	itthon	ADV	[/Adv]	_	O	itthon
@@ -1421,12 +1421,12 @@ Wednesday	Wednesday	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Wednesday
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Watford	Watford	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Watford
 esett	esik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	esik
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
 Belgiumban	Belgium	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Belgium
 évente	évente	ADV	[/Adv]	_	O	évente
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 4500	4500	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	4500
@@ -1454,7 +1454,7 @@ hajó	hajó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	hajó
 vonást	vonás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	vonás
 fordult	fordul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fordul
 és	és	CCONJ	[/Cnj]	_	O	és
-menekülésre	menekülés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	menekülés
+menekülésre	menekülés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	menekülés
 fogta	fog	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fog
 ,	,	PUNCT	[Punct]	_	O	,
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
@@ -1466,7 +1466,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tengeralattjáró	tengeralattjáró	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tengeralattjáró
 periszkópját	periszkóp	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	periszkóp
 ,	,	PUNCT	[Punct]	_	O	,
-balra	bal	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	bal
+balra	bal	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	bal
 fordult	fordul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fordul
 és	és	CCONJ	[/Cnj]	_	O	és
 egyenesen	egyenes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	egyenes
@@ -1513,7 +1513,7 @@ mérkőzést	mérkőzés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	mérkőzés
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Liverpool	Liverpool	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Liverpool
 nyerte	nyer	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
-3–1-re	3–1	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	3–1
+3–1-re	3–1	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	3–1
 .	.	PUNCT	[Punct]	_	O	.
 
 BORUSSIA	BORUSSIA	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	BORUSSIA
@@ -1624,7 +1624,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gimnáziumot	gimnázium	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	gimnázium
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-gozói	Gozo	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Gozo
+gozói	gozói	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Gozo
 szemináriumban	szeminárium	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	szeminárium
 tanult	tanul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tanul
 filozófiát	filozófia	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	filozófia
@@ -1634,7 +1634,7 @@ teológiát	teológia	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	teológia
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-indonéziai	Indonézia	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Indonézia
+indonéziai	indonéziai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Indonézia
 Celebesz-sziget	Celebesz-sziget	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Celebesz-sziget
 endemikus	endemikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	endemikus
 faja	faj	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	faj
@@ -1671,7 +1671,7 @@ készült	készül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Per
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Csupasz	Csupasz	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Csupasz
 pisztolyt	pisztoly	NOUN	[/N][Acc]	Case=Acc|Number=Sing	I-MISC	pisztoly
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 fogadta	fogad	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fogad
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kritika	kritika	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kritika
@@ -1698,7 +1698,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Rotten	Rotten	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Rotten
 Tomatoes	Tomatoes	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Tomatoes
 pedig	pedig	CCONJ	[/Cnj]	_	O	pedig
-89%-ra	89%	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	89%
+89%-ra	89%	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	89%
 értékelte	értékel	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	értékel
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1719,7 +1719,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Bayern	Bayern	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Bayern
 München	München	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	München
 nyerte	nyer	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
-2–0-ra	2–0	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	2–0
+2–0-ra	2–0	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	2–0
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 bajor	bajor	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	bajor
@@ -1787,7 +1787,7 @@ hely	hely	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	hely
 fontos	fontos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fontos
 szerepet	szerep	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szerep
 töltött	tölt	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tölt
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 művészetében	művészet	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	művészet
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1801,7 +1801,7 @@ miniszterelnök	miniszterelnök	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	minisztere
 hivatalosan	hivatalos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	hivatalos
 részvétét	részvét	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	részvét
 fejezte	fejez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fejez
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hozzátartozóknak	hozzátartozó	NOUN	[/N][Pl][Dat]	Case=Dat|Number=Plur	O	hozzátartozó
 .	.	PUNCT	[Punct]	_	O	.
@@ -1833,7 +1833,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tárgyalások	tárgyalás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tárgyalás
 célja	cél	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	cél
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-dél-szlovákiai	Dél-Szlovákia	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Dél-Szlovákia
+dél-szlovákiai	dél-szlovákiai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Dél-Szlovákia
 ,	,	PUNCT	[Punct]	_	O	,
 többségében	többség	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	többség
 magyarlakta	magyarlakta	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	magyarlakta
@@ -1861,7 +1861,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szudétanémetek	szudétanémet	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szudétanémet
 helyzetét	helyzet	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	helyzet
 használta	használ	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	használ
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 ürügyként	ürügy	NOUN	[/N][EssFor:ként]	Case=Ess|Number=Sing	O	ürügy
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1890,10 +1890,10 @@ kérdések	kérdés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kérdés
 rendezése	rendezés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	rendezés
 érdekében	érdekében	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	érdekében
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-dél-szlovákiai	Dél-Szlovákia	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Dél-Szlovákia
+dél-szlovákiai	dél-szlovákiai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Dél-Szlovákia
 Komáromban	Komárom	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Komárom
 csehszlovák-magyar	csehszlovák-magyar	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	csehszlovák-magyar
-tárgyalásokra	tárgyalás	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	tárgyalás
+tárgyalásokra	tárgyalás	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	tárgyalás
 került	kerül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
 sor	sor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sor
 .	.	PUNCT	[Punct]	_	O	.
@@ -1915,12 +1915,12 @@ volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tens
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 első	első	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	egy
-bécsi	Bécs	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Bécs
+bécsi	bécsi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Bécs
 döntést	döntés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	döntés
 november	november	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	november
 2-án	2	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	2
 hirdették	hirdet	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hirdet
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 amelynek	amely	PRON	[/N|Pro|Rel][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Rel	O	amely
 értelmében	értelmében	ADP	[/Post|(Poss)]	_	O	értelmében
@@ -1964,7 +1964,7 @@ végzett	végez	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 második	második	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	kettő
 ,	,	PUNCT	[Punct]	_	O	,
-míg	míg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	míg
+míg	míg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	míg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Liverpool	Liverpool	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Liverpool
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -1988,7 +1988,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Manchester	Manchester	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Manchester
 City	City	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	City
 jutott	jut	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jut
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 ,	,	PUNCT	[Punct]	_	O	,
 míg	míg	CCONJ	[/Cnj]	_	O	míg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -2004,9 +2004,9 @@ filmet	film	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	film
 Richard	Richard	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Richard
 Lester	Lester	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Lester
 fejezte	fejez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fejez
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 ,	,	PUNCT	[Punct]	_	O	,
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 jelenet	jelenet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jelenet
 megváltoztatásával	megváltoztatás	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megváltoztatás
 ,	,	PUNCT	[Punct]	_	O	,
@@ -2042,7 +2042,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 forgatott	forgatott	ADJ	[/V][_PerfPtcp/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing|VerbForm=PartPast	O	forgat
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
-addig	addig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	addig
+addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig
 dobozban	doboz	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	doboz
 maradt	marad	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	marad
 jelenetekből	jelenet	NOUN	[/N][Pl][Ela]	Case=Ela|Number=Plur	O	jelenet
@@ -2088,11 +2088,11 @@ munkájának	munka	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Si
 aránya	arány	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	arány
 83	83	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	83
 :	:	PUNCT	[Punct]	_	O	:
-17%-ra	17%	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	17%
+17%-ra	17%	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	17%
 fordult	fordul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fordul
 ,	,	PUNCT	[Punct]	_	O	,
 Donner	Donner	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Donner
-javára	java	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	java
+javára	java	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	java
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -2189,7 +2189,7 @@ döntőt	döntő	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	döntő
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Milan	Milan	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Milan
 nyerte	nyer	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
-4–1-re	4–1	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	4–1
+4–1-re	4–1	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	4–1
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -2198,7 +2198,7 @@ mérkőzésen	mérkőzés	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	mérkőzés
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Bayern	Bayern	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Bayern
 München	München	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	München
-4–0-ra	4–0	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	4–0
+4–0-ra	4–0	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	4–0
 nyert	nyer	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2261,7 +2261,7 @@ után	után	ADP	[/Post]	_	O	után
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Feyenoord	Feyenoord	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Feyenoord
 nyerte	nyer	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
-2–1-re	2–1	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	2–1
+2–1-re	2–1	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	2–1
 .	.	PUNCT	[Punct]	_	O	.
 
 Korunk	Korunk	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	B-MISC	Korunk
@@ -2271,8 +2271,8 @@ Korunk	Korunk	NOUN	[/N][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]
 
 Fogarastól	Fogaras	PROPN	[/N][Abl]	Case=Abl|Number=Sing	B-LOC	Fogaras
 13	13	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	13
-kilométerre	kilométer	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	kilométer
-délkeletre	délkelet	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	délkelet
+kilométerre	kilométer	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	kilométer
+délkeletre	délkelet	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	délkelet
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Fogarasi-havasok	Fogarasi-havasok	NOUN	[/N][Nom]	Case=Nom|Number=Plur	B-LOC	Fogarasi-havasok
@@ -2334,7 +2334,7 @@ Tudományegyetemen	Tudományegyetem	PROPN	[/N][Supe]	Case=Sup|Number=Sing	I-ORG	
 
 1945-től	1945	NUM	[/Num|Digit][Abl]	Case=Abl|Number=Sing|NumType=Card	O	1945
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-szatmári	Szatmár	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Szatmár
+szatmári	szatmári	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Szatmár
 polgári	polgári	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	polgári
 iskolában	iskola	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	iskola
 tanított	tanít	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tanít
@@ -2360,7 +2360,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kritikusok	kritikus	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kritikus
 körében	körében	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	körében
 vegyes	vegyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vegyes
-fogadtatásra	fogadtatás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	fogadtatás
+fogadtatásra	fogadtatás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	fogadtatás
 talált	talál	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	talál
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2374,12 +2374,12 @@ bátor	bátor	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	bátor
 alakításokat	alakítás	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	alakítás
 ,	,	PUNCT	[Punct]	_	O	,
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 véli	vél	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vél
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 „	„	PUNCT	[Punct]	_	O	„
-míg	míg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	míg
+míg	míg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	míg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 dráma	dráma	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	dráma
 kitartó	kitartó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kitartó
@@ -2391,13 +2391,13 @@ figyelmet	figyelem	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	figyelem
 parancsol	parancsol	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	parancsol
 ”	”	PUNCT	[Punct]	_	O	”
 ,	,	PUNCT	[Punct]	_	O	,
-addig	addig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	addig
+addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig
 Chéreau	Chéreau	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Chéreau
 korábbi	korábbi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	korábbi
-filmjeire	film	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	film
+filmjeire	film	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sbl|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	film
 is	is	ADV	[/Adv]	_	O	is
 jellemző	jellemző	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jellemző
-grandiózusságra	grandiózusság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	grandiózusság
+grandiózusságra	grandiózusság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	grandiózusság
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
 törekvése	törekvés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	törekvés
 ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
@@ -2423,7 +2423,7 @@ minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 részéről	rész	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	rész
 vonz	vonz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vonz
 embereket	ember	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	ember
-magához	maga	PRON	[/N|Pro][3Sg][All]	Case=All|Number=Sing|Person=3|Reflex=Yes	O	maga
+magához	maga	PRON	[/N|Pro][3Sg][All]	Case=All|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -2458,7 +2458,7 @@ döntőt	döntő	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	döntő
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Ajax	Ajax	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Ajax
 nyerte	nyer	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nyer
-2–0-ra	2–0	NUM	[/Num|Digit][Subl]	Case=Sub|Number=Sing|NumType=Card	O	2–0
+2–0-ra	2–0	NUM	[/Num|Digit][Subl]	Case=Sbl|Number=Sing|NumType=Card	O	2–0
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -2475,7 +2475,7 @@ csapat	csapat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	csapat
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 rangos	rangos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rangos
-európai	Európa	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Európa
+európai	európai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Európa
 kupa	kupa	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kupa
 döntőjében	döntő	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	döntő
 szerepelt	szerepel	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szerepel
@@ -2495,7 +2495,7 @@ városához	város	NOUN	[/N][Poss.3Sg][All]	Case=All|Number=Sing|Number[psor]=Si
 kötődik	kötődik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kötődik
 .	.	PUNCT	[Punct]	_	O	.
 
-E	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+E	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 három	három	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	három
 uralkodó	uralkodó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	uralkodó
 sorrendben	sorrend	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	sorrend
@@ -2536,13 +2536,13 @@ Celebesz-szigeten	Celebesz-sziget	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Ce
 
 Varasdtól	Varasd	PROPN	[/N][Abl]	Case=Abl|Number=Sing	B-LOC	Varasd
 24	24	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	24
-km-re	km	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	km
-délre	dél	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	dél
+km-re	km	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	km
+délre	dél	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	dél
 ,	,	PUNCT	[Punct]	_	O	,
 községközpontjától	községközpont	NOUN	[/N][Poss.3Sg][Abl]	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	községközpont
 1	1	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	1
-km-re	km	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	km
-nyugatra	nyugat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyugat
+km-re	km	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	km
+nyugatra	nyugat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyugat
 fekszik	fekszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fekszik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2563,7 +2563,7 @@ regénye	regény	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing
 melyet	mely	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	amely
 1974-ben	1974	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1974
 adtak	ad	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ad
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 angol	angol	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	angol
 nyelven	nyelv	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	nyelv
 .	.	PUNCT	[Punct]	_	O	.
@@ -2573,7 +2573,7 @@ Niven	Niven	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Niven
 és	és	CCONJ	[/Cnj]	_	O	és
 Jerry	Jerry	PROPN	[/N]	Case=Nom|Number=Sing	O	Jerry
 Pournelle	Pournelle	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	Pournelle
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 regényt	regény	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	regény
 is	is	ADV	[/Adv]	_	O	is
 írt	ír	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ír
@@ -2596,19 +2596,19 @@ közülük	közül	ADP	[/Post][3Pl]	_	O	közül
 
 1951-ben	1951	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	1951
 vált	válik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	válik
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 Alsócsórából	Alsócsóra	PROPN	[/N][Ela]	Case=Ela|Number=Sing	B-LOC	Alsócsóra
 .	.	PUNCT	[Punct]	_	O	.
 
 Varasdtól	Varasd	PROPN	[/N][Abl]	Case=Abl|Number=Sing	B-LOC	Varasd
 26	26	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	26
-km-re	km	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	km
-délre	dél	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	dél
+km-re	km	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	km
+délre	dél	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	dél
 ,	,	PUNCT	[Punct]	_	O	,
 községközpontjától	községközpont	NOUN	[/N][Poss.3Sg][Abl]	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	községközpont
 3	3	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	3
-km-re	km	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	km
-délnyugatra	délnyugat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	délnyugat
+km-re	km	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	km
+délnyugatra	délnyugat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	délnyugat
 fekszik	fekszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fekszik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2628,7 +2628,7 @@ amit	ami	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	ami
 ne	ne	ADV	[/Adv]	PronType=Neg	O	ne
 próbált	próbál	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	próbál
 volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 Szarvason	Szarvas	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Szarvas
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -2650,13 +2650,13 @@ tartozik	tartozik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pers
 
 Varasdtól	Varasd	PROPN	[/N][Abl]	Case=Abl|Number=Sing	B-LOC	Varasd
 22	22	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	22
-km-re	km	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	km
-délre	dél	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	dél
+km-re	km	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	km
+délre	dél	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	dél
 ,	,	PUNCT	[Punct]	_	O	,
 községközpontjától	községközpont	NOUN	[/N][Poss.3Sg][Abl]	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	községközpont
 2	2	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	2
-km-re	km	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	km
-északnyugatra	északnyugat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	északnyugat
+km-re	km	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	km
+északnyugatra	északnyugat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	északnyugat
 fekszik	fekszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fekszik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -2664,7 +2664,7 @@ fekszik	fekszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person
 január	január	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	január
 23-án	23	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	23
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-budaörsi	Budaörs	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Budaörs
+budaörsi	budaörsi	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Budaörs
 Tesco	Tesco	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Tesco
 áruházban	áruház	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	áruház
 kiflilopás	kiflilopás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kiflilopás

@@ -32,7 +32,7 @@ utcákon	utca	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	utca
 ,	,	PUNCT	[Punct]	_	O	,
 parkokban	park	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	park
 s	s	CCONJ	[/Cnj]	_	O	s
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 nyilvános	nyilvános	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nyilvános
 helyeken	hely	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	hely
 .	.	PUNCT	[Punct]	_	O	.
@@ -41,12 +41,12 @@ Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
 fogyasztási	fogyasztási	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fogyasztási
-termékre	termék	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	termék
+termékre	termék	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	termék
 vonatkozik	vonatkozik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vonatkozik
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 1,5%-nál	1,5	NOUN	[/N][Ade]	Case=Ade|Number=Sing	O	1,5
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 alkoholt	alkohol	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	alkohol
 tartalmaz	tartalmaz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tartalmaz
 ,	,	PUNCT	[Punct]	_	O	,
@@ -96,7 +96,7 @@ fogyasztására	fogyasztás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number
 külön	külön	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	külön
 alternatívákat	alternatíva	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	alternatíva
 dolgoz	dolgoz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	dolgoz
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
 Mindezentúl	Mindezentúl	ADV	[/Adv]	_	O	Mindezentúl
@@ -107,7 +107,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 dohány-	dohány	NOUN	[/N][Nom][Hyph:Hyph]	Case=Nom|Number=Sing	O	dohány
 és	és	CCONJ	[/Cnj]	_	O	és
 alkoholtermékek	alkoholtermék	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	alkoholtermék
-reklámjára	reklám	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	reklám
+reklámjára	reklám	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	reklám
 is	is	ADV	[/Adv]	_	O	is
 ;	;	PUNCT	[Punct]	_	O	;
 szöveges	szöveges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szöveges
@@ -135,7 +135,7 @@ címke	címke	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	címke
 követelmény	követelmény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	követelmény
 .	.	PUNCT	[Punct]	_	O	.
 
-Megjegyzésre	megjegyzés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	megjegyzés
+Megjegyzésre	megjegyzés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	megjegyzés
 érdemes	érdemes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érdemes
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -147,11 +147,11 @@ forgalmazásának	forgalmazás	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Num
 teljes	teljes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	teljes
 tilalmát	tilalom	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tilalom
 vezetik	vezet	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vezet
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 20	20	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	20
 évnél	év	NOUN	[/N][Ade]	Case=Ade|Number=Sing	O	év
-fiatalabbakra	fiatal	ADJ	[/Adj][_Comp/Adj][Pl][Subl]	Case=Sub|Degree=Cmp|Number=Plur	O	fiatal
+fiatalabbakra	fiatal	ADJ	[/Adj][_Comp/Adj][Pl][Subl]	Case=Sbl|Degree=Cmp|Number=Plur	O	fiatal
 .	.	PUNCT	[Punct]	_	O	.
 
 Ennek	ez	PRON	[/Det|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
@@ -224,7 +224,7 @@ Elsődleges	elsődleges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elsőd
 vásárlóik	vásárló	NOUN	[/N][Pl.Poss.3Pl][Nom]	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	O	vásárló
 iskolások	iskolás	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	iskolás
 és	és	CCONJ	[/Cnj]	_	O	és
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 diákok	diák	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	diák
 ,	,	PUNCT	[Punct]	_	O	,
 akik	aki	PRON	[/N|Pro|Rel][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Rel	O	aki

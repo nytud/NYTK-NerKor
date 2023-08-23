@@ -8,7 +8,7 @@ de	de	CCONJ	[/Cnj]	_	O	de
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 már	már	ADV	[/Adv]	_	O	már
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 minőség	minőség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	minőség
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -41,7 +41,7 @@ ha	ha	SCONJ	[/Cnj]	_	O	ha
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 találat	találat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	találat
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 onnantól	onnantól	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	onnantól
 kezdve	kezdve	ADP	[/Post|(Abl)]	_	O	kezdve
 sokkal	sokkal	ADV	[/Adv]	_	O	sokkal
@@ -99,7 +99,7 @@ se	se	ADV	[/Adv]	PronType=Neg	O	se
 
 Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 csak	csak	ADV	[/Adv]	_	O	csak
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 fog	fog	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
 menni	megy	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megy
 ,	,	PUNCT	[Punct]	_	O	,
@@ -289,11 +289,11 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 figyelmet	figyelem	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	figyelem
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 reálkonvergencia	reálkonvergencia	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	reálkonvergencia
-fontosságára	fontosság	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fontosság
+fontosságára	fontosság	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fontosság
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 ciklikusság	ciklikusság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ciklikusság
-kérdésére	kérdés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kérdés
+kérdésére	kérdés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kérdés
 .	.	PUNCT	[Punct]	_	O	.
 
 Magyarország	Magyarország	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Magyarország
@@ -321,10 +321,10 @@ tényező	tényező	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tényező
 ,	,	PUNCT	[Punct]	_	O	,
 mely	mely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 számos	számos	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	számos
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 kérdést	kérdés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kérdés
 vet	vet	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vet
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 .	.	PUNCT	[Punct]	_	O	.
 
 Németországban	Németország	PROPN	[/N][Ine]	Case=Ine|Number=Sing	B-LOC	Németország
@@ -347,12 +347,12 @@ hajtómotorja	hajtómotor	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[p
 
 Egyes	egyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyes
 iparágak	iparág	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	iparág
-fejlesztésére	fejlesztés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fejlesztés
+fejlesztésére	fejlesztés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fejlesztés
 koncentráltak	koncentrál	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	koncentrál
 ,	,	PUNCT	[Punct]	_	O	,
 leginkább	inkább	ADV	[/Supl][/Adv]	Degree=Sup	O	inkább
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-nehéziparra	nehézipar	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nehézipar
+nehéziparra	nehézipar	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nehézipar
 .	.	PUNCT	[Punct]	_	O	.
 
 Ám	ám	CCONJ	[/Cnj]	_	O	ám
@@ -388,7 +388,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 többi	többi	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	többi
 ország	ország	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ország
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 járt	jár	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jár
 el	el	ADV	[/Prev]	_	O	el
 ,	,	PUNCT	[Punct]	_	O	,
@@ -402,7 +402,7 @@ eljutna	eljut	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Önmegvalósításig	önmegvalósítás	NOUN	[/N][Ter]	Case=Ter|Number=Sing	O	önmegvalósítás
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 véleményem	vélemény	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	vélemény
 szerint	szerint	ADP	[/Post]	_	O	szerint
@@ -424,7 +424,7 @@ biztonság	biztonság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	biztonság
 iránti	iránti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	iránti
 vágy	vágy	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vágy
 szükségleteink	szükséglet	NOUN	[/N][Pl.Poss.1Pl][Nom]	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	O	szükséglet
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 lennének	lesz	VERB	[/V][Cond.NDef.3Pl]	Definite=Ind|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 elégítve	elégítve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	elégít
 .	.	PUNCT	[Punct]	_	O	.
@@ -466,7 +466,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 görögöknek	görög	ADJ	[/Adj][Pl][Dat]	Case=Dat|Degree=Pos|Number=Plur	O	görög
 meg	meg	CCONJ	[/Cnj]	_	O	meg
 tényleg	tényleg	ADV	[/Adv]	_	O	tényleg
-vissza	vissza	ADV	[/Prev]	_	O	vissza
+vissza	vissza	ADV	[/Prev]	Degree=Pos	O	vissza
 kéne	kell	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 fogni	fog	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	fog
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a

@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Munkavállalói	munkavállalói	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	munkavállalói
 létszámunkat	létszám	NOUN	[/N][Poss.1Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	létszám
-növelésére	növelés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	növelés
+növelésére	növelés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	növelés
 került	kerül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
 sor	sor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sor
 .	.	PUNCT	[Punct]	_	O	.
@@ -36,13 +36,13 @@ esetén	esetén	ADP	[/Post|(Poss)]	_	O	esetén
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 érintett	érintett	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	érintett
 jogosult	jogosult	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jogosult
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 tájékoztatást	tájékoztatás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	tájékoztatás
 kapjon	kap	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kap
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-továbbításra	továbbítás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	továbbítás
+továbbításra	továbbítás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	továbbítás
 vonatkozó	vonatkozó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vonatkozó
 megfelelő	megfelelő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megfelelő
 garanciákról	garancia	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O	garancia
@@ -108,7 +108,7 @@ Braille-írás	Braille-írás	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	Braille-ír
 elsők	első	ADJ	[/Num][_Ord/Adj][Pl][Nom]	Case=Nom|Number=Plur|NumType=Ord	O	egy
 között	között	ADP	[/Post]	_	O	között
 merül	merül	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	merül
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 köztudatban	köztudat	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	köztudat
 .	.	PUNCT	[Punct]	_	O	.
@@ -244,7 +244,7 @@ kívánja	kíván	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Perso
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 10.	10.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	10.
-évfordulóra	évforduló	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	évforduló
+évfordulóra	évforduló	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	évforduló
 jelentésben	jelentés	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	jelentés
 és	és	CCONJ	[/Cnj]	_	O	és
 gyűjteményes	gyűjteményes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyűjteményes
@@ -302,7 +302,7 @@ büntetésvégrehajtás	büntetésvégrehajtás	NOUN	[/N][Nom]	Case=Nom|Number=S
 parancsnokához	parancsnok	NOUN	[/N][Poss.3Sg][All]	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	parancsnok
 intézett	intézett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	intézett
 írásbeli	írásbeli	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	írásbeli
-kérdésekre	kérdés	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	kérdés
+kérdésekre	kérdés	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	kérdés
 érkező	érkező	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	érkező
 válaszok	válasz	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	válasz
 ismeretében	ismeret	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	ismeret
@@ -407,15 +407,15 @@ per	per	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	per
 novemberben	november	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	november
 folytatódik	folytatódik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	folytatódik
 ,	,	PUNCT	[Punct]	_	O	,
-addig	addig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	addig
+addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 bíróság	bíróság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	bíróság
 orvos	orvos	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	orvos
 szakértőt	szakértő	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szakértő
 rendel	rendel	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	rendel
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 annak	az	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	az
-megállapítására	megállapítás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megállapítás
+megállapítására	megállapítás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	megállapítás
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a

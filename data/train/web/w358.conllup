@@ -2,7 +2,7 @@
 és	és	CCONJ	[/Cnj]	_	O	és
 még	még	ADV	[/Adv]	_	O	még
 sok	sok	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 ...	...	PUNCT	[Punct]	_	O	...
 
 Hormonok	hormon	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	hormon
@@ -45,8 +45,8 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 telefonodat	telefon	NOUN	[/N][Poss.2Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	telefon
 és	és	CCONJ	[/Cnj]	_	O	és
 jegyezd	jegyez	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	jegyez
-le	le	ADV	[/Prev]	_	O	le
-magadnak	maga	PRON	[/N|Pro][2Sg][Dat]	Case=Dat|Number=Sing|Person=2|Reflex=Yes	O	maga
+le	le	ADV	[/Prev]	Degree=Pos	O	le
+magadnak	maga	PRON	[/N|Pro][2Sg][Dat]	Case=Dat|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	O	maga
 este	este	ADV	[/Adv]	_	O	este
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -75,9 +75,9 @@ e	-e	ADV	[/QPtcl]	PronType=Int	O	-e
 ,	,	PUNCT	[Punct]	_	O	,
 kérjük	kér	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kér
 nézz	néz	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	néz
-vissza	vissza	ADV	[/Prev]	_	O	vissza
+vissza	vissza	ADV	[/Prev]	Degree=Pos	O	vissza
 később	később	ADV	[/Adv]	_	O	később
-weboldalunkra	weboldal	NOUN	[/N][Poss.1Pl][Subl]	Case=Sub|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	weboldal
+weboldalunkra	weboldal	NOUN	[/N][Poss.1Pl][Subl]	Case=Sbl|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	weboldal
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -172,7 +172,7 @@ előjöjjön	előjön	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing
 .	.	PUNCT	[Punct]	_	O	.
 
 Mégpedig	mégpedig	CCONJ	[/Cnj]	_	O	mégpedig
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
 nagyjából	nagyjából	ADV	[/Adv]	_	O	nagyjából
@@ -201,7 +201,7 @@ ide	ide	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ide
 már	már	ADV	[/Adv]	_	O	már
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 jövök	jön	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	jön
-vissza	vissza	ADV	[/Prev]	_	O	vissza
+vissza	vissza	ADV	[/Prev]	Degree=Pos	O	vissza
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
 szétszed	szétszed	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	szétszed
@@ -235,7 +235,7 @@ Télleg	Télleg	ADV	[/Adv]	_	O	Télleg
 .	.	PUNCT	[Punct]	_	O	.
 
 Én	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tapasztaltam	tapasztal	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tapasztal
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -299,7 +299,7 @@ lényeg	lényeg	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lényeg
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 minél	minél	ADV	[/Adv]	_	O	minél
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 konverziót	konverzió	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	konverzió
 érjünk	ér	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	ér
 el	el	ADV	[/Prev]	_	O	el
@@ -377,7 +377,7 @@ trendjeivel	trend	NOUN	[/N][Pl.Poss.3Sg][Ins]	Case=Ins|Number=Plur|Number[psor]=
 ,	,	PUNCT	[Punct]	_	O	,
 hiszen	hiszen	CCONJ	[/Cnj]	_	O	hiszen
 csak	csak	ADV	[/Adv]	_	O	csak
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 fogunk	fog	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
 labdába	labda	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	labda
 rúgni	rúg	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	rúg
@@ -399,7 +399,7 @@ tulajdonképpen	tulajdonképpen	ADV	[/Adv]	_	O	tulajdonképpen
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szöveg	szöveg	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szöveg
 megértés	megértés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	megértés
-szintjére	szint	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szint
+szintjére	szint	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szint
 is	is	ADV	[/Adv]	_	O	is
 hathat	hat	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	hat
 .	.	PUNCT	[Punct]	_	O	.
@@ -452,7 +452,7 @@ cikk	cikk	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	cikk
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 valószínűleg	valószínűleg	ADV	[/Adv]	_	O	valószínűleg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 látogatók	látogató	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	látogató
@@ -471,11 +471,11 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 is	is	ADV	[/Adv]	_	O	is
 kattintanak	kattint	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kattint
 majd	majd	ADV	[/Adv]	_	O	majd
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 cikkben	cikk	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	cikk
 elhelyezett	elhelyezett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elhelyezett
-linkre	link	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	link
+linkre	link	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	link
 .	.	PUNCT	[Punct]	_	O	.
 
 Mivel	mivel	SCONJ	[/Cnj]	_	O	mivel

@@ -43,7 +43,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fogyatékosság	fogyatékosság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fogyatékosság
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 zárja	zár	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	zár
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egészséget	egészség	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	egészség
 .	.	PUNCT	[Punct]	_	O	.
@@ -117,7 +117,7 @@ hatásokat	hatás	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	hatás
 külső	külső	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	külső
 és	és	CCONJ	[/Cnj]	_	O	és
 belső	belső	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	belső
-tényezőkre	tényező	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	tényező
+tényezőkre	tényező	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	tényező
 bontva	bontva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	bont
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -194,7 +194,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 táplálkozási	táplálkozási	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	táplálkozási
 és	és	CCONJ	[/Cnj]	_	O	és
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 higiénés	higiénés	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	higiénés
 ártalmakat	ártalom	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	ártalom
 ,	,	PUNCT	[Punct]	_	O	,
@@ -249,7 +249,7 @@ tevékenység	tevékenység	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tevékenység
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 nemcsak	nemcsak	ADV	[/Adv]	_	O	nemcsak
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-egészségügyre	egészségügy	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	egészségügy
+egészségügyre	egészségügy	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	egészségügy
 korlátozódik	korlátozódik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	korlátozódik
 ,	,	PUNCT	[Punct]	_	O	,
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
@@ -260,7 +260,7 @@ törvényi	törvényi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	törvén
 intézményesített	intézményesített	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	intézményesített
 feladat	feladat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	feladat
 ,	,	PUNCT	[Punct]	_	O	,
-magába	maga	PRON	[/N|Pro][3Sg][Ill]	Case=Ill|Number=Sing|Person=3|Reflex=Yes	O	maga
+magába	maga	PRON	[/N|Pro][3Sg][Ill]	Case=Ill|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 foglalja	foglal	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	foglal
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egészségmegőrzést	egészségmegőrzés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	egészségmegőrzés
@@ -299,7 +299,7 @@ személyes	személyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	személy
 tényezők	tényező	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tényező
 támogatását	támogatás	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	támogatás
 öleli	ölel	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ölel
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 ”	”	PUNCT	[Punct]	_	O	”
 .	.	PUNCT	[Punct]	_	O	.
 

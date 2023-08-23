@@ -5,7 +5,7 @@ tömeg	tömeg	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tömeg
 ,	,	PUNCT	[Punct]	_	O	,
 illetve	illetve	CCONJ	[/Cnj]	_	O	illetve
 súly	súly	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	súly
-mérésére	mérés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	mérés
+mérésére	mérés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	mérés
 szolgáló	szolgáló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szolgáló
 eszköz	eszköz	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	eszköz
 .	.	PUNCT	[Punct]	_	O	.
@@ -72,7 +72,7 @@ csuklók	csukló	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	csukló
 és	és	CCONJ	[/Cnj]	_	O	és
 tengelyek	tengely	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tengely
 súrlódásának	súrlódás	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	súrlódás
-csökkentésére	csökkentés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	csökkentés
+csökkentésére	csökkentés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	csökkentés
 szorította	szorít	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szorít
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 mérlegkészítőket	mérlegkészítő	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	mérlegkészítő
@@ -102,7 +102,7 @@ csak	csak	ADV	[/Adv]	_	O	csak
 gördülő	gördülő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gördülő
 ellenállás	ellenállás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ellenállás
 lép	lép	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lép
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 emelő	emelő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	emelő
 forgáspontjaiban	forgáspont	NOUN	[/N][Pl.Poss.3Sg][Ine]	Case=Ine|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	forgáspont
@@ -110,7 +110,7 @@ forgáspontjaiban	forgáspont	NOUN	[/N][Pl.Poss.3Sg][Ine]	Case=Ine|Number=Plur|N
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fejlesztés	fejlesztés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fejlesztés
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 iránya	irány	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	irány
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
@@ -124,7 +124,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 középkori	középkori	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	középkori
 piaci	piaci	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	piaci
 mérlegházak	mérlegház	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	mérlegház
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 épültek	épül	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	épül
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -137,7 +137,7 @@ helyet	hely	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	hely
 ,	,	PUNCT	[Punct]	_	O	,
 melyet	mely	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	amely
 csak	csak	ADV	[/Adv]	_	O	csak
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 tudott	tud	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	tud
 kiszolgálni	kiszolgál	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	kiszolgál
@@ -184,7 +184,7 @@ hosszú	hosszú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hosszú
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hosszabbik	hosszú	ADJ	[/Adj][_Comp/Adj][_Design/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	hosszú
 kar	kar	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kar
-végére	vég	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vég
+végére	vég	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vég
 helyezett	helyezett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	helyezett
 serpenyőbe	serpenyő	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	serpenyő
 rakják	rak	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	rak
@@ -309,7 +309,7 @@ precíz	precíz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	precíz
 alkatrészeit	alkatrész	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	alkatrész
 .	.	PUNCT	[Punct]	_	O	.
 
-Más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+Más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 mechanikus	mechanikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mechanikus
 mérlegek	mérleg	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	mérleg
 fogaskerék-fogasléccel	fogaskerék-fogasléc	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	fogaskerék-fogasléc
@@ -319,7 +319,7 @@ is	is	ADV	[/Adv]	_	O	is
 készülnek	készül	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	készül
 ,	,	PUNCT	[Punct]	_	O	,
 melyeken	mely	PRON	[/N|Pro|Rel][Pl][Supe]	Case=Sup|Number=Plur|Person=3|PronType=Rel	O	amely
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 látható	látható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	látható
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 mért	mért	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mért
@@ -332,10 +332,10 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ellensúly	ellensúly	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ellensúly
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 forgó	forgó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	forgó
-tengelyre	tengely	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tengely
+tengelyre	tengely	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	tengely
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 felerősítve	felerősítve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	felerősít
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -381,7 +381,7 @@ súly	súly	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	súly
 
 Nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 tömegek	tömeg	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	tömeg
-mérésére	mérés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	mérés
+mérésére	mérés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	mérés
 (	(	PUNCT	[Punct]	_	O	(
 például	például	ADV	[/Adv]	_	O	például
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -440,7 +440,7 @@ teher	teher	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	teher
 olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
 alkalmasan	alkalmas	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	alkalmas
 kialakított	kialakított	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kialakított
-rugókra	rugó	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	rugó
+rugókra	rugó	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	rugó
 támaszkodik	támaszkodik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	támaszkodik
 ,	,	PUNCT	[Punct]	_	O	,
 melyeknek	mely	PRON	[/N|Pro|Rel][Pl][Dat]	Case=Dat|Number=Plur|Person=3|PronType=Rel	O	amely
@@ -455,7 +455,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyúlásmérő	nyúlásmérő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nyúlásmérő
 bélyeg	bélyeg	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	bélyeg
 fém	fém	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fém
-alkatrészre	alkatrész	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	alkatrész
+alkatrészre	alkatrész	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	alkatrész
 ragasztható	ragasztható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ragasztható
 elektromos	elektromos	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elektromos
 ellenállás	ellenállás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ellenállás
@@ -482,7 +482,7 @@ kalibrálva	kalibrálva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	kalibrál
 tömeg	tömeg	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tömeg
 dimenzióban	dimenzió	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	dimenzió
 jelzi	jelez	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelez
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a

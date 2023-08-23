@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 1.	1.	ADJ	[/Num|Digit][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	1.
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 kialakított	kialakított	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kialakított
 reflex	reflex	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	reflex
 alatt	alatt	ADP	[/Post]	_	O	alatt
@@ -14,7 +14,7 @@ leleményes	leleményes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lelem�
 megoldás	megoldás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	megoldás
 ,	,	PUNCT	[Punct]	_	O	,
 apáról	apa	NOUN	[/N][Del]	Case=Del|Number=Sing	O	apa
-fiúra	fiú	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	fiú
+fiúra	fiú	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	fiú
 szálló	szálló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szálló
 tradíció	tradíció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tradíció
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -154,7 +154,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 eltemetettek	eltemetett	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	eltemetett
 mellé	mellé	ADP	[/Post]	_	O	mellé
 –	–	X	[Hyph:Dash]	_	O	–
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 középkori	középkori	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	középkori
 falusi	falusi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	falusi
 temetőkkel	temető	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	temető
@@ -184,7 +184,7 @@ kiderült	kiderül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Per
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 mégsem	mégsem	ADV	[/Adv]	_	O	mégsem
 tekinthető	tekinthető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tekinthető
-e	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+e	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 lehetőség	lehetőség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lehetőség
 bizonyítékának	bizonyíték	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	bizonyíték
 .	.	PUNCT	[Punct]	_	O	.
@@ -209,7 +209,7 @@ két	két	NUM	[/Num|Attr][Nom]	Case=Nom|Number=Sing|NumType=Card	O	két
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 csoportja	csoport	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	csoport
 rajzolódik	rajzolódik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	rajzolódik
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -271,13 +271,13 @@ csak	csak	ADV	[/Adv]	_	O	csak
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 római	római	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	római
 emlékek	emlék	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	emlék
-jelentőségére	jelentőség	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	jelentőség
+jelentőségére	jelentőség	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	jelentőség
 ,	,	PUNCT	[Punct]	_	O	,
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 környezet	környezet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	környezet
 adta	adta	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	adta
-lehetőségekre	lehetőség	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	lehetőség
+lehetőségekre	lehetőség	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	lehetőség
 gondolok	gondol	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	gondol
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -337,7 +337,7 @@ is	is	ADV	[/Adv]	_	O	is
 :	:	PUNCT	[Punct]	_	O	:
 "	"	PUNCT	[Punct]	_	O	"
 Brigetiotól	Brigetio	PROPN	[/N][Del]	Case=Abl|Number=Sing	B-LOC	Brigetio
-keletre	kelet	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	kelet
+keletre	kelet	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	kelet
 "	"	PUNCT	[Punct]	_	O	"
 =	=	PUNCT	[Punct]	_	O	=
 Brigetio	Brigetio	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Brigetio
@@ -410,7 +410,7 @@ kultúrában	kultúra	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	kultúra
 megfigyelhető	megfigyelhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megfigyelhető
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 elhunytak	elhunyt	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	elhunyt
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 lépcsőben	lépcső	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	lépcső
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
 elföldelése	elföldelés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	elföldelés
@@ -441,7 +441,7 @@ magyarázható	magyarázható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	
 Természetesen	természetesen	ADV	[/Adv]	_	O	természetesen
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 zárhatjuk	zár	VERB	[/V][_Mod/V][Prs.Def.1Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	zár
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -540,7 +540,7 @@ harcos	harcos	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	harcos
 férfiú	férfiú	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	férfiú
 sírja	sír	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	sír
 került	kerül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
-elő	elő	ADV	[/Prev]	_	O	elő
+elő	elő	ADV	[/Prev]	Degree=Pos	O	elő
 ,	,	PUNCT	[Punct]	_	O	,
 nyílcsúcsokkal	nyílcsúcs	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	nyílcsúcs
 ,	,	PUNCT	[Punct]	_	O	,

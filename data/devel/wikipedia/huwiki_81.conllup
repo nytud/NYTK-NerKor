@@ -25,7 +25,7 @@ korlátozott	korlátozott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	korl
 Minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
 titok	titok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	titok
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyilvánosság
+nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyilvánosság
 hozatallal	hozatal	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	hozatal
 szűnik	szűnik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	szűnik
 meg	meg	PART	[/Prev]	_	O	meg
@@ -90,7 +90,7 @@ jelenti	jelent	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 valaki	valaki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valaki
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 levéltitkát	levéltitok	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	levéltitok
 megsérti	megsért	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megsért
 ,	,	PUNCT	[Punct]	_	O	,
@@ -104,11 +104,11 @@ jut	jut	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense
 és	és	CCONJ	[/Cnj]	_	O	és
 azt	az	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 jogosulatlanul	jogosulatlan	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jogosulatlan
-nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyilvánosság
+nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyilvánosság
 hozza	hoz	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	hoz
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 azzal	az	PRON	[/N|Pro][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Dem	O	az
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 módon	mód	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	mód
 visszaél	visszaél	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	visszaél
 .	.	PUNCT	[Punct]	_	O	.
@@ -203,9 +203,9 @@ hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 mely	mely	PRON	[/Det|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mely
 új	új	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	új
 műszaki	műszaki	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	műszaki
-megoldásokra	megoldás	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	megoldás
+megoldásokra	megoldás	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	megoldás
 ,	,	PUNCT	[Punct]	_	O	,
-találmányokra	találmány	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	találmány
+találmányokra	találmány	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	találmány
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 szabadalmat	szabadalom	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szabadalom
 engedélyezni	engedélyez	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	engedélyez
@@ -216,9 +216,9 @@ szabályok	szabály	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szabály
 vonatkoznak	vonatkozik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vonatkozik
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 már	már	ADV	[/Adv]	_	O	már
-nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyilvánosság
+nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyilvánosság
 jutott	jutott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jutott
-megoldásokra	megoldás	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	megoldás
+megoldásokra	megoldás	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	megoldás
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -247,7 +247,7 @@ olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ol
 tudás	tudás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tudás
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
-nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyilvánosság
+nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyilvánosság
 jutott	jutott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jutott
 szabadalmi	szabadalmi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szabadalmi
 leírásból	leírás	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	leírás

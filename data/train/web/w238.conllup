@@ -30,9 +30,9 @@ helyeztek	helyez	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Perso
 el	el	ADV	[/Prev]	_	O	el
 mobiltelefon	mobiltelefon	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	mobiltelefon
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 eszköz	eszköz	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	eszköz
-tárolására	tárolás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tárolás
+tárolására	tárolás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tárolás
 .	.	PUNCT	[Punct]	_	O	.
 
 Zseb	zseb	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	zseb
@@ -69,7 +69,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gépen	gép	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	gép
 tárolható	tárolható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tárolható
 ,	,	PUNCT	[Punct]	_	O	,
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tömlő	tömlő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tömlő
@@ -117,8 +117,8 @@ kezelhető	kezelhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kezelhet
 fűnyíró	fűnyíró	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fűnyíró
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
-kisebb	kicsi	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
-kertekre	kert	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	kert
+kisebb	kis	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
+kertekre	kert	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	kert
 alkalmas	alkalmas	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	alkalmas
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -156,7 +156,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 rendeltetésszerű	rendeltetésszerű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rendeltetésszerű
 használat	használat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	használat
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 Webáruházunk	webáruház	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	webáruház
 is	is	ADV	[/Adv]	_	O	is
 csak	csak	ADV	[/Adv]	_	O	csak
@@ -220,7 +220,7 @@ milyen	milyen	PRON	[/Adj|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=In
 kombináció	kombináció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kombináció
 választasz	választ	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	választ
 ,	,	PUNCT	[Punct]	_	O	,
-mindegyikre	mindegyik	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Tot	O	mindegyik
+mindegyikre	mindegyik	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Tot	O	mindegyik
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 készletünk	készlet	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	készlet
 .	.	PUNCT	[Punct]	_	O	.
@@ -257,7 +257,7 @@ Egyszerűen	egyszerű	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	
 ,	,	PUNCT	[Punct]	_	O	,
 csupán	csupán	ADV	[/Adv]	_	O	csupán
 egy	egy	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	egy
-érintésre	érintés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	érintés
+érintésre	érintés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	érintés
 található	található	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	található
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 információ	információ	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	információ
@@ -280,7 +280,7 @@ Csendesen	csendes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	csen
 alig	alig	ADV	[/Adv]	_	O	alig
 hallhatóan	hallható	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	hallható
 nyírja	nyír	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	nyír
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 füvet	fű	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	fű
 ,	,	PUNCT	[Punct]	_	O	,
@@ -291,13 +291,13 @@ teljesen	teljes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	teljes
 automatikusan	automatikus	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	automatikus
 visszatér	visszatér	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	visszatér
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-töltőállomásra	töltőállomás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	töltőállomás
+töltőállomásra	töltőállomás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	töltőállomás
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 smart	smart	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	smart
 app-pel	app	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	app
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 programozni	programoz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	programoz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -340,7 +340,7 @@ köszönhetően	köszönhető	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kocsi	kocsi	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kocsi
 csak	csak	ADV	[/Adv]	_	O	csak
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 szór	szór	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	szór
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -405,7 +405,7 @@ sokoldalú	sokoldalú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	sokoldal
 ,	,	PUNCT	[Punct]	_	O	,
 kompakt	kompakt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kompakt
 ,	,	PUNCT	[Punct]	_	O	,
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 manőverezhető	manőverezhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	manőverezhető
 első	első	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	egy
 vágóasztalos	vágóasztalos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vágóasztalos
@@ -490,7 +490,7 @@ hajtással	hajtás	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	hajtás
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-kezelőgombokra	kezelőgomb	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	kezelőgomb
+kezelőgombokra	kezelőgomb	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	kezelőgomb
 gyakorolt	gyakorolt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyakorolt
 könnyed	könnyed	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	könnyed
 nyomással	nyomás	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	nyomás
@@ -519,7 +519,7 @@ Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ismert	ismert	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ismert
 nevek	név	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	név
 közt	közt	ADP	[/Post]	_	O	közt
-ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 vannak	van	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 azok	az	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Dem	O	az
 is	is	ADV	[/Adv]	_	O	is

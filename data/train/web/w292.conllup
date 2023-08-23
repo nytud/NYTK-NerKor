@@ -42,7 +42,7 @@ Budaházy	Budaházy	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Budaházy
 György	György	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	György
 mellett	mellett	ADP	[/Post]	_	O	mellett
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 helyen	hely	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	hely
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -56,7 +56,7 @@ ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 utcai	utcai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	utcai
 asztalnál	asztal	NOUN	[/N][Ade]	Case=Ade|Number=Sing	O	asztal
-e	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+e	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 napon	nap	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	nap
 Novák	Novák	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Novák
 Előd	Előd	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Előd
@@ -71,7 +71,7 @@ feljelentését	feljelentés	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Numbe
 elutasították	elutasít	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elutasít
 ,	,	PUNCT	[Punct]	_	O	,
 most	most	ADV	[/Adv]	_	O	most
-pótmagánvádra	pótmagánvád	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	pótmagánvád
+pótmagánvádra	pótmagánvád	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	pótmagánvád
 készülünk	készül	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	készül
 ,	,	PUNCT	[Punct]	_	O	,
 kárigényét	kárigény	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kárigény
@@ -96,7 +96,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 legfőbb	fő	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	fő
 ügyészhez	ügyész	NOUN	[/N][All]	Case=All|Number=Sing	O	ügyész
 ,	,	PUNCT	[Punct]	_	O	,
-melyre	mely	PRON	[/N|Pro|Rel][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Rel	O	amely
+melyre	mely	PRON	[/N|Pro|Rel][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Rel	O	amely
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Polt	Polt	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Polt
 Pétert	Péter	PROPN	[/N][Acc]	Case=Acc|Number=Sing	I-PER	Péter
@@ -132,7 +132,7 @@ lépésekről	lépés	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O	lépés
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kettős	kettős	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kettős
 mércét	mérce	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	mérce
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 mutatja	mutat	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	mutat
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -242,9 +242,9 @@ ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
 veszélyt	veszély	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	veszély
 jelenthet	jelent	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelent
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-békére	béke	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	béke
+békére	béke	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	béke
 és	és	CCONJ	[/Cnj]	_	O	és
-biztonságra	biztonság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	biztonság
+biztonságra	biztonság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	biztonság
 nézve	nézve	ADP	[/Post|(Subl)]	_	O	nézve
 "	"	PUNCT	[Punct]	_	O	"
 .	.	PUNCT	[Punct]	_	O	.
@@ -258,14 +258,14 @@ András	András	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	András
 felhívta	felhív	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	felhív
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 figyelmet	figyelem	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	figyelem
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 Európa	Európa	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Európa
 keleti	keleti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	keleti
 felében	fél	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	fél
 sokkal	sokkal	ADV	[/Adv]	_	O	sokkal
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 megoldatlan	megoldatlan	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megoldatlan
 probléma	probléma	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	probléma
 jelentkezik	jelentkezik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelentkezik
@@ -278,7 +278,7 @@ Beszéde	beszéd	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing
 után	után	ADP	[/Post]	_	O	után
 Nikolic	Nikolic	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Nikolic
 képviselői	képviselői	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	képviselői
-kérdésekre	kérdés	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	kérdés
+kérdésekre	kérdés	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	kérdés
 válaszolt	válaszol	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	válaszol
 .	.	PUNCT	[Punct]	_	O	.
 

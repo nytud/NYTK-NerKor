@@ -193,7 +193,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tárolás	tárolás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tárolás
 miatt	miatt	ADP	[/Post]	_	O	miatt
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 szükség	szükség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szükség
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -233,7 +233,7 @@ másodszorra	másodszorra	ADV	[/Adv]	_	O	másodszorra
 is	is	ADV	[/Adv]	_	O	is
 lefőztem	lefőz	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	lefőz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-versenyre	verseny	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	verseny
+versenyre	verseny	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	verseny
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -279,7 +279,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 kapnak	kap	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kap
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 pontozzanak	pontoz	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	pontoz
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -287,7 +287,7 @@ Még	még	ADV	[/Adv]	_	O	még
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másikkal	másik	ADJ	[/Adj|Pro][Ins]	Case=Ins|Degree=Pos|Number=Sing	O	másik
+másikkal	másik	DET	[/Adj|Pro][Ins]	Definite=Ind|PronType=Ind	O	másik
 igen	igen	ADV	[/Adv]	_	O	igen
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -307,7 +307,7 @@ után	után	ADP	[/Post]	_	O	után
 el	el	ADV	[/Prev]	_	O	el
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 dugványokat	dugvány	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	dugvány
-kisebb	kicsi	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
+kisebb	kis	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
 méretű	méretű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	méretű
 cserepekbe	cserép	NOUN	[/N][Pl][Ill]	Case=Ill|Number=Plur	O	cserép
 .	.	PUNCT	[Punct]	_	O	.
@@ -329,7 +329,7 @@ határban	határ	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	határ
 .	.	PUNCT	[Punct]	_	O	.
 
 Lekenyereztem	lekenyerez	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	lekenyerez
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 ezzel	ez	PRON	[/Det|Pro][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 sörrel	sör	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	sör
@@ -412,7 +412,7 @@ Saison-t	Saison	PROPN	[/N][Acc]	Case=Acc|Number=Sing	I-MISC	Saison
 csütörtökön	csütörtök	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	csütörtök
 ,	,	PUNCT	[Punct]	_	O	,
 majd	majd	ADV	[/Adv]	_	O	majd
-vonatra	vonat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	vonat
+vonatra	vonat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	vonat
 ült	ül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ül
 és	és	CCONJ	[/Cnj]	_	O	és
 itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
@@ -422,7 +422,7 @@ reggel	reggel	ADV	[/Adv]	_	O	reggel
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 megnézze	megnéz	VERB	[/V][Sbjv.Def.3Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megnéz
-magának	maga	PRON	[/N|Pro][3Sg][Dat]	Case=Dat|Number=Sing|Person=3|Reflex=Yes	O	maga
+magának	maga	PRON	[/N|Pro][3Sg][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ezt	ez	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kisüzemi	kisüzemi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kisüzemi
@@ -451,7 +451,7 @@ mondjam	mond	VERB	[/V][Sbjv.Def.1Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=1|
 
 Alapvetően	alapvető	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	alapvető
 tök	tök	ADV	[/Adv|AdjMod]	_	O	tök
-szárazra	száraz	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	száraz
+szárazra	száraz	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	száraz
 erjedt	erjedt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	erjedt
 sörök	sör	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	sör
 ,	,	PUNCT	[Punct]	_	O	,
@@ -469,7 +469,7 @@ jutok	jut	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Ten
 csak	csak	ADV	[/Adv]	_	O	csak
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 fertőtlenített	fertőtlenített	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fertőtlenített
-fecskendőre	fecskendő	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	fecskendő
+fecskendőre	fecskendő	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	fecskendő
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 szükségem	szükség	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	szükség
 ,	,	PUNCT	[Punct]	_	O	,
@@ -505,7 +505,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 mintát	minta	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	minta
 .	.	PUNCT	[Punct]	_	O	.
 
-Eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	eddig
+Eddig	eddig	ADV	[/Adv|Pro]	PronType=Dem	O	eddig
 másfél	másfél	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	másfél
 éves	éves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	éves
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van

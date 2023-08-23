@@ -41,7 +41,7 @@ gyengéd	gyengéd	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyengéd
 érzelmeket	érzelem	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	érzelem
 táplál	táplál	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	táplál
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 iránt	iránt	ADP	[/Post]	_	O	iránt
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
@@ -50,7 +50,7 @@ istenért	isten	NOUN	[/N][Cau]	Case=Cau|Number=Sing	O	isten
 se	se	ADV	[/Adv]	PronType=Neg	O	se
 vallanák	vall	VERB	[/V][Cond.Def.3Pl]	Definite=Def|Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	vall
 ezt	ez	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 .	.	PUNCT	[Punct]	_	O	.
 
 Ármánnyal	ármány	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	ármány
@@ -59,11 +59,11 @@ cselszövéssel	cselszövés	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	cselszövés
 próbálják	próbál	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	próbál
 meg	meg	PART	[/Prev]	_	O	meg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másikat	másik	ADJ	[/Adj|Pro][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	másik
+másikat	másik	DET	[/Adj|Pro][Acc]	Definite=Ind|PronType=Ind	O	másik
 rábírni	rábír	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	rábír
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szerelmi	szerelmi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szerelmi
-vallomásra	vallomás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	vallomás
+vallomásra	vallomás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	vallomás
 .	.	PUNCT	[Punct]	_	O	.
 
 Nemcsak	nemcsak	ADV	[/Adv]	_	O	nemcsak
@@ -225,7 +225,7 @@ kivitelezése	kivitelezés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[
 Van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 garancia	garancia	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	garancia
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-garázsokra	garázs	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	garázs
+garázsokra	garázs	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	garázs
 ?	?	PUNCT	[Punct]	_	O	?
 
 És	és	CCONJ	[/Cnj]	_	O	és
@@ -250,9 +250,9 @@ lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Per
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 csillagok	csillag	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	csillag
 húznak	húz	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	húz
-magukhoz	maga	PRON	[/N|Pro][3Pl][All]	Case=All|Number=Plur|Person=3|Reflex=Yes	O	maga
+magukhoz	maga	PRON	[/N|Pro][3Pl][All]	Case=All|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 nézzük	néz	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	néz
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -327,7 +327,7 @@ irányt	irány	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	irány
 mutat	mutat	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	mutat
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 amit	ami	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	ami
@@ -453,7 +453,7 @@ Könnyű	könnyű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	könnyű
 anyagból	anyag	NOUN	[/N][Ela]	Case=Ela|Number=Sing	O	anyag
 készülnek	készül	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	készül
 ,	,	PUNCT	[Punct]	_	O	,
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 kezelhetőek	kezelhető	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	kezelhető
 és	és	CCONJ	[/Cnj]	_	O	és
 biztonságosak	biztonságos	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	biztonságos
@@ -463,14 +463,14 @@ fűnyírók	fűnyíró	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	fűnyíró
 .	.	PUNCT	[Punct]	_	O	.
 
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 méter	méter	NOUN	[/N|Unit][Nom]	Case=Nom|Number=Sing	O	méter
 hosszú	hosszú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hosszú
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tuja	tuja	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tuja
 sor	sor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sor
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 jelentősen	jelentős	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jelentős
 lerövidítheti	lerövidít	VERB	[/V][_Mod/V][Prs.Def.3Sg]	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lerövidít
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a

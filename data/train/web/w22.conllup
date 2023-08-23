@@ -26,7 +26,7 @@ Azoknak	az	PRON	[/Det|Pro][Pl][Dat]	Case=Dat|Number=Plur|Person=3|PronType=Dem	O
 akik	aki	PRON	[/N|Pro|Rel][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Rel	O	aki
 igény	igény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	igény
 tartanak	tart	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tart
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 szívesen	szívesen	ADV	[/Adv]	_	O	szívesen
 ajánlunk	ajánl	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	ajánl
@@ -97,9 +97,9 @@ munkanap	munkanap	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	munkanap
 
 Személyes	személyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	személyes
 adatok	adat	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	adat
-törlésére	törlés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	törlés
+törlésére	törlés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	törlés
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-módosítására	módosítás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	módosítás
+módosítására	módosítás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	módosítás
 irányuló	irányuló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	irányuló
 igény	igény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	igény
 teljesítését	teljesítés	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	teljesítés
@@ -143,7 +143,7 @@ acélbetétes	acélbetétes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ac
 műanyag	műanyag	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	műanyag
 profilokat	profil	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	profil
 feltételez	feltételez	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	feltételez
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 réteges	réteges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	réteges
 üvegbetéttel	üvegbetét	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	üvegbetét
 .	.	PUNCT	[Punct]	_	O	.
@@ -154,8 +154,8 @@ színű	színű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	színű
 -	-	X	[Hyph:Hyph]	_	O	-
 de	de	CCONJ	[/Cnj]	_	O	de
 egyéni	egyéni	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéni
-igényre	igény	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	igény
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+igényre	igény	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	igény
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 színben	szín	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	szín
 is	is	ADV	[/Adv]	_	O	is
 megvásárolható	megvásárolható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megvásárolható
@@ -215,7 +215,7 @@ kellett	kell	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|
 belőle	ő	PRON	[/N|Pro][Ela][3Sg]	Case=Ela|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 250gr-os	250gr-os	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	250gr-os
-papírra	papír	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	papír
+papírra	papír	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	papír
 .	.	PUNCT	[Punct]	_	O	.
 
 Kivittük	kivisz	VERB	[/V][Pst.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	kivisz
@@ -234,15 +234,15 @@ nyitható	nyitható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nyitható
 ,	,	PUNCT	[Punct]	_	O	,
 erős	erős	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	erős
 acél	acél	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	acél
-zártszelvényre	zártszelvény	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	zártszelvény
+zártszelvényre	zártszelvény	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	zártszelvény
 szerelve	szerelve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	szerel
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-padlóra	padló	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	padló
+padlóra	padló	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	padló
 és	és	CCONJ	[/Cnj]	_	O	és
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-falra	fal	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	fal
+falra	fal	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	fal
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 felerősítve	felerősítve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	felerősít
 .	.	PUNCT	[Punct]	_	O	.
@@ -291,7 +291,7 @@ táblát	tábla	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	tábla
 pakolunk	pakol	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	pakol
 át	át	ADV	[/Prev]	_	O	át
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 teremhez	terem	NOUN	[/N][All]	Case=All|Number=Sing	O	terem
 ,	,	PUNCT	[Punct]	_	O	,
 hát	hát	CCONJ	[/Cnj]	_	O	hát
@@ -372,10 +372,10 @@ KÉPZELEK	képzel	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pers
 ÉN	én	PRON	[/N|Pro][1Sg][Nom]	Case=Nom|Number=Sing|Person=1|PronType=Prs	O	én
 ????	????	PUNCT	[Punct]	_	O	????
 
-Jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+Jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 ,	,	PUNCT	[Punct]	_	O	,
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 na	na	INTJ	[/Inj-Utt]	_	O	na
 !	!	PUNCT	[Punct]	_	O	!
@@ -406,7 +406,7 @@ volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tens
 
 -	-	X	[Hyph:Hyph]	_	O	-
 De	de	CCONJ	[/Cnj]	_	O	de
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 honnan	honnan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	honnan
 kap	kap	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kap
 áramot	áram	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	áram
@@ -428,16 +428,16 @@ is	is	ADV	[/Adv]	_	O	is
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
 ha	ha	SCONJ	[/Cnj]	_	O	ha
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 instalálva	instalálva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	instalál
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tábla	tábla	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tábla
 szoftvere	szoftver	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szoftver
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-laptopra	laptop	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	laptop
+laptopra	laptop	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	laptop
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 működni	működik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	működik
 fog	fog	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	fog
 .	.	PUNCT	[Punct]	_	O	.
@@ -512,7 +512,7 @@ Egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 látható	látható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	látható
-falra	fal	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	fal
+falra	fal	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	fal
 szerelt	szerelt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szerelt
 függőleges	függőleges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	függőleges
 elem	elem	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	elem

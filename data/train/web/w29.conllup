@@ -1,5 +1,5 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-Úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+Úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 éreztem	érez	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	érez
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -14,7 +14,7 @@ ha	ha	SCONJ	[/Cnj]	_	O	ha
 csupán	csupán	ADV	[/Adv]	_	O	csupán
 áttenném	áttesz	VERB	[/V][Cond.Def.1Sg]	Definite=Def|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	áttesz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-filmvászonra	filmvászon	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	filmvászon
+filmvászonra	filmvászon	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	filmvászon
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 lelkét	lélek	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	lélek
@@ -50,7 +50,7 @@ talán	talán	ADV	[/Adv]	_	O	talán
 is	is	ADV	[/Adv]	_	O	is
 felelős	felelős	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	felelős
 vagyok	van	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
-azért	az	PRON	[/N|Pro][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Dem	O	az
+azért	az	PRON	[/N|Pro][Cau]	Case=Cau|Number=Sing|Person=3|PronType=Dem|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 véget	vég	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	vég
@@ -75,7 +75,7 @@ ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
 valószínűleg	valószínűleg	ADV	[/Adv]	_	O	valószínűleg
 annak	az	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	az
 tudható	tudható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tudható
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -183,7 +183,7 @@ idő	idő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	idő
 után	után	ADP	[/Post]	_	O	után
 már	már	ADV	[/Adv]	_	O	már
 bárki	bárki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	bárki
-bárkire	bárki	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Ind	O	bárki
+bárkire	bárki	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Ind	O	bárki
 lőhet	lő	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lő
 törvényesen	törvényes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	törvényes
 ,	,	PUNCT	[Punct]	_	O	,
@@ -254,7 +254,7 @@ feladatunk	feladat	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Pl
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 elfogadtassuk	elfogadtat	VERB	[/V][_Caus/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Cau	O	elfogad
-magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 megszokott	megszokott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megszokott
 tudósokkal	tudós	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	tudós
@@ -292,7 +292,7 @@ Facebook	Facebook	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Facebook
 stb.	stb.	NOUN	[/N|Abbr][Nom][]	Case=Nom|Number=Sing	O	stb.
 )	)	PUNCT	[Punct]	_	O	)
 és	és	CCONJ	[/Cnj]	_	O	és
-egyéb	egyéb	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyéb
+egyéb	egyéb	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	egyéb
 „	„	PUNCT	[Punct]	_	O	„
 mikroblogok	mikroblog	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	mikroblog
 ”	”	PUNCT	[Punct]	_	O	”
@@ -317,7 +317,7 @@ azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 blog	blog	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	blog
-halálra	halál	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	halál
+halálra	halál	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	halál
 ítéltetett	ítéltet	VERB	[/V][_Caus/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	O	ítél
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -459,7 +459,7 @@ pályájáról	pálya	NOUN	[/N][Poss.3Sg][Del]	Case=Del|Number=Sing|Number[psor]
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
 számos	számos	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	számos
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 műholdat	műhold	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	műhold
 veszélybe	veszély	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	veszély
 sodort	sodor	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	sodor
@@ -481,7 +481,7 @@ továbbított	továbbít	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Si
 leállíthatatlanul	leállíthatatlan	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	leállíthatatlan
 ,	,	PUNCT	[Punct]	_	O	,
 amik	ami	PRON	[/N|Pro|Rel][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Rel	O	ami
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 műholdak	műhold	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	műhold
 jeleit	jel	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	jel
 kezdték	kezd	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kezd

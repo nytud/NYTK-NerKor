@@ -39,7 +39,7 @@ valószínűleg	valószínűleg	ADV	[/Adv]	_	O	valószínűleg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szövés	szövés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szövés
 feltalálásának	feltalálás	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	feltalálás
-idejére	idő	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	idő
+idejére	idő	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	idő
 esik	esik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	esik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -91,11 +91,11 @@ mintákat	minta	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	minta
 és	és	CCONJ	[/Cnj]	_	O	és
 elnevezéseket	elnevezés	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	elnevezés
 találtak	talál	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	talál
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 amelyeket	amely	PRON	[/N|Pro|Rel][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Rel	O	amely
 továbbadtak	ad	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ad
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 tájak	táj	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	táj
 asszonyainak	asszony	NOUN	[/N][Pl.Poss.3Sg][Dat]	Case=Dat|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	asszony
 is	is	ADV	[/Adv]	_	O	is
@@ -103,13 +103,13 @@ is	is	ADV	[/Adv]	_	O	is
 
 Így	így	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	így
 alakultak	alakul	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	alakul
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 klasszikus	klasszikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	klasszikus
 blokkelnevezések	blokkelnevezés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	blokkelnevezés
 .	.	PUNCT	[Punct]	_	O	.
 
-Napjainkra	nap	NOUN	[/N][Pl.Poss.1Pl][Subl]	Case=Sub|Number=Plur|Number[psor]=Plur|Person[psor]=1	O	nap
+Napjainkra	nap	NOUN	[/N][Pl.Poss.1Pl][Subl]	Case=Sbl|Number=Plur|Number[psor]=Plur|Person[psor]=1	O	nap
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 technika	technika	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	technika
 magas	magas	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	magas
@@ -216,9 +216,9 @@ praktikus	praktikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	praktikus
 céllal	cél	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	cél
 ,	,	PUNCT	[Punct]	_	O	,
 azaz	azaz	CCONJ	[/Cnj]	_	O	azaz
-használatra	használat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	használat
+használatra	használat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	használat
 ,	,	PUNCT	[Punct]	_	O	,
-viseletre	viselet	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	viselet
+viseletre	viselet	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	viselet
 .	.	PUNCT	[Punct]	_	O	.
 
 Használaton	használat	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	használat
@@ -250,7 +250,7 @@ ezekhez	ez	PRON	[/N|Pro][Pl][All]	Case=All|Number=Plur|Person=3|PronType=Dem	O	e
 illeszkedő	illeszkedő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	illeszkedő
 háromszögekből	háromszög	NOUN	[/N][Pl][Ela]	Case=Ela|Number=Plur	O	háromszög
 állították	állít	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	állít
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 darabokat	darab	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	darab
 .	.	PUNCT	[Punct]	_	O	.
@@ -276,7 +276,7 @@ falvédők	falvédő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	falvédő
 különböző	különböző	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	különböző
 felsőruházati	felsőruházati	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	felsőruházati
 cikkek	cikk	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	cikk
-előállítására	előállítás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	előállítás
+előállítására	előállítás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	előállítás
 manapság	manapság	ADV	[/Adv]	_	O	manapság
 is	is	ADV	[/Adv]	_	O	is
 divattól	divat	NOUN	[/N][Abl]	Case=Abl|Number=Sing	O	divat

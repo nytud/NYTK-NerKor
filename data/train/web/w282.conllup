@@ -32,7 +32,7 @@ nemzeti	nemzeti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nemzeti
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 lehetséges	lehetséges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lehetséges
 eszközét	eszköz	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eszköz
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 vetni	vet	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	vet
 .	.	PUNCT	[Punct]	_	O	.
@@ -126,7 +126,7 @@ majd	majd	ADV	[/Adv]	_	O	majd
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 MTV	MTV	PROPN	[/N|Acron][Nom]	Case=Nom|Number=Sing	B-LOC	MTV
 székház	székház	NOUN	[/N][Nom]	Case=Nom|Number=Sing	I-LOC	székház
-védelmére	védelem	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	védelem
+védelmére	védelem	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	védelem
 kirendelt	kirendelt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kirendelt
 rendőrökkel	rendőr	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	rendőr
 történt	történt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	történt
@@ -269,7 +269,7 @@ Balázs	Balázs	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Balázs
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 SZNT	SZNT	PROPN	[/N|Acron][Nom]	Case=Nom|Number=Sing	B-ORG	SZNT
 elnöke	elnök	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	elnök
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 fogalmazott	fogalmaz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	fogalmaz
 :	:	PUNCT	[Punct]	_	O	:
 míg	míg	CCONJ	[/Cnj]	_	O	míg
@@ -330,7 +330,7 @@ nemzeti	nemzeti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nemzeti
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 könyv	könyv	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	könyv
-egyebek	egyéb	NOUN	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur	O	egyéb
+egyebek	egyéb	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind	O	egyéb
 között	között	ADP	[/Post]	_	O	között
 kapható	kapható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kapható
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -480,7 +480,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 munkatársaim	munkatárs	NOUN	[/N][Pl.Poss.1Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	O	munkatárs
 mindenki	mindenki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	O	mindenki
 számára	számára	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	számára
-rendelkezésre	rendelkezés	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	rendelkezés
+rendelkezésre	rendelkezés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	rendelkezés
 bocsátottak	bocsát	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	bocsát
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 úgynevezett	úgynevezett	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	úgynevezett

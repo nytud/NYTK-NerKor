@@ -48,7 +48,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 ellenállhatatlan	ellenállhatatlan	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ellenállhatatlan
 vágyat	vágy	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	vágy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-4K-ra	4K	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	4K
+4K-ra	4K	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	4K
 ,	,	PUNCT	[Punct]	_	O	,
 akár	akár	CCONJ	[/Cnj]	_	O	akár
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -83,7 +83,7 @@ lett	lesz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 különbség	különbség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	különbség
 főleg	főleg	ADV	[/Adv]	_	O	főleg
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 észrevehető	észrevehető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	észrevehető
 ,	,	PUNCT	[Punct]	_	O	,
 amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
@@ -309,7 +309,7 @@ eredetileg	eredetileg	ADV	[/Adv]	_	O	eredetileg
 2014	2014	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	2014
 januárjában	január	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	január
 perelte	perel	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	perel
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Apple-t	Apple	PROPN	[/N][Acc]	Case=Acc|Number=Sing	B-ORG	Apple
 ebben	ez	PRON	[/Det|Pro][Ine]	Case=Ine|Number=Sing|Person=3|PronType=Dem	O	ez
@@ -341,7 +341,7 @@ mindenki	mindenki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	
 rájött	rájön	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	rájön
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 rendszer	rendszer	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rendszer
 buktatója	buktató	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	buktató
@@ -353,7 +353,7 @@ bele	bele	ADV	[/Prev]	_	O	bele
 milyen	milyen	PRON	[/Adj|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	milyen
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
 ,	,	PUNCT	[Punct]	_	O	,
-mikor	mikor	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mikor
+mikor	mikor	ADV	[/Adv|Pro|Int]	PronType=Rel	O	mikor
 már	már	ADV	[/Adv]	_	O	már
 szabadon	szabad	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	szabad
 szerkeszthetjük	szerkeszt	VERB	[/V][_Mod/V][Prs.Def.1Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	szerkeszt
@@ -397,7 +397,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 munkakörülmények	munkakörülmény	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	munkakörülmény
 javítását	javítás	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	javítás
 –	–	X	[Hyph:Dash]	_	O	–
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tűnik	tűnik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tűnik
 ,	,	PUNCT	[Punct]	_	O	,
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -484,21 +484,21 @@ Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 appot	app	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	app
 megnyitva	megnyitva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	megnyit
 rögtön	rögtön	ADV	[/Adv]	_	O	rögtön
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 csoporttal	csoport	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	csoport
 is	is	ADV	[/Adv]	_	O	is
 szembe	szembe	ADV	[/Prev]	_	O	szembe
 találhatjuk	talál	VERB	[/V][_Mod/V][Prs.Def.1Pl]	Definite=Def|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	talál
-magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunkat	maga	PRON	[/N|Pro][1Pl][Acc]	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Etterem.hu	Etterem.hu	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Etterem.hu
 ugyanis	ugyanis	CCONJ	[/Cnj]	_	O	ugyanis
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 korlátozódik	korlátozódik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	korlátozódik
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 pusztán	pusztán	ADV	[/Adv]	_	O	pusztán
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-éttermekre	étterem	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	étterem
+éttermekre	étterem	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	étterem
 .	.	PUNCT	[Punct]	_	O	.
 

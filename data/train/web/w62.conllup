@@ -9,7 +9,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egyik	egyik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyik
 kedvenc	kedvenc	ADJ	[/Adj|Attr][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kedvenc
 sorozatának	sorozat	NOUN	[/N][Poss.3Sg][Dat]	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	sorozat
-folytatására	folytatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	folytatás
+folytatására	folytatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	folytatás
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 teljes	teljes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	teljes
 évet	év	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	év
@@ -40,7 +40,7 @@ lenne	lesz	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|T
 
 Ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
 tükrében	tükör	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tükör
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 gondoltuk	gondol	VERB	[/V][Pst.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	gondol
 ,	,	PUNCT	[Punct]	_	O	,
 ideje	idő	ADV	[/N][_Tmp_Ante/Adv]	_	O	idő
@@ -73,7 +73,7 @@ egyaránt	egyaránt	ADV	[/Adv]	_	O	egyaránt
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 lefagyasztott	lefagyasztott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lefagyasztott
 Selene	Selene	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Selene
-magához	maga	PRON	[/N|Pro][3Sg][All]	Case=All|Number=Sing|Person=3|Reflex=Yes	O	maga
+magához	maga	PRON	[/N|Pro][3Sg][All]	Case=All|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 térve	térve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	tér
 konstatálja	konstatál	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	konstatál
 ,	,	PUNCT	[Punct]	_	O	,
@@ -101,17 +101,17 @@ banális	banális	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	banális
 ötletek	ötlet	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	ötlet
 együtt	együtt	ADV	[/Adv]	_	O	együtt
 sorakoznak	sorakozik	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	sorakozik
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 cikkben	cikk	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	cikk
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 jövő	jövő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jövő
-tavaszra	tavasz	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tavasz
+tavaszra	tavasz	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	tavasz
 elkészülő	elkészülő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elkészülő
 film	film	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	film
-eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	eddig
+eddig	eddig	ADV	[/Adv|Pro]	PronType=Dem	O	eddig
 csupán	csupán	ADV	[/Adv]	_	O	csupán
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 semmitmondó	semmitmondó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	semmitmondó
@@ -190,7 +190,7 @@ ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 hajlamos	hajlamos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hajlamos
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 megelőző	megelőző	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	megelőző
-korokra	kor	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	kor
+korokra	kor	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	kor
 primitív	primitív	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	primitív
 ,	,	PUNCT	[Punct]	_	O	,
 sötét	sötét	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	sötét
@@ -198,7 +198,7 @@ időszakokként	időszak	NOUN	[/N][Pl][EssFor:ként]	Case=Ess|Number=Plur	O	idő
 gondolni	gondol	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	gondol
 -	-	X	[Hyph:Hyph]	_	O	-
 ennek	ez	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	ez
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 oka	ok	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	ok
 is	is	ADV	[/Adv]	_	O	is
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van

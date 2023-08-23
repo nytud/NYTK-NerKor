@@ -65,7 +65,7 @@ kiválasztásakor	kiválasztás	NOUN	[/N][Poss.3Sg][Temp]	Case=Tem|Number=Sing|N
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 közösségi	közösségi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	közösségi
-oldalra	oldal	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	oldal
+oldalra	oldal	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	oldal
 feltöltött	feltöltött	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	feltöltött
 összes	összes	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	összes
 fotó	fotó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fotó
@@ -111,11 +111,11 @@ szerint	szerint	ADP	[/Post]	_	O	szerint
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 például	például	ADV	[/Adv]	_	O	például
 valaki	valaki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valaki
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 folytat	folytat	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	folytat
 párbeszédet	párbeszéd	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	párbeszéd
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másikkal	másik	ADJ	[/Adj|Pro][Ins]	Case=Ins|Degree=Pos|Number=Sing	O	másik
+másikkal	másik	DET	[/Adj|Pro][Ins]	Definite=Ind|PronType=Ind	O	másik
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Facebookon	Facebook	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-MISC	Facebook
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
@@ -129,7 +129,7 @@ mindig	mindig	ADV	[/Adv]	_	O	mindig
 élne	él	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	él
 ,	,	PUNCT	[Punct]	_	O	,
 ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
-problémára	probléma	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	probléma
+problémára	probléma	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	probléma
 utalhat	utal	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	utal
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -137,7 +137,7 @@ Valójában	valójában	ADV	[/Adv]	_	O	valójában
 nehéz	nehéz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nehéz
 pontosan	pontos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	pontos
 azonosítani	azonosít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	azonosít
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 tekinthető	tekinthető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tekinthető
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gyász	gyász	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gyász
@@ -172,7 +172,7 @@ elzárva	elzárva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	elzár
 .	.	PUNCT	[Punct]	_	O	.
 
 Gondoljunk	gondol	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	gondol
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -214,7 +214,7 @@ világhálón	világháló	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	világháló
 csak	csak	ADV	[/Adv]	_	O	csak
 olyanokat	olyan	PRON	[/Adj|Pro][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Dem	O	olyan
 jelölök	jelöl	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelöl
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 facebookon	Facebook	PROPN	[/N][Supe]	Case=Sup|Number=Sing	O	Facebook
 ,	,	PUNCT	[Punct]	_	O	,
 akiket	aki	PRON	[/N|Pro|Rel][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Rel	O	aki
@@ -227,7 +227,7 @@ barátok	barát	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	barát
 .	.	PUNCT	[Punct]	_	O	.
 
 csak	csak	ADV	[/Adv]	_	O	csak
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tudsz	tud	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 védekezni	védekezik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	védekezik
 ,	,	PUNCT	[Punct]	_	O	,
@@ -284,7 +284,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 erősíti	erősít	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	erősít
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
-mások	más	NOUN	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur	O	más
+mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind	O	más
 lehetséges	lehetséges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lehetséges
 reakcióit	reakció	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	reakció
 vesszük	vesz	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vesz
@@ -294,7 +294,7 @@ figyelembe	figyelem	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	figyelem
 Természetesen	természetesen	ADV	[/Adv]	_	O	természetesen
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ismerőseid	ismerős	NOUN	[/N][Pl.Poss.2Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	O	ismerős
-meghívására	meghívás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	meghívás
+meghívására	meghívás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	meghívás
 szintén	szintén	ADV	[/Adv]	_	O	szintén
 lehetőséged	lehetőség	NOUN	[/N][Poss.2Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	lehetőség
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
@@ -327,7 +327,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 férfiak	férfi	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	férfi
 gyakrabban	gyakrabban	ADV	[/Adv]	_	O	gyakrabban
 töltenek	tölt	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tölt
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 fura	fura	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fura
 profil	profil	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	profil
 képeket	kép	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	kép
@@ -366,7 +366,7 @@ bűnbe	bűn	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	bűn
 ,	,	PUNCT	[Punct]	_	O	,
 aktivizálva	aktivizálva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	aktivizál
 gondolkodásunk	gondolkodás	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	gondolkodás
-vásárlásra	vásárlás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	vásárlás
+vásárlásra	vásárlás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	vásárlás
 buzdító	buzdító	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	buzdító
 erőit	erő	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	erő
 .	.	PUNCT	[Punct]	_	O	.
@@ -387,7 +387,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 motivál	motivál	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	motivál
 minket	mi	PRON	[/N|Pro][1][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	mi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-megfontoltságra	megfontoltság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	megfontoltság
+megfontoltságra	megfontoltság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	megfontoltság
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -404,7 +404,7 @@ tanácsokat	tanács	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	tanács
 de	de	CCONJ	[/Cnj]	_	O	de
 különböző	különböző	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	különböző
 ,	,	PUNCT	[Punct]	_	O	,
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 látható	látható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	látható
 helyeken	hely	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	hely
 olvasható	olvasható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olvasható
@@ -433,7 +433,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 résztvevőket	résztvevő	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	résztvevő
 csokoládés	csokoládés	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	csokoládés
 sütemények	sütemény	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	sütemény
-értékelésére	értékelés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	értékelés
+értékelésére	értékelés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	értékelés
 kérték	kér	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kér
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -445,16 +445,16 @@ egyik	egyik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyik
 elegáns	elegáns	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elegáns
 lakónegyedében	lakónegyed	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	lakónegyed
 kopogtattak	kopogtat	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kopogtat
-be	be	ADV	[/Prev]	_	O	be
+be	be	ADV	[/Prev]	Degree=Pos	O	be
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 lakókhoz	lakó	NOUN	[/N][Pl][All]	Case=All|Number=Plur	O	lakó
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 kérve	kérve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	kér
 őket	ők	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	ők
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 helyezzenek	helyez	VERB	[/V][Sbjv.NDef.3Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	helyez
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 óriási	óriási	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	óriási
 ,	,	PUNCT	[Punct]	_	O	,
@@ -486,7 +486,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kutatók	kutató	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kutató
 diáknak	diák	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	diák
 kiadva	kiadva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	kiad
-magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|Reflex=Yes	O	maga
+magukat	maga	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	O	maga
 csatlakoztak	csatlakozik	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	csatlakozik
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 múzeumlátogató	múzeumlátogató	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	múzeumlátogató
@@ -519,7 +519,7 @@ sok	sok	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 épp	épp	ADV	[/Adv]	_	O	épp
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-kevesebb	kevés	NUM	[/Num][_Comp/Adj][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kevés
+kevesebb	kevesebb	NUM	[/Num][_Comp/Adj][Nom]	Case=Nom|Number=Sing|NumType=Card	O	kevés
 ismerőssel	ismerős	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	ismerős
 rendelkező	rendelkező	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rendelkező
 felhasználók	felhasználó	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	felhasználó
@@ -529,7 +529,7 @@ Mindezeken	mindez	NOUN	[/N|Pro][Pl][Supe]	Case=Sup|Number=Plur	O	mindez
 kívül	kívül	ADP	[/Post|(Supe)]	_	O	kívül
 előszeretettel	előszeretettel	ADV	[/Adv]	_	O	előszeretettel
 beszélnek	beszél	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	beszél
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 emberekről	ember	NOUN	[/N][Pl][Del]	Case=Del|Number=Plur	O	ember
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a

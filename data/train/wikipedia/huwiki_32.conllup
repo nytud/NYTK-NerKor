@@ -36,7 +36,7 @@ Alapvetően	alapvető	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 feröeri	feröeri	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	feröeri
 speciális	speciális	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	speciális
-viszonyokra	viszony	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	viszony
+viszonyokra	viszony	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	viszony
 szabott	szabott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szabott
 mezőgazdasági	mezőgazdasági	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mezőgazdasági
 rendelkezéseket	rendelkezés	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	rendelkezés
@@ -57,7 +57,7 @@ nemzeti	nemzeti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nemzeti
 archívumban	archívum	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	archívum
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-másikat	másik	ADJ	[/Adj|Pro][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	másik
+másikat	másik	DET	[/Adj|Pro][Acc]	Definite=Ind|PronType=Ind	O	másik
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Lundi	Lundi	PROPN	[/N]	Case=Nom|Number=Sing	B-ORG	Lundi
 Egyetem	Egyetem	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-ORG	Egyetem
@@ -75,7 +75,7 @@ honfoglalás	honfoglalás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	honfoglalás
 utáni	utáni	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	utáni
 első	első	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	egy
 évszázadokban	évszázad	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	évszázad
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 kormányozták	kormányoz	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kormányoz
 Feröert	Feröer	PROPN	[/N][Acc]	Case=Acc|Number=Sing	B-LOC	Feröer
 .	.	PUNCT	[Punct]	_	O	.
@@ -177,7 +177,7 @@ említenek	említ	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Pers
 Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 mondja	mond	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	mond
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -237,7 +237,7 @@ Keresztély	Keresztély	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Keresztély
 dán	dán	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	dán
 király	király	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	király
 dán	dán	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	dán
-nyelvre	nyelv	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyelv
+nyelvre	nyelv	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyelv
 fordíttatta	fordíttat	VERB	[/V][_Caus/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	O	fordít
 ,	,	PUNCT	[Punct]	_	O	,
 felülvizsgáltatta	felülvizsgáltat	VERB	[/V][_Caus/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau	O	felülvizsgál
@@ -297,7 +297,7 @@ szabták	szab	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ottani	ottani	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ottani
 viszonyok	viszony	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	viszony
-több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 ponton	pont	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	pont
 eltértek	eltér	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	eltér
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -319,7 +319,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 feröeri	feröeri	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	feröeri
 mezőgazdaság	mezőgazdaság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	mezőgazdaság
 különleges	különleges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	különleges
-adottságaira	adottság	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sub|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	adottság
+adottságaira	adottság	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sbl|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	adottság
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
 tekintettel	tekintet	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	tekintet
 .	.	PUNCT	[Punct]	_	O	.
@@ -354,7 +354,7 @@ Shetland-szigetek	Shetland-sziget	PROPN	[/N][Pl][Nom]	Case=Nom|Number=Sing	B-LOC
 Feröer	Feröer	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Feröer
 területét	terület	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	terület
 foglalta	foglal	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	foglal
-magába	maga	PRON	[/N|Pro][3Sg][Ill]	Case=Ill|Number=Sing|Person=3|Reflex=Yes	O	maga
+magába	maga	PRON	[/N|Pro][3Sg][Ill]	Case=Ill|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 .	.	PUNCT	[Punct]	_	O	.
 
 Haakon	Haakon	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Haakon
@@ -391,7 +391,7 @@ azt	az	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyilatkozatot	nyilatkozat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	nyilatkozat
 ,	,	PUNCT	[Punct]	_	O	,
-amelyre	amely	PRON	[/N|Pro|Rel][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Rel	O	amely
+amelyre	amely	PRON	[/N|Pro|Rel][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Rel	O	amely
 Haakon	Haakon	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Haakon
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 törvény	törvény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	törvény
@@ -429,7 +429,7 @@ kiegészítése	kiegészítés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Num
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 feröeri	feröeri	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	feröeri
-mezőgazdaságra	mezőgazdaság	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	mezőgazdaság
+mezőgazdaságra	mezőgazdaság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	mezőgazdaság
 vonatkozó	vonatkozó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vonatkozó
 különleges	különleges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	különleges
 szabályokat	szabály	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	szabály
@@ -439,10 +439,10 @@ mint	mint	SCONJ	[/Cnj]	_	O	mint
 például	például	ADV	[/Adv]	_	O	például
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 füves	füves	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	füves
-területekre	terület	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	terület
+területekre	terület	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	terület
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-juhtartásra	juhtartás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	juhtartás
+juhtartásra	juhtartás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	juhtartás
 ,	,	PUNCT	[Punct]	_	O	,
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -450,7 +450,7 @@ pásztorok	pásztor	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	pásztor
 közötti	közötti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	közötti
 vitás	vitás	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vitás
 kérdések	kérdés	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kérdés
-rendezésére	rendezés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	rendezés
+rendezésére	rendezés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	rendezés
 vonatkozó	vonatkozó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vonatkozó
 szabályok	szabály	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	szabály
 .	.	PUNCT	[Punct]	_	O	.
@@ -460,14 +460,14 @@ ezen	ez	PRON	[/N|Pro][Supe]	Case=Sup|Number=Sing|Person=3|PronType=Dem	O	ez
 kívül	kívül	ADP	[/Post|(Supe)]	_	O	kívül
 például	például	ADV	[/Adv]	_	O	például
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-cetvadászatra	cetvadászat	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	cetvadászat
+cetvadászatra	cetvadászat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	cetvadászat
 ,	,	PUNCT	[Punct]	_	O	,
 illetve	illetve	CCONJ	[/Cnj]	_	O	illetve
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 elszökött	elszökött	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elszökött
 zsellérekkel	zsellér	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	zsellér
 való	való	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	való
-bánásmódra	bánásmód	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	bánásmód
+bánásmódra	bánásmód	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	bánásmód
 is	is	ADV	[/Adv]	_	O	is
 .	.	PUNCT	[Punct]	_	O	.
 

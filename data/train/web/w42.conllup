@@ -11,7 +11,7 @@ bennük	ők	PRON	[/N|Pro][Ine][3Pl]	Case=Ine|Number=Plur|Person=3|PronType=Prs	O
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hat	hat	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	hat
-részesre	részes	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	részes
+részesre	részes	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	részes
 tervezett	tervezett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tervezett
 játék	játék	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	játék
 mellől	mellől	ADP	[/Post]	_	O	mellől
@@ -97,9 +97,9 @@ gondolkodásán	gondolkodás	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Numb
 felül	felül	ADP	[/Post|(Supe)]	_	O	felül
 szükség	szükség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szükség
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
-arra	az	PRON	[/Det|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	DET	[/Det|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-többletre	többlet	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	többlet
+többletre	többlet	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	többlet
 ,	,	PUNCT	[Punct]	_	O	,
 mely	mely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -151,7 +151,7 @@ nagyon	nagyon	ADV	[/Adv]	_	O	nagyon
 fontos	fontos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fontos
 ,	,	PUNCT	[Punct]	_	O	,
 ezt	ez	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
-jól	jó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	jó
+jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 jegyezd	jegyez	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	jegyez
 meg	meg	PART	[/Prev]	_	O	meg
 ,	,	PUNCT	[Punct]	_	O	,
@@ -161,12 +161,12 @@ padawan	padawan	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	padawan
 "	"	PUNCT	[Punct]	_	O	"
 
 De	de	CCONJ	[/Cnj]	_	O	de
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 mégis	mégis	ADV	[/Adv]	_	O	mégis
 kik	ki	PRON	[/N|Pro|Int][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Int	O	ki
 ők	ők	PRON	[/N|Pro][3Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Prs	O	ők
 és	és	CCONJ	[/Cnj]	_	O	és
-mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 ez	ez	PRON	[/Det|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 titokzatos	titokzatos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	titokzatos
@@ -190,7 +190,7 @@ is	is	ADV	[/Adv]	_	O	is
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 bárki	bárki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	bárki
-mást	más	NOUN	[/N|Pro][Acc]	Case=Acc|Number=Sing	O	más
+mást	más	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Ind	O	más
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -313,7 +313,7 @@ GameofThrones	GameofThrones	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	GameofTh
 )	)	PUNCT	[Punct]	_	O	)
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 naponta	naponta	ADV	[/Adv]	_	O	naponta
-más	más	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	más
+más	más	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	más
 meglepetésvendéggel	meglepetésvendég	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	meglepetésvendég
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 megvitatni	megvitat	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megvitat
@@ -337,7 +337,7 @@ csak	csak	ADV	[/Adv]	_	O	csak
 suttyomban	suttyomban	ADV	[/Adv]	_	O	suttyomban
 cigiznénk	cigizik	VERB	[/V][Cond.NDef.1Pl]	Definite=Ind|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	cigizik
 egyet	egy	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	egy
-ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -353,7 +353,7 @@ számunkra	számára	ADP	[/Post|(Poss)][Poss.1Pl]	_	O	számára
 
 Androgündivat	Androgündivat	PROPN	[/N][Nom]	Case=Nom|Number=Sing	O	Androgündivat
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 bolygóról	bolygó	NOUN	[/N][Del]	Case=Del|Number=Sing	O	bolygó
 
 Bele	bele	ADV	[/Prev]	_	O	bele
@@ -363,7 +363,7 @@ gondolni	gondol	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	gondol
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogy
 érezte	érez	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	érez
-magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|Reflex=Yes	O	maga
+magát	maga	PRON	[/N|Pro][3Sg][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 modell	modell	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	modell
 ,	,	PUNCT	[Punct]	_	O	,
@@ -391,7 +391,7 @@ ikertestvére	ikertestvér	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[
 ,	,	PUNCT	[Punct]	_	O	,
 aki	aki	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aki
 korábban	korábban	ADV	[/Adv]	_	O	korábban
-maga	maga	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|Reflex=Yes	O	maga
+maga	maga	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 is	is	ADV	[/Adv]	_	O	is
 űrhajós	űrhajós	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	űrhajós
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
@@ -460,7 +460,7 @@ film	film	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	film
 producere	producer	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	producer
 pedig	pedig	CCONJ	[/Cnj]	_	O	pedig
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-más	más	NOUN	[/N|Pro][Nom]	Case=Nom|Number=Sing	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 Guillermo	Guillermo	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Guillermo
@@ -469,7 +469,7 @@ Toro	Toro	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Toro
 ,	,	PUNCT	[Punct]	_	O	,
 aki	aki	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aki
 2013-ban	2013	NUM	[/Num|Digit][Ine]	Case=Ine|Number=Sing|NumType=Card	O	2013
-filmvászonra	filmvászon	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	filmvászon
+filmvászonra	filmvászon	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	filmvászon
 vitte	visz	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	visz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Pacific	Pacific	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Pacific

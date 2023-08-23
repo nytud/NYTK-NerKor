@@ -14,18 +14,18 @@ hosszabbítani	hosszabbít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	hosszabbít
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
 ezt	ez	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
 saját	saját	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	saját
-magunk	maga	PRON	[/N|Pro][1Pl][Nom]	Case=Nom|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunk	maga	PRON	[/N|Pro][1Pl][Nom]	Case=Nom|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 tudjuk	tud	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 megoldani	megold	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megold
 ,	,	PUNCT	[Punct]	_	O	,
 keressünk	keres	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	keres
-fel	fel	ADV	[/Prev]	_	O	fel
+fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 klímaszerelőt	klímaszerelő	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	klímaszerelő
 ,	,	PUNCT	[Punct]	_	O	,
 aki	aki	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aki
-segítségünkre	segítség	NOUN	[/N][Poss.1Pl][Subl]	Case=Sub|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	segítség
+segítségünkre	segítség	NOUN	[/N][Poss.1Pl][Subl]	Case=Sbl|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	segítség
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 majd	majd	ADV	[/Adv]	_	O	majd
 !	!	PUNCT	[Punct]	_	O	!
@@ -77,7 +77,7 @@ időközönként	időköz	ADV	[/N][_Distr:nként/Adv]	_	O	időköz
 alaposan	alapos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	alapos
 kitakarítva	kitakarítva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	kitakarít
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 baktériumok	baktérium	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	baktérium
 is	is	ADV	[/Adv]	_	O	is
@@ -131,7 +131,7 @@ pillanatban	pillanat	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	pillanat
 is	is	ADV	[/Adv]	_	O	is
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 esély	esély	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	esély
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -176,7 +176,7 @@ energetikai	energetikai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	energe
 korszerűsítésével	korszerűsítés	NOUN	[/N][Poss.3Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	korszerűsítés
 természetesen	természetesen	ADV	[/Adv]	_	O	természetesen
 akár	akár	ADV	[/Adv]	_	O	akár
-kisebb	kicsi	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
+kisebb	kis	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	kicsi
 lépésekben	lépés	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	lépés
 is	is	ADV	[/Adv]	_	O	is
 haladhatunk	halad	VERB	[/V][_Mod/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	halad
@@ -187,7 +187,7 @@ egyértelműen	egyértelmű	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=S
 az	az	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 fejlesszük	fejleszt	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	fejleszt
 otthonainkat	otthon	NOUN	[/N][Pl.Poss.1Pl][Acc]	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=1	O	otthon
 ,	,	PUNCT	[Punct]	_	O	,
@@ -261,21 +261,21 @@ most	most	ADV	[/Adv]	_	O	most
 felhívják	felhív	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	felhív
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 figyelmünket	figyelem	NOUN	[/N][Poss.1Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	figyelem
-arra	arra	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	arra
+arra	arra	PRON	[/Adv|Pro]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	arra
 ,	,	PUNCT	[Punct]	_	O	,
 hogyha	hogyha	CCONJ	[/Cnj]	_	O	hogyha
 klímavásárlást	klímavásárlás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	klímavásárlás
 tervezünk	tervez	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tervez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-nyárra	nyár	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	nyár
+nyárra	nyár	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyár
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 lehetőségünk	lehetőség	NOUN	[/N][Poss.1Pl][Nom]	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	lehetőség
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 még	még	ADV	[/Adv]	_	O	még
 most	most	ADV	[/Adv]	_	O	most
@@ -320,7 +320,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 érthetünk	ért	VERB	[/V][_Mod/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Pot|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	ért
 mindenhez	minden	PRON	[/N|Pro][All]	Case=All|Number=Sing|Person=3|PronType=Tot	O	minden
 mi	mi	PRON	[/N|Pro][1Pl][Nom]	Case=Nom|Number=Plur|Person=1|PronType=Prs	O	mi
-magunk	maga	PRON	[/N|Pro][1Pl][Nom]	Case=Nom|Number=Plur|Person=1|Reflex=Yes	O	maga
+magunk	maga	PRON	[/N|Pro][1Pl][Nom]	Case=Nom|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	O	maga
 .	.	PUNCT	[Punct]	_	O	.
 
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -333,12 +333,12 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 klímákkal	klíma	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	klíma
 kapcsolatban	kapcsolat	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	kapcsolat
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 vásárlás	vásárlás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	vásárlás
 előtt	előtt	ADP	[/Post]	_	O	előtt
 mindenképpen	mindenképpen	ADV	[/Adv]	_	O	mindenképpen
 kérjük	kér	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kér
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 hozzáértő	hozzáértő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	hozzáértő
 véleményét	vélemény	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vélemény
@@ -351,7 +351,7 @@ rendszeresen	rendszeres	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 berendezést	berendezés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	berendezés
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 klíma	klíma	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	klíma
 bekapcsolása	bekapcsolás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	bekapcsolás
@@ -418,7 +418,7 @@ azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 is	is	ADV	[/Adv]	_	O	is
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-mire	mi	PRON	[/N|Pro|Int][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Prs	O	mi
+mire	mi	PRON	[/N|Pro|Int][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	mi
 szeretnénk	szeret	VERB	[/V][Cond.Def.1Pl]	Definite=Def|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	szeret
 használni	használ	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	használ
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -517,7 +517,7 @@ tapasztalattal	tapasztalat	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	tapasztalat
 szolgál	szolgál	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	szolgál
 ;	;	PUNCT	[Punct]	_	O	;
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-erre	ez	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
+erre	ez	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	ez
 vonatkozó	vonatkozó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vonatkozó
 legfontosabb	fontos	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	fontos
 megállapításainkat	megállapítás	NOUN	[/N][Pl.Poss.1Pl][Acc]	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=1	O	megállapítás
@@ -525,6 +525,6 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Pályázati	Pályázati	PROPN	[/N]	Case=Nom|Number=Sing	B-MISC	Pályázati
 kisokosban	kisokos	PROPN	[/N][Ine]	Case=Ine|Number=Sing	I-MISC	kisokos
 foglaltuk	foglal	VERB	[/V][Pst.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	foglal
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 .	.	PUNCT	[Punct]	_	O	.
 

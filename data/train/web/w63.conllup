@@ -48,16 +48,16 @@ majd	majd	ADV	[/Adv]	_	O	majd
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 emberiség	emberiség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	emberiség
 ,	,	PUNCT	[Punct]	_	O	,
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 alakult	alakul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	alakul
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 élet	élet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	élet
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Földön	Föld	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-LOC	Föld
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
-addig	addig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	addig
+addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig
 még	még	ADV	[/Adv]	_	O	még
 ezer	ezer	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	ezer
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -83,7 +83,7 @@ sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 vesszük	vesz	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vesz
 .	.	PUNCT	[Punct]	_	O	.
 
-Úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+Úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 tűnik	tűnik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tűnik
 ,	,	PUNCT	[Punct]	_	O	,
 2016	2016	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	2016
@@ -106,9 +106,9 @@ monitor	monitor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	monitor
 névtelen	névtelen	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	névtelen
 műszer	műszer	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	műszer
 kacsintgat	kacsint	VERB	[/V][_Freq/V][Prs.NDef.3Sg]	Aspect=Iter|Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kacsint
-vissza	vissza	ADV	[/Prev]	_	O	vissza
+vissza	vissza	ADV	[/Prev]	Degree=Pos	O	vissza
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-űrhajósra	űrhajós	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	űrhajós
+űrhajósra	űrhajós	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	űrhajós
 ?	?	PUNCT	[Punct]	_	O	?
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -167,7 +167,7 @@ kor	kor	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kor
 legnagyobb	nagy	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	nagy
 elméit	elme	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	elme
 hívta	hív	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	hív
-magához	maga	PRON	[/N|Pro][3Sg][All]	Case=All|Number=Sing|Person=3|Reflex=Yes	O	maga
+magához	maga	PRON	[/N|Pro][3Sg][All]	Case=All|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	O	maga
 ,	,	PUNCT	[Punct]	_	O	,
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 szomorú	szomorú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szomorú
@@ -182,7 +182,7 @@ alakították	alakít	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|P
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 sci-fi	sci-fi	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sci-fi
 írók	író	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	író
-tudományra	tudomány	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	tudomány
+tudományra	tudomány	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	tudomány
 gyakorolt	gyakorolt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyakorolt
 hatása	hatás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hatás
 tagadhatatlan	tagadhatatlan	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tagadhatatlan

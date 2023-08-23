@@ -15,7 +15,7 @@ munkálatokban	munkálat	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	munkálat
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
 igen	igen	ADV	[/Adv]	_	O	igen
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 most	most	ADV	[/Adv]	_	O	most
 bemutatom	bemutat	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	bemutat
 Nektek	ti	PRON	[/N|Pro][Dat][2Pl]	Case=Dat|Number=Plur|Person=2|PronType=Prs	O	ti
@@ -87,7 +87,7 @@ _________________	_________________	PUNCT	[Punct]	_	O	_________________
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 természet	természet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	természet
 szándékos	szándékos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szándékos
-inzultálására	inzultálás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	inzultálás
+inzultálására	inzultálás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	inzultálás
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 legnagyobb	nagy	ADJ	[/Supl][/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Sup|Number=Sing	O	nagy
 sértés	sértés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sértés
@@ -103,9 +103,9 @@ lehet.	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg][Punct]	Definite=Ind|Mood=Pot|Number=
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 rá	rá	ADV	[/Prev]	_	O	rá
 találtam	talál	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	talál
-erre	ez	PRON	[/Det|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	ez
+erre	ez	PRON	[/Det|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	ez
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-oldalra	oldal	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	oldal
+oldalra	oldal	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	oldal
 !	!	PUNCT	[Punct]	_	O	!
 
 Itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
@@ -235,7 +235,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 árudákat	áruda	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	áruda
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 lehetnének	lesz	VERB	[/V][_Mod/V][Cond.NDef.3Pl]	Definite=Ind|Mood=Cnd,Pot|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 egész	egész	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egész
@@ -262,7 +262,7 @@ furcsát	furcsa	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	furcsa
 kérek	kér	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kér
 :	:	PUNCT	[Punct]	_	O	:
 fotózd	fotózik	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	fotózik
-le	le	ADV	[/Prev]	_	O	le
+le	le	ADV	[/Prev]	Degree=Pos	O	le
 közelről	közelről	ADV	[/Adv]	_	O	közelről
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 talaját	talaj	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	talaj
@@ -355,7 +355,7 @@ Nagyon	nagyon	ADV	[/Adv]	_	O	nagyon
 sok	sok	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 faág	faág	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	faág
 gyűlik	gyűlik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	gyűlik
-össze	össze	ADV	[/Prev]	_	O	össze
+össze	össze	ADV	[/Prev]	Degree=Pos	O	össze
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kertünkben	kert	NOUN	[/N][Poss.1Pl][Ine]	Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=1	O	kert
 ,	,	PUNCT	[Punct]	_	O	,
@@ -438,7 +438,7 @@ gyengébb	gyenge	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	gy
 ,	,	PUNCT	[Punct]	_	O	,
 könnyebb	könnyű	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	könnyű
 profi	profi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	profi
-munkákra	munka	NOUN	[/N][Pl][Subl]	Case=Sub|Number=Plur	O	munka
+munkákra	munka	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	munka
 is	is	ADV	[/Adv]	_	O	is
 ajánlható	ajánlható	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ajánlható
 ,	,	PUNCT	[Punct]	_	O	,
@@ -454,10 +454,10 @@ tartozik	tartozik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pers
 
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
 profi	profi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	profi
-felhasználásra	felhasználás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	felhasználás
+felhasználásra	felhasználás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	felhasználás
 kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 ,	,	PUNCT	[Punct]	_	O	,
-akkor	akkor	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	akkor
+akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 erősebb	erős	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	erős
@@ -535,7 +535,7 @@ köszönettel	köszönet	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	köszönet
 :	:	PUNCT	[Punct]	_	O	:
 Marcsi	Marcsi	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Marcsi
 
-Mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	mi
+Mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 ?	?	PUNCT	[Punct]	_	O	?

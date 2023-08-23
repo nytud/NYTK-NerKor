@@ -9,7 +9,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 illetve	illetve	CCONJ	[/Cnj]	_	O	illetve
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tapasztalataik	tapasztalat	NOUN	[/N][Pl.Poss.3Pl][Nom]	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	O	tapasztalat
-átadására	átadás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	átadás
+átadására	átadás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	átadás
 kész	kész	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kész
 helyieket	helyi	ADJ	[/Adj][Pl][Acc]	Case=Acc|Degree=Pos|Number=Plur	O	helyi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -114,7 +114,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 igazságtételért	igazságtétel	NOUN	[/N][Cau]	Case=Cau|Number=Sing	O	igazságtétel
 !	!	PUNCT	[Punct]	_	O	!
 
-E	e	ADV	[/Det|Pro|def]	PronType=Art	O	e
+E	e	DET	[/Det|Pro|def]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	e
 szomorú	szomorú	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szomorú
 évforduló	évforduló	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	évforduló
 figyelmeztetés	figyelmeztetés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	figyelmeztetés
@@ -182,7 +182,7 @@ eljárásokban	eljárás	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	eljárás
 részt	rész	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	rész
 vett	vett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vett
 ügyész	ügyész	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ügyész
-terhére	teher	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	teher
+terhére	teher	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	teher
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 nyilvánosság	nyilvánosság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyilvánosság
 előtt	előtt	ADP	[/Post]	_	O	előtt
@@ -195,7 +195,7 @@ ezer	ezer	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	ezer
 forint	forint	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	forint
 pénzbüntetést	pénzbüntetés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	pénzbüntetés
 szabott	szab	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	szab
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 (	(	PUNCT	[Punct]	_	O	(
 300	300	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	300
 napi	napi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	napi
@@ -219,7 +219,7 @@ sokkal	sokkal	ADV	[/Adv]	_	O	sokkal
 súlyosabb	súlyos	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	súlyos
 joghátrányt	joghátrány	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	joghátrány
 róttak	ró	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ró
-rám	én	PRON	[/N|Pro][Subl][1Sg]	Case=Sub|Number=Sing|Person=1|PronType=Prs	O	én
+rám	én	PRON	[/N|Pro][Subl][1Sg]	Case=Sbl|Number=Sing|Person=1|PronType=Prs	O	én
 ,	,	PUNCT	[Punct]	_	O	,
 ráadásul	ráadásul	ADV	[/Adv]	_	O	ráadásul
 bűncselekmény	bűncselekmény	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	bűncselekmény
@@ -236,20 +236,20 @@ bármely	bármely	ADV	[/Det|Pro]	PronType=Art	O	bármely
 rendőri	rendőri	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rendőri
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 politikai	politikai	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	politikai
-vezetőre	vezető	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	vezető
+vezetőre	vezető	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	vezető
 .	.	PUNCT	[Punct]	_	O	.
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 valóságbizonyítás	valóságbizonyítás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	valóságbizonyítás
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 vezetett	vezet	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	vezet
-eredményre	eredmény	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	eredmény
+eredményre	eredmény	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	eredmény
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 bíró	bíró	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	bíró
 szerint	szerint	ADP	[/Post]	_	O	szerint
 ,	,	PUNCT	[Punct]	_	O	,
 mivel	mivel	SCONJ	[/Cnj]	_	O	mivel
-úgy	úgy	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	úgy
+úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 ítélte	ítél	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ítél
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
@@ -267,7 +267,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 akkori	akkori	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	akkori
 ügyészi	ügyészi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ügyészi
 nyomás	nyomás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyomás
-hatására	hatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hatás
+hatására	hatás	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hatás
 születendő	születendő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	születendő
 gyermeküket	gyermek	NOUN	[/N][Poss.3Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	O	gyermek
 elvesztő	elvesztő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elvesztő
@@ -279,7 +279,7 @@ egybehangzó	egybehangzó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egyb
 vallomásai	vallomás	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	vallomás
 .	.	PUNCT	[Punct]	_	O	.
 
-Kihallgatásra	kihallgatás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	kihallgatás
+Kihallgatásra	kihallgatás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	kihallgatás
 került	kerül	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kerül
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 engem	én	PRON	[/N|Pro][1Sg][Acc]	Case=Acc|Number=Sing|Person=1|PronType=Prs	O	én
@@ -404,7 +404,7 @@ kapcsán	kapcsán	ADP	[/Post|(Poss)]	_	O	kapcsán
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 "	"	PUNCT	[Punct]	_	O	"
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
-hirnevére	hirnév	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hirnév
+hirnevére	hirnév	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	hirnév
 "	"	PUNCT	[Punct]	_	O	"
 kényes	kényes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kényes
 ,	,	PUNCT	[Punct]	_	O	,
@@ -414,7 +414,7 @@ megtorlásokban	megtorlás	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	megtorlás
 részt	rész	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	rész
 vevő	vevő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vevő
 ügyész	ügyész	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ügyész
-feljelentésére	feljelentés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	feljelentés
+feljelentésére	feljelentés	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	feljelentés
 .	.	PUNCT	[Punct]	_	O	.
 
 Csak	csak	ADV	[/Adv]	_	O	csak

@@ -117,7 +117,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 cím	cím	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	cím
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 kicsi	kicsi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kicsi
-aggodalomra	aggodalom	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	aggodalom
+aggodalomra	aggodalom	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	aggodalom
 ad	ad	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	ad
 okot	ok	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	ok
 ,	,	PUNCT	[Punct]	_	O	,
@@ -126,13 +126,13 @@ nehogy	nehogy	CCONJ	[/Cnj]	_	O	nehogy
 valami	valami	PRON	[/Det|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valami
 butasággal	butaság	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	butaság
 jöjjön	jön	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jön
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 abból	az	PRON	[/N|Pro][Ela]	Case=Ela|Number=Sing|Person=3|PronType=Dem	O	az
 indulok	indul	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	indul
-ki	ki	ADV	[/Prev]	_	O	ki
+ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -241,7 +241,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 minőséget	minőség	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	minőség
 ,	,	PUNCT	[Punct]	_	O	,
 összességében	összesség	NOUN	[/N][Poss.3Sg][Ine]	Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	összesség
-arra	az	PRON	[/N|Pro][Subl]	Case=Sub|Number=Sing|Person=3|PronType=Dem	O	az
+arra	az	PRON	[/N|Pro][Subl]	Case=Sbl|Number=Sing|Person=3|PronType=Dem	O	az
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
 ez	ez	PRON	[/Det|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -265,7 +265,7 @@ akkor	akkor	CCONJ	[/Cnj]	_	O	akkor
 becsültem	becsül	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	becsül
 volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 igazán	igazán	ADV	[/Adv]	_	O	igazán
-nagyra	nagy	ADJ	[/Adj][Subl]	Case=Sub|Degree=Pos|Number=Sing	O	nagy
+nagyra	nagy	ADJ	[/Adj][Subl]	Case=Sbl|Degree=Pos|Number=Sing	O	nagy
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 albumot	album	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	album
 ,	,	PUNCT	[Punct]	_	O	,
@@ -287,7 +287,7 @@ beszélhetünk	beszél	VERB	[/V][_Mod/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Pot|Num
 ,	,	PUNCT	[Punct]	_	O	,
 amit	ami	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	ami
 jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
-azért	azért	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	azért
+azért	azért	ADV	[/Adv|Pro]	PronType=Dem	O	azért
 hallgatni	hallgat	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	hallgat
 ,	,	PUNCT	[Punct]	_	O	,
 mert	mert	SCONJ	[/Cnj]	_	O	mert
@@ -309,7 +309,7 @@ részben	rész	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	rész
 Péter	Péter	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Péter
 udvarolt	udvarol	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	udvarol
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-másik	másik	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	másik
+másik	másik	DET	[/Adj|Pro][Nom]	Definite=Ind|PronType=Ind	O	másik
 lánynak	lány	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	lány
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
@@ -330,7 +330,7 @@ korszak	korszak	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	korszak
 sajátosságait	sajátosság	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	sajátosság
 ,	,	PUNCT	[Punct]	_	O	,
 valamint	valamint	CCONJ	[/Cnj]	_	O	valamint
-hogyan	hogyan	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	hogyan
+hogyan	hogyan	ADV	[/Adv|Pro|Int]	PronType=Int	O	hogyan
 vészelték	vészel	VERB	[/V][Pst.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	vészel
 át	át	ADV	[/Prev]	_	O	át
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -353,11 +353,11 @@ rajzfilm	rajzfilm	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	rajzfilm
 ,	,	PUNCT	[Punct]	_	O	,
 ugyanis	ugyanis	CCONJ	[/Cnj]	_	O	ugyanis
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
-jövőre	jövő	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	jövő
+jövőre	jövő	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	jövő
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 XXI.	XXI.	ADJ	[/Num|Roman][_Ord/Adj][Nom][]	Case=Nom|Number=Sing|NumType=Ord	O	XXI.
-századra	század	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	század
+századra	század	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	század
 "	"	PUNCT	[Punct]	_	O	"
 jósolt	jósolt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jósolt
 "	"	PUNCT	[Punct]	_	O	"
@@ -393,7 +393,7 @@ fogyni	fogy	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	fogy
 
 Nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 ettem	eszik	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	eszik
-ott	ott	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ott
+ott	ott	ADV	[/Adv|Pro]	PronType=Dem	O	ott
 soha	soha	ADV	[/Adv]	_	O	soha
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
@@ -409,7 +409,7 @@ működik	működik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Pe
 .	.	PUNCT	[Punct]	_	O	.
 
 Ezt	ez	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
-eddig	eddig	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	eddig
+eddig	eddig	ADV	[/Adv|Pro]	PronType=Dem	O	eddig
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 tudtam	tud	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	tud
 .	.	PUNCT	[Punct]	_	O	.
@@ -429,7 +429,7 @@ Media	Media	PROPN	[/N]	Case=Nom|Number=Sing	I-MISC	Media
 Player	Player	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-MISC	Player
 tökéletesen	tökéletes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	tökéletes
 alkalmatlan	alkalmatlan	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	alkalmatlan
-konvertálásra	konvertálás	NOUN	[/N][Subl]	Case=Sub|Number=Sing	O	konvertálás
+konvertálásra	konvertálás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	konvertálás
 .	.	PUNCT	[Punct]	_	O	.
 
 Öt	öt	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	öt
