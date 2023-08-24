@@ -336,7 +336,7 @@ vasárnap	vasárnap	ADV	[/Adv]	_	O	vasárnap
 !	!	PUNCT	[Punct]	_	O	!
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 munkának	munka	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	munka
 esküvő	esküvő	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	esküvő
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -459,7 +459,7 @@ Veronika	Veronika	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Veronika
 !	!	PUNCT	[Punct]	_	O	!
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 nehéz	nehéz	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nehéz
 időkben	idő	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	idő
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -510,7 +510,7 @@ hiszem	hisz	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Te
 Aligha	aligha	ADV	[/Adv]	_	O	aligha
 .	.	PUNCT	[Punct]	_	O	.
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 hiszed	hisz	VERB	[/V][Prs.Def.2Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	hisz
 ?	?	PUNCT	[Punct]	_	O	?
@@ -729,7 +729,7 @@ Viszlát	viszlát	INTJ	[/Inj-Utt]	_	O	viszlát
 holnap	holnap	ADV	[/Adv]	_	O	holnap
 .	.	PUNCT	[Punct]	_	O	.
 
-Minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+Minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 jót	jó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	jó
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -820,7 +820,7 @@ Mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 ?	?	PUNCT	[Punct]	_	O	?
 
 Nincs	nincs	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	nincs
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	rá	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 időm	idő	NOUN	[/N][Poss.1Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	idő
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1020,7 +1020,7 @@ találj	talál	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person
 ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
-rád	te	PRON	[/N|Pro][Subl][2Sg]	Case=Sbl|Number=Sing|Person=2|PronType=Prs	O	te
+rád	rá	PRON	[/N|Pro][Subl][2Sg]	Case=Sbl|Number=Sing|Person=2|PronType=Prs	O	te
 emlékeztet	emlékeztet	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	emlékeztet
 !	!	PUNCT	[Punct]	_	O	!
 
@@ -1114,7 +1114,7 @@ elsötétítést	elsötétítés	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	elsötét
 
 Mit	mi	PRON	[/N|Pro|Int][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Prs	O	mi
 szeretsz	szeret	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	szeret
-rajta	ő	PRON	[/N|Pro][Supe][3Sg]	Case=Sup|Number=Sing|Person=3|PronType=Prs	O	ő
+rajta	rajta	PRON	[/N|Pro][Supe][3Sg]	Case=Sup|Number=Sing|Person=3|PronType=Prs	O	ő
 ?	?	PUNCT	[Punct]	_	O	?
 
 Jó	jó	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jó
@@ -1228,7 +1228,7 @@ felhívásra	felhívás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	felhívás
 .	.	PUNCT	[Punct]	_	O	.
 
 És	és	CCONJ	[/Cnj]	_	O	és
-velem	én	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
+velem	vele	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
 mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 ?	?	PUNCT	[Punct]	_	O	?

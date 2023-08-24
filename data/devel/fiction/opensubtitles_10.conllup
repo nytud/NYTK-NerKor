@@ -79,7 +79,7 @@ Indulás	indulás	INTJ	[/Inj-Utt]	_	O	indulás
 !	!	PUNCT	[Punct]	_	O	!
 
 Vajon	vajon	ADV	[/Adv]	_	O	vajon
-miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 akarja	akar	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	akar
 rendesen	rendes	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	rendes
 megépíteni	megépít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	megépít
@@ -237,7 +237,7 @@ jól	jól	ADV	[/Adj][_Manner/Adv]	_	O	jó
 dolgozni	dolgozik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	dolgozik
 ?	?	PUNCT	[Punct]	_	O	?
 
-Jobban	jó	ADJ	[/Adj][_Comp/Adj][_Manner/Adv]	Case=Ess|Degree=Cmp|Number=Sing	O	jó
+Jobban	jól	ADJ	[/Adj][_Comp/Adj][_Manner/Adv]	Degree=Cmp	O	jó
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 ahogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahogy
@@ -614,7 +614,7 @@ Köszönöm	köszön	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Pe
 Joyce	Joyce	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Joyce
 .	.	PUNCT	[Punct]	_	O	.
 
-Velük	ők	PRON	[/N|Pro][Ins][3Pl]	Case=Ins|Number=Plur|Person=3|PronType=Prs	O	ők
+Velük	vele	PRON	[/N|Pro][Ins][3Pl]	Case=Ins|Number=Plur|Person=3|PronType=Prs	O	ők
 megyek	megy	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megy
 ?	?	PUNCT	[Punct]	_	O	?
 
@@ -753,11 +753,11 @@ falut	falu	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	falu
 .	.	PUNCT	[Punct]	_	O	.
 
 Mintha	mintha	CCONJ	[/Cnj]	_	O	mintha
-ránk	mi	PRON	[/N|Pro][Subl][1Pl]	Case=Sbl|Number=Plur|Person=1|PronType=Prs	O	mi
+ránk	rá	PRON	[/N|Pro][Subl][1Pl]	Case=Sbl|Number=Plur|Person=1|PronType=Prs	O	mi
 gondolt	gondol	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	gondol
 volna	van	AUX	[/V]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	volna
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 megszökött	megszökik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	megszökik
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1055,7 +1055,7 @@ mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 szükség	szükség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szükség
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
-rám	én	PRON	[/N|Pro][Subl][1Sg]	Case=Sbl|Number=Sing|Person=1|PronType=Prs	O	én
+rám	rá	PRON	[/N|Pro][Subl][1Sg]	Case=Sbl|Number=Sing|Person=1|PronType=Prs	O	én
 ?	?	PUNCT	[Punct]	_	O	?
 
 Mindig	mindig	ADV	[/Adv]	_	O	mindig
@@ -1102,7 +1102,7 @@ itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
 ?	?	PUNCT	[Punct]	_	O	?
 
 Megtanítom	megtanít	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	megtanít
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	rá	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 sziámiul	sziámi	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	sziámi
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1117,7 +1117,7 @@ elront	elront	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3
 Mi	mi	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	mi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 baj	baj	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	baj
-vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
+vele	vele	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 ?	?	PUNCT	[Punct]	_	O	?
 
 Nagyot	nagy	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	nagy

@@ -32,7 +32,7 @@ kell	kell	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 változtatni	változtat	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	változtat
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-jobban	jobban	ADV	[/Adv]	_	O	jobban
+jobban	jól	ADV	[/Adv]	Degree=Cmp	O	jobban
 igazodjon	igazodik	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	igazodik
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 gyermeknek	gyermek	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	gyermek
@@ -122,7 +122,7 @@ egyáltalán	egyáltalán	ADV	[/Adv]	_	O	egyáltalán
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 szentimentális	szentimentális	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szentimentális
 és	és	CCONJ	[/Cnj]	_	O	és
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 mesterek	mester	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	mester
 elismerését	elismerés	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	elismerés
 is	is	ADV	[/Adv]	_	O	is
@@ -260,7 +260,7 @@ koncertezett	koncertezik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Si
 leszámítva	leszámítva	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	leszámít
 február	február	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	február
 elején	eleje	NOUN	[/N][Poss.3Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	eleje
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 amerikai	amerikai	ADJ	[/N][_Adjz:i/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	Amerika
 előadást	előadás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	előadás
 .	.	PUNCT	[Punct]	_	O	.
@@ -1225,7 +1225,7 @@ költője	költő	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sin
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 főhercegnőnek	főhercegnő	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	főhercegnő
 ajánlotta	ajánl	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	ajánl
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 szonettjét	szonett	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	szonett
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -1359,10 +1359,10 @@ kiesett	kiesik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 zenékre	zene	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	zene
 illik	illik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	illik
-legjobban	jobban	ADV	[/Supl][/Adv]	Degree=Sup	O	jobban
+legjobban	jól	ADV	[/Supl][/Adv]	Degree=Sup	O	jobban
 Bartók	Bartók	PROPN	[/N]	Case=Nom|Number=Sing	B-PER	Bartók
 Béla	Béla	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	Béla
 meghatározása	meghatározás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	meghatározás
@@ -1376,7 +1376,7 @@ szerint	szerint	ADP	[/Post]	_	O	szerint
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 igazi	igazi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	igazi
 parasztzene	parasztzene	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	parasztzene
-minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 külső	külső	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	külső
 befolyás	befolyás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	befolyás
 nélkül	nélkül	ADP	[/Post]	_	O	nélkül

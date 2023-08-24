@@ -66,7 +66,7 @@ Kurva	kurva	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kurva
 ,	,	PUNCT	[Punct]	_	O	,
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 félek	fél	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	fél
-tőled	te	PRON	[/N|Pro][Abl][2Sg]	Case=Abl|Number=Sing|Person=2|PronType=Prs	O	te
+tőled	tőle	PRON	[/N|Pro][Abl][2Sg]	Case=Abl|Number=Sing|Person=2|PronType=Prs	O	te
 .	.	PUNCT	[Punct]	_	O	.
 
 Ki	ki	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	ki
@@ -172,7 +172,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 
 Itt	itt	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	itt
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
-mikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
+mikor	mikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nővér	nővér	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nővér
 jött	jön	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	jön
@@ -195,7 +195,7 @@ beszélt	beszél	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Perso
 Ka-val	Ka	PROPN	[/N][Ins]	Case=Ins|Number=Sing	B-PER	Ka
 .	.	PUNCT	[Punct]	_	O	.
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 mondtad	mond	VERB	[/V][Pst.Def.2Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	O	mond
 ezt	ez	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	ez
 ?	?	PUNCT	[Punct]	_	O	?
@@ -208,7 +208,7 @@ Kurva	kurva	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kurva
 .	.	PUNCT	[Punct]	_	O	.
 
 Mindig	mindig	ADV	[/Adv]	_	O	mindig
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 mérges	mérges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mérges
 ?	?	PUNCT	[Punct]	_	O	?
 
@@ -243,7 +243,7 @@ is	is	ADV	[/Adv]	_	O	is
 Siu	Siu	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Siu
 ...	...	PUNCT	[Punct]	_	O	...
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 bánik	bánik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	bánik
 úgy	úgy	ADV	[/Adv|Pro]	PronType=Dem	O	úgy
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -308,7 +308,7 @@ lakó	lakó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	lakó
 ,	,	PUNCT	[Punct]	_	O	,
 te	te	PRON	[/N|Pro][2Sg][Nom]	Case=Nom|Number=Sing|Person=2|PronType=Prs	O	te
 tréfálkozol	tréfálkozik	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	tréfálkozik
-velem	én	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
+velem	vele	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
 .	.	PUNCT	[Punct]	_	O	.
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -409,9 +409,9 @@ különös	különös	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	külön�
 .	.	PUNCT	[Punct]	_	O	.
 
 Hallottam	hall	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	hall
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 dolgot	dolog	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	dolog
-róla	ő	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
+róla	róla	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Nehogy	nehogy	CCONJ	[/Cnj]	_	O	nehogy
@@ -420,7 +420,7 @@ mesélj	mesél	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person
 nekem	én	PRON	[/N|Pro][Dat][1Sg]	Case=Dat|Number=Sing|Person=1|PronType=Prs	O	én
 !	!	PUNCT	[Punct]	_	O	!
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 mondanék	mond	VERB	[/V][Cond.NDef.1Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	mond
 hazugságokat	hazugság	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	hazugság
 ?	?	PUNCT	[Punct]	_	O	?
@@ -444,9 +444,9 @@ van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 is	is	ADV	[/Adv]	_	O	is
 mondta	mond	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	mond
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 meg	meg	CCONJ	[/Cnj]	_	O	meg
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 vagyok	van	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -475,10 +475,10 @@ mindenki	mindenki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Tot	
 tudja	tud	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 .	.	PUNCT	[Punct]	_	O	.
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 megkönnyebbülés	megkönnyebbülés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	megkönnyebbülés
 ,	,	PUNCT	[Punct]	_	O	,
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 gyenge	gyenge	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gyenge
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -519,7 +519,7 @@ Ka	Ka	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Ka
 !	!	PUNCT	[Punct]	_	O	!
 
 Ka	Ka	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Ka
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 hitvány	hitvány	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hitvány
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -554,7 +554,7 @@ ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 vagy	van	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 .	.	PUNCT	[Punct]	_	O	.
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
@@ -563,7 +563,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 folyóban	folyó	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	folyó
 .	.	PUNCT	[Punct]	_	O	.
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 elegáns	elegáns	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elegáns
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -615,7 +615,7 @@ egyet	egy	NOUN	[/N|Pro][Acc]	Case=Acc|Number=Sing	O	egy
 Öreg	öreg	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	öreg
 ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 ,	,	PUNCT	[Punct]	_	O	,
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 ,	,	PUNCT	[Punct]	_	O	,
@@ -680,13 +680,13 @@ szabályai	szabály	NOUN	[/N][Pl.Poss.3Sg][Nom]	Case=Nom|Number=Plur|Number[psor
 Nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 tudod	tud	VERB	[/V][Prs.Def.2Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 ,	,	PUNCT	[Punct]	_	O	,
-miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 ?	?	PUNCT	[Punct]	_	O	?
 
 Még	még	ADV	[/Adv]	_	O	még
 sosem	sosem	ADV	[/Adv]	_	O	sosem
 hallottam	hall	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	hall
-róla	ő	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
+róla	róla	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Ne	ne	ADV	[/Adv]	PronType=Neg	O	ne
@@ -712,7 +712,7 @@ szabályokra	szabály	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	szabály
 .	.	PUNCT	[Punct]	_	O	.
 
 Átlátsz	átlát	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	átlát
-másokon	más	PRON	[/N|Pro][Pl][Supe]	Case=Sup|Number=Plur|Person=3|PronType=Ind	O	más
+másokon	más	PRON	[/N|Pro][Pl][Supe]	Case=Sup|Number=Plur|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 .	.	PUNCT	[Punct]	_	O	.
 
 Semmirevaló	semmirevaló	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	semmirevaló
@@ -751,7 +751,7 @@ Igyunk	iszik	VERB	[/V][Sbjv.NDef.1Pl]	Definite=Ind|Mood=Imp|Number=Plur|Person=1
 !	!	PUNCT	[Punct]	_	O	!
 
 Tarts	tart	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	tart
-velem	én	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
+velem	vele	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
 ,	,	PUNCT	[Punct]	_	O	,
 öreg	öreg	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	öreg
 ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
@@ -787,7 +787,7 @@ nemsokára	nemsokára	ADV	[/Adv]	_	O	nemsokára
 .	.	PUNCT	[Punct]	_	O	.
 
 Hallgatásod	hallgatás	NOUN	[/N][Poss.2Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	O	hallgatás
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -811,7 +811,7 @@ teljesen	teljesen	ADV	[/Adv]	_	O	teljesen
 vége	vég	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	vég
 .	.	PUNCT	[Punct]	_	O	.
 
-Mikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
+Mikor	mikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 szállóigéket	szállóige	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	szállóige
 mondtam	mond	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	mond
@@ -945,7 +945,7 @@ megcsinálod	megcsinál	VERB	[/V][Prs.Def.2Sg]	Definite=Def|Mood=Ind|Number=Sing
 ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 ,	,	PUNCT	[Punct]	_	O	,
 te	te	PRON	[/N|Pro][2Sg][Nom]	Case=Nom|Number=Sing|Person=2|PronType=Prs	O	te
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 különleges	különleges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	különleges
 vagy	van	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 !	!	PUNCT	[Punct]	_	O	!
@@ -954,7 +954,7 @@ vagy	van	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tens
 .	.	PUNCT	[Punct]	_	O	.
 
 Akarsz	akar	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	akar
-velem	én	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
+velem	vele	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
 beszélni	beszél	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	beszél
 ?	?	PUNCT	[Punct]	_	O	?
 
@@ -981,17 +981,17 @@ ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 kérlek	kér	VERB	[/V][Prs.1Sg›2]	Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kér
 ,	,	PUNCT	[Punct]	_	O	,
 beszélgess	beszélget	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	beszélget
-velem	én	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
+velem	vele	PRON	[/N|Pro][Ins][1Sg]	Case=Ins|Number=Sing|Person=1|PronType=Prs	O	én
 !	!	PUNCT	[Punct]	_	O	!
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 rémült	rémült	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	rémült
 és	és	CCONJ	[/Cnj]	_	O	és
 fáradt	fáradt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	fáradt
 vagyok	van	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 .	.	PUNCT	[Punct]	_	O	.
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
@@ -1010,7 +1010,7 @@ Reményekkel	remény	NOUN	[/N][Pl][Ins]	Case=Ins|Number=Plur	O	remény
 Légy	lesz	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 nyugodt	nyugodt	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nyugodt
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 meghalsz	meghal	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	meghal
 !	!	PUNCT	[Punct]	_	O	!
 
@@ -1093,7 +1093,7 @@ fognak	fog	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Te
 gyógyítani	gyógyít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	gyógyít
 .	.	PUNCT	[Punct]	_	O	.
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 gondolsz	gondol	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	gondol
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gyógyulásra	gyógyulás	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	gyógyulás
@@ -1136,7 +1136,7 @@ nincs	nincs	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|T
 .	.	PUNCT	[Punct]	_	O	.
 
 Ki	ki	PRON	[/N|Pro|Int][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	ki
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 hangos	hangos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	hangos
 ?	?	PUNCT	[Punct]	_	O	?
 
@@ -1202,7 +1202,7 @@ köhögés	köhögés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	köhögés
 Tao	Tao	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Tao
 .	.	PUNCT	[Punct]	_	O	.
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 szólítasz	szólít	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	szólít
 nevemem	név	NOUN	[/N][Poss.1Sg][Supe]	Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	név
 ?	?	PUNCT	[Punct]	_	O	?
@@ -1213,7 +1213,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 ágyon	ágy	NOUN	[/N][Supe]	Case=Sup|Number=Sing	O	ágy
 ?	?	PUNCT	[Punct]	_	O	?
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 kérded	kérd	VERB	[/V][Prs.Def.2Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	kérd
 ?	?	PUNCT	[Punct]	_	O	?
 

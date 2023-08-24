@@ -47,9 +47,9 @@ azokat	az	PRON	[/Det|Pro][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Dem	O	
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 estéket	este	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	este
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 csak	csak	ADV	[/Adv]	_	O	csak
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 erdei	erdei	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	erdei
 bogyó	bogyó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	bogyó
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
@@ -83,7 +83,7 @@ szerint	szerint	ADP	[/Post]	_	O	szerint
 –	–	X	[Hyph:Dash]	_	O	–
 erőszakos	erőszakos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	erőszakos
 volt	van	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	van
-vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
+vele	vele	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Ron	Ron	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Ron
@@ -336,7 +336,7 @@ ha	ha	SCONJ	[/Cnj]	_	O	ha
 valamit	valami	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Ind	O	valami
 rosszul	rossz	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	rossz
 /	/	X	[Hyph:Slash]	_	O	/
-másoknál	más	PRON	[/N|Pro][Pl][Ade]	Case=Ade|Number=Plur|Person=3|PronType=Ind	O	más
+másoknál	más	PRON	[/N|Pro][Pl][Ade]	Case=Ade|Number=Plur|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 rosszabbul	rossz	ADJ	[/Adj][_Comp/Adj][_Manner/Adv]	Case=Ess|Degree=Cmp|Number=Sing	O	rossz
 tudok	tud	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 ,	,	PUNCT	[Punct]	_	O	,
@@ -381,7 +381,7 @@ valakit	valaki	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Ind	O	v
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 fénykép	fénykép	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	fénykép
 elvesztése	elvesztés	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	elvesztés
-jobban	jobban	ADV	[/Adv]	_	O	jobban
+jobban	jól	ADV	[/Adv]	Degree=Cmp	O	jobban
 megviselne	megvisel	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megvisel
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
@@ -455,7 +455,7 @@ nekem	én	PRON	[/N|Pro][Dat][1Sg]	Case=Dat|Number=Sing|Person=1|PronType=Prs	O	�
 logikus	logikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	logikus
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-amíg	amíg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amíg
+amíg	amíg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amíg
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 elérhető	elérhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elérhető
 cici	cici	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	cici
@@ -526,6 +526,6 @@ lépj	lép	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|T
 és	és	CCONJ	[/Cnj]	_	O	és
 onnan	onnan	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	onnan
 reagálj	reagál	VERB	[/V][Sbjv.NDef.2Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	reagál
-rám	én	PRON	[/N|Pro][Subl][1Sg]	Case=Sbl|Number=Sing|Person=1|PronType=Prs	O	én
+rám	rá	PRON	[/N|Pro][Subl][1Sg]	Case=Sbl|Number=Sing|Person=1|PronType=Prs	O	én
 .	.	PUNCT	[Punct]	_	O	.
 

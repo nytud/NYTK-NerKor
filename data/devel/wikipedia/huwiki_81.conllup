@@ -1,7 +1,7 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 titok	titok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	titok
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ismeret	ismeret	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ismeret
 ,	,	PUNCT	[Punct]	_	O	,
 adat	adat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	adat
@@ -22,7 +22,7 @@ vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 korlátozott	korlátozott	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	korlátozott
 .	.	PUNCT	[Punct]	_	O	.
 
-Minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+Minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 titok	titok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	titok
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyilvánosságra	nyilvánosság	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyilvánosság
@@ -90,7 +90,7 @@ jelenti	jelent	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
 valaki	valaki	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valaki
-más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 levéltitkát	levéltitok	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	levéltitok
 megsérti	megsért	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	megsért
 ,	,	PUNCT	[Punct]	_	O	,
@@ -146,7 +146,7 @@ gazdasági	gazdasági	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	gazdasá
 tevékenységéhez	tevékenység	NOUN	[/N][Poss.3Sg][All]	Case=All|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tevékenység
 kötődő	kötődő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kötődő
 minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 adat	adat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	adat
 ,	,	PUNCT	[Punct]	_	O	,
 megoldás	megoldás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	megoldás
@@ -223,7 +223,7 @@ megoldásokra	megoldás	NOUN	[/N][Pl][Subl]	Case=Sbl|Number=Plur	O	megoldás
 
 A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 know-how	know-how	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	know-how
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ipari	ipari	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ipari
 titok	titok	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	titok
 ,	,	PUNCT	[Punct]	_	O	,
@@ -243,7 +243,7 @@ Nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 know-how	know-how	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	know-how
 tárgya	tárgy	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	tárgy
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 tudás	tudás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tudás
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami

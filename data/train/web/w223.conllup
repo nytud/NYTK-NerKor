@@ -91,11 +91,11 @@ szakember	szakember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szakember
 .	.	PUNCT	[Punct]	_	O	.
 
 „	„	PUNCT	[Punct]	_	O	„
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 időszakról	időszak	NOUN	[/N][Del]	Case=Del|Number=Sing	O	időszak
 beszélünk	beszél	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	beszél
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 gleccserek	gleccser	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	gleccser
 visszahúzódtak	visszahúzódik	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	visszahúzódik
@@ -142,7 +142,7 @@ amit	ami	PRON	[/N|Pro|Rel][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Rel	O	ami
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 idők	idő	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	idő
 során	során	ADP	[/Post|(Poss)]	_	O	során
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 vezető	vezető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	vezető
 liberális	liberális	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	liberális
 értelmiségiek	értelmiségi	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	értelmiségi
@@ -161,7 +161,7 @@ István	István	PROPN	[/N]	Case=Nom|Number=Sing	I-PER	István
 György	György	PROPN	[/N][Nom]	Case=Nom|Number=Sing	I-PER	György
 és	és	CCONJ	[/Cnj]	_	O	és
 sokan	sokan	ADV	[/Adv]	_	O	sokan
-mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind	O	más
+mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 .	.	PUNCT	[Punct]	_	O	.
 
 1978	1978	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	1978
@@ -276,7 +276,7 @@ visszaesett	visszaesik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing
 2004-hez	2004	NUM	[/Num|Digit][All]	Case=All|Number=Sing|NumType=Card	O	2004
 képest	képest	ADP	[/Post|(All)]	_	O	képest
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 Aramco	Aramco	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	Aramco
 annak	az	PRON	[/N|Pro][Dat]	Case=Dat|Number=Sing|Person=3|PronType=Dem	O	az
@@ -388,7 +388,7 @@ probléma	probléma	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	probléma
 akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 kezdődik	kezdődik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kezdődik
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 nyertes	nyertes	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	nyertes
 adományozni	adományoz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	adományoz
@@ -434,7 +434,7 @@ pénzt	pénz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	pénz
 ám	ám	CCONJ	[/Cnj]	_	O	ám
 nagyon	nagyon	ADV	[/Adv]	_	O	nagyon
 sok	sok	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 nemzetközi	nemzetközi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nemzetközi
 díj	díj	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	díj
 van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
@@ -452,7 +452,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 újdonság	újdonság	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	újdonság
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 ember	ember	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	ember
 birtokolja	birtokol	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	birtokol
 szinte	szinte	ADV	[/Adv]	_	O	szinte
@@ -517,7 +517,7 @@ Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 uniós	uniós	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	uniós
 bürokraták	bürokrata	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	bürokrata
 nemcsak	nemcsak	ADV	[/Adv]	_	O	nemcsak
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ,	,	PUNCT	[Punct]	_	O	,
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 állampolgárok	állampolgár	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	állampolgár

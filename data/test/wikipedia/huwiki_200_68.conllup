@@ -1010,7 +1010,7 @@ tanulmányozni	tanulmányoz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	tanulmányoz
 .	.	PUNCT	[Punct]	_	O	.
 
 Ám	ám	CCONJ	[/Cnj]	_	O	ám
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 sikere	siker	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	siker
 lett	lesz	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
 ,	,	PUNCT	[Punct]	_	O	,
@@ -1020,7 +1020,7 @@ saját	saját	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	saját
 sorozat	sorozat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	sorozat
 nőtt	nő	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	nő
 ki	ki	ADV	[/Prev]	Degree=Pos	O	ki
-belőle	ő	PRON	[/N|Pro][Ela][3Sg]	Case=Ela|Number=Sing|Person=3|PronType=Prs	O	ő
+belőle	belőle	PRON	[/N|Pro][Ela][3Sg]	Case=Ela|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Torchwood	Torchwood	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-MISC	Torchwood
@@ -1243,7 +1243,7 @@ küldtek	küld	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=
 .	.	PUNCT	[Punct]	_	O	.
 
 Ismét	ismét	ADV	[/Adv]	_	O	ismét
-mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind	O	más
+mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 állítják	állít	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	állít
 régészeti	régészeti	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	régészeti
@@ -1398,7 +1398,7 @@ el	el	ADV	[/Prev]	_	O	el
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 kezdődtek	kezdődik	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	kezdődik
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 1578	1578	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	1578
 augusztus	augusztus	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	augusztus
 17-én	17	NOUN	[/Num|Digit][_OrdDate/N][Supe]	Case=Sup|Number=Sing	O	17
@@ -2442,7 +2442,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 Velencei	Velencei	PROPN	[/N]	Case=Nom|Number=Sing	B-LOC	Velencei
 Köztársaságnak	Köztársaság	PROPN	[/N][Dat]	Case=Dat|Number=Sing	I-LOC	Köztársaság
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 Nin	Nin	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-LOC	Nin
 hanyatlásnak	hanyatlás	NOUN	[/N][Dat]	Case=Dat|Number=Sing	O	hanyatlás
 indult	indul	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	indul
@@ -2621,7 +2621,7 @@ akkád	akkád	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	akkád
 nyelvű	nyelvű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nyelvű
 eposzt	eposz	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	eposz
 költöttek	költ	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	költ
-róla	ő	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
+róla	róla	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Etana	Etana	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Etana
@@ -2636,7 +2636,7 @@ sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 tudunk	tud	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 ,	,	PUNCT	[Punct]	_	O	,
 nincsen	nincs	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	nincs
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 korabeli	korabeli	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	korabeli
 feliratos	feliratos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	feliratos
 emlék	emlék	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	emlék

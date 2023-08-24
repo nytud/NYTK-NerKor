@@ -63,7 +63,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 baj	baj	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	baj
 ?	?	PUNCT	[Punct]	_	O	?
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 szép	szép	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szép
 !	!	PUNCT	[Punct]	_	O	!
 
@@ -74,7 +74,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 tipikus	tipikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tipikus
 eset	eset	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	eset
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 név	név	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	név
 nélküli	nélküli	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nélküli
@@ -92,7 +92,7 @@ hosszan	hosszan	ADV	[/Adv]	_	O	hosszan
 csak	csak	ADV	[/Adv]	_	O	csak
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 lényeges	lényeges	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	lényeges
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 szót	szó	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szó
 idézzük	idéz	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	idéz
 .	.	PUNCT	[Punct]	_	O	.
@@ -198,7 +198,7 @@ megküldtem	megküld	VERB	[/V][Pst.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Pe
 azóta	azóta	ADV	[/Adv|Pro]	PronType=Dem	O	azóta
 sem	sem	ADV	[/Adv]	PronType=Neg	O	sem
 válaszoltak	válaszol	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	válaszol
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	rá	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Ha	ha	SCONJ	[/Cnj]	_	O	ha
@@ -277,7 +277,7 @@ terén	tér	ADP	[/Post|(Poss)][Poss.3Sg]	_	O	tér
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 sokat	sok	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	sok
 tudok	tud	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
-róluk	ők	PRON	[/N|Pro][Del][3Pl]	Case=Del|Number=Plur|Person=3|PronType=Prs	O	ők
+róluk	róla	PRON	[/N|Pro][Del][3Pl]	Case=Del|Number=Plur|Person=3|PronType=Prs	O	ők
 .	.	PUNCT	[Punct]	_	O	.
 
 Ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
@@ -373,7 +373,7 @@ vettem	vesz	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|T
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 átmérője	átmérő	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	átmérő
-olyan	olyan	ADV	[/Adv]	PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adv]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 70-80	70-80	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	70-80
 cm	cm	NOUN	[/N|Unit|Abbr][Nom]	Case=Nom|Number=Sing	O	cm
 lehetett	lehet	VERB	[/V][_Mod/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lesz
@@ -386,10 +386,10 @@ túlöntözni	túlöntöz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	túlöntöz
 .	.	PUNCT	[Punct]	_	O	.
 
 De	de	CCONJ	[/Cnj]	_	O	de
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 kapálni	kapál	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	kapál
 akarok	akar	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	akar
-vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
+vele	vele	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
 inkább	inkább	ADV	[/Adv]	_	O	inkább

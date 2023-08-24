@@ -14,7 +14,7 @@ azt	az	PRON	[/Det|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 helyzetet	helyzet	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	helyzet
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	CCONJ	[/Cnj]	_	O	amikor
+amikor	amikor	ADV	[/Cnj]	PronType=Rel	O	amikor
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 projekt	projekt	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	projekt
 esetén	esetén	ADP	[/Post|(Poss)]	_	O	esetén
@@ -200,7 +200,7 @@ végezzen	végez	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Pers
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 rendszerint	rendszerint	ADV	[/Adv]	_	O	rendszerint
 eltökölgetnek	eltököl	VERB	[/V][_Freq/V][Prs.NDef.3Pl]	Aspect=Iter|Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	eltököl
-más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 kontójára	kontó	NOUN	[/N][Poss.3Sg][Subl]	Case=Sbl|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	kontó
 .	.	PUNCT	[Punct]	_	O	.
 
@@ -250,7 +250,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 összehasonlítani	összehasonlít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	összehasonlít
 őket	ők	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	ők
-velünk	mi	PRON	[/N|Pro][Ins][1Pl]	Case=Ins|Number=Plur|Person=1|PronType=Prs	O	mi
+velünk	vele	PRON	[/N|Pro][Ins][1Pl]	Case=Ins|Number=Plur|Person=1|PronType=Prs	O	mi
 .	.	PUNCT	[Punct]	_	O	.
 
 Gyorsítani	gyorsít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	gyorsít
@@ -401,7 +401,7 @@ módszertanát	módszertan	NOUN	[/N][Poss.3Sg][Acc]	Case=Acc|Number=Sing|Number[
 
 Másfelől	másfelől	ADV	[/Adv]	_	O	másfelől
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 mindent	minden	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Tot	O	minden
 előíró	előíró	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	előíró
 ,	,	PUNCT	[Punct]	_	O	,
@@ -485,9 +485,9 @@ együtt	együtt	ADP	[/Post|(Ins)]	_	O	együtt
 dolgozni	dolgozik	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	dolgozik
 .	.	PUNCT	[Punct]	_	O	.
 
-Amikor	amikor	CCONJ	[/Cnj]	_	O	amikor
+Amikor	amikor	ADV	[/Cnj]	PronType=Rel	O	amikor
 látta	lát	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	lát
-rajtam	én	PRON	[/N|Pro][Supe][1Sg]	Case=Sup|Number=Sing|Person=1|PronType=Prs	O	én
+rajtam	rajta	PRON	[/N|Pro][Supe][1Sg]	Case=Sup|Number=Sing|Person=1|PronType=Prs	O	én
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 értetlenkedve	értetlenkedve	ADV	[/V][_AdvPtcp/Adv]	VerbForm=Conv	O	értetlenkedik
@@ -506,7 +506,7 @@ menne	megy	VERB	[/V][Cond.NDef.3Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=3|T
 elmagyarázta	elmagyaráz	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	elmagyaráz
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
-tőlünk	mi	PRON	[/N|Pro][Abl][1Pl]	Case=Abl|Number=Plur|Person=1|PronType=Prs	O	mi
+tőlünk	tőle	PRON	[/N|Pro][Abl][1Pl]	Case=Abl|Number=Plur|Person=1|PronType=Prs	O	mi
 nyugatra	nyugat	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	nyugat
 már	már	ADV	[/Adv]	_	O	már
 rájöttek	rájön	VERB	[/V][Pst.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	rájön

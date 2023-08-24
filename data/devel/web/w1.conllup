@@ -7,7 +7,7 @@ csütörtök	csütörtök	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	csütörtök
 13:17	13:17	NUM	[/Num|Digit][Nom]	Case=Nom|Number=Sing|NumType=Card	O	13:17
 |	|	PUNCT	[Punct]	_	O	|
 
-Néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+Néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 ,	,	PUNCT	[Punct]	_	O	,
 forintra	forint	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	forint
 –	–	X	[Hyph:Dash]	_	O	–
@@ -104,7 +104,7 @@ Kevésbé	kevésbé	ADV	[/Adv]	_	O	kevésbé
 beszélünk	beszél	VERB	[/V][Prs.NDef.1Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	beszél
 arról	az	PRON	[/N|Pro][Del]	Case=Del|Number=Sing|Person=3|PronType=Dem	O	az
 :	:	PUNCT	[Punct]	_	O	:
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 tesszük	tesz	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	tesz
 ?	?	PUNCT	[Punct]	_	O	?
 
@@ -197,7 +197,7 @@ Facebookon	Facebook	PROPN	[/N][Supe]	Case=Sup|Number=Sing	B-MISC	Facebook
 lájkoljanak	lájkol	VERB	[/V][Sbj.NDef.3Pl]	Definite=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	O	lájkol
 minél	minél	ADV	[/Adv]	_	O	minél
 több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 oldalt	oldal	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	oldal
 ,	,	PUNCT	[Punct]	_	O	,
 ami	ami	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ami
@@ -309,7 +309,7 @@ mond	mond	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 
 Elsőként	első	ADJ	[/Num][_Ord/Adj][EssFor:ként]	Case=Ess|Number=Sing|NumType=Ord	O	egy
 bement	bemegy	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	bemegy
-rajta	ő	PRON	[/N|Pro][Supe][3Sg]	Case=Sup|Number=Sing|Person=3|PronType=Prs	O	ő
+rajta	rajta	PRON	[/N|Pro][Supe][3Sg]	Case=Sup|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Gyakran	gyakran	ADV	[/Adv]	_	O	gyakran
@@ -460,7 +460,7 @@ szamárságot	szamárság	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	szamárság
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 ne	ne	ADV	[/Adv]	PronType=Neg	O	ne
-másoknak	más	PRON	[/N|Pro][Pl][Dat]	Case=Dat|Number=Plur|Person=3|PronType=Ind	O	más
+másoknak	más	PRON	[/N|Pro][Pl][Dat]	Case=Dat|Number=Plur|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 kelljen	kell	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kell
 elkövetniük	elkövet	VERB	[/V][Inf.3Pl]	Number=Plur|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act	O	elkövet
 "	"	PUNCT	[Punct]	_	O	"

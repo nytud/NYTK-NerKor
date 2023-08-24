@@ -1,5 +1,5 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
-Minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+Minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 adatot	adat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	adat
 kizárólag	kizárólag	ADV	[/Adv]	_	O	kizárólag
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -206,7 +206,7 @@ sütik	süti	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	süti
 idejéig	idő	NOUN	[/N][Poss.3Sg][Ter]	Case=Ter|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	idő
 ,	,	PUNCT	[Punct]	_	O	,
 ill.	ill.	CCONJ	[/Cnj|Abbr][]	_	O	ill.
-amíg	amíg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amíg
+amíg	amíg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amíg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 felhasználó	felhasználó	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	felhasználó
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -341,7 +341,7 @@ jog	jog	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jog
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 érintheti	érint	VERB	[/V][_Mod/V][Prs.Def.3Sg]	Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	érint
 hátrányosan	hátrányos	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	hátrányos
-mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind	O	más
+mások	más	PRON	[/N|Pro][Pl][Nom]	Case=Nom|Number=Plur|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 jogait	jog	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	jog
 és	és	CCONJ	[/Cnj]	_	O	és
 szabadságait	szabadság	NOUN	[/N][Pl.Poss.3Sg][Acc]	Case=Acc|Number=Plur|Number[psor]=Sing|Person[psor]=3	O	szabadság
@@ -364,7 +364,7 @@ bizonyítom	bizonyít	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|P
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 azt	az	PRON	[/N|Pro][Acc]	Case=Acc|Number=Sing|Person=3|PronType=Dem	O	az
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 kényszerítő	kényszerítő	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kényszerítő
 erejű	erejű	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	erejű
 jogos	jogos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	jogos
@@ -583,7 +583,7 @@ A	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 2N-nél	2N	PROPN	[/N][Ade]	Case=Ade|Number=Sing	B-ORG	2N
 tisztában	tiszta	ADJ	[/Adj][Ine]	Case=Ine|Degree=Pos|Number=Sing	O	tiszta
 vannak	van	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
-vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
+vele	vele	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az

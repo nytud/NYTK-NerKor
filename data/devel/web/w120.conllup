@@ -68,7 +68,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 helyüket	hely	NOUN	[/N][Poss.3Pl][Acc]	Case=Acc|Number=Sing|Number[psor]=Plur|Person[psor]=3	O	hely
 .	.	PUNCT	[Punct]	_	O	.
 
-Lehet	van	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+Lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 …	…	PUNCT	[Punct]	_	O	…
 
 Perceken	perc	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	perc
@@ -143,7 +143,7 @@ sebességre	sebesség	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	sebesség
 kapcsolok	kapcsol	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kapcsol
 ,	,	PUNCT	[Punct]	_	O	,
 és	és	CCONJ	[/Cnj]	_	O	és
-jobban	jobban	ADV	[/Adv]	_	O	jobban
+jobban	jól	ADV	[/Adv]	Degree=Cmp	O	jobban
 igénybe	igény	NOUN	[/N][Ill]	Case=Ill|Number=Sing	O	igény
 veszem	vesz	VERB	[/V][Prs.Def.1Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	vesz
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -189,7 +189,7 @@ mennék	megy	VERB	[/V][Cond.NDef.1Sg]	Definite=Ind|Mood=Cnd|Number=Sing|Person=1
 .	.	PUNCT	[Punct]	_	O	.
 
 És	és	CCONJ	[/Cnj]	_	O	és
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 végeztem	végez	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	végez
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 részemmel	rész	NOUN	[/N][Poss.1Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	rész
@@ -271,7 +271,7 @@ saját	saját	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	saját
 szememmel	szem	NOUN	[/N][Poss.1Sg][Ins]	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=1	O	szem
 győződök	győződik	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	győződik
 meg	meg	PART	[/Prev]	_	O	meg
-róla	ő	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
+róla	róla	PRON	[/N|Pro][Del][3Sg]	Case=Del|Number=Sing|Person=3|PronType=Prs	O	ő
 .	.	PUNCT	[Punct]	_	O	.
 
 Nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -370,12 +370,12 @@ reggelre	reggel	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	reggel
 Nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 te	te	PRON	[/N|Pro][2Sg][Nom]	Case=Nom|Number=Sing|Person=2|PronType=Prs	O	te
 játszol	játszik	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	játszik
-vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
+vele	vele	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 ő	ő	PRON	[/N|Pro][3Sg][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	ő
 játszik	játszik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	játszik
-veled	te	PRON	[/N|Pro][Ins][2Sg]	Case=Ins|Number=Sing|Person=2|PronType=Prs	O	te
+veled	vele	PRON	[/N|Pro][Ins][2Sg]	Case=Ins|Number=Sing|Person=2|PronType=Prs	O	te
 ,	,	PUNCT	[Punct]	_	O	,
 ahogy	ahogy	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahogy
 Csipi	Csipi	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Csipi

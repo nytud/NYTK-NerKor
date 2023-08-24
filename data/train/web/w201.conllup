@@ -27,7 +27,7 @@ hinni	hisz	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	hisz
 ,	,	PUNCT	[Punct]	_	O	,
 hogy	hogy	SCONJ	[/Cnj]	_	O	hogy
 aki	aki	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	aki
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 hiedelemel	hiedelem	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	hiedelem
 érkezik	érkezik	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	érkezik
 is	is	ADV	[/Adv]	_	O	is
@@ -214,7 +214,7 @@ is	is	ADV	[/Adv]	_	O	is
 lehet	lesz	VERB	[/V][_Mod/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Pot|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 szép	szép	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	szép
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 épp	épp	ADV	[/Adv]	_	O	épp
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 tragikus	tragikus	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	tragikus
@@ -242,7 +242,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 hétköznapokban	hétköznap	NOUN	[/N][Pl][Ine]	Case=Ine|Number=Plur	O	hétköznap
 .	.	PUNCT	[Punct]	_	O	.
 
-Jobban	jobban	ADV	[/Adv]	_	O	jobban
+Jobban	jól	ADV	[/Adv]	Degree=Cmp	O	jobban
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -250,7 +250,7 @@ első	első	ADJ	[/Num][_Ord/Adj][Nom]	Case=Nom|Number=Sing|NumType=Ord	O	egy
 alkalommal	alkalom	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	alkalom
 ,	,	PUNCT	[Punct]	_	O	,
 sokkal	sokkal	ADV	[/Adv]	_	O	sokkal
-jobban	jobban	ADV	[/Adv]	_	O	jobban
+jobban	jól	ADV	[/Adv]	Degree=Cmp	O	jobban
 .	.	PUNCT	[Punct]	_	O	.
 
 Végezetül	végezetül	ADV	[/Adv]	_	O	végezetül
@@ -332,7 +332,7 @@ is	is	ADV	[/Adv]	_	O	is
 .	.	PUNCT	[Punct]	_	O	.
 
 Látszólag	látszólag	ADV	[/Adv]	_	O	látszólag
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 semmitmondóak	semmitmondó	ADJ	[/Adj][Pl][Nom]	Case=Nom|Degree=Pos|Number=Plur	O	semmitmondó
 ,	,	PUNCT	[Punct]	_	O	,
 csak	csak	ADV	[/Adv]	_	O	csak
@@ -358,10 +358,10 @@ közhelyekhez	közhely	NOUN	[/N][Pl][All]	Case=All|Number=Plur	O	közhely
 
 Vannak	van	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 azonban	azonban	CCONJ	[/Cnj]	_	O	azonban
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 élethelyzetek	élethelyzet	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	élethelyzet
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amikor
+amikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 közhelyek	közhely	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	közhely
 által	által	ADP	[/Post]	_	O	által
@@ -408,11 +408,11 @@ témában	téma	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	téma
 mindenféle	mindenféle	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	mindenféle
 nyelveken	nyelv	NOUN	[/N][Pl][Supe]	Case=Sup|Number=Plur	O	nyelv
 ,	,	PUNCT	[Punct]	_	O	,
-amíg	amíg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amíg
+amíg	amíg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amíg
 végül	végül	ADV	[/Adv]	_	O	végül
 kitúrok	kitúr	VERB	[/V][Prs.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	kitúr
 egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 adatot	adat	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	adat
 ,	,	PUNCT	[Punct]	_	O	,
 amiből	ami	PRON	[/N|Pro|Rel][Ela]	Case=Ela|Number=Sing|Person=3|PronType=Rel	O	ami

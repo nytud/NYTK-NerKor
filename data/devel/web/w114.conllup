@@ -4,7 +4,7 @@ jelenet	jelenet	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	jelenet
 lesz	lesz	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	lesz
 majd	majd	ADV	[/Adv]	_	O	majd
 ,	,	PUNCT	[Punct]	_	O	,
-amikor	amikor	CCONJ	[/Cnj]	_	O	amikor
+amikor	amikor	ADV	[/Cnj]	PronType=Rel	O	amikor
 Hiroyuki-san	Hiroyuki-san	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	Hiroyuki-san
 túl	túl	ADV	[/Adv|AdjMod]	_	O	túl
 sokat	sok	NUM	[/Num][Acc]	Case=Acc|Number=Sing|NumType=Card	O	sok
@@ -58,7 +58,7 @@ alábbiakat	alábbi	ADJ	[/Adj][Pl][Acc]	Case=Acc|Degree=Pos|Number=Plur	O	alább
 Meg	meg	CCONJ	[/Cnj]	_	O	meg
 tényleg	tényleg	ADV	[/Adv]	_	O	tényleg
 ,	,	PUNCT	[Punct]	_	O	,
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 dolgok	dolog	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	dolog
 vannak	van	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -78,7 +78,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 egészet	egész	ADJ	[/Adj][Acc]	Case=Acc|Degree=Pos|Number=Sing	O	egész
 .	.	PUNCT	[Punct]	_	O	.
 
-Legyen	van	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
+Legyen	lesz	VERB	[/V][Sbjv.NDef.3Sg]	Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	van
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
 akkor	akkor	ADV	[/Adv|Pro]	PronType=Dem	O	akkor
@@ -94,7 +94,7 @@ dolog	dolog	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	dolog
 ,	,	PUNCT	[Punct]	_	O	,
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
 valami	valami	PRON	[/Det|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	valami
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 ,	,	PUNCT	[Punct]	_	O	,
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
@@ -475,7 +475,7 @@ helyette	helyett	ADP	[/Post][3Sg]	_	O	helyett
 El	el	ADV	[/Prev]	_	O	el
 is	is	ADV	[/Adv]	_	O	is
 készültem	készül	VERB	[/V][Pst.NDef.1Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	O	készül
-vele	ő	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
+vele	vele	PRON	[/N|Pro][Ins][3Sg]	Case=Ins|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 lássuk	lát	VERB	[/V][Sbjv.Def.1Pl]	Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	O	lát
 őket	ők	PRON	[/N|Pro][3Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Prs	O	ők
@@ -490,7 +490,7 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 árakat	ár	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	ár
 .	.	PUNCT	[Punct]	_	O	.
 
-Tőle	ő	PRON	[/N|Pro][Abl][3Sg]	Case=Abl|Number=Sing|Person=3|PronType=Prs	O	ő
+Tőle	tőle	PRON	[/N|Pro][Abl][3Sg]	Case=Abl|Number=Sing|Person=3|PronType=Prs	O	ő
 már	már	ADV	[/Adv]	_	O	már
 újabb	új	ADJ	[/Adj][_Comp/Adj][Nom]	Case=Nom|Degree=Cmp|Number=Sing	O	új
 kislemezek	kislemez	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	kislemez

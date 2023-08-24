@@ -1,6 +1,6 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 szempont	szempont	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	szempont
 alapjan	alapján	ADP	[/Post|(Poss)]	_	O	alapján
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
@@ -136,7 +136,7 @@ YIPPIIIII	YIPPIIIII	INTJ	[/Inj-Utt]	_	O	YIPPIIIII
 :	:	PUNCT	[Punct]	_	O	:
 H2O	H2O	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-PER	H2O
 
-Amíg	amíg	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amíg
+Amíg	amíg	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amíg
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 később	később	ADV	[/Adv]	_	O	később
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -181,7 +181,7 @@ sebészi	sebészi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	sebészi
 trepanáció	trepanáció	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	trepanáció
 .	.	PUNCT	[Punct]	_	O	.
 
-Olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+Olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 betegség	betegség	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	betegség
 ,	,	PUNCT	[Punct]	_	O	,
 amely	amely	PRON	[/N|Pro|Rel][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	amely
@@ -262,7 +262,7 @@ előfordulása	előfordulás	NOUN	[/N][Poss.3Sg][Nom]	Case=Nom|Number=Sing|Numbe
 
 Ezzel	ez	PRON	[/N|Pro][Ins]	Case=Ins|Number=Sing|Person=3|PronType=Dem	O	ez
 kapcsolatban	kapcsolat	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	kapcsolat
-Több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+Több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 elképzelés	elképzelés	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	elképzelés
 is	is	ADV	[/Adv]	_	O	is
 született	születik	VERB	[/V][Pst.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	O	születik
@@ -322,7 +322,7 @@ fel	fel	ADV	[/Prev]	Degree=Pos	O	fel
 
 Az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 antropológusok	antropológus	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	antropológus
-jobban	jobban	ADV	[/Adv]	_	O	jobban
+jobban	jól	ADV	[/Adv]	Degree=Cmp	O	jobban
 tudják	tud	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
 ,	,	PUNCT	[Punct]	_	O	,
 de	de	CCONJ	[/Cnj]	_	O	de
@@ -422,7 +422,7 @@ fázisaira	fázis	NOUN	[/N][Pl.Poss.3Sg][Subl]	Case=Sbl|Number=Plur|Number[psor]
 vonatkozóan	vonatkozó	ADJ	[/Adj][_Manner/Adv]	Case=Ess|Degree=Pos|Number=Sing	O	vonatkozó
 .	.	PUNCT	[Punct]	_	O	.
 
-Több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+Több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 határbeli	határbeli	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	határbeli
 egykori	egykori	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	egykori
 templomos	templomos	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	templomos
@@ -492,7 +492,7 @@ betetőzte	betetőz	VERB	[/V][Pst.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Per
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 pusztítást	pusztítás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	pusztítás
 ,	,	PUNCT	[Punct]	_	O	,
-mikor	amikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
+mikor	mikor	ADV	[/Adv|Pro|Rel]	PronType=Rel	O	amikor
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 domb	domb	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	domb
 addig	addig	ADV	[/Adv|Pro]	PronType=Dem	O	addig

@@ -1,6 +1,6 @@
 # global.columns = FORM LEMMA UPOS XPOS FEATS CONLL:NER EMMORPH:LEMMA
 Csak	csak	ADV	[/Adv]	_	O	csak
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 személyes	személyes	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	személyes
 adat	adat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	adat
 kezelhető	kezelhető	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	kezelhető
@@ -109,7 +109,7 @@ gyakorlás	gyakorlás	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	gyakorlás
 
 Ez	ez	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ez
 nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
-más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 ,	,	PUNCT	[Punct]	_	O	,
 mint	mint	SCONJ	[/Cnj]	_	O	mint
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
@@ -123,7 +123,7 @@ a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 parányi	parányi	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	parányi
 yo-yoval	yo-yo	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	yo-yo
 legalább	legalább	ADV	[/Adv]	_	O	legalább
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 nagy	nagy	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	nagy
 kihívást	kihívás	NOUN	[/N][Acc]	Case=Acc|Number=Sing	O	kihívás
 jelent	jelent	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	jelent
@@ -206,7 +206,7 @@ feltekeredésre	feltekeredés	NOUN	[/N][Subl]	Case=Sbl|Number=Sing	O	feltekered�
 késztetik	késztet	VERB	[/V][Prs.Def.3Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	késztet
 .	.	PUNCT	[Punct]	_	O	.
 
-Minden	minden	ADV	[/Det|Q.NDef]	PronType=Art	O	minden
+Minden	minden	DET	[/Det|Q.NDef]	Definite=Ind|PronType=Tot	O	minden
 1A	1A	NOUN	[/N]	Case=Nom|Number=Sing	O	1A
 yo-yo	yo-yo	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	yo-yo
 trükk	trükk	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	trükk
@@ -337,7 +337,7 @@ yo-yo	yo-yo	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	yo-yo
 továbbfejlesztéséből	továbbfejlesztés	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	továbbfejlesztés
 .	.	PUNCT	[Punct]	_	O	.
 
-Miért	miért	PRON	[/Adv|Pro|Int]	Case=Nom|Number=Sing|Person=3|PronType=Int	O	miért
+Miért	miért	ADV	[/Adv|Pro|Int]	PronType=Int	O	miért
 éppen	éppen	ADV	[/Adv]	_	O	éppen
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 YoYoFactory	YoYoFactory	PROPN	[/N][Nom]	Case=Nom|Number=Sing	B-ORG	YoYoFactory

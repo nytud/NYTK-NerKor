@@ -2,7 +2,7 @@
 és	és	CCONJ	[/Cnj]	_	O	és
 még	még	ADV	[/Adv]	_	O	még
 sok	sok	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
-más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind	O	más
+más	más	PRON	[/N|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Ind|Person=3|PronType=Ind	O	más
 ...	...	PUNCT	[Punct]	_	O	...
 
 Hormonok	hormon	NOUN	[/N][Pl][Nom]	Case=Nom|Number=Plur	O	hormon
@@ -102,12 +102,12 @@ az	az	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	az
 oldal	oldal	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	oldal
 ,	,	PUNCT	[Punct]	_	O	,
 ha	ha	SCONJ	[/Cnj]	_	O	ha
-ilyen	ilyen	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	ilyen
+ilyen	ilyen	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	ilyen
 hibával	hiba	NOUN	[/N][Ins]	Case=Ins|Number=Sing	O	hiba
 találkozol	találkozik	VERB	[/V][Prs.NDef.2Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	találkozik
 oszd	oszt	VERB	[/V][Sbjv.Def.2Sg]	Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	O	oszt
 meg	meg	PART	[/Prev]	_	O	meg
-velünk	mi	PRON	[/N|Pro][Ins][1Pl]	Case=Ins|Number=Plur|Person=1|PronType=Prs	O	mi
+velünk	vele	PRON	[/N|Pro][Ins][1Pl]	Case=Ins|Number=Plur|Person=1|PronType=Prs	O	mi
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 kapcsolat	kapcsolat	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	kapcsolat
 menüben	menü	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	menü
@@ -258,7 +258,7 @@ megy	megy	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Ten
 ahol	ahol	PRON	[/Adv|Pro|Rel]	Case=Nom|Number=Sing|Person=3|PronType=Rel	O	ahol
 nincs	nincs	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	nincs
 még	még	ADV	[/Adv]	_	O	még
-belőle	ő	PRON	[/N|Pro][Ela][3Sg]	Case=Ela|Number=Sing|Person=3|PronType=Prs	O	ő
+belőle	belőle	PRON	[/N|Pro][Ela][3Sg]	Case=Ela|Number=Sing|Person=3|PronType=Prs	O	ő
 ,	,	PUNCT	[Punct]	_	O	,
 hanem	hanem	CCONJ	[/Cnj]	_	O	hanem
 oda	oda	PRON	[/Adv|Pro]	Case=Nom|Number=Sing|Person=3|PronType=Prs	O	oda
@@ -272,7 +272,7 @@ van	van	VERB	[/V][Prs.NDef.3Sg]	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense
 már	már	ADV	[/Adv]	_	O	már
 !	!	PUNCT	[Punct]	_	O	!
 
-Több	sok	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
+Több	több	NUM	[/Num][_Comp/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	sok
 tanulmány	tanulmány	NOUN	[/N][Nom]	Case=Nom|Number=Sing	O	tanulmány
 szerint	szerint	ADP	[/Post]	_	O	szerint
 is	is	ADV	[/Adv]	_	O	is
@@ -314,7 +314,7 @@ tudjuk	tud	VERB	[/V][Prs.Def.1Pl]	Definite=Def|Mood=Ind|Number=Plur|Person=1|Ten
 szólítani	szólít	VERB	[/V][Inf]	VerbForm=Inf|Voice=Act	O	szólít
 ,	,	PUNCT	[Punct]	_	O	,
 ráadásul	ráadásul	ADV	[/Adv]	_	O	ráadásul
-olyan	olyan	PRON	[/Adj|Pro][Nom]	Case=Nom|Number=Sing|Person=3|PronType=Dem	O	olyan
+olyan	olyan	ADJ	[/Adj|Pro][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	olyan
 embereket	ember	NOUN	[/N][Pl][Acc]	Case=Acc|Number=Plur	O	ember
 ,	,	PUNCT	[Punct]	_	O	,
 akiket	aki	PRON	[/N|Pro|Rel][Pl][Acc]	Case=Acc|Number=Plur|Person=3|PronType=Rel	O	aki
@@ -471,7 +471,7 @@ nem	nem	ADV	[/Adv]	PronType=Neg	O	nem
 is	is	ADV	[/Adv]	_	O	is
 kattintanak	kattint	VERB	[/V][Prs.NDef.3Pl]	Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	kattint
 majd	majd	ADV	[/Adv]	_	O	majd
-rá	ő	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
+rá	rá	PRON	[/N|Pro][Subl][3Sg]	Case=Sbl|Number=Sing|Person=3|PronType=Prs	O	ő
 a	a	DET	[/Det|Art.Def]	Definite=Def|PronType=Art	O	a
 cikkben	cikk	NOUN	[/N][Ine]	Case=Ine|Number=Sing	O	cikk
 elhelyezett	elhelyezett	ADJ	[/Adj][Nom]	Case=Nom|Degree=Pos|Number=Sing	O	elhelyezett
@@ -515,7 +515,7 @@ egy	egy	DET	[/Det|Art.NDef]	Definite=Ind|PronType=Art	O	egy
 pillantásából	pillantás	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	pillantás
 ,	,	PUNCT	[Punct]	_	O	,
 vagy	vagy	CCONJ	[/Cnj]	_	O	vagy
-néhány	néhány	NUM	[/Num][Nom]	Case=Nom|Number=Sing|NumType=Card	O	néhány
+néhány	néhány	DET	[/Num][Nom]	Definite=Ind|PronType=Ind	O	néhány
 mondatából	mondat	NOUN	[/N][Poss.3Sg][Ela]	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=3	O	mondat
 el	el	ADV	[/Prev]	_	O	el
 tudja	tud	VERB	[/V][Prs.Def.3Sg]	Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	O	tud
