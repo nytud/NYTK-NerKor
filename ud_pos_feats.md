@@ -69,22 +69,21 @@ in the table you can see what lemma the personal pronouns with different case ma
 It happened that some pronouns were not lemmatized uniformly, in which case we indicated the number of occurrences of each solution.
 It is important to note that not all possible personal pronouns occur in the corpus, and those that do occur with very low frequencies, therefore, based on the results, we could not learn the rules for lemmatization of the personal pronouns.
 
-| E/1	    | 	      | E/2	      | 	    | E/3	       | 	                  | T/1	      | 	       | T/2	        | 	        | T/3	      |
-|---------|--------|-----------|------|------------|--------------------|-----------|---------|-------------|----------|-----------|
-| token   | 	lemma	    | token     | 	lemma	 | token      | 	lemma                | 	token    | 	lemma	    | token	      | lemma	      | token     |	lemma |
-| tőlem   |        | 		tőled	  |      | 	tőle      | 	                  | tőle      | 	tőlünk | 		          | tőletek  |           |		tőlük|	tőle|
-| engem   | 	én	   | téged     | 	te  | 	őt        | 	ő                 | 	minket   | 	       | 	titeket    | 	        | 	őket     | 	ők     |
-| nálam	  | 	      | nálad     | 	    | 	nála	     |                    | 	nálunk	  | mi	     | nálatok     |          | 		náluk	  |  |
-| hozzám  | 	      | 	hozzád   | 		   | hozzá	     | ő (9) / hozzá (4)	 | hozzánk	  | 	       | hozzátok    | 	        | 	hozzájuk | 	ők     |
-| nekem   | 	én	   | neked	    |      | 	neki      | 	ő (4) / neki ( 4) | 	nekünk	  | mi      | 	nektek	    |          | 	nekik	   | ők      |
-| rólam   | 	róla	 | rólad	    |      | 	róla      | 	róla              | 	rólunk	  |         | 	rólatok	   |          | 	róluk	   |  |            
-| belőlem | 	      | 	belőled	 |      | 	belőle    | 	belőle	           | belőlünk  | 	       | 	belőletek	 | 	        | belőlük   | 	belőle |
-| belém	  | 	      | beléd	    |      | 	belé/bele | 	ő (3) / bele (1)  | 	belénk   | 	       | 	belétek	   |          | 	beléjük	 ||
-| bennem  | 	én    | 	benned		 |      | benne      | 	ő	                | bennünk	  |         | 	bennetek	  |          | 	bennük	  |      |       
-| velem	  | vele   | 	veled	   |      | 	vele	     | vele	              | velünk	   |         | vele        | 	veletek | 	         | 	velük	 |vele  |     
-| rám     | 	      | 	rád	     |      | 	rá        | 	ő (1) / rá (11)   | 	ránk	    |         | 	rátok	     |          | 	rájuk    | 	rá       |          
-| rajtam  | 	      | 	rajtad	  |      | 	rajta	    | rajta	             | rajtunk		 |         | rajtatok	   |          | 	rajtuk	  |          | 
-
+| E/1     |      | E/2     |    | E/3       |                   | T/1      |      | T/2       |    | T/3      |        |
+|---------|------|---------|----|-----------|-------------------|----------|------|-----------|----|----------|--------|
+| token   | tő   | token   | tő | token     | tő                | token    | tő   | token     | tő | token    | tő     |
+| tőlem   |      | tőled   |    | tőle      | tőle              | tőlünk   |      | tőletek   |    | tőlük    | tőle   |
+| engem   | én   | téged   | te | őt        | ő                 | minket   |      | titeket   |    | őket     | ők     |
+| nálam   |      | nálad   |    | nála      |                   | nálunk   | mi   | nálatok   |    | náluk    |        |
+| hozzám  |      | hozzád  |    | hozzá     | ő (9) / hozzá (4) | hozzánk  |      | hozzátok  |    | hozzájuk | ők     |
+| nekem   | én   | neked   |    | neki      | ő (4) / neki ( 4) | nekünk   | mi   | nektek    |    | nekik    | ők     |
+| rólam   | róla | rólad   |    | róla      | róla              | rólunk   |      | rólatok   |    | róluk    |        |
+| belőlem |      | belőled |    | belőle    | belőle            | belőlünk |      | belőletek |    | belőlük  | belőle |
+| belém   |      | beléd   |    | belé/bele | ő (3) / bele (1)  | belénk   |      | belétek   |    | beléjük  |        |
+| bennem  | én   | benned  |    | benne     | ő                 | bennünk  |      | bennetek  |    | bennük   |        |
+| velem   | vele | veled   |    | vele      | vele              | velünk   | vele | veletek   |    | velük    | vele   |
+| rám     |      | rád     |    | rá        | ő (1) / rá (11)   | ránk     |      | rátok     |    | rájuk    | rá     |
+| rajtam  |      | rajtad  |    | rajta     | rajta             | rajtunk  |      | rajtatok  |    | rajtuk   |        |
 The lemmas of the personal pronouns were treated with a dictionary based on the lemmas found in the Szeged Treebank.
 
 #### Substantives and auxiliaries
