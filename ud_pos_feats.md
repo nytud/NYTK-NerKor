@@ -84,6 +84,7 @@ It is important to note that not all possible personal pronouns occur in the cor
 | velem   | vele | veled   |    | vele      | vele              | velünk   | vele | veletek   |    | velük    | vele   |
 | rám     |      | rád     |    | rá        | ő (1) / rá (11)   | ránk     |      | rátok     |    | rájuk    | rá     |
 | rajtam  |      | rajtad  |    | rajta     | rajta             | rajtunk  |      | rajtatok  |    | rajtuk   |        |
+
 The lemmas of the personal pronouns were treated with a dictionary based on the lemmas found in the Szeged Treebank.
 
 #### Substantives and auxiliaries
