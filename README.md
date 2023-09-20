@@ -1,7 +1,7 @@
 # NYTK-NerKor
 The home repository of the NYTK-NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 million tokens. 
 
-:construction:  We are currently checking the morphological annotation layers, an update is expected soon. :construction:
+:construction:  We are currently checking the morphological annotation layers related to Universal Dependencies. An update is expected soon, see all the details [here](ud_pos_feats.md). :construction:
 
 ## License and usage
 
@@ -70,16 +70,15 @@ The format of data files are [CoNLL-U Plus](https://universaldependencies.org/ex
 
 `UPOS`: UD POS tags; 
 
-`XPOS`: full morphological annotation (POS + meorphosyntactic features) provided by [emMorph](https://github.com/dlt-rilmta/emMorph); 
+`XPOS`: full morphological annotation (POS + morphosyntactic features) provided by [emMorph](https://github.com/dlt-rilmta/emMorph); 
 
 `FEATS`: UD morphosyntactic features;
 
 `CONLL:NER`: NE annotation;
 
 `EMMORPH:LEMMA`: the lemma of the token (dictionary form without derivation);
-.
 
-
+For details on UD part-of-speech tags and morphosyntactic features, see [ud_pos_feats.md](ud_pos_feats.md).
 
 The NE annotation follows the CoNLL2002 labelling standard. The four NE categories are: `PER`, `LOC`, `MISC`, `ORG`. The tags are in the `IOB2` format: a `B-` prefix denotes the first item of a NE phrase and an `I-` prefix any non-initial word. Non-names are marked by an `O` label. 
 
